@@ -3,6 +3,8 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
+    - xin chào
+    - chào
     - hey
     - hello
     - hi
@@ -19,6 +21,8 @@ nlu:
 
 - intent: goodbye
   examples: |
+    - tạm biệt
+    - bai
     - c u
     - good by
     - cee you later
@@ -105,3 +109,12 @@ nlu:
     - sorry
     - I am sorry
     - I apologize
+
+- intent: cau_2.1
+  examples: |
+    - Kế hoạch học tập xây dựng như thế nào?
+    - Làm thế nào để tạo kế hoạch học tập?
+    - Quy trình xây dựng kế hoạch học tập là gì?
+    - Cách thức để xây dựng kế hoạch học tập được thực hiện như thế nào?
+    - KHHT làm như thế nào?
+    - Cách tạo KHHT?

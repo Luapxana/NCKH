@@ -26,3 +26,8 @@ rules:
   steps:
   - intent: sorry
   - action: action_sorry
+
+- rule: Cau_2.1
+  steps:
+  - intent: cau_2.1
+  - action: action_2.1
