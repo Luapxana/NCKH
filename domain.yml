@@ -41,6 +41,9 @@ responses:
   utter_iamabot:
   - text: "I am a bot"
 
+  utter_cau_1.1:
+  - text: "Quy chế học vụ quy định về công tác học vụ dành cho sinh viên trình độ đại học chính quy bao gồm: Chương trình đào tạo(CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cấp bằng tốt nghiệp và những quy định khác đối với sinh viên."
+
 
 
 session_config:

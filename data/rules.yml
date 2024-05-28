@@ -30,7 +30,7 @@ rules:
 - rule: Cau_1.1
   steps:
   - intent: cau_1.1
-  - action: action_1.1
+  - action: utter_cau_1.1
 
 - rule: Cau_2.1
   steps:

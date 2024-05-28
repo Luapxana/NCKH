@@ -44,18 +44,6 @@ class ActionWhoami(Action):
 
         return []
 
-class Action11(Action): #Câu 1.1
-    def name(self) -> Text:
-        return "action_1.1"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Quy chế học vụ quy định về công tác học vụ dành cho sinh viên trình độ đại học chính quy bao gồm: Chương trình đào tạo(CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cấp bằng tốt nghiệp và những quy định khác đối với sinh viên.")
-
-        return []
-
 class Action21(Action): #Câu 2.1
     def name(self) -> Text:
         return "action_2.1"
