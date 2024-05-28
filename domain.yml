@@ -11,11 +11,13 @@ intents:
   - who
   - thanks
   - sorry
+  - cau_1.1
   - cau_2.1
 actions:
   - whoami
   - action_thanks
   - action_sorry
+  - action_1.1
   - action_2.1
 responses:
   utter_greet:

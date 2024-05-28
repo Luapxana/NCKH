@@ -110,6 +110,16 @@ nlu:
     - I am sorry
     - I apologize
 
+
+- intent: cau_1.1
+  examples: |
+    - Quy chế học vụ quy định về những vấn đề gì?
+    - Những vấn đề nào được nhắc đến trong quy chế học vụ?
+    - Quy chế học vụ là gì?
+    - Quy chế học vụ có gì?
+
+
+
 - intent: cau_2.1
   examples: |
     - Kế hoạch học tập xây dựng như thế nào?
