@@ -12,6 +12,20 @@ intents:
   - thanks
   - sorry
   - cau_1.1
+  - cau_1.2
+  - cau_1.3
+  - cau_1.4
+  - cau_1.5
+  - cau_1.6
+  - cau_1.7
+  - cau_1.7.1
+  - cau_1.7.2
+  - cau_1.7.3
+  - cau_1.8
+  - cau_1.8.1
+  - cau_1.8.2
+  - cau_1.9
+  - cau_1.10
   - cau_2.1
 actions:
   - whoami
@@ -44,7 +58,49 @@ responses:
   utter_cau_1.1:
   - text: "Quy chế học vụ quy định về công tác học vụ dành cho sinh viên trình độ đại học chính quy bao gồm: Chương trình đào tạo(CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cấp bằng tốt nghiệp và những quy định khác đối với sinh viên."
 
+  utter_cau_1.2:
+  - text: "Quy chế học vụ áp dụng đối với sinh viên các ngành, khóa đào tạo trình độ đại học hệ chính quy của Trường Đại học Cần Thơ(ĐHCT)."
 
+  utter_cau_1.3:
+  - text: "Sinh viên hệ chính quy của Trường ĐHCT là những người đã trúng tuyển kỳ thi tuyển sinh hoặc được xét tuyển và có quyết định thu nhận vào học hệ chính quy của Trường."
+  
+  utter_cau_1.4:
+  - text: "Mỗi sinh viên sẽ được cấp một mã số sinh viên, thẻ sinh viên và địa chỉ thư điện tử (email) để sử dụng trong suốt quá trình theo học tại Trường."
+
+  utter_cau_1.5:
+  - text: "Sinh viên Trường ĐHCT phải chấp hành nội quy, quy định của Trường, của Khoa/Viện/Bộ môn trực thuộc Trường, của lớp và của các đơn vị khác trong Trường.
+Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu. 
+Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định. Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ồn, gây mất trật tự; không tụ tập uống rượu bia."
+
+  utter_cau_1.6:
+  - text: "Chương trình đào tạo của mỗi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp."
+  
+  utter_cau_1.7:
+  - text: "Bản mô tả chương trình đào tạo và chương trình dạy học được xây dựng căn cứ vào CTĐT, gồm các nội dung: thông tin chung về CTĐT; thông tin về đối sánh giữa CTĐT với các chương trình tương tự trong và ngoài nước; thông tin về kết quả đánh giá hoặc kiểm định chất lượng CTĐT; mục tiêu đào tạo của CTĐT; chuẩn đầu ra của CTĐT; tiêu chí tuyển sinh; cấu trúc chương trình dạy học, khung CTĐT; kế hoạch dạy học; tóm tắt các học phần; phương pháp giảng dạy và học tập; phương pháp đánh giá."
+
+  utter_cau_1.7.1:
+  - text: "Khung chương trình đào tạo là CTĐT với các học phần được bố trí theo khối kiến thức."
+
+  utter_cau_1.7.2:
+  - text: "Kế hoạch dạy và học là CTĐT với các học phần được bố trí theo học kỳ trong thời gian thiết kế của CTĐT. Còn được gọi là kế hoạch học tập chuẩn toàn khóa."
+
+  utter_cau_1.7.3:
+  - text: "Tóm tắt các học phần được đính kèm đề cương chi tiết các học phần."
+
+  utter_cau_1.8:
+  - text: "Một số học phần thuộc CTĐT có thể được tổ chức lớp học bằng phương thức dạy và học trực tuyến một phần hoặc toàn bộ học phần khi đáp ứng các quy định  hiện hành."
+
+  utter_cau_1.8.1:
+  - text: "Những nội dung dạy và học trực tuyến được ghi trong đề cương chi tiết học phần."
+
+  utter_cau_1.8.2:
+  - text: "Tổng khối lượng (tính theo tín chỉ) được thực hiện bằng phương thức dạy và học trực tuyến không quá 30% khối lượng của chương trình đào tạo. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường có thể thực hiện việc dạy và học bằng phương thức trực tuyến theo yêu cầu và hướng dẫn của Nhà nước."
+
+  utter_cau_1.9:
+  - text: "Chương trình đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
+
+  utter_cau_1.10:
+  - text: "Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
 
 session_config:
   session_expiration_time: 60

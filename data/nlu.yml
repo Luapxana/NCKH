@@ -118,6 +118,97 @@ nlu:
     - Quy chế học vụ là gì?
     - Quy chế học vụ có gì?
 
+- intent: cau_1.2
+  examples: |
+    - Quy chế học vụ áp dụng với những ai?
+    - Ai phải tuân theo quy chế học vụ?
+    - Những ai cần phải tuân theo quy chế học vụ?
+    - Những người nào bắt buộc tuân thủ quy định học tập?
+
+- intent: cau_1.3
+  examples: |
+    - Sinh viên hệ chính quy là những ai?
+    - Ai là sinh viên chính quy?
+    - Sinh viên chính quy là ai?
+    - Những ai được coi là sinh viên chính quy?
+
+- intent: cau_1.4
+  examples: |
+    - Sinh viên sẽ được cấp gì khi theo học tại trường?
+    - Trường cấp gì cho sinh viên?
+    - Sinh viên có gì khi mới vào học tại trường?
+
+- intent: cau_1.5
+  examples: |
+    - Trách nhiệm của sinh viên khi theo học tại trường?
+    - Sinh viên trường phải làm gì?
+    - Sinh viên có những trách nhiệm nào khi học?
+
+- intent: cau_1.6
+  examples: |
+    - Chương trình đào tạo được xây dựng như thế nào?
+    - Làm thế nào để trường xây dựng chương trình đào tạo?
+    - Phương pháp xây dựng chương trình đào tạo của trường là gì?
+    - Cách thức xây dựng chương trình đào tạo của trường?
+
+- intent: cau_1.7
+  examples: |
+    - Bản mô tả chương trình đào tạo bao gồm những gì?
+    - Bản mô tả chương trình đào tạo được xây dựng như thế nào?
+    - Bản mô tả chương trình đào tạo gồm những thành phần nào?
+    - Những gì có trong bản mô tả chương trình đào tạo?
+
+- intent: cau_1.7.1
+  examples: |
+    - Khung chương trình đào tạo là gì?
+    - Khung chương trình đào tạo được hiểu là gì?
+    - Khung chương trình đào tạo là gì theo định nghĩa?
+
+- intent: cau_1.7.2
+  examples: |
+    - Kế hoạch dạy và học là gì?
+    - Kế hoạch dạy và học được hiểu như thế nào?
+    - Kế hoạch dạy và học có nghĩa là gì?
+    - Kế hoạch dạy và học được định nghĩa ra sao?
+
+- intent: cau_1.7.3
+  examples: |
+    - Tóm tắt các học phần xem ở đâu?
+    - Tôi có thể xem tóm tắt các học phần ở đâu?
+    - Xem thông tin tóm tắt học phần ở đâu?
+
+- intent: cau_1.8
+  examples: |
+    - Có thể học trực tuyến được không?
+    - Có phải luôn học trực tiếp hay không?
+    - Có học trực tuyến không?
+    - Việc học trực tuyến có khả thi không?
+
+- intent: cau_1.8.1
+  examples: |
+    - Xem nội dung dạy và học trực tuyến ở đâu?
+    - Tôi có thể xem nội dung dạy và học trực tuyến tại đâu?
+    - Nơi nào cung cấp nội dung dạy và học trực tuyến?
+    - Bạn có thể tìm kiếm nội dung dạy và học trực tuyến ở đâu?
+
+- intent: cau_1.8.2
+  examples: |
+    -  Khối lượng tối đa của CTĐT được thực hiện theo phương thức dạy và học trực tuyến?
+    - Khối lượng tối đa của chương trình đào tạo được thực hiện theo phương thức dạy và học trực tuyến?
+    - Theo phương thức dạy và học trực tuyến, khối lượng tối đa của chương trình đào tạo là bao nhiêu?
+
+- intent: cau_1.9
+  examples: |
+    - Có thể xem chương trình đào tạo tại đâu?
+    - Thông tin về chương trình đào tạo có thể xem ở đâu?
+    - Tôi có thể xem chương trình đào tạo tại đâu?
+
+- intent: cau_1.10
+  examples: |
+    - Có thể xem bản mô tả chương trình đào tạo tại đâu?
+    - Bản mô tả chương trình đào tạo được đăng ở đâu?
+    - Tôi xem bản mô tả chương trình đào tạo như thế nào?
+
 
 
 - intent: cau_2.1
