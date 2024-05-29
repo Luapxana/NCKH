@@ -6,6 +6,7 @@
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Text, Any, Dict, List
+
 class ActionWhoami(Action):
     def name(self) -> Text:
         return "whoami"
@@ -44,17 +45,7 @@ class ActionWhoami(Action):
 
         return []
 
-class Action21(Action): #Câu 2.1
-    def name(self) -> Text:
-        return "action_2.1"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào htql để xây dựng theo hướng dẫn")
-
-        return []
 # This is a simple example for a custom action which utters "Hello World!"
 
 # from typing import Any, Text, Dict, List

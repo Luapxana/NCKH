@@ -12,20 +12,10 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: Say 'I am Dat'
-  steps:
-  - intent: who
-  - action: whoami
-
 - rule: Reply to thank
   steps:
   - intent: thanks
   - action: action_thanks
-
-- rule: Reply to sorry
-  steps:
-  - intent: sorry
-  - action: action_sorry
 
 - rule: Cau_1.1
   steps:
@@ -105,4 +95,24 @@ rules:
 - rule: Cau_2.1
   steps:
   - intent: cau_2.1
-  - action: action_2.1
+  - action: utter_cau_2.1
+
+- rule: Cau_2.2
+  steps:
+  - intent: cau_2.2
+  - action: utter_cau_2.2
+
+- rule: Cau_2.3
+  steps:
+  - intent: cau_2.3
+  - action: utter_cau_2.3
+
+- rule: Cau_2.4
+  steps:
+  - intent: cau_2.4
+  - action: utter_cau_2.4
+
+- rule: Cau_2.5
+  steps:
+  - intent: cau_2.5
+  - action: utter_cau_2.5

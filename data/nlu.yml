@@ -53,62 +53,11 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-
-- intent: who
-  examples: |
-    - who are you?
-    - who did this?
-
 - intent: thanks
   examples: |
     - thanks
     - thank you
-
-- intent: sorry
-  examples: |
-    - sorry
-    - I am sorry
-    - I apologize
+    - Cảm ơn
 
 
 - intent: cau_1.1
@@ -219,3 +168,30 @@ nlu:
     - Cách thức để xây dựng kế hoạch học tập được thực hiện như thế nào?
     - KHHT làm như thế nào?
     - Cách tạo KHHT?
+
+- intent: cau_2.2
+  examples: |
+    - Đầu khóa sinh viên được cung cấp những gì?
+    - Sinh viên được trường cung cấp gì vào đầu khóa học?
+    - Đầu khóa, sinh viên được cung cấp những thông tin gì?
+    - Những gì sinh viên nhận được khi bắt đầu khóa học?
+
+- intent: cau_2.3
+  examples: |
+    - Trong quá trình học, sinh viên có trách nhiệm gì?
+    - Sinh viên có trách nhiệm gì trong quá trình học tập?
+    - Nhiệm vụ nào được giao cho sinh viên trong quá trình học?
+
+- intent: cau_2.4
+  examples: | 
+    - Đăng ký học phần ở đâu?
+    - Tôi có thể đăng ký học phần tại đâu?
+    - Sinh viên đăng ký học phần ở đâu?
+    - Quy trình đăng ký học phần được thực hiện ở đâu?
+
+- intent: cau_2.5
+  examples: |
+    - Xem/điều chỉnh kế hoạch học tập ở đâu? 
+    - Tôi có thể xem khht ở đâu?
+    - Tôi có thể điều chỉnh kế hoạch học tập ở đâu?
+

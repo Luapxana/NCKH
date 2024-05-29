@@ -27,12 +27,14 @@ intents:
   - cau_1.9
   - cau_1.10
   - cau_2.1
+  - cau_2.2
+  - cau_2.3
+  - cau_2.4
+  - cau_2.5
 actions:
   - whoami
   - action_thanks
   - action_sorry
-  - action_1.1
-  - action_2.1
 responses:
   utter_greet:
   - text: "Xin chào"
@@ -101,7 +103,21 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
 
   utter_cau_1.10:
   - text: "Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
+  
+  utter_cau_2.1:
+  - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào htql để xây dựng theo hướng dẫn"
 
+  utter_cau_2.2:
+  - text: "Đầu khóa, sinh viên được cung cấp KHHT chuẩn toàn khóa, quy định về công tác học vụ, CVHT."
+
+  utter_cau_2.3:
+  - text: "Sinh viên có trách nhiệm thực hiện xây dựng KHHT, đăng ký học phần trước khi học kỳ mới bắt đầu"
+
+  utter_cau_2.4:
+  - text: "Đăng ký học phần trên hệ thống quản lý đào tạo của trường hoặc ứng dụng MyCTUS"
+
+  utter_cau_2.5:
+  - text: "Có thể xem hoặc điều chỉnh kế hoạch học tập trên hệ thống quản lý đào tạo của trường hoặc thông qua ứng dụng MyCTUS"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
