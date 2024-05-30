@@ -95,6 +95,7 @@ nlu:
 
 - intent: cau_1.6
   examples: |
+    - CTĐT được xây dựng như thế nào
     - Chương trình đào tạo được xây dựng như thế nào?
     - Làm thế nào để trường xây dựng chương trình đào tạo?
     - Phương pháp xây dựng chương trình đào tạo của trường là gì?
@@ -102,6 +103,7 @@ nlu:
 
 - intent: cau_1.7
   examples: |
+    - Bản mô tả CTĐT bao gồm những gì?
     - Bản mô tả chương trình đào tạo bao gồm những gì?
     - Bản mô tả chương trình đào tạo được xây dựng như thế nào?
     - Bản mô tả chương trình đào tạo gồm những thành phần nào?
@@ -109,6 +111,7 @@ nlu:
 
 - intent: cau_1.7.1
   examples: |
+    - Khung CTĐT là gì?
     - Khung chương trình đào tạo là gì?
     - Khung chương trình đào tạo được hiểu là gì?
     - Khung chương trình đào tạo là gì theo định nghĩa?
@@ -148,15 +151,97 @@ nlu:
 
 - intent: cau_1.9
   examples: |
+    - Có thể xem CTĐT tại đâu?
     - Có thể xem chương trình đào tạo tại đâu?
     - Thông tin về chương trình đào tạo có thể xem ở đâu?
     - Tôi có thể xem chương trình đào tạo tại đâu?
 
 - intent: cau_1.10
   examples: |
-    - Có thể xem bản mô tả chương trình đào tạo tại đâu?
+    - Có thể xem bản mô tả CTĐT tại đâu?
+    - Có thể xem bản mô tả chương trình đào tại đâu?
     - Bản mô tả chương trình đào tạo được đăng ở đâu?
     - Tôi xem bản mô tả chương trình đào tạo như thế nào?
+
+- intent: cau_1.11
+  examples: |
+    - Có thể xem chương trình dạy học ở đâu?
+    - Chương trình dạy học được đăng ở đâu?
+    - Tôi có thể xem chương trình dạy học ở đâu?
+
+- intent: cau_1.12
+  examples: |
+    - Sinh viên xây dựng kế hoạch học tập như thế nào?
+    - Làm thế nào để xây dựng kế hoạch học tập?
+    - Làm thế nào để xây dựng KHHT?
+    - Cần hỏi ai khi xây dựng kế hoạch học tập?
+
+- intent: cau_1.13
+  examples: |
+    - Kế hoạch học tập có cần được phê duyệt không?
+    - Kế hoạch học tập toàn khóa do ai phê duyệt?
+    - KHHT toàn khóa do ai phê duyệt?
+    - Ai chịu trách nhiệm phê duyệt kế hoạch học tập toàn khóa?
+    - Kế hoạch học tập toàn khóa được phê duyệt bởi ai?
+
+- intent: cau_1.14
+  examples: |
+    - Sinh viên đăng ký học phần mỗi kỳ dựa trên đâu?
+    - Sinh viên ĐKHP mỗi kỳ dựa trên đâu?
+    - Sinh viên dùng kế hoạch học tập để làm gì?
+    - Sinh viên dùng KHHT để làm gì?
+    - Dựa vào đâu để đăng ký học phần?
+
+- intent: cau_1.15
+  examples: |
+    - Sinh viên có thể thay đổi kế hoạch học tập trong quá trình học không?
+    - Sinh viên có thể thay đổi KHHT trong quá trình học không?
+    - Thay đổi kế hoạch học tập có sao không?
+    - Được thay đổi kế hoạch học tập không?
+    - Có thể thay đổi KHHT không?
+
+- intent: cau_1.16
+  examples: |
+    - Kế hoạch học tập chuẩn toàn khóa có thời gian tối đa không?
+    - KHHT chuẩn toàn khóa có thời gian tối đa không?
+    - Thời gian học tập tối đa là bao lâu?
+    - Kế hoạch học tập thường trong bao lâu?
+    - Sinh viên được phép học tối đa bao lâu trong trường?
+    - Thời hạn học tập là bao lâu?
+
+- intent: cau_1.17
+  examples: |
+    - Nếu thời gian thiết kế của chương trình đào tạo là 4 năm thì thời gian tối đa là bao nhiêu?
+    - Nếu thời gian thiết kế của CTĐT là 4 năm thì thời gian tối đa là bao nhiêu?
+    - Thời hạn học tập của ngành học 4 năm là bao lâu?
+    - Thời gian học tập của một ngành học kéo dài 4 năm tối đa là bao lâu?
+    - Khi theo học một ngành học kéo dài 4 năm, thời gian học tập tối đa là bao lâu?
+
+- intent: cau_1.18
+  examples: |
+    - Nếu thời gian thiết kế của chương trình đào tạo là 4,5 năm thì thời gian tối đa là bao nhiêu?
+    - Nếu thời gian thiết kế của CTĐT là 4,5 năm thì thời gian tối đa là bao nhiêu?
+    - Thời hạn học tập của ngành học 4,5 năm là bao lâu?
+    - Thời gian học tập của một ngành học kéo dài 4,5 năm tối đa là bao lâu?
+    - Khi theo học một ngành học kéo dài 4,5 năm, thời gian học tập tối đa là bao lâu?
+
+- intent: cau_1.19
+  examples: |
+    - Nếu thời gian thiết kế của chương trình đào tạo là 5 năm thì thời gian tối đa là bao nhiêu?
+    - Nếu thời gian thiết kế của CTĐT là 5 năm thì thời gian tối đa là bao nhiêu?
+    - Thời hạn học tập của ngành học 5 năm là bao lâu?
+    - Thời gian học tập của một ngành học kéo dài 5 năm tối đa là bao lâu?
+    - Khi theo học một ngành học kéo dài 5 năm, thời gian học tập tối đa là bao lâu?
+
+- intent: cau_1.20
+  examples: |
+    - Những sinh viên nào không bị giới hạn về thời gian tối đa hoàn thành chương trình đào tạo?
+    - Có ai được học tập vô thời hạn không?
+    - Có người nào được phép học tập vô thời hạn không?
+    - Có ai có thể học tập mà không bị ràng buộc bởi thời gian không?
+
+
+
 
 
 
