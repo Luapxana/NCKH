@@ -41,6 +41,21 @@ intents:
   - cau_2.3
   - cau_2.4
   - cau_2.5
+  - cau_2.6
+  - cau_2.7
+  - cau_2.8
+  - cau_2.9
+  - cau_2.10
+  - cau_2.11
+  - cau_2.12
+  - cau_2.13
+  - cau_2.14
+  - cau_2.15
+  - cau_2.16
+  - cau_2.17
+  - cau_2.18
+  - cau_2.19
+  - cau_2.20
 actions:
   - whoami
   - action_thanks
@@ -161,6 +176,53 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
 
   utter_cau_2.5:
   - text: "Có thể xem hoặc điều chỉnh kế hoạch học tập trên hệ thống quản lý đào tạo của trường hoặc thông qua ứng dụng MyCTUS"
+
+  utter_cau_2.6:
+  - text: "Khi đăng ký học phần phải dựa trên KHHT, chỉ có thể đăng ký một học phần nếu học phần đó có trong KHTT của HK đăng ký."
+
+  utter_cau_2.7:
+  - text: "Đăng ký học phần dựa vào KHHT và thời khóa biểu các lớp học phần trong học kỳ do Trường công bố"
+
+  utter_cau_2.8:
+  - text: "Số tín chỉ tối đa sinh viên có thể đăng ký là 25 đối với học kỳ chính và 8 đối với học kỳ phụ"
+
+  utter_cau_2.9:
+  - text: "Trường không bắt buộc sinh viên học HK hè."
+
+  utter_cau_2.10:
+  - text: "Vào học kỳ đầu tiên, sinh viên không cần tự đăng ký học phần mà TKB sẽ do Trường bố trí trong học kỳ đầu tiên."
+
+  utter_cau_2.11:
+  - text: "Sau tuần 2 của học kỳ có thể in kết quả đăng ký học phần."
+
+  utter_cau_2.12:
+  - text: "Sinh viên có thể đăng ký học phần dựa trên danh mục dự kiến các học phần (được Trường công bố chậm nhất trước 6 tuần) để đăng ký trên hệ thống quản lý, sinh viên có thể xóa, đổi lớp học phần đến tuần thứ 1 của học kỳ và có thể rút học phần đến tuần thứ 8 (HK chính), tuần 2(học kỳ phụ)."
+
+  utter_cau_2.13:
+  - text: "Sinh viên sẽ được xem thời khóa biểu chậm nhất là 6 tuần trước khi HK mới bắt đầu."
+
+  utter_cau_2.14:
+  - text: "Sinh viên có thể xóa các lớp học phần chậm nhất đến tuần thứ 1 của học kỳ."
+
+  utter_cau_2.15:
+  - text: "Sinh viên có thể đăng ký bổ sung các học phần mới chậm nhất là tuần 1 của HK (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC) trong trường hợp đăng ký các lớp học phần bị xóa trước đó."
+
+  utter_cau_2.16:
+  - text: "Sinh viên có thể đổi lớp học phần chậm nhất là đến hết tuần đầu tiên của học kỳ."
+
+  utter_cau_2.17:
+  - text: "Kết quả đăng ký học phần có thể được thay đổi đến hết tuần 1 của học kỳ."
+
+  utter_cau_2.18:
+  - text: "Thực hiện rút học phần thông qua hệ thống quản lý đào tạo của trường hoặc ứng dụng MyCTUS và làm theo hướng dẫn."
+
+  utter_cau_2.19:
+  - text: "Sinh viên rút học phần sẽ nhận điểm W của học phần trong học kỳ đó."
+
+  utter_cau_2.20:
+  - text: "Rút học phần sẽ không nhận lại học phí."
+
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

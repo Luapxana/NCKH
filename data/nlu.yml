@@ -269,6 +269,7 @@ nlu:
 
 - intent: cau_2.4
   examples: | 
+    - ĐKHP ở đâu?
     - Đăng ký học phần ở đâu?
     - Tôi có thể đăng ký học phần tại đâu?
     - Sinh viên đăng ký học phần ở đâu?
@@ -280,3 +281,101 @@ nlu:
     - Tôi có thể xem khht ở đâu?
     - Tôi có thể điều chỉnh kế hoạch học tập ở đâu?
 
+- intent: cau_2.6
+  examples: |
+    - Tại sao phải xây dựng kế hoạch học tập?
+    - Xây dựng kế hoạch học tập để làm gì?
+    - Tôi không xây dựng kế hoạch học tập được không?
+    - Tại sao phải lập KHHT?
+
+- intent: cau_2.7
+  examples: |
+    - Đăng ký học phần mỗi học kỳ dựa vào đâu?
+    - Dựa vào đâu để đăng ký học phần mỗi học kì?
+    - Đăng ký học phần mỗi học kỳ dựa vào nguồn thông tin nào?
+    - Thường thì quy trình đăng ký học phần mỗi học kỳ được căn cứ vào đâu?
+
+- intent: cau_2.8
+  examples: |
+    - Số tín chỉ tối đa có thể đăng ký trong một học kỳ là bao nhiêu?
+    - Sinh viên có thể đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ?
+    - Số tín chỉ tối đa mà một sinh viên có thể đăng ký trong một học kỳ là bao nhiêu?
+    - Quy định về số tín chỉ tối đa có thể đăng ký trong một học kỳ là gì?
+
+- intent: cau_2.9
+  examples: |
+    - Có bắt buộc phải học học kỳ hè hay không?
+    - Sinh viên có buộc phải học học kỳ hè không?
+    - Có nhất thiết phải học hè không?
+
+- intent: cau_2.10
+  examples: |
+    - Học kỳ đầu tiên có cần tự đăng ký học phần không?
+    - Sinh viên có phải đăng ký học phần học kỳ đầu tiên không?
+    - Trong học kỳ đầu tiên, sinh viên có cần tự đăng ký học phần không?
+    - Trong học kỳ đầu tiên, quy trình đăng ký học phần được thực hiện như thế nào?
+
+- intent: cau_2.11
+  examples: |
+    - Khi nào được in kết quả đăng ký học phần?
+    - Kết quả đăng ký học phần có thể in khi nào?
+    - Khi nào kết quả đăng ký học phần được công bố hoặc in ra?
+    - Thông tin về kết quả đăng ký học phần thường được cung cấp vào thời điểm nào?
+
+- intent: cau_2.12
+  examples: |
+    - Đăng ký học phần như thế nào?
+    - Làm thế nào để đăng ký học phần?
+    - Cách để đăng ký học phần?
+
+- intent: cau_2.13
+  examples: |
+    - Khi nào được xem thời khóa biểu các học phần?
+    - Tôi có thể xem thời khóa biểu các học phần khi nào?
+    - Sinh viên có thể xem thời khóa biểu của các học phần khi nào?
+    - Thông tin về thời khóa biểu của các học phần thường được cung cấp vào thời điểm nào?
+
+- intent: cau_2.14
+  examples: |
+    - Có thể xóa học phần đã đăng ký không?
+    - Tôi có thể xóa học phần đã đăng ký không?
+    - Học phần đã đăng ký rồi có xóa được không?
+
+- intent: cau_2.15
+  examples: |
+    - Có thể đăng ký thêm học phần sau khi học hay không?
+    - Tôi muốn đăng ký thêm học phần sau khi học có được không?
+    - Sau khi học có thể đăng ký thêm học phần không?
+
+- intent: cau_2.16
+  examples: |
+    - Có được đổi lớp khác khi đang học không? 
+    - Tôi có thể đổi lớp khác khi đang học không?
+    - Sinh viên có thể chuyển sang lớp học khác trong khi đang học không?
+    - Có quy định nào cho phép sinh viên đổi lớp học khi đã bắt đầu học không?
+
+- intent: cau_2.17
+  examples: |
+    - Có thể thay đổi kết quả đăng ký học phần đến khi nào?
+    - Tôi có thể thay đổi kết quả đăng ký học phần đến khi nào?
+    - Kết quả đăng ký học phần có thể thay đổi đến khi nào?
+
+- intent: cau_2.18
+  examples: |
+    - Rút học phần như thế nào?
+    - Làm thế nào để rút học phần?
+    - Tôi phải làm gì để rút học phần.
+
+- intent: cau_2.19
+  examples: |
+    - Rút học phần thì có điểm học phần không?
+    - Tôi rút học phần rồi thì có điểm không?
+    - Khi rút học phần, liệu có ghi điểm cho học phần đó không?
+    - Việc rút học phần có ảnh hưởng đến điểm số của học phần đó không?
+
+- intent: cau_2.20
+  examples: |
+    - Rút học phần có được trả học phí không?
+    - Tôi có thể nhận lại học phí sau khi rút học phần không?
+    - Khi rút học phần, có được hoàn trả học phí không?
+    - Quy định về việc hoàn trả học phí khi rút học phần là như thế nào?
