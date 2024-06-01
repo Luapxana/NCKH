@@ -36,6 +36,16 @@ intents:
   - cau_1.18
   - cau_1.19
   - cau_1.20
+  - cau_1.21
+  - cau_1.22
+  - cau_1.23
+  - cau_1.24
+  - cau_1.25
+  - cau_1.26
+  - cau_1.27
+  - cau_1.28
+  - cau_1.29
+  - cau_1.30
   - cau_2.1
   - cau_2.2
   - cau_2.3
@@ -162,6 +172,38 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
   utter_cau_1.20:
   - text: "Những sinh viên được hưởng chính sách ưu tiên theo đối tượng quy định tại Quy chế tuyển sinh đại học, cao đẳng hệ chính quy thì không giới hạn về thời gian tối đa để hoàn thành CTĐT."
   
+  utter_cau_1.21:
+  - text: "Những sinh viên học liên thông và những sinh viên có kết quả học tập đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một CTĐT khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT theo học theo Quy định xét miễn và công nhận điểm học phần trong CTĐT trình độ đại học hệ chính quy của Trường. 
+Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
+
+  utter_cau_1.22:
+  - text: "Mỗi năm được tổ chức thành 3 HK: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ."
+
+  utter_cau_1.23:
+  - text: "Học kỳ I là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12."
+
+  utter_cau_1.24:
+  - text: "Học kỳ II là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ II bắt đầu từ tháng 1 đến cuối tháng 5."
+
+  utter_cau_1.25:
+  - text: "Học kỳ III là học kỳ phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả. Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6. Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học HK III. Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỷ luật SV."
+
+  utter_cau_1.26:
+  - text: "Học phần là lượng kiến thức tương đối trọn vẹn được dạy trong 1 HK. Mỗi học phần có tên riêng và được ký hiệu bằng một mã số."
+
+  utter_cau_1.27:
+  - text: "Học phần bắt buộc là học phần sinh viên phải tích lũy. "
+
+  utter_cau_1.28:
+  - text: "Học phần tự chọn là học phần sinh viên tự lựa chọn để tích lũy."
+
+  utter_cau_1.29:
+  - text: "Học phần tiên quyết của học phần HPxxx là học phần mà sinh viên phải tích lũy mới được đăng ký học học phần HPxxx."
+
+  utter_cau_1.30:
+  - text: "Học phần song hành của học phần HPxxx là học phần mà sinh viên phải học trước hoặc học cùng lúc với học phần HPxxx."
+
+
   utter_cau_2.1:
   - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào htql để xây dựng theo hướng dẫn"
 

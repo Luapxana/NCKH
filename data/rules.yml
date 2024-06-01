@@ -142,6 +142,55 @@ rules:
   - intent: cau_1.20
   - action: utter_cau_1.20
 
+- rule: Cau_1.21
+  steps:
+  - intent: cau_1.21
+  - action: utter_cau_1.21
+  
+- rule: Cau_1.22
+  steps:
+  - intent: cau_1.22
+  - action: utter_cau_1.22
+  
+- rule: Cau_1.23
+  steps:
+  - intent: cau_1.23
+  - action: utter_cau_1.23
+  
+- rule: Cau_1.24
+  steps:
+  - intent: cau_1.24
+  - action: utter_cau_1.24
+  
+- rule: Cau_1.25
+  steps:
+  - intent: cau_1.25
+  - action: utter_cau_1.25
+  
+- rule: Cau_1.26
+  steps:
+  - intent: cau_1.26
+  - action: utter_cau_1.26
+
+- rule: Cau_1.27
+  steps:
+  - intent: cau_1.27
+  - action: utter_cau_1.27
+  
+- rule: Cau_1.28
+  steps:
+  - intent: cau_1.28
+  - action: utter_cau_1.28
+  
+- rule: Cau_1.29
+  steps:
+  - intent: cau_1.29
+  - action: utter_cau_1.29
+  
+- rule: Cau_1.30
+  steps:
+  - intent: cau_1.30
+  - action: utter_cau_1.30
 
 - rule: Cau_2.1
   steps:

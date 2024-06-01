@@ -240,7 +240,84 @@ nlu:
     - Có người nào được phép học tập vô thời hạn không?
     - Có ai có thể học tập mà không bị ràng buộc bởi thời gian không?
 
+- intent: cau_1.21
+  examples: |
+    - Những ai được công nhận quy đổi kết quả học tập từ trình độ đào tạo khác, ngành đào tạo khác, chương trình đào tạo khác, cơ sở đào tạo khác sang tín chỉ của những học phần trong chương trình đào tạo trình độ đại học hệ chính quy của trường?
+    - Trường hợp nào được giữ kết quả học tập?
+    - Khi nào một người có thể được giữ lại kết quả học tập?
+    - Trong trường hợp nào mà kết quả học tập của một cá nhân có thể bị giữ lại?
 
+- intent: cau_1.22
+  examples: |
+    - Mỗi năm được tổ chức thành bao nhiêu học kỳ?
+    - Mỗi năm học có bao nhiêu học kỳ?
+    - Mỗi năm học bao gồm bao nhiêu học kỳ?
+    - Trong một năm học, có bao nhiêu học kỳ thường được tổ chức?
+
+- intent: cau_1.23
+  examples: |
+    - Học kỳ 1 được tổ chức như thế nào?
+    - Học kỳ I được tổ chức như thế nào?
+    - HK1 được tổ chức như thế nào?
+    - HK I được tổ chức như thế nào?
+    - Học kỳ 1 có bao nhiêu tuần?
+    - Học kỳ 1 kéo dài bao lâu?
+    - Học kỳ 1 là thời gian nào?
+
+- intent: cau_1.24
+  examples: |
+    - Học kỳ 2 được tổ chức như thế nào?
+    - Học kỳ II được tổ chức như thế nào?
+    - HK2 được tổ chức như thế nào?
+    - HK II được tổ chức như thế nào?
+    - Học kỳ 2 có bao nhiêu tuần?
+    - Học kỳ 2 kéo dài bao lâu?
+    - Học kỳ 2 là thời gian nào?
+
+- intent: cau_1.25
+  examples: |
+    - Học kỳ 3 được tổ chức như thế nào?
+    - Học kỳ III được tổ chức như thế nào?
+    - HK3 được tổ chức như thế nào?
+    - HK III được tổ chức như thế nào?
+    - Học kỳ 3 có bao nhiêu tuần?
+    - Học kỳ 3 kéo dài bao lâu?
+    - Học kỳ 3 là thời gian nào?
+
+- intent: cau_1.26
+  examples: |
+    - Học phần là gì?
+    - HP là gì?
+    - Khái niệm học phần?
+    - Học phần được hiểu là gì?
+
+- intent: cau_1.27
+  examples: |
+    - Học phần bắt buộc là gì?
+    - HP bắt buộc là gì?
+    - Thế nào là học phần bắt buộc?
+    - Học phần bắt buộc là những học phần gì?
+
+- intent: cau_1.28
+  examples: |
+    - Học phần tự chọn là gì?
+    - HP tự chọn là gì?
+    - Thế nào là học phần tự chọn?
+    - Học phần tự chọn là những học phần gì?
+
+- intent: cau_1.29
+  examples: |
+    - Học phần tiên quyết là gì?
+    - Khái niệm học phần tiên quyết?
+    - Học phần tiên quyết là như thế nào?
+    - HP tiên quyết là gì?
+
+- intent: cau_1.30
+  examples: |
+    - Học phần song hành là gì?
+    - Khái niệm học phần song hành?
+    - Học phần song hành là như thế nào?
+    - HP song hành là gì?
 
 
 
