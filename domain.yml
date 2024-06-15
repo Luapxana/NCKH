@@ -46,6 +46,41 @@ intents:
   - cau_1.28
   - cau_1.29
   - cau_1.30
+  - cau_1.31
+  - cau_1.31.1
+  - cau_1.32
+  - cau_1.33
+  - cau_1.34
+  - cau_1.35
+  - cau_1.36
+  - cau_1.37
+  - cau_1.38
+  - cau_1.39
+  - cau_1.40
+  - cau_1.41
+  - cau_1.41.1
+  - cau_1.41.2
+  - cau_1.41.3
+  - cau_1.42
+  - cau_1.43
+  - cau_1.44
+  - cau_1.45
+  - cau_1.46
+  - cau_1.47
+  - cau_1.48
+  - cau_1.49
+  - cau_1.50
+  - cau_1.51
+  - cau_1.52
+  - cau_1.53
+  - cau_1.54
+  - cau_1.55
+  - cau_1.56
+  - cau_1.57
+  - cau_1.58
+  - cau_1.59
+  - cau_1.60
+  - cau_1.61
   - cau_2.1
   - cau_2.2
   - cau_2.3
@@ -203,6 +238,130 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
   utter_cau_1.30:
   - text: "Học phần song hành của học phần HPxxx là học phần mà sinh viên phải học trước hoặc học cùng lúc với học phần HPxxx."
 
+  utter_cau_1.31:
+  - text: "Học phần điều kiện là học phần mà sinh viên phải hoàn thành nhưng kết quả học phần không dùng để tính điểm trung bình chung tích lũy; ngoài ra, điểm học phần GDTC không dùng để tính điểm trung bình chung học kỳ và điểm trung bình chung năm học."
+
+  utter_cau_1.31.1:
+  - text: "Học phần điều kiện bao gồm các học phần Giáo dục Quốc phòng và An ninh, Giáo dục thể chất, Ngoại ngữ căn bản, Tin học căn bản."
+
+  utter_cau_1.32:
+  - text: "Lớp học phần là lớp bao gồm những sinh viên đăng ký theo học cùng học phần trong 1 HK. Mỗi học phần có thể có nhiều lớp học phần với mã số khác nhau."
+
+  utter_cau_1.33:
+  - text: "Lớp chuyên ngành là lớp được hình thành từ đầu khóa học cho đến cuối khóa học. Tổ chức lớp chuyên ngành để duy trì những sinh hoạt đoàn thể, lao động, xét kết quả rèn luyện, xét khen thưởng, phổ biến những thông tin của Trường, Khoa đến sinh viên. Mỗi lớp chuyên ngành có mã số riêng và được bố trí một cố vấn học tập để giúp đỡ sinh viên."
+  
+  utter_cau_1.34:
+  - text: "Kiến thức của mỗi học phần và toàn khóa dọc được đo lường bằng tín chỉ."
+
+  utter_cau_1.35:
+  - text: "1 TC = 15 tiết học lý thuyết và 30 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 30 tiết thực hành, thí nghiệm, thảo luận, seminar,... và 15 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 45 tiết thực tập tại cơ sở, làm tiểu luận, bài tập lớn, đồ án, niên luận, tiểu luận tốt nghiệp, luận văn tốt nghiệp."
+
+  utter_cau_1.36:
+  - text: "1 tiết học được tính bằng 50 phút."
+
+  utter_cau_1.37:
+  - text: "Khối lượng CTĐT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTĐT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường."
+
+  utter_cau_1.38:
+  - text: "Học bổng khuyến khích học tập được xét cấp theo HK dựa trên cơ sở điểm trung bình chung học kỳ và điểm rèn luyện của HK chính trước đó. Học bổng được cấp cho sinh viên từ cao xuống thấp theo mức học bổng, trong từng mức ưu tiên theo điểm trung bình chung học kỳ(trường hợp sinh viên có cùng ĐTBCHK thì xét ưu tiên theo ĐRL). Riêng đối với HK đầu tiên của khóa học, học bổng được cấp dựa trên kết quả xét tuyển đầu vào do Hiệu trưởng quyết định."
+
+  utter_cau_1.39:
+  - text: "Quỹ học bổng cấp cho sinh viên từng lớp chuyên ngành được công bố từ đầu khóa học và sẽ được điều chỉnh nếu nguồn quỹ học bổng của Trường có thay đổi."
+
+  utter_cau_1.40:
+  - text: "Những điều kiện để sinh viên được xét học bổng:
+  - Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);
+- HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;
+- Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên."
+
+  utter_cau_1.41:
+  - text: "Điều kiện của các mức học bổng:
+  - Xuất sắc: Có ĐTBCHK và ĐRL đạt loại xuất sắc.
+  - Giỏi: Có ĐTBCHK đạt từ loại giỏi và ĐRL đạt từ loại tốt trở lên.
+  - Khá: Có ĐTBCHK và ĐRL đạt từ lại khá trở lên."
+
+  utter_cau_1.41.1:
+  - text: "Có ĐTBCHK và ĐRL đạt loại xuất sắc."
+
+  utter_cau_1.41.2:
+  - text: "Có ĐTBCHK và ĐRL đạt từ loại giỏi trở lên."
+
+  utter_cau_1.41.3:
+  - text: "Có ĐTBCHK và ĐRL đạt từ lại khá trở lên."
+
+  utter_cau_1.42:
+  - text: "Sinh viên được cấp HBKKHT còn được xét cấp học bổng để đi học nước ngoài theo quy định hiện hành của Hiệu trưởng Trường Đại học Cần Thơ."
+  
+  utter_cau_1.43:
+  - text: "Mức học bổng do Hiệu trưởng quyết định."
+
+  utter_cau_1.44:
+  - text: "Hằng năm, Trường xét cấp học bổng tài trợ từ nguồn tài trợ của các cơ quan, doanh nghiệp, tổ chức, cá nhân,... trong và ngoài nước theo Quy định về quản lý và cấp phát học bổng tài trợ."
+
+  utter_cau_1.45:
+  - text: "Khi gặp khó khăn đột xuất về kinh tế, sinh viên có thể làm đơn trình bày rõ hoàn cảnh khó khăn, có xác nhận của CVHT và trưởng khoa để Hiệu trưởng xem xét."
+
+  utter_cau_1.46:
+  - text: "Đối tượng được hưởng trợ cấp xã hội là sinh viên dân tộc ít người ở vùng cao; sinh viên mồ côi cả cha lẫn mẹ; sinh viên tàn tật trên 41%; sinh viên thuộc hộ nghèo, hộ đói."
+
+  utter_cau_1.47:
+  - text: "Học phí đóng theo học kỳ."
+
+  utter_cau_1.48:
+  - text: "Học phí được tính theo tổng số tín chỉ mà sinh viên đã đăng ký học ở học kỳ đó."
+
+  utter_cau_1.49:
+  - text: "Mức học phí do Hiệu trưởng quyết định."
+
+  utter_cau_1.50:
+  - text: "Đối tượng được miễn giảm học phí và được hỗ trợ chi phí học tập thực hiện theo các quy định hiện hành và các văn bản hướng dẫn có liên quan."
+
+  utter_cau_1.51:
+  - text: "Hồ sơ hướng dẫn thực hiện miễn, giảm học phí và hỗ trợ chi phí học tập xem tại trang thông tin điện tử của Phòng Công tác Sinh viên."
+
+  utter_cau_1.52:
+  - text: "Sau thời hạn đóng học phí, sinh viên không đóng học phí sẽ bị hủy kết quả học tập những học phần nợ học phí trong HK đó và buộc phải đóng học phí còn nợ cùng lúc với học phí của HK tiếp theo. Sinh viên không đóng học phí 2 HK liên tiếp sẽ bị buộc thôi học."
+
+  utter_cau_1.53:
+  - text: "Sinh viên phải nộp phí BHYT theo các quy định hiện hành của pháp luật và các văn bản hướng dẫn có liên quan."
+
+  utter_cau_1.54:
+  - text: "Trường khuyến khích sinh viên tham gia nộp Bảo hiểm tai nạn."
+
+  utter_cau_1.55:
+  - text: "Sinh viên có thể xin vay tín dụng từ các Ngân hàng Chính sách xã hội tại địa phương nơi gia đình sinh viên cư trú. Trường sẽ cấp giấy xác nhận để sinh viên bổ sung hồ sơ xin vay vốn."
+
+  utter_cau_1.56:
+  - text: "Sinh viên từ khóa 46 về trước được xem xét chuyển cơ sở đào tạo khi có đủ các điều kiện sau:
+- Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập.
+- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.
+- Nơi chuyển đến có đủ các điều kiện đảm bảo chất lượng, chưa  vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.
+- Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.
+
+Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:
+- Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.
+- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.
+- Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.
+- Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
+
+  utter_cau_1.57:
+  - text: "Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:
+- Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.
+- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.
+- Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.
+- Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
+
+  utter_cau_1.58:
+  - text: "Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa của Trường nếu còn đủ thời gian học tập theo quy định đối với hình thức chuyển đến và được sự đồng ý của Hiệu trưởng."
+
+  utter_cau_1.59:
+  - text: "Trong hợp tác đào tạo giữa Trường và cơ sở đào tạo khác, nếu được hiệu trưởng của hai cơ sở đào tạo đồng ý, sinh viên có thể đăng ký thực hiện học một số học phần tại cơ sở đào tạo khác."
+
+  utter_cau_1.60:
+  - text: "Số lượng tín chỉ mà sinh viên tích lũy tại cơ sở đào tạo khác (nếu có) không vượt quá 25% tổng khối lượng của CTĐT."
+
+  utter_cau_1.61:
+  - text: "Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy theo quy định hiện hành của Trường."
 
   utter_cau_2.1:
   - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào htql để xây dựng theo hướng dẫn"
