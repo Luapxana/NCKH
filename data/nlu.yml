@@ -746,3 +746,65 @@ nlu:
     - Trường thường mở thêm lớp học phần khi nào?
     - Thông tin về việc Trường mở thêm lớp học phần thường được cung cấp trong trường hợp nào?
 
+- intent: cau_2.31
+  examples: |
+    - Học phần bị điểm F thì được tích lũy là bao nhiêu?
+    - Học phần điểm F có tính tích lũy không?
+
+- intent: cau_2.32
+  examples: |
+    - Làm gì khi bị điểm F?
+    - Bị điểm F thì phải làm gì?
+    - Cách cải thiện điểm F?
+
+- intent: cau_2.33
+  examples: |
+    - Có thể học học phần khác để thay thế học phần bị điểm F không?
+    - Học học phần khác để thay thế học phần bị điểm F có được không?
+
+- intent: cau_2.34
+  examples: |
+    - Đăng ký học lại như thế nào? 
+    - Cách đăng ký học lại?
+    - Tôi phải làm gì nếu muốn đăng ký học lại?
+    - Làm thế nào để đăng ký học lại?
+
+- intent: cau_2.35
+  examples: |
+    - Đăng ký học lại thì còn giữ điểm F không?
+    - Nếu học lại thì điểm F có mất không?
+    - Điểm F có tồn tại sau khi học lại không?
+
+- intent: cau_2.36
+  examples: |
+    - Nếu học nhiều học phần tự chọn cùng một nhóm thì có lấy hết điểm không? 
+    - Nếu học nhiều học phần tự chọn cùng nhóm thì tính điểm như thế nào?
+
+- intent: cau_2.37
+  examples: |
+    - Điểm học phần không như ý thì có thể học lại không?
+    - Tôi có thể cải thiện học phần đã học không?
+    - Nếu điểm số của một học phần không như ý, sinh viên có thể học lại không?
+    - Quy định về việc học lại một học phần nào đó khi điểm số không đạt yêu cầu là gì?
+    
+- intent: cau_2.38
+  examples: |
+    - Trường hợp nào được xin tạm nghỉ?
+    - Sinh viên có thể xin tạm nghỉ khi nào?
+    - Tôi có thể xin tạm nghỉ không?
+    - Hãy nêu các trường hợp có thể xin tạm nghỉ
+
+- intent: cau_2.39
+  examples: |
+    - Đi nghĩa vụ có được xin tạm nghỉ không?
+    - Tôi có thể xin tạm nghỉ khi đi nghĩa vụ không?
+    - Có được phép xin tạm nghỉ khi đang đi nghĩa vụ không?
+    - Quy định về việc xin tạm nghỉ trong quá trình thực hiện nghĩa vụ làm quân sự là gì?
+
+- intent: cau_2.40
+  examples: |
+    - Bị bệnh nặng có được xin tạm nghỉ không?
+    - Có thể xin tạm nghỉ nếu bị bệnh nặng không?
+    - Nếu bị bệnh nặng, có được phép xin tạm nghỉ không?
+    - Quy định về việc xin tạm nghỉ do bệnh nặng là như thế nào?
+
