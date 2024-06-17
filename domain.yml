@@ -101,6 +101,16 @@ intents:
   - cau_2.18
   - cau_2.19
   - cau_2.20
+  - cau_2.21
+  - cau_2.22
+  - cau_2.23
+  - cau_2.24
+  - cau_2.25
+  - cau_2.26
+  - cau_2.27
+  - cau_2.28
+  - cau_2.29
+  - cau_2.30
 actions:
   - whoami
   - action_thanks
@@ -423,6 +433,35 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
   utter_cau_2.20:
   - text: "Rút học phần sẽ không nhận lại học phí."
 
+  utter_cau_2.21:
+  - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
+  
+  utter_cau_2.22:
+  - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
+
+  utter_cau_2.23:
+  - text: "Đến hết tuần 8 của học kỳ chính hoặc tuần 2 của học kỳ phụ thì không được rút học phần nữa."
+
+  utter_cau_2.24:
+  - text: "Khi sinh viên cảm thấy việc học khó khăn có thể dẫn đến kết quả kém thì có thể xin rút học phần."
+
+  utter_cau_2.25:
+  - text: "Sinh viên được cung cấp danh sách lớp học phần bị xóa chậm nhất 1 tuần trước khi học kỳ bắt đầu."
+
+  utter_cau_2.26:
+  - text: "Sinh viên có thể đăng ký các học phần khác để thay thế (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC)."
+  
+  utter_cau_2.27:
+  - text: "Những lớp học phần bị xóa là những lớp có số lượng đăng ký ít hơn 25 SV, có trường hợp đặc biệt sẽ do Hiệu trưởng quyết định."
+
+  utter_cau_2.28:
+  - text: "Có thể truy cập HTQL đào tạo của trường để xin mở thêm lớp học phần."
+
+  utter_cau_2.29:
+  - text: "Có thể xin mở thêm lớp học phần thông qua hệ thống quản lý đào tạo của trường tại mục đăng ký học phần."
+
+  utter_cau_2.30:
+  - text: "Khi có nhiều hơn 25 SV xin mở lớp học phần đó, được trưởng bộ môn và trưởng khoa quản lý học phần đó chấp thuận."
   
 session_config:
   session_expiration_time: 60
