@@ -101,6 +101,26 @@ intents:
   - cau_2.18
   - cau_2.19
   - cau_2.20
+  - cau_2.21
+  - cau_2.22
+  - cau_2.23
+  - cau_2.24
+  - cau_2.25
+  - cau_2.26
+  - cau_2.27
+  - cau_2.28
+  - cau_2.29
+  - cau_2.30
+  - cau_2.31
+  - cau_2.32
+  - cau_2.33
+  - cau_2.34
+  - cau_2.35
+  - cau_2.36
+  - cau_2.37
+  - cau_2.38
+  - cau_2.39
+  - cau_2.40
 actions:
   - whoami
   - action_thanks
@@ -423,7 +443,69 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
   utter_cau_2.20:
   - text: "Rút học phần sẽ không nhận lại học phí."
 
+  utter_cau_2.21:
+  - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
   
+  utter_cau_2.22:
+  - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
+
+  utter_cau_2.23:
+  - text: "Đến hết tuần 8 của học kỳ chính hoặc tuần 2 của học kỳ phụ thì không được rút học phần nữa."
+
+  utter_cau_2.24:
+  - text: "Khi sinh viên cảm thấy việc học khó khăn có thể dẫn đến kết quả kém thì có thể xin rút học phần."
+
+  utter_cau_2.25:
+  - text: "Sinh viên được cung cấp danh sách lớp học phần bị xóa chậm nhất 1 tuần trước khi học kỳ bắt đầu."
+
+  utter_cau_2.26:
+  - text: "Sinh viên có thể đăng ký các học phần khác để thay thế (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC)."
+  
+  utter_cau_2.27:
+  - text: "Những lớp học phần bị xóa là những lớp có số lượng đăng ký ít hơn 25 SV, có trường hợp đặc biệt sẽ do Hiệu trưởng quyết định."
+
+  utter_cau_2.28:
+  - text: "Có thể truy cập HTQL đào tạo của trường để xin mở thêm lớp học phần."
+
+  utter_cau_2.29:
+  - text: "Có thể xin mở thêm lớp học phần thông qua hệ thống quản lý đào tạo của trường tại mục đăng ký học phần."
+
+  utter_cau_2.30:
+  - text: "Khi có nhiều hơn 25 SV xin mở lớp học phần đó, được trưởng bộ môn và trưởng khoa quản lý học phần đó chấp thuận."
+  
+  utter_cau_2.31:
+  - text: "Học phần điểm F sẽ không tính tích lũy."
+  
+  utter_cau_2.32:
+  - text: "Có thể đăng ký học lại hoặc đăng ký học phần khác cùng nhóm nếu học phần bị điểm F là tự chọn."
+
+  utter_cau_2.33:
+  - text: "Có thể nếu học phần bị điểm F là học phần tự chọn."
+
+  utter_cau_2.34:
+  - text: "Sinh viên thực hiện thêm học phần cần học lại vào kế hoạch học tập học kỳ tiếp theo sau đó thực hiện đăng ký học phần."
+
+  utter_cau_2.35:
+  - text: "Khi học lại sẽ là điểm cao nhất trong các lần học, do đó sẽ không giữ điểm F nếu lần học sau có cải thiện."
+
+  utter_cau_2.36:
+  - text: "Các học phần tự chọn trong cùng nhóm học phần tự chọn chỉ lấy 1 số điểm, do đó có thể chọn học phần có điểm cao nhất trong nhóm đó."
+
+  utter_cau_2.37:
+  - text: "Có thể đăng ký học cải thiện giống như đăng ký học lại."
+
+  utter_cau_2.38:
+  - text: "Sinh viên có thể xin tạm nghỉ trong các trường hợp sau:
+            1. Được điều động vào các lực lượng vũ trang
+            2. Được cơ quan có thẩm quyền điều động, đại diện quốc gia tham dự các kỳ thi, giải đấu quốc tế
+            3. Bị ốm, thai sản hoặc tai nạn phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế
+            4. Vì lý do cá nhân (hoàn cảnh gia đình neo đơn, việc riêng,...). Trường hợp nào chỉ giải quyết khi SV đã học ít nhất 1 HK ở Trường, không thuộc các trường hợp bị xem xét thôi học hoặc xem xét kỷ luật. Thời gian nghỉ trong trường hợp nào được tính vào thời gian học tập để hoàn thành CTĐT theo quy định tại Điều 5 quy chế học vụ."
+
+  utter_cau_2.39:
+  - text: "Sinh viên có thể xin tạm nghỉ nếu được triệu tập nghĩa vụ quân sự."
+
+  utter_cau_2.40:
+  - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
