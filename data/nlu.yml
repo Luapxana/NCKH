@@ -875,3 +875,61 @@ nlu:
     - Có mấy mức độ đình chỉ học tập?
     - Các mức độ đình chỉ học tập?
     - Có bao nhiêu mức đình chỉ học?
+
+- intent: cau_2.51
+  examples: |
+    - Khi nào bị đình chỉ 1 học kỳ?
+    - Bị đình chỉ chỉ 1 học kỳ khi nào?
+    - Trường hợp bị đình chỉ 1 học kỳ
+
+- intent: cau_2.52
+  examples: |
+    - Khi nào bị đình chỉ 1 năm?
+    - Bị đình chỉ 1 năm khi nào?
+    - Trường hợp bị đình chỉ 1 năm
+
+- intent: cau_2.53
+  examples: |
+    - Trường hợp nào bị buộc thôi học?
+    - Bị buộc thôi học khi nào
+    - Các trường hợp bị buộc thôi học
+
+- intent: cau_2.54
+  examples: |
+    - Nghỉ tạm thời quá thời hạn thì bị gì?
+    - Nghỉ tạm thời quá thời hạn có ảnh hưởng gì không?
+    - Sẽ thế nào nếu nghỉ tạm thời quá thời hạn?
+
+
+- intent: cau_2.55
+  examples: |
+    - Không đóng học phí thì bị kỷ luật như thế nào?
+    - Không đóng học phí có sao không?
+    - Sẽ thế nào nếu không đóng học phí?
+
+- intent: cau_2.56
+  examples: |
+    - Học quá hạn thì có bị buộc thôi học không?
+    - Sinh viên có thể học tập quá hạn không?
+    - Học quá hạn sẽ bị gì?
+
+- intent: cau_2.57
+  examples: |
+    - Bị thôi học có được xin học lại không?
+    - Có học lại được nếu bị buộc thôi học không?
+
+- intent: cau_2.58
+  examples: |
+    - Làm sao biết mình đang bị kỷ luật?
+    - Trường có thông báo nếu mình bị kỷ luật không?
+
+- intent: cau_2.59
+  examples: |
+    - Số tiết tối thiểu cần học để không bị điểm F là bao nhiêu?
+    - Phải học tối thiểu bao nhiêu tiết để không bị điểm F?
+
+- intent: cau_2.60
+  examples: |
+    - Vắng học thì sẽ bị gì?
+    - Vắng nhiều hơn thời gian quy định có sao không?
+    - Sẽ thế nào nếu vắng học quá nhiều?

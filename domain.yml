@@ -131,6 +131,16 @@ intents:
   - cau_2.48
   - cau_2.49
   - cau_2.50
+  - cau_2.51
+  - cau_2.52
+  - cau_2.53
+  - cau_2.54
+  - cau_2.55
+  - cau_2.56
+  - cau_2.57
+  - cau_2.58
+  - cau_2.59
+  - cau_2.60
 actions:
   - whoami
   - action_thanks
@@ -156,7 +166,8 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot"
-  # chương 1
+# chương 1
+# 1.1 - 1.20
   utter_cau_1.1:
   - text: "Quy chế học vụ quy định về công tác học vụ dành cho sinh viên trình độ đại học chính quy bao gồm: Chương trình đào tạo(CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cấp bằng tốt nghiệp và những quy định khác đối với sinh viên."
 
@@ -171,8 +182,8 @@ responses:
 
   utter_cau_1.5:
   - text: "Sinh viên Trường ĐHCT phải chấp hành nội quy, quy định của Trường, của Khoa/Viện/Bộ môn trực thuộc Trường, của lớp và của các đơn vị khác trong Trường.\n\n
-Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.\n\n
-Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định. Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ồn, gây mất trật tự; không tụ tập uống rượu bia.\n\n"
+    Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.\n\n
+    Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định. Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ồn, gây mất trật tự; không tụ tập uống rượu bia.\n\n"
 
   utter_cau_1.6:
   - text: "Chương trình đào tạo của mỗi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp."
@@ -221,9 +232,9 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
 
   utter_cau_1.16:
   - text: "Kế hoạch học tập chuẩn toàn khóa có thời gian thiết kế cho một chương trình đào tạo tùy theo ngành học. Thời gian học tập tối đa cho phép sinh viên hoàn thành CTĐT được xác định như sau:\n\n
-- Thời gian thiết kế của CTĐT là 4 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 8 năm.\n\n
-- Thời gian thiết kế của CTĐT là 4,5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 9 năm.\n\n
-- Thời gian thiết kế của CTĐT là 5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 10 năm.\n\n"
+    - Thời gian thiết kế của CTĐT là 4 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 8 năm.\n\n
+    - Thời gian thiết kế của CTĐT là 4,5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 9 năm.\n\n
+    - Thời gian thiết kế của CTĐT là 5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 10 năm.\n\n"
 
   utter_cau_1.17:
   - text: "Thời gian thiết kế của CTĐT là 4 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 8 năm."
@@ -236,10 +247,10 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
 
   utter_cau_1.20:
   - text: "Những sinh viên được hưởng chính sách ưu tiên theo đối tượng quy định tại Quy chế tuyển sinh đại học, cao đẳng hệ chính quy thì không giới hạn về thời gian tối đa để hoàn thành CTĐT."
-  
+#1.21 - 1.40 
   utter_cau_1.21:
   - text: "Những sinh viên học liên thông và những sinh viên có kết quả học tập đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một CTĐT khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT theo học theo Quy định xét miễn và công nhận điểm học phần trong CTĐT trình độ đại học hệ chính quy của Trường. \n\n
-Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
+    Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
 
   utter_cau_1.22:
   - text: "Mỗi năm được tổ chức thành 3 HK: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ."
@@ -300,10 +311,10 @@ Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông,
 
   utter_cau_1.40:
   - text: "Những điều kiện để sinh viên được xét học bổng:\n\n
-- Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n\n
-- HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;\n\n
-- Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n\n"
-
+    - Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n\n
+    - HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;\n\n
+    - Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n\n"
+#1.41 - 1.60
   utter_cau_1.41:
   - text: "Điều kiện của các mức học bổng:\n\n
   - Xuất sắc: Có ĐTBCHK và ĐRL đạt loại xuất sắc.\n\n
@@ -392,7 +403,8 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
 
   utter_cau_1.61:
   - text: "Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy theo quy định hiện hành của Trường."
-
+#chương 2
+# 2.1 - 2.20
   utter_cau_2.1:
   - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào htql để xây dựng theo hướng dẫn"
 
@@ -452,7 +464,7 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
 
   utter_cau_2.20:
   - text: "Rút học phần sẽ không nhận lại học phí."
-
+# 2.21 - 2.40
   utter_cau_2.21:
   - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
   
@@ -516,7 +528,7 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
 
   utter_cau_2.40:
   - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
-
+#2.41 - 2.60
   utter_cau_2.41:
   - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
 
@@ -556,8 +568,47 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
   utter_cau_2.50:
   - text: "Có 2 mức độ đình chỉ học tập: 1 HK và 1 năm."
 
- 
+  utter_cau_2.51:
+  - text: "Đình chỉ học tập 1 HK trong các trường hợp sau:\n\n
+  \t1. Bị kỷ luật mức đình chỉ học tập 1 HK\n\n
+  \t2. Có ĐRL yếu, kém trong 2 học kỳ liên tiếp."
 
+  utter_cau_2.52:
+  - text: "Đình chỉ học tập 1 năm trong trường hợp bị kỷ luật ở mức đình chỉ học tập."
+  
+  utter_cau_2.53:
+  - text: "Buộc thôi học trong các trường hợp sau: \n\n
+    \t1. Bị kỷ luật ở mức buộc thôi học\n\n
+    \t2. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
+    \t3. Nghỉ học tạm thời quá thời hạn cho phép\n\n
+    \t4. Không đăng ký học trong 2 HK chính liên tiếp mà không được sự cho phép của Hiệu trưởng\n\n
+    \t5. Không đóng học phí 2 HK liên tiếp\n\n
+    \t6. Có ĐRL yếu, kém 2 HK liên tiếp lần thứ hai\n\n
+    \t7. Thời gian học tập vượt quá thời hạn theo quy định\n\n
+    \t8. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ."
+  
+  utter_cau_2.54:
+  - text: "Nếu nghỉ tạm thời quá thời hạn sẽ bị buộc thôi học."
+  
+  utter_cau_2.55:
+  - text: "Không đóng học phí HK đầu bị hủy kết quả học tập của học kỳ đó, không đóng học phí 2 HK liên tiếp, sinh viên sẽ bị buộc thôi học."
+  
+  utter_cau_2.56:
+  - text: "Học tập quá hạn thì sinh viên sẽ bị buộc thôi học."
+  
+  utter_cau_2.57:
+  - text: "Trong các trường hợp sau có thể xin xét chuyển sang học các chương trình giáo dục thường xuyên tương ứng (nếu có):\n\n
+    \t1. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
+    \t2. Thời gian học tập vượt quá thời hạn theo quy định."
+  
+  utter_cau_2.58:
+  - text: "CVHT thông báo về gia đình nếu SV bị cảnh báo học tập và bị xử lý kỷ luật, Trường gửi quyết định về địa phương và gia đình nếu SV bị đình chỉ hoặc buộc thôi học."
+  
+  utter_cau_2.59:
+  - text: "Sinh viên phải học đủ 100% số tiết đối với các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC; 80% số tiết đối với các học phần lý thuyết."
+  
+  utter_cau_2.60:
+  - text: "Vắng nhiều hơn thời gian quy định sẽ bị cấm thi và điểm F."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
