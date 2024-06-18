@@ -121,6 +121,16 @@ intents:
   - cau_2.38
   - cau_2.39
   - cau_2.40
+  - cau_2.41
+  - cau_2.42
+  - cau_2.43
+  - cau_2.44
+  - cau_2.45
+  - cau_2.46
+  - cau_2.47
+  - cau_2.48
+  - cau_2.49
+  - cau_2.50
 actions:
   - whoami
   - action_thanks
@@ -146,7 +156,7 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot"
-
+  # chương 1
   utter_cau_1.1:
   - text: "Quy chế học vụ quy định về công tác học vụ dành cho sinh viên trình độ đại học chính quy bao gồm: Chương trình đào tạo(CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cấp bằng tốt nghiệp và những quy định khác đối với sinh viên."
 
@@ -495,10 +505,10 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
   - text: "Có thể đăng ký học cải thiện giống như đăng ký học lại."
 
   utter_cau_2.38:
-  - text: "Sinh viên có thể xin tạm nghỉ trong các trường hợp sau:
-            1. Được điều động vào các lực lượng vũ trang
-            2. Được cơ quan có thẩm quyền điều động, đại diện quốc gia tham dự các kỳ thi, giải đấu quốc tế
-            3. Bị ốm, thai sản hoặc tai nạn phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế
+  - text: "Sinh viên có thể xin tạm nghỉ trong các trường hợp sau:\n\n
+            1. Được điều động vào các lực lượng vũ trang\n\n
+            2. Được cơ quan có thẩm quyền điều động, đại diện quốc gia tham dự các kỳ thi, giải đấu quốc tế\n\n
+            3. Bị ốm, thai sản hoặc tai nạn phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế\n\n
             4. Vì lý do cá nhân (hoàn cảnh gia đình neo đơn, việc riêng,...). Trường hợp nào chỉ giải quyết khi SV đã học ít nhất 1 HK ở Trường, không thuộc các trường hợp bị xem xét thôi học hoặc xem xét kỷ luật. Thời gian nghỉ trong trường hợp nào được tính vào thời gian học tập để hoàn thành CTĐT theo quy định tại Điều 5 quy chế học vụ."
 
   utter_cau_2.39:
@@ -506,6 +516,48 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
 
   utter_cau_2.40:
   - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
+
+  utter_cau_2.41:
+  - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
+
+  utter_cau_2.42:
+  - text: "Có thể nộp đơn để xin tạm nghỉ, nếu được chấp thuận sẽ được nhận quyết định cho phép nghỉ học của Hiệu trưởng."
+
+  utter_cau_2.43:
+  - text: "Khi hết thời gian tạm nghỉ học, phải làm hồ sơ xin học lại và nộp chậm nhất là 2 tuần trước khi HK mới bắt đầu."
+
+  utter_cau_2.44:
+  - text: "Hạn chót nộp hồ sơ xin học lại là 2 tuần trước khi HK mới bắt đầu."
+
+  utter_cau_2.45:
+  - text: "Cảnh báo học vụ trong các trường hợp sau:\n\n
+    \t1. Có ĐTBCHK đạt dưới 0.8 đối với học kỳ đầu của khóa học hoặc dưới 1.0 đối với các học kỳ tiếp theo\n\n
+    \t2. Không đăng ký học trong HK chính mà không được sự cho phép của Hiệu trưởng\n\n
+    \t3. Từ Khóa 47 trở về sau, ngoài áp dụng 2 điểm trên còn có các trường hợp sau:\n\n
+    \t\t3.1. Tổng số tín chỉ không đạt trong học kỳ vượt quá 50% khối lượng đã đăng ký học trong HK, hoặc tổng số tín chỉ nợ đọng từ đầu khóa học vượt quá 24 TC.\n\n
+    \t\t3.2. ĐTBTL đạt dưới 1.2 đối với SV năm nhất, 1.8 đối với SV các năm tiếp theo."
+
+  utter_cau_2.46:
+  - text: "Trường hợp không đăng ký trong HK chính, có thể bị cảnh báo học vụ, buộc thôi học."
+
+  utter_cau_2.47:
+  - text: "Là hình thức cảnh báo để sinh viên nhận thức tình trạng học tập và cải thiện."
+
+  utter_cau_2.48:
+  - text: "Có các trường hợp đình chỉ học tập sau\n\n
+      \t1. Đình chỉ học tập 1 HK trong các trường hợp\n\n
+      \t2. Bị kỷ luật mức đình chỉ học tập 1 HK\n\n
+      \t3. Có ĐRL yếu, kém trong 2 học kỳ liên tiếp\n\n
+      \t4. Đình chỉ học tập 1 năm trong trường hợp bị kỷ luật ở mức đình chỉ học tập."
+
+  utter_cau_2.49:
+  - text: "Nếu có đrl yếu 2 HK liên tiếp sẽ bị đình chỉ học tập 1 HK, lần thứ 2 sẽ bị buộc thôi học."
+
+  utter_cau_2.50:
+  - text: "Có 2 mức độ đình chỉ học tập: 1 HK và 1 năm."
+
+ 
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

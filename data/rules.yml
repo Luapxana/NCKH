@@ -567,3 +567,53 @@ rules:
   steps:
   - intent: cau_2.40
   - action: utter_cau_2.40
+
+- rule: Cau_2.41
+  steps:
+  - intent: cau_2.41
+  - action: utter_cau_2.41
+
+- rule: Cau_2.42
+  steps:
+  - intent: cau_2.42
+  - action: utter_cau_2.42
+
+- rule: Cau_2.43
+  steps:
+  - intent: cau_2.43
+  - action: utter_cau_2.43
+
+- rule: Cau_2.44
+  steps:
+  - intent: cau_2.44
+  - action: utter_cau_2.44
+
+- rule: Cau_2.45
+  steps:
+  - intent: cau_2.45
+  - action: utter_cau_2.45
+
+- rule: Cau_2.46
+  steps:
+  - intent: cau_2.46
+  - action: utter_cau_2.46
+
+- rule: Cau_2.47
+  steps:
+  - intent: cau_2.47
+  - action: utter_cau_2.47
+
+- rule: Cau_2.48
+  steps:
+  - intent: cau_2.48
+  - action: utter_cau_2.48
+
+- rule: Cau_2.49
+  steps:
+  - intent: cau_2.49
+  - action: utter_cau_2.49
+
+- rule: Cau_2.50
+  steps:
+  - intent: cau_2.50
+  - action: utter_cau_2.50

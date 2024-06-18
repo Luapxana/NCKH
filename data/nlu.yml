@@ -808,3 +808,70 @@ nlu:
     - Nếu bị bệnh nặng, có được phép xin tạm nghỉ không?
     - Quy định về việc xin tạm nghỉ do bệnh nặng là như thế nào?
 
+- intent: cau_2.41
+  examples: |
+    - Bị tai nạn có được xin tạm nghỉ không?
+    - Có thể xin tạm nghỉ nếu bị tai nạn không?
+    - Nếu bị tai nạn, có được phép xin tạm nghỉ không?
+    - Quy định về việc xin tạm nghỉ do tai nạn là như thế nào?
+
+- intent: cau_2.42
+  examples: |
+    - Xin tạm nghỉ học như thế nào?
+    - Muốn xin tạm nghỉ học phải làm gì?
+    - Làm thế nào để xin tạm dừng việc học?
+    - Có cách nào để nghỉ học một thời gian không?
+
+- intent: cau_2.43
+  examples: |
+    - Hết thời gian nghỉ học tạm thời thì làm gì?
+    - Thủ tục sau khi hết thời gian nghỉ học?
+    - Khi kỳ nghỉ học tạm thời kết thúc, phải làm gì?
+    - Sau thời gian nghỉ học tạm thời, cần thực hiện điều gì?
+
+- intent: cau_2.44
+  examples: |
+    - Hạn chót nộp hồ sơ xin học lại là khi nào?
+    - Thời gian nộp hồ sơ xin học lại là đến khi nào?
+    - Khi là thời điểm cuối cùng để gửi hồ sơ đăng ký học lại là khi nào?
+    - Đến ngày nào là hạn chót để nộp đơn xin học lại?
+
+- intent: cau_2.45
+  examples: |
+    - Trường hợp nào thì bị cảnh báo học vụ?
+    - Khi nào thì bị cảnh báo học vụ?
+    - Khi nào sẽ nhận được cảnh báo về tình trạng học vụ không đạt yêu cầu?
+    - Dưới điều kiện nào sẽ bị thông báo về tình trạng học vụ không đủ?
+
+- intent: cau_2.46
+  examples: |
+    - Tạm nghỉ mà không xin phép thì sao?
+    - Không xin phép tạm nghỉ thì bị xử lý như thế nào?
+    - Nếu tạm nghỉ mà không xin phép, hậu quả là gì?
+    - Có hậu quả gì nếu tạm nghỉ mà không có sự cho phép?
+    - Hình thức xử lý sinh viên tạm nghỉ không xin phép?
+
+- intent: cau_2.47
+  examples: |
+    - Cảnh báo học vụ là gì? 
+    - Thế nào là cảnh báo học vụ?
+    - Khái niệm cảnh báo học vụ?
+
+- intent: cau_2.48
+  examples: |
+    - Khi nào thì bị đình chỉ học tập?
+    - Các trường hợp bị đình chỉ học tập?
+    - Điều kiện nào sẽ dẫn đến việc bị đình chỉ học tập?
+    - Khi nào sẽ bị tạm ngừng học tập?
+
+- intent: cau_2.49
+  examples: |
+    - Đrl yếu thì có sao không?
+    - Điểm rèn luyện yếu có ảnh hưởng gì không?
+
+- intent: cau_2.50
+  examples: |
+    - Đình chỉ học tập có mấy mức độ?
+    - Có mấy mức độ đình chỉ học tập?
+    - Các mức độ đình chỉ học tập?
+    - Có bao nhiêu mức đình chỉ học?
