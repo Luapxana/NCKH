@@ -11,6 +11,7 @@ intents:
   - who
   - thanks
   - sorry
+#chương 1
   - cau_1.1
   - cau_1.2
   - cau_1.3
@@ -81,6 +82,7 @@ intents:
   - cau_1.59
   - cau_1.60
   - cau_1.61
+# chương 2
   - cau_2.1
   - cau_2.2
   - cau_2.3
@@ -141,6 +143,17 @@ intents:
   - cau_2.58
   - cau_2.59
   - cau_2.60
+  - cau_2.61.1
+  - cau_2.61
+  - cau_2.62
+  - cau_2.63
+  - cau_2.64
+  - cau_2.65
+  - cau_2.66
+  - cau_2.67
+  - cau_2.68
+  - cau_2.69
+  - cau_2.70
 actions:
   - whoami
   - action_thanks
@@ -609,6 +622,53 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
   
   utter_cau_2.60:
   - text: "Vắng nhiều hơn thời gian quy định sẽ bị cấm thi và điểm F."
+#2.61.1 - 2.81
+  utter_cau_2.61.1:
+  - text: " Thời gian bắt đầu và kết thúc các tiết học: \n\n
+            \tTiết 1 bắt đầu từ 7h00 - 7h50\n\n
+            \tTiết 2 bắt đầu từ 7h50 - 8h40\n\n
+            \tTiết 3 bắt đầu từ 8h50 - 9h40\n\n
+            \tTiết 4 bắt đầu từ 9h50 - 10h40\n\n
+            \tTiết 5 bắt đầu từ 10h40 - 11h30\n\n
+            \tTiết 6 bắt đầu từ 13h30 - 14h20\n\n
+            \tTiết 7 bắt đầu từ 14h20 - 15h10\n\n
+            \tTiết 8 bắt đầu từ 15h20 - 16h10\n\n
+            \tTiết 9 bắt đầu từ 16h10 - 17h00\n\n
+            \tTiết 10 là tiết nghỉ chung."
+
+  utter_cau_2.61:
+  - text: "Tiết 1 bắt đầu từ 7h00 - 7h50."
+
+  utter_cau_2.62:
+  - text: "Tiết 2 bắt đầu từ 7h50 - 8h40."
+
+  utter_cau_2.63:
+  - text: "Tiết 3 bắt đầu từ 8h50 - 9h40."
+
+  utter_cau_2.64:
+  - text: "Tiết 4 bắt đầu từ 9h50 - 10h40."
+
+  utter_cau_2.65:
+  - text: "Tiết 5 bắt đầu từ 10h40 - 11h30."
+
+  utter_cau_2.66:
+  - text: "Tiết 6 bắt đầu từ 13h30 - 14h20."
+
+  utter_cau_2.67:
+  - text: "Tiết 7 bắt đầu từ 14h20 - 15h10."
+
+  utter_cau_2.68:
+  - text: "Tiết 8 bắt đầu từ 15h20 - 16h10."
+
+  utter_cau_2.69:
+  - text: "Tiết 9 bắt đầu từ 16h10 - 17h00."
+
+  utter_cau_2.70:
+  - text: "Có các giờ nghỉ (10 phút) sau đây:\n\n
+    \tGiữa tiết 2 - 3\n\n
+    \tGiữa tiết 3 - 4\n\n
+    \tGiữa tiết 7 - 8."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
