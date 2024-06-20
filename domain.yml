@@ -682,25 +682,25 @@ responses:
     \tGiữa tiết 3 - 4\n\n
     \tGiữa tiết 7 - 8."
   
-   utter_cau_2.71:
+  utter_cau_2.71:
   - text: "Thời gian học buổi sáng là từ 7h00 đến 11h30."
 
-   utter_cau_2.72:
+  utter_cau_2.72:
   - text: "Thời gian học buổi chiều là từ 13h30 đến 17h00."
 
-   utter_cau_2.73:
+  utter_cau_2.73:
   - text: "Một tuần có 6 ngày học từ Thứ hai đến Thứ bảy."
 
-   utter_cau_2.74:
+  utter_cau_2.74:
   - text: "Buổi học đầu tiên là buổi GV thông báo đề cương chi tiết học phần."
 
-   utter_cau_2.75:
+  utter_cau_2.75:
   - text: "Buổi tối có 2 tiết (18h20 - 19h10 và 19h10 đến 20h00), các học phần thường không có thời khóa biểu trong những tiết này."
 
-   utter_cau_2.76:
+  utter_cau_2.76:
   - text: "Sinh viên có thể đăng ký học thêm chương trình khác để lấy thêm văn bằng thứ hai."
 
-   utter_cau_2.77:
+  utter_cau_2.77:
   - text: "Sinh viên được đăng ký học CTĐT thứ hai khi sinh viên và Trường thỏa mãn các điều kiện sau đây: \n\n
           \t1. Ngành đào tạo ở chương trình thứ hai phải khác ngành đào tạo ở chương trình thứ nhất\n\n
           \t2. Đối với SV Khóa 46 về trước, SV phải hoàn thành HK đầu tiên và có ĐTBCTL từ 2.0 trở lên.\n\n
@@ -709,7 +709,7 @@ responses:
           \t\t3.2 Có ĐTBCTL từ 2.0 trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh (điểm chuẩn và các điều kiện khác nếu có)\n\n
           \t4. Khoa/Trường quản lý chương trình thứ hai còn khả năng tiếp nhận thêm SV."
 
-   utter_cau_2.78:
+  utter_cau_2.78:
   - text: "Sinh viên có thể đăng ký học CTĐT thứ hai như sau:\n\n
           \t1. Sinh viên đăng ký học chương trình thứ hai vào đầu mỗi HK chính (theo thông báo của Trường)\n\n
           \t2. Khi có quyết định chấp thuận, SV tự nghiên cứu CTĐT của chương trình thứ hai và bổ sung các học phần phải học vào KHHTTK để đăng ký học phần\n\n
@@ -723,10 +723,10 @@ responses:
           \t5. Trong quá trình học, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện.\n\n
           \t6. SV chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
-   utter_cau_2.79:
+  utter_cau_2.79:
   - text: "Các học phần trùng lặp đã tích lũy sẽ được xem xét miễn khi học CTĐT mới, sinh viên không cần học lại nếu được chấp thuận."
 
-   utter_cau_2.80:
+  utter_cau_2.80:
   - text: "Khi đăng ký học chương trình đào tạo thứ hai, sinh viên cần lưu ý những điểm sau:\n\n
           \t1. Sinh viên học cùng lúc 2 chương trình chi được hưởng các chế độ quyền lợi đối với chương trình thứ nhất.\n\n
           \t2. Tổng số TC SV học cùng lúc 2 chương trình được phép đăng ký  tối đa  ở HK chính là 25 TC/HK và phụ là 8 TC/HK.\n\n
@@ -735,13 +735,13 @@ responses:
           \t5. Trong quá trình học, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện.\n\n
           \t6. SV chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
-   utter_cau_2.81:
+  utter_cau_2.81:
   - text: "Thời gian tối đa được phép học đối với SV học cùng lúc 2 chương trình là thời gian tối đa quy định đối với chương trình thứ nhất."
   
-   utter_cau_2.82:
+  utter_cau_2.82:
   - text: "Trong quá trình học CTĐT thứ hai, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện."
 
-   utter_cau_2.83:
+  utter_cau_2.83:
   - text: "Sinh viên chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
 
