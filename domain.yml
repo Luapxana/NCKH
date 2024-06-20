@@ -154,6 +154,19 @@ intents:
   - cau_2.68
   - cau_2.69
   - cau_2.70
+  - cau_2.71
+  - cau_2.72
+  - cau_2.73
+  - cau_2.74
+  - cau_2.75
+  - cau_2.76
+  - cau_2.77
+  - cau_2.78
+  - cau_2.79
+  - cau_2.80
+  - cau_2.81
+  - cau_2.82
+  - cau_2.83
 actions:
   - whoami
   - action_thanks
@@ -327,7 +340,7 @@ responses:
     - Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n\n
     - HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;\n\n
     - Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n\n"
-#1.41 - 1.60
+#1.41 - 1.61
   utter_cau_1.41:
   - text: "Điều kiện của các mức học bổng:\n\n
   - Xuất sắc: Có ĐTBCHK và ĐRL đạt loại xuất sắc.\n\n
@@ -387,23 +400,23 @@ responses:
 
   utter_cau_1.56:
   - text: "Sinh viên từ khóa 46 về trước được xem xét chuyển cơ sở đào tạo khi có đủ các điều kiện sau:\n\n
-- Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập.\n\n
-- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.\n\n
-- Nơi chuyển đến có đủ các điều kiện đảm bảo chất lượng, chưa  vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
-- Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.\n\n
-\n\n
-Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
-- Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
-- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
-- Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
-- Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
+  - Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập.\n\n
+  - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.\n\n
+  - Nơi chuyển đến có đủ các điều kiện đảm bảo chất lượng, chưa  vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
+  - Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.\n\n
+  \n\n
+  Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
+  - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
+  - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
+  - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
+  - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
 
   utter_cau_1.57:
   - text: "Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
-- Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
-- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
-- Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
-- Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
+  - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
+  - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
+  - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
+  - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
 
   utter_cau_1.58:
   - text: "Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa của Trường nếu còn đủ thời gian học tập theo quy định đối với hình thức chuyển đến và được sự đồng ý của Hiệu trưởng."
@@ -622,7 +635,7 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
   
   utter_cau_2.60:
   - text: "Vắng nhiều hơn thời gian quy định sẽ bị cấm thi và điểm F."
-#2.61.1 - 2.81
+#2.61.1 - 2.83
   utter_cau_2.61.1:
   - text: " Thời gian bắt đầu và kết thúc các tiết học: \n\n
             \tTiết 1 bắt đầu từ 7h00 - 7h50\n\n
@@ -668,6 +681,69 @@ Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học m�
     \tGiữa tiết 2 - 3\n\n
     \tGiữa tiết 3 - 4\n\n
     \tGiữa tiết 7 - 8."
+  
+   utter_cau_2.71:
+  - text: "Thời gian học buổi sáng là từ 7h00 đến 11h30."
+
+   utter_cau_2.72:
+  - text: "Thời gian học buổi chiều là từ 13h30 đến 17h00."
+
+   utter_cau_2.73:
+  - text: "Một tuần có 6 ngày học từ Thứ hai đến Thứ bảy."
+
+   utter_cau_2.74:
+  - text: "Buổi học đầu tiên là buổi GV thông báo đề cương chi tiết học phần."
+
+   utter_cau_2.75:
+  - text: "Buổi tối có 2 tiết (18h20 - 19h10 và 19h10 đến 20h00), các học phần thường không có thời khóa biểu trong những tiết này."
+
+   utter_cau_2.76:
+  - text: "Sinh viên có thể đăng ký học thêm chương trình khác để lấy thêm văn bằng thứ hai."
+
+   utter_cau_2.77:
+  - text: "Sinh viên được đăng ký học CTĐT thứ hai khi sinh viên và Trường thỏa mãn các điều kiện sau đây: \n\n
+          \t1. Ngành đào tạo ở chương trình thứ hai phải khác ngành đào tạo ở chương trình thứ nhất\n\n
+          \t2. Đối với SV Khóa 46 về trước, SV phải hoàn thành HK đầu tiên và có ĐTBCTL từ 2.0 trở lên.\n\n
+          \t3. Đối với SV Khóa 47 về sau, SV được xếp trình độ năm thứ hai của chương trình thứ nhất và đáp ứng 1 trong 2 điều kiện:\n\n
+          \t\t3.1 Có ĐTBCTL từ 2.5 trở lên và đáp ứng ngưỡng đảm bảo chất lượng của chương trình thứ hai trong năm tuyển sinh (điểm sàn và các điều kiện khác nếu có)\n\n
+          \t\t3.2 Có ĐTBCTL từ 2.0 trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh (điểm chuẩn và các điều kiện khác nếu có)\n\n
+          \t4. Khoa/Trường quản lý chương trình thứ hai còn khả năng tiếp nhận thêm SV."
+
+   utter_cau_2.78:
+  - text: "Sinh viên có thể đăng ký học CTĐT thứ hai như sau:\n\n
+          \t1. Sinh viên đăng ký học chương trình thứ hai vào đầu mỗi HK chính (theo thông báo của Trường)\n\n
+          \t2. Khi có quyết định chấp thuận, SV tự nghiên cứu CTĐT của chương trình thứ hai và bổ sung các học phần phải học vào KHHTTK để đăng ký học phần\n\n
+          \t3. Sau khi tốt nghiệp chương trình thứ nhất, SV được chuyển về Khoa/Trường quản lý chương trình thứ hai để quản lý và được bố trí CVHT mới. Khoa/Trường quản lý chương trình thứ hai sẽ xét các học phần của CTĐT thứ hai SV được miễn do SV đã tích lũy ở CTĐT thứ nhất và SV sẽ xây dựng KHHTTK của CTĐT thứ hai dưới sự hướng dẫn của CVHT mới.\n\n
+          \n\n
+          Khi đăng ký học chương trình đào tạo thứ hai, sinh viên cũng cần lưu ý những điểm sau:\n\n
+          \t1. Sinh viên học cùng lúc 2 chương trình chi được hưởng các chế độ quyền lợi đối với chương trình thứ nhất.\n\n
+          \t2. Tổng số TC SV học cùng lúc 2 chương trình được phép đăng ký  tối đa  ở HK chính là 25 TC/HK và phụ là 8 TC/HK.\n\n
+          \t3. Thời gian tối đa được phép học đối với SV học cùng lúc 2 chương trình là thời gian tối đa quy định đối với chương trình thứ nhất.\n\n
+          \t4. Khi học chương trình thứ hai, sinh viên được công nhận kết quả những học phần có nội dung và khối lượng kiến thức tương tương trong chương trình thứ nhất.\n\n
+          \t5. Trong quá trình học, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện.\n\n
+          \t6. SV chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
+
+   utter_cau_2.79:
+  - text: "Các học phần trùng lặp đã tích lũy sẽ được xem xét miễn khi học CTĐT mới, sinh viên không cần học lại nếu được chấp thuận."
+
+   utter_cau_2.80:
+  - text: "Khi đăng ký học chương trình đào tạo thứ hai, sinh viên cần lưu ý những điểm sau:\n\n
+          \t1. Sinh viên học cùng lúc 2 chương trình chi được hưởng các chế độ quyền lợi đối với chương trình thứ nhất.\n\n
+          \t2. Tổng số TC SV học cùng lúc 2 chương trình được phép đăng ký  tối đa  ở HK chính là 25 TC/HK và phụ là 8 TC/HK.\n\n
+          \t3. Thời gian tối đa được phép học đối với SV học cùng lúc 2 chương trình là thời gian tối đa quy định đối với chương trình thứ nhất.\n\n
+          \t4. Khi học chương trình thứ hai, sinh viên được công nhận kết quả những học phần có nội dung và khối lượng kiến thức tương tương trong chương trình thứ nhất.\n\n
+          \t5. Trong quá trình học, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện.\n\n
+          \t6. SV chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
+
+   utter_cau_2.81:
+  - text: "Thời gian tối đa được phép học đối với SV học cùng lúc 2 chương trình là thời gian tối đa quy định đối với chương trình thứ nhất."
+  
+   utter_cau_2.82:
+  - text: "Trong quá trình học CTĐT thứ hai, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện."
+
+   utter_cau_2.83:
+  - text: "Sinh viên chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
+
 
 session_config:
   session_expiration_time: 60

@@ -1009,3 +1009,93 @@ nlu:
     - Một buổi học có mấy giờ nghỉ?
     - Các giờ nghỉ giữa buổi học
     - Có giờ nghỉ trong buổi học không?
+
+- intent: cau_2.71
+  examples: |
+    - Buổi sáng học đến mấy giờ?
+    - Thời gian học của buổi sáng
+    - Buổi sáng học lúc mấy giờ?
+    - Mấy giờ bắt đầu giờ học buổi sáng?
+
+- intent: cau_2.72
+  examples: |
+    - Buổi chiều học đến mấy giờ?
+    - Thời gian học của buổi chiều
+    - Buổi chiều học lúc mấy giờ?
+    - Mấy giờ bắt đầu giờ học buổi chiều?
+
+- intent: cau_2.73
+  examples: |
+    - Một tuần học có bao nhiêu ngày?
+    - Có bao nhiêu ngày học trong tuần?
+    - Một tuần học vào những ngày nào?
+    - Các ngày học trong tuần
+    - Tuần học có bao gồm thứ bảy không?
+    - Tuần học có bao gồm chủ nhật không?
+    - Thứ bảy chủ nhật có phải học không?
+
+- intent: cau_2.74
+  examples: |
+    - Buổi học đầu tiên có học không?
+    - Buổi học đầu tiên có quan trọng không?
+    - Có học vào buổi học đầu tiên không?
+    - Nội dung buổi học đầu tiên của học phần
+    - Buổi học đầu tiên của học phần cần chuẩn bị gì?
+
+- intent: cau_2.75
+  examples: |
+    - Buổi tối có mấy tiết?
+    - Có mấy tiết buổi tối?
+    - Thời gian học buổi tối
+
+- intent: cau_2.76
+  examples: |
+    - Có thể học 2 ngành cùng lúc không?
+    - Có thể học cùng lúc 2 ngành không?
+    - Đăng ký học thêm ngành khác được không?
+
+- intent: cau_2.77
+  examples: |
+    - Điều kiện để học 2 ngành là gì?
+    - Học ngành 2 cần những điều kiện nào?
+    - Muốn học ngành 2 cần thỏa mãn điều gì?
+
+- intent: cau_2.78
+  examples: |
+    - Xin học cùng lúc 2 ngành như thế nào?
+    - Cách xin học cùng lúc 2 ngành
+    - Cách xin học ngành 2
+    - Quy trình xin học ngành 2
+    - Các bước xin học ngành 2
+
+- intent: cau_2.79
+  examples: |
+    - Có cần học lại các HP trùng khi học ngành mới không?
+    - Học ngành mới có cần học lại các học phần trùng với học phần đã học không?
+
+- intent: cau_2.80
+  examples: |
+    - Những điều cần lưu ý khi học 2 chương trình?
+    - Khi học 2 chương trình cần lưu ý những gì?
+
+- intent: cau_2.81
+  examples: |
+    - Thời gian tối đa học ngành 2?
+    - Được phép học ngành 2 đến khi nào?
+    - Có giới hạn thời gian học ngành 2 hay không?
+
+- intent: cau_2.82
+  examples: | 
+    - Điểm trung bình dưới 2 thì có còn được học ngành 2 không?
+    - Trường hợp nào phải tạm dừng học ngành 2?
+    - Khi nào thì không được phép học tiếp ngành 2?
+    - Có trường hợp phải tạm dừng học ngành 2 không?
+    - Khi nào thì được học tiếp ngành 2?
+    - Khi nào thì bị loại khỏi danh sách chương trình đào tạp thứ hai?
+    - Có thể đăng ký học lại ngành 2 nếu bị loại không?
+
+- intent: cau_2.83
+  examples: |
+    - Khi nào được công nhận tốt nghiệp ngành 2?
+    - Khi nào được công nhận tốt nghiệp chương trình đào tạo thứ hai?
+    - Có điều kiện nào thêm khi muốn xét tốt nghiệp ngành 2 không?
