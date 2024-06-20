@@ -787,3 +787,108 @@ rules:
   steps:
   - intent: cau_2.83
   - action: utter_cau_2.83
+
+- rule: Cau_4.1
+  steps:
+  - intent: cau_4.1
+  - action: utter_cau_4.1
+
+- rule: Cau_4.2
+  steps:
+  - intent: cau_4.2
+  - action: utter_cau_4.2
+
+- rule: Cau_4.3
+  steps:
+  - intent: cau_4.3
+  - action: utter_cau_4.3
+
+- rule: Cau_4.4
+  steps:
+  - intent: cau_4.4
+  - action: utter_cau_4.4
+
+- rule: Cau_4.5
+  steps:
+  - intent: cau_4.5
+  - action: utter_cau_4.5
+
+- rule: Cau_4.6
+  steps:
+  - intent: cau_4.6
+  - action: utter_cau_4.6
+
+- rule: Cau_4.7
+  steps:
+  - intent: cau_4.7
+  - action: utter_cau_4.7
+
+- rule: Cau_4.8
+  steps:
+  - intent: cau_4.8
+  - action: utter_cau_4.8
+
+- rule: Cau_4.9
+  steps:
+  - intent: cau_4.9
+  - action: utter_cau_4.9
+
+- rule: Cau_4.10
+  steps:
+  - intent: cau_4.10
+  - action: utter_cau_4.10
+
+- rule: Cau_4.11
+  steps:
+  - intent: cau_4.11
+  - action: utter_cau_4.11
+
+- rule: Cau_4.12
+  steps:
+  - intent: cau_4.12
+  - action: utter_cau_4.12
+
+- rule: Cau_4.13
+  steps:
+  - intent: cau_4.13
+  - action: utter_cau_4.13
+
+- rule: Cau_4.14
+  steps:
+  - intent: cau_4.14
+  - action: utter_cau_4.14
+
+- rule: Cau_4.15
+  steps:
+  - intent: cau_4.15
+  - action: utter_cau_4.15
+
+- rule: Cau_4.16
+  steps:
+  - intent: cau_4.16
+  - action: utter_cau_4.16
+
+- rule: Cau_4.17
+  steps:
+  - intent: cau_4.17
+  - action: utter_cau_4.17
+
+- rule: Cau_4.18
+  steps:
+  - intent: cau_4.18
+  - action: utter_cau_4.18
+
+- rule: Cau_4.19
+  steps:
+  - intent: cau_4.19
+  - action: utter_cau_4.19
+
+- rule: Cau_4.20
+  steps:
+  - intent: cau_4.20
+  - action: utter_cau_4.20
+
+- rule: Cau_4.21
+  steps:
+  - intent: cau_4.21
+  - action: utter_cau_4.21

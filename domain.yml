@@ -167,6 +167,27 @@ intents:
   - cau_2.81
   - cau_2.82
   - cau_2.83
+  - cau_4.1
+  - cau_4.2
+  - cau_4.3
+  - cau_4.4
+  - cau_4.5
+  - cau_4.6
+  - cau_4.7
+  - cau_4.8
+  - cau_4.9
+  - cau_4.10
+  - cau_4.11
+  - cau_4.12
+  - cau_4.13
+  - cau_4.14
+  - cau_4.15
+  - cau_4.16
+  - cau_4.17
+  - cau_4.18
+  - cau_4.19
+  - cau_4.20
+  - cau_4.21
 actions:
   - whoami
   - action_thanks
@@ -744,6 +765,82 @@ responses:
   utter_cau_2.83:
   - text: "Sinh viên chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
+#chương 4
+
+  utter_cau_4.1:
+  - text: "Có các hình thức xét tốt nghiệp: luận văn tốt nghiệp, tiểu luận tốt nghiệp hoặc tích lũy đủ số TC, hình thức tốt nghiệp cụ thể theo quy định tùy theo tính chất của ngành đào tạo."
+
+  utter_cau_4.2:
+  - text: "Sau khi hoàn thành luận văn, SV bảo vệ trước hội đồng gồm 3 thành viên bao gồm cán bộ hướng dẫn, hội đồng sẽ do trưởng Khoa quyết định. Điểm của LVTN là điểm trung bình cộng của 3 thành viên hội đồng. Có thể đánh giá tập trung tại Trường hoặc trực tuyến tùy trường hợp."
+  
+  utter_cau_4.3:
+  - text: "Tiểu luận tốt nghiệp là hình thức xét tốt nghiệp trong đó sẽ do cán bộ hướng dẫn và 1 cán bộ khác do trưởng Khoa quyết định chấm và không phải bảo vệ trước hội đồng."
+  
+  utter_cau_4.4:
+  - text: "SV phải có đủ các điều kiện sau đây mới được xét tốt nghiệp:\n\n
+    \tTích lũy đủ các học phần và số tín chỉ quy định trong CTĐT; ĐTBCTL của các học phần đạt từ 2.0 trở lên (theo thang điểm 4); đạt chuẩn đầu ra của chương trình đào tạo (kể cả ngoại ngữ và công nghệ thông tin)\n\n
+    \tHoàn thành các học phần điều kiện, ĐTB chung của các học phần GDQP&AN từ 5.0 trở lên (theo thang điểm 10)\n\n
+    \tTại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự, không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập."
+
+  utter_cau_4.5:
+  - text: "Trường xét tốt nghiệp vào tháng 1, 6 và tháng 8 hằng năm, SV được nhận bằng tốt nghiệp 30 ngày từ ngày có quyết định tốt nghiệp."
+
+  utter_cau_4.6:
+  - text: "Lễ trao bằng tốt nghiệp tổ chức vào tháng 4 và tháng 9 hằng năm, các Khoa có đào tạo giáo viên tổ chức vào tháng 8 hằng năm."
+
+  utter_cau_4.7:
+  - text: "SV đăng ký xét tốt nghiệp thông qua hệ thống quản lý của Trường"
+
+  utter_cau_4.8:
+  - text: "SV truy cập htql để đăng ký xét tốt nghiệp theo hướng dẫn\n\n
+          Hội đồng xét tốt nghiệp đúng thời hạn và đề nghị lên Hiệu trưởng\n\n
+          Phòng Đào tạo và Phòng Công tác Sinh viên thẩm định quá trình và trình ký Hiệu trưởng\n\n
+          SV đủ điều kiện tốt nghiệp nhận quyết định công nhận tốt nghiệp, bằng tốt nghiệp và phụ lục văn bằng tốt nghiệp, SV nộp các chi phí nếu có yêu cầu."
+
+  utter_cau_4.9:
+  - text: "Khi học tập quá thời hạn, sinh viên không đủ điều kiện tốt nghiệp sẽ bị xóa tên, buộc thôi học, trừ SV được ưu tiên theo quy định."
+
+  utter_cau_4.10:
+  - text: "SV được phép hoàn thiện các học phần trên trong 5 năm kể từ thời điểm hết thời gian đối với SV khóa 46 về trước và 3 năm kể từ thời điểm hết thời gian đối với SV Khóa 47 về sau. Khi hết thời gian đó SV sẽ bị xóa tên."
+
+  utter_cau_4.11:
+  - text: "SV có thời gian 3 năm kể từ khi thôi học để hoàn thành các chuẩn đầu ra, qua thời gian đó sinh viên sẽ bị xóa tên."
+
+  utter_cau_4.12:
+  - text: "Sinh viên không đủ điều kiện tốt nghiệp được Trường bảo lưu, công nhận kết quả học tập đã tích lũy và cấp bảng điểm các học phần đã tích lũy."
+
+  utter_cau_4.13:
+  - text: "SV hết thời gian học chính quy được chuyển qua hình thức vừa làm vừa học, đào tạo từ xa tương ứng (nếu có) nếu còn trong thời gian học tập theo quy định đối với hình thức đào tạo chuyển đến. Trường hợp khác không được học lại."
+
+  utter_cau_4.14:
+  - text: "Các hạng tốt nghiệp được xác định căn cứ vào ĐTBCTL như sau:\n\n
+    \tLoại xuất sắc: từ 3.6 đến 4.0\n\n
+    \tLoại giỏi: từ 3.2 đến 3.59\n\n
+    \tLoại khá: từ 2.50 đến 3.19\n\n
+    \tLoại trung bình: từ 2.00 đến 2.49"
+
+  utter_cau_4.15:
+  - text: "Để đạt tốt nghiệp loại xuất sắc, sinh viên phải có điểm trung bình chung tích lũy từ 3.6 đến 4.0 và không nằm trong các trường hợp giảm mức tốt nghiệp."
+
+  utter_cau_4.16:
+  - text: "Để đạt tốt nghiệp loại giỏi, sinh viên phải có điểm trung bình chung tích lũy từ 3.2 đến 3.59 và không nằm trong các trường hợp giảm mức tốt nghiệp."
+
+  utter_cau_4.17:
+  - text: "Để đạt tốt nghiệp loại khá, sinh viên phải có điểm trung bình chung tích lũy từ 2.50 đến 3.19."
+
+  utter_cau_4.18:
+  - text: "Để đạt tốt nghiệp loại trung bình, sinh viên phải có điểm trung bình chung tích lũy từ 2.00 đến 2.49."
+
+  utter_cau_4.19:
+  - text: "Các hạng xuất sắc và giỏi sẽ bị hạ một mức tốt nghiệp trong các trường hợp sau:\n\n
+    \tCó khối lượng học phần bị điểm F quá 5% tổng số TC quy định của CTĐT (không tính học phần đã cải thiện)\n\n
+    \tBị kỷ luật ở mức cảnh cáo cấp Trường trong thời gian học."
+
+  utter_cau_4.20:
+  - text: "Sinh viên liên hệ Khoa/Trường quản lý ngành sau khi nhận quyết định tốt nghiệp"
+
+  utter_cau_4.21:
+  - text: "Có thể nộp đơn cho Phòng Đào tạo để đề nghị cấp bản sao bằng tốt nghiệp, bản chính chỉ cấp 1 lần duy nhất."
 
 session_config:
   session_expiration_time: 60

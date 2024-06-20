@@ -1099,3 +1099,139 @@ nlu:
     - Khi nào được công nhận tốt nghiệp ngành 2?
     - Khi nào được công nhận tốt nghiệp chương trình đào tạo thứ hai?
     - Có điều kiện nào thêm khi muốn xét tốt nghiệp ngành 2 không?
+
+- intent: cau_4.1
+  examples: |
+    - Có những hình thức xét tốt nghiệp nào?
+    - Các hình thức xét tốt nghiệp
+    - Có bao nhiêu cách để tốt nghiệp?
+
+- intent: cau_4.2
+  examples: |
+    - Bảo vệ luận văn như thế nào?
+    - Hình thức bảo vệ luận văn
+    - Bảo vệ luận văn là gì?
+
+- intent: cau_4.3
+  examples: |
+    - Tiểu luận tốt nghiệp là gì?
+    - Thông tin về tiểu luận tốt nghiệp
+    - Khái niệm tiểu luận tốt nghiệp
+
+- intent: cau_4.4
+  examples: |
+    - Các điều kiện để tốt nghiệp là gì?
+    - Tốt nghiệp cần những điều kiện gì
+    - Muốn tốt nghiệp phải thỏa mãn những gì?
+    - Các điều kiện để xin xét tốt nghiệp
+
+- intent: cau_4.5
+  examples: |
+    - Thời điểm nào thì được xét tốt nghiệp?
+    - Thời điểm xét tốt nghiệp
+    - Xét tốt nghiệp vào thời điểm nào
+    - Muốn xin xét tốt nghiệp phải đợi đến khi nào?
+
+- intent: cau_4.6
+  examples: |
+    - Lễ trao bằng tốt nghiệp thường tổ chức vào thời gian nào?
+    - Thời gian tổ chức lễ tốt nghiệp
+    - Lễ tốt nghiệp thường diễn ra khi nào?
+    - Tháng nào có lễ tốt nghiệp?
+
+- intent: cau_4.7
+  examples: |
+    - Đăng ký xét tốt nghiệp ở đâu?
+    - Đăng ký xét tốt nghiệp thông qua đâu
+    - Nơi đăng ký xét tốt nghiệp
+    - Xin xét tốt nghiệp ở đâu?
+
+- intent: cau_4.8
+  examples: |
+    - Quy trình xét tốt nghiệp?
+    - Quá trình xét tốt nghiệp
+    - Quá trình xét tốt nghiệp như thế nào
+    - Các bước xét tốt nghiệp
+
+- intent: cau_4.9
+  examples: |
+    - Sinh viên học tập quá thời gian thì bị xử lý như thế nào?
+    - Hình thức xử lý sinh viên khi học tập quá hạn
+    - Học tập quá hạn thì bị hậu quả gì?
+
+- intent: cau_4.10
+  examples: |
+    - Nợ GDQP, GDTC thì có bị xóa tên không?
+    - Sinh viên có được phép hoàn thiện GDQP/GDTC sau khi hêt hết thời gian học không
+    - Thời hạn nợ các học phần giáo dục quốc phòng, giáo dục thể chất?
+    - Nợ thể chất thì như thế nào?
+    - Nợ quốc phòng thì khi nào bị xóa tên?
+    - Nợ thể chất có bị xóa tên không?
+    - Nợ quốc phòng có bị đuổi học không?
+
+- intent: cau_4.11
+  examples: |
+    - Không đủ chuẩn ngoại ngữ, công nghệ thông tin thì có bị xóa tên không?
+    - Sinh viên có được hoàn thành các chuẩn đầu ra sau khi hết thời gian học không
+    - Nợ chứng chỉ ngoại ngữ có bị xóa tên không?
+    - Thời hạn nợ chứng chỉ ngoại ngữ.
+
+- intent: cau_4.12
+  examples: |
+    - Không đủ điều kiện tốt nghiệp thì có bị xóa kết quả học tập không?
+    - Kết quả học tập sẽ như thế nào nếu sinh viên không đủ điều kiện tốt nghiệp
+    - Có thể bảo lưu kết quả học tập nếu chưa tốt nghiệp hay không
+
+- intent: cau_4.13
+  examples: |
+    - Hết thời gian học thì có được học chương trình khác không?
+    - Có được học chương trình khác nếu hết thời gian học không?
+
+- intent: cau_4.14
+  examples: |
+    - Các hạng tốt nghiệp?
+    - Các hạng tốt nghiệp căn cứ vào đâu
+    - Căn cứ vào đâu để xét hạng tốt nghiệp
+
+- intent: cau_4.15
+  examples: |
+    - Điều kiện tốt nghiệp loại xuất sắc?
+    - Tốt nghiệp loại xuất sắc cần điều kiện gì?
+    - Bao nhiêu điểm thì tốt nghiệp loại xuất sắc?
+
+- intent: cau_4.16
+  examples: |
+    - Điều kiện tốt nghiệp loại giỏi?
+    - Tốt nghiệp loại giỏi cần điều kiện gì?
+    - Bao nhiêu điểm thì tốt nghiệp loại giỏi?
+
+- intent: cau_4.17
+  examples: |
+    - Điều kiện tốt nghiệp loại khá?
+    - Tốt nghiệp loại khá cần điều kiện gì?
+    - Bao nhiêu điểm thì tốt nghiệp loại khá?
+
+- intent: cau_4.18
+  examples: |
+    - Điều kiện tốt nghiệp loại trung bình?
+    - Tốt nghiệp loại trung bình cần điều kiện gì?
+    - Bao nhiêu điểm thì tốt nghiệp loại trung bình?
+
+- intent: cau_4.19 
+  examples: |
+    - Các trường hợp nào thì bị hạ một mức tốt nghiệp?
+    - Bị hạ một mức tốt nghiệp khi nào
+    - Trường hợp bị hạ bậc tốt nghiệp
+
+- intent: cau_4.20
+  examples: |
+    - Quy trình, thủ tục ra trường
+    - Sinh viên liên hệ ai sau khi nhận quyết định tốt nghiệp
+    - Các bước thực hiện thủ tục ra trường
+    - Làm gì để xin ra trường?
+
+- intent: cau_4.21
+  examples: |
+    - Sau này có thể xin lại bằng tốt nghiệp khi bị mất/ hỏng hay không?
+    - Cách xin lại bằng tốt nghiệp khi bị hỏng/mất
+    - Nộp đơn xin cấp lại bằng tốt nghiệp cho ai?
