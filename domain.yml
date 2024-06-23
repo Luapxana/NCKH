@@ -167,6 +167,7 @@ intents:
   - cau_2.81
   - cau_2.82
   - cau_2.83
+#chuong 4
   - cau_4.1
   - cau_4.2
   - cau_4.3
@@ -188,6 +189,98 @@ intents:
   - cau_4.19
   - cau_4.20
   - cau_4.21
+#chuong 3
+    - cau_3.1
+    - cau_3.2
+    - cau_3.3
+    - cau_3.4
+    - cau_3.5
+    - cau_3.6
+    - cau_3.7
+    - cau_3.8
+    - cau_3.9
+    - cau_3.10
+    - cau_3.11
+    - cau_3.12
+    - cau_3.13
+    - cau_3.14
+    - cau_3.15
+    - cau_3.16
+    - cau_3.17
+    - cau_3.18
+    - cau_3.19
+    - cau_3.20
+    - cau_3.21
+    - cau_3.22
+    - cau_3.23
+    - cau_3.24
+    - cau_3.25
+    - cau_3.26
+    - cau_3.27
+    - cau_3.28
+    - cau_3.29
+    - cau_3.30
+    - cau_3.31
+    - cau_3.32
+    - cau_3.33
+    - cau_3.34
+    - cau_3.35
+    - cau_3.36
+    - cau_3.37
+    - cau_3.38
+    - cau_3.39
+    - cau_3.40
+    - cau_3.41
+    - cau_3.42
+    - cau_3.43
+    - cau_3.44
+    - cau_3.45
+    - cau_3.46
+    - cau_3.47
+    - cau_3.48
+    - cau_3.49
+    - cau_3.50
+    - cau_3.51
+    - cau_3.52
+    - cau_3.53
+    - cau_3.54
+    - cau_3.55
+    - cau_3.56
+    - cau_3.57
+    - cau_3.58
+    - cau_3.59
+    - cau_3.60
+    - cau_3.61
+    - cau_3.62
+    - cau_3.63
+    - cau_3.64
+    - cau_3.65
+    - cau_3.66
+    - cau_3.67
+    - cau_3.68
+    - cau_3.69
+    - cau_3.70
+    - cau_3.71
+    - cau_3.72
+    - cau_3.73
+    - cau_3.74
+    - cau_3.75
+    - cau_3.76
+    - cau_3.81
+    - cau_3.82
+    - cau_3.83
+    - cau_3.84
+    - cau_3.85
+    - cau_3.86
+    - cau_3.87
+    - cau_3.88
+    - cau_3.89
+    - cau_3.90
+    - cau_3.91
+    - cau_3.92
+    - cau_3.93
+    - cau_3.94
+    - cau_3.95
 actions:
   - whoami
   - action_thanks
@@ -841,6 +934,280 @@ responses:
 
   utter_cau_4.21:
   - text: "Có thể nộp đơn cho Phòng Đào tạo để đề nghị cấp bản sao bằng tốt nghiệp, bản chính chỉ cấp 1 lần duy nhất."
+#chuong 4
+  utter_cau_3.1:
+    - text: "Học phần được đánh giá dựa trên các tiêu chí: điểm bài tập, điểm kiểm tra giữa kỳ, điểm thực hành, điểm đánh giá nhận thức, điểm tham gia thảo luận, điểm chuyên cần, điểm đồ án, và điểm thi kết thúc học phần."
+
+  utter_cau_3.2:
+    - text: "Có tối thiểu hai điểm thành phần."
+
+  utter_cau_3.3:
+    - text: "Hình thức đánh giá trực tuyến sẽ được áp dụng khi đảm bảo trung thực, công bằng và khách quan như đánh giá trực tiếp và đóng góp không quá 50% trọng số điểm học phần."
+
+  utter_cau_3.4:
+    - text: "Phương pháp đánh giá mỗi học phần sẽ được GV đề xuất, trưởng bộ môn, trưởng khoa quyết định."
+
+  utter_cau_3.5:
+    - text: "Có thể áp dụng một điểm đánh giá học phần đối với các học phần có khối lượng nhỏ hơn 02 TC."
+
+  utter_cau_3.6:
+    - text: "Điểm thi kết thúc học phần phải có trọng số không dưới 50%."
+
+  utter_cau_3.7:
+    - text: "Hình thức bảo vệ, đánh giá trực tuyến phải có sự thông qua một hội đồng chuyên môn, sự đồng thuận của các thành viên hội đồng và người học, ghi hình, ghi âm và lưu trữ diễn biến buổi bảo vệ."
+
+  utter_cau_3.8:
+    - text: "- Giảng viên."
+
+  utter_cau_3.9:
+    - text: "- Sinh viên có thể đăng ký xin cấp bảng điểm học kỳ theo nhu cầu riêng của mình."
+
+  utter_cau_3.10:
+    - text: "Điểm cuối cùng của các học phần thực hành được tính bằng điểm trung bình của các bài thực hành."
+
+  utter_cau_3.11:
+    - text: "- Có các hình thức xử lý sau: khiển trách, cảnh cáo, đình chỉ thi, xử lý thi hộ."
+
+  utter_cau_3.12:
+    - text: "- Sinh viên bị khiển trách số lần nhất định trong một năm học sẽ bị kỷ luật cảnh cáo toàn Khoa."
+
+  utter_cau_3.13:
+    - text: "- Sinh viên loại giỏi có kết quả học tập đạt từ loại giỏi và rèn luyện đạt từ loại tốt trở lên."
+
+  utter_cau_3.14:
+    - text: "Khi đáp ứng các điều kiện như sự đồng thuận của hội đồng và người học, ghi hình và ghi âm đầy đủ."
+
+  utter_cau_3.15:
+    - text: "Giảng viên có trách nhiệm giải đáp thắc mắc của sinh viên và nhập điểm vào hệ thống quản lý trực tuyến."
+
+  utter_cau_3.16:
+    - text: "Mức điểm cần cho điểm A là 9.0 - 10."
+
+  utter_cau_3.17:
+    - text: "Mức điểm cần cho điểm B+ là 8.0 - 8.9."
+
+  utter_cau_3.18:
+    - text: "Mức điểm cần cho điểm B là 7.0 - 7.9."
+
+  utter_cau_3.19:
+    - text: "Mức điểm cần cho điểm C+ là 6.5 - 6.9."
+
+  utter_cau_3.20:
+    - text: "Mức điểm cần cho điểm C là 5.5 - 6.4."
+
+  utter_cau_3.21:
+    - text: "Mức điểm cần cho điểm D+ là 5.0 - 5.4"
+
+  utter_cau_3.22:
+    - text: "Mức điểm cho điểm D là 4.0 - 4.9"
+
+  utter_cau_3.23:
+    - text: "Mức điểm của điểm F là từ 0 đến nhỏ hơn 4 (3.9)"
+
+  utter_cau_3.24:
+    - text: "- Không, điểm M không được tính vào tổng số tín chỉ tích lũy của sinh viên."
+
+  utter_cau_3.25:
+    - text: "- Sinh viên cần làm đơn có ý kiến của cố vấn học tập và trưởng khoa xem xét, kèm theo giấy tờ hợp lệ."
+
+  utter_cau_3.26:
+    - text: "- Không, điểm I không được tính vào điểm trung bình chung học kỳ."
+
+  utter_cau_3.27:
+    - text: "- Sinh viên cần làm đơn kèm theo hồ sơ hợp lệ nộp cho giáo viên phụ trách học phần xem xét và trình trưởng khoa duyệt."
+
+  utter_cau_3.28:
+    - text: "- Thời hạn bổ sung điểm cho học phần được quy định không quá 1 năm kể từ ngày thi lần trước."
+
+  utter_cau_3.29:
+    - text: "- Không, điểm W không tính vào điểm trung bình chung học kỳ."
+
+  utter_cau_3.30:
+    - text: "- Sinh viên được phép rút học phần và nhận điểm W theo quy định được nêu trong Điều 15."
+
+  utter_cau_3.31:
+    - text: "- Điểm R được sử dụng để xác nhận sinh viên được miễn học phần do đã tích lũy được bằng các hình thức khác."
+
+  utter_cau_3.32:
+    - text: "- Ý kiến của cố vấn học tập và trưởng khoa sẽ được xem xét để quyết định việc nhận điểm M cho sinh viên."
+
+  utter_cau_3.33:
+    - text: "- Nếu quá thời hạn, nếu sinh viên không hoàn thành bổ sung điểm của học phần, họ sẽ bị điểm F."
+
+  utter_cau_3.34:
+    - text: "- Các lý do như ốm đau, tai nạn hoặc các trường hợp không thể tham dự buổi thi kết thúc học phần được chấp nhận để nhận điểm I."
+
+  utter_cau_3.35:
+    - text: "- Thời hạn bổ sung điểm của học phần được tính từ ngày thi lần trước."
+
+  utter_cau_3.36:
+    - text: "- Không, điểm M không ảnh hưởng đến điểm trung bình chung tích lũy."
+
+  utter_cau_3.37:
+    - text: "- Trưởng khoa là người duyệt đơn bổ sung điểm của sinh viên."
+
+  utter_cau_3.38:
+    - text: "- Điểm I được sử dụng trong các trường hợp sinh viên chưa hoàn thành đầy đủ yêu cầu của học phần."
+
+  utter_cau_3.39:
+    - text: "- Điểm W được ghi nhận như một ký hiệu riêng trên bảng điểm."
+
+  utter_cau_3.40:
+    - text: "- Học phần chỉ được tính tích lũy khi đạt từ điểm D trở lên."
+
+  utter_cau_3.41:
+    - text: "- Không, điểm M không tính vào điểm trung bình chung của học kỳ."
+
+  utter_cau_3.42:
+    - text: "- Sinh viên cần làm đơn kèm theo hồ sơ hợp lệ nộp cho giáo viên phụ trách học phần xem xét và trình trưởng khoa duyệt."
+
+  utter_cau_3.43:
+    - text: "- Không, điểm W không được tính vào điểm trung bình chung học kỳ."
+
+  utter_cau_3.44:
+    - text: "- Sinh viên được thông báo về lịch thi kết thúc học phần thông qua trang thông tin điện tử của Trường và thông báo trực tiếp từ giáo viên ít nhất 1 tuần trước ngày thi."
+
+  utter_cau_3.45:
+    - text: "- Thời gian tổ chức thi kết thúc học phần được thực hiện theo quy định và thông qua lịch công bố trên trang thông tin điện tử của Trường."
+
+  utter_cau_3.46:
+    - text: "- Lịch thi cho các học phần có nhiều sinh viên sẽ được quyết định và xếp lịch bởi Khoa quản lý học phần."
+
+  utter_cau_3.47:
+    - text: "- Sinh viên được phép vắng thi khi có lý do chính đáng và được cố vấn học tập cùng giáo viên giảng dạy học phần chấp thuận."
+
+  utter_cau_3.48:
+    - text: "- Điểm I sẽ được áp dụng khi sinh viên có lý do chính đáng và được chấp thuận để vắng thi kết thúc học phần."
+
+  utter_cau_3.49:
+    - text: "- Điểm trung bình chung học kỳ được tính bằng trung bình có trọng số của điểm các học phần mà sinh viên đã học trong học kỳ, với trọng số là số tín chỉ của từng học phần đó."
+
+  utter_cau_3.50:
+    - text: "- Điểm trung bình chung học kỳ là cơ sở để đánh giá kết quả học tập, xét học bổng, khen thưởng và cảnh báo học tập của sinh viên sau mỗi học kỳ."
+
+  utter_cau_3.51:
+    - text: "- Điểm trung bình chung học kỳ tính cả điểm các học phần bị điểm F."
+
+  utter_cau_3.52:
+    - text: "- Điểm trung bình chung học kỳ không tính điểm các học phần điều kiện."
+
+  utter_cau_3.53:
+    - text: "- Số tín chỉ tích lũy là tổng số tín chỉ của các học phần mà sinh viên đã tích lũy."
+
+  utter_cau_3.54:
+    - text: "- Thời gian thông báo lịch thi kết thúc học phần là ít nhất 1 tuần trước ngày thi."
+
+  utter_cau_3.55:
+    - text: "- Cố vấn học tập và giáo viên giảng dạy học phần sẽ quyết định cho phép sinh viên vắng thi và nhận điểm I."
+
+  utter_cau_3.56:
+    - text: "- Khoa quản lý học phần là người quyết định và xếp lịch thi cho các học phần có nhiều sinh viên."
+
+  utter_cau_3.57:
+    - text: "Để được xếp loại học tập xuất sắc, điểm trung bình chung học kỳ của sinh viên phải nằm trong khoảng từ 3.6 - 4.0"
+
+  utter_cau_3.58:
+    - text: "Để được xếp loại học tập giỏi, điểm trung bình chung học kỳ của sinh viên phải nằm trong khoảng từ 3.2 - 3.59"
+
+  utter_cau_3.59:
+    - text: "Để được xếp loại học tập khá, điểm trung bình chung học kỳ của sinh viên phải nằm trong khoảng từ 2.5 - 3.19"
+
+  utter_cau_3.60:
+    - text: "Khoảng điểm xếp loại sinh viên học tập mức trung bình là từ 2.0 - 2.49"
+
+  utter_cau_3.61:
+    - text: "Khoảng điểm xếp loại sinh viên học tập mức trung bình là từ 1.0 - 1.99"
+
+  utter_cau_3.62:
+    - text: "Khoảng điểm xếp loại sinh viên học tập mức kém là nhỏ hơn 1 (0 đến 0.9)"
+
+  utter_cau_3.63:
+    - text: "- Nếu sinh viên không tuân thủ quy định về thi và kiểm tra, họ sẽ bị xử lý kỷ luật theo quy định trong Điều 28, bao gồm khiển trách, cảnh cáo, đình chỉ thi hoặc đình chỉ học tập."
+
+  utter_cau_3.64:
+    - text: "- Nếu sinh viên nhìn bài của người khác, họ sẽ bị khiển trách và bị trừ 25% điểm số của lần thi/kiểm tra đó."
+
+  utter_cau_3.65:
+    - text: "- Nếu sinh viên bị khiển trách hai lần trong một năm học, họ sẽ bị kỷ luật cảnh cáo toàn Khoa."
+
+  utter_cau_3.66:
+    - text: "- Nếu sinh viên không mang theo thẻ sinh viên vào phòng thi, họ có thể không được phép dự thi và sẽ nhận điểm F cho học phần đó."
+
+  utter_cau_3.67:
+    - text: "- Nếu sinh viên sử dụng giấy nháp của người khác, họ sẽ bị cảnh cáo và bị trừ 50% điểm số của lần thi/kiểm tra đó."
+
+  utter_cau_3.68:
+    - text: "- Có ba loại xử lý được quy định: khiển trách, cảnh cáo và đình chỉ thi."
+
+  utter_cau_3.69:
+    - text: "- Nếu sinh viên ra khỏi phòng thi trong thời gian làm bài, họ có thể bị cảnh cáo hoặc đình chỉ thi, tùy thuộc vào mức độ vi phạm."
+
+  utter_cau_3.70:
+    - text: "- Nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi, họ có thể bị đình chỉ thi."
+
+  utter_cau_3.71:
+    - text: "- Nếu sinh viên được phát hiện sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi, họ có thể bị đình chỉ thi và nhận điểm 0 cho lần thi/kiểm tra đó."
+
+  utter_cau_3.72:
+    - text: "- Sinh viên đạt từ loại khá toàn khóa trở lên có thể được xét thủ khoa của ngành/chuyên ngành đào tạo và nhận giấy khen và phần thưởng."
+
+  utter_cau_3.73:
+    - text: "- Sinh viên đạt loại giỏi trở lên cuối mỗi năm học có thể được cấp giấy khen và phần thưởng từ Hiệu trưởng."
+
+  utter_cau_3.74:
+    - text: "- Sinh viên cần học tập và rèn luyện đạt loại xuất sắc để được xếp loại xuất sắc."
+
+  utter_cau_3.75:
+    - text: "- Nếu sinh viên vi phạm quy định về làm bài trên giấy thi không đúng quy định, bài thi của họ có thể không được chấm điểm."
+
+  utter_cau_3.76:
+    - text: "- Nếu sinh viên không có mặt đúng giờ vào phòng thi, họ có thể không được phép dự thi và sẽ nhận điểm F cho học phần đó."
+
+  utter_cau_3.81:
+    - text: "- Sinh viên cần học tập đạt từ loại xuất sắc và rèn luyện đạt từ loại xuất sắc trở lên để được xếp loại xuất sắc."
+
+  utter_cau_3.82:
+    - text: "- Sinh viên cần học tập đạt từ loại giỏi và rèn luyện đạt từ loại tốt trở lên để được xếp loại giỏi."
+
+  utter_cau_3.83:
+    - text: "- Nếu sinh viên bị vi phạm quy định về việc trao đổi giấy nháp trong quá trình thi, họ có thể bị cảnh cáo và bị trừ 50% điểm số của lần thi/kiểm tra đó."
+
+  utter_cau_3.84:
+    - text: "- Nếu sinh viên sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi, họ có thể bị đình chỉ thi và nhận điểm 0 cho lần thi/kiểm tra đó."
+
+  utter_cau_3.85:
+    - text: "- Nếu sinh viên vi phạm quy định về không tuân thủ sự quản lý, nhắc nhở của cán bộ coi thi, họ có thể bị cảnh cáo hoặc đình chỉ thi."
+
+  utter_cau_3.86:
+    - text: "- Sinh viên cần đạt từ loại khá toàn khóa trở lên để được xem xét làm thủ khoa của ngành/chuyên ngành đào tạo."
+
+  utter_cau_3.87:
+    - text: "- Nếu sinh viên ra khỏi phòng thi mà không lập biên bản, họ có thể bị cảnh cáo hoặc đình chỉ thi, tùy thuộc vào mức độ vi phạm."
+
+  utter_cau_3.88:
+    - text: "- Nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi, họ có thể bị đình chỉ thi."
+
+  utter_cau_3.89:
+    - text: "- Nếu sinh viên vi phạm quy định về việc không giữ trật tự trong giờ thi, họ có thể bị cảnh cáo hoặc đình chỉ thi."
+
+  utter_cau_3.90:
+    - text: "- Sinh viên cần học tập và rèn luyện đạt từ loại khá trở lên để được xếp loại khá."
+
+  utter_cau_3.91:
+    - text: "- Nếu sinh viên vi phạm quy định về việc không được ra khỏi phòng thi trong thời gian làm bài, họ có thể bị cảnh cáo hoặc đình chỉ thi."
+
+  utter_cau_3.92:
+    - text: "- Nếu sinh viên bị vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi, họ có thể bị đình chỉ thi."
+
+  utter_cau_3.93:
+    - text: "- Nếu sinh viên không tuân thủ quy định về việc giữ trật tự trong giờ thi, họ có thể bị cảnh cáo hoặc đình chỉ thi."
+
+  utter_cau_3.94:
+    - text: "- Nếu sinh viên vi phạm quy định về việc không được phép ra khỏi phòng thi mà không lập biên bản, họ có thể bị cảnh cáo hoặc đình chỉ thi."
+
+  utter_cau_3.95:
+    - text: "- Sinh viên cần được xếp loại giỏi trở lên để được khen thưởng cuối mỗi năm học từ Hiệu trưởng."
+
 
 session_config:
   session_expiration_time: 60
