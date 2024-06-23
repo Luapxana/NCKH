@@ -892,3 +892,461 @@ rules:
   steps:
   - intent: cau_4.21
   - action: utter_cau_4.21
+
+#chuong 3
+- rule: Cau_3.1
+  steps:
+  - intent: cau_3.1
+  - action: utter_cau_3.1
+
+- rule: Cau_3.2
+  steps:
+  - intent: cau_3.2
+  - action: utter_cau_3.2
+
+- rule: Cau_3.3
+  steps:
+  - intent: cau_3.3
+  - action: utter_cau_3.3
+
+- rule: Cau_3.4
+  steps:
+  - intent: cau_3.4
+  - action: utter_cau_3.4
+
+- rule: Cau_3.5
+  steps:
+  - intent: cau_3.5
+  - action: utter_cau_3.5
+
+- rule: Cau_3.6
+  steps:
+  - intent: cau_3.6
+  - action: utter_cau_3.6
+
+- rule: Cau_3.7
+  steps:
+  - intent: cau_3.7
+  - action: utter_cau_3.7
+
+- rule: Cau_3.8
+  steps:
+  - intent: cau_3.8
+  - action: utter_cau_3.8
+
+- rule: Cau_3.9
+  steps:
+  - intent: cau_3.9
+  - action: utter_cau_3.9
+
+- rule: Cau_3.10
+  steps:
+  - intent: cau_3.10
+  - action: utter_cau_3.10
+
+- rule: Cau_3.11
+  steps:
+  - intent: cau_3.11
+  - action: utter_cau_3.11
+
+- rule: Cau_3.12
+  steps:
+  - intent: cau_3.12
+  - action: utter_cau_3.12
+
+- rule: Cau_3.13
+  steps:
+  - intent: cau_3.13
+  - action: utter_cau_3.13
+
+- rule: Cau_3.14
+  steps:
+  - intent: cau_3.14
+  - action: utter_cau_3.14
+
+- rule: Cau_3.15
+  steps:
+  - intent: cau_3.15
+  - action: utter_cau_3.15
+
+- rule: Cau_3.16
+  steps:
+  - intent: cau_3.16
+  - action: utter_cau_3.16
+
+- rule: Cau_3.17
+  steps:
+  - intent: cau_3.17
+  - action: utter_cau_3.17
+
+- rule: Cau_3.18
+  steps:
+  - intent: cau_3.18
+  - action: utter_cau_3.18
+
+- rule: Cau_3.19
+  steps:
+  - intent: cau_3.19
+  - action: utter_cau_3.19
+
+- rule: Cau_3.20
+  steps:
+  - intent: cau_3.20
+  - action: utter_cau_3.20
+
+- rule: Cau_3.21
+  steps:
+  - intent: cau_3.21
+  - action: utter_cau_3.21
+
+- rule: Cau_3.22
+  steps:
+  - intent: cau_3.22
+  - action: utter_cau_3.22
+
+- rule: Cau_3.23
+  steps:
+  - intent: cau_3.23
+  - action: utter_cau_3.23
+
+- rule: Cau_3.24
+  steps:
+  - intent: cau_3.24
+  - action: utter_cau_3.24
+
+- rule: Cau_3.25
+  steps:
+  - intent: cau_3.25
+  - action: utter_cau_3.25
+
+- rule: Cau_3.26
+  steps:
+  - intent: cau_3.26
+  - action: utter_cau_3.26
+
+- rule: Cau_3.27
+  steps:
+  - intent: cau_3.27
+  - action: utter_cau_3.27
+
+- rule: Cau_3.28
+  steps:
+  - intent: cau_3.28
+  - action: utter_cau_3.28
+
+- rule: Cau_3.29
+  steps:
+  - intent: cau_3.29
+  - action: utter_cau_3.29
+
+- rule: Cau_3.30
+  steps:
+  - intent: cau_3.30
+  - action: utter_cau_3.30
+
+- rule: Cau_3.31
+  steps:
+  - intent: cau_3.31
+  - action: utter_cau_3.31
+
+- rule: Cau_3.32
+  steps:
+  - intent: cau_3.32
+  - action: utter_cau_3.32
+
+- rule: Cau_3.33
+  steps:
+  - intent: cau_3.33
+  - action: utter_cau_3.33
+
+- rule: Cau_3.34
+  steps:
+  - intent: cau_3.34
+  - action: utter_cau_3.34
+
+- rule: Cau_3.35
+  steps:
+  - intent: cau_3.35
+  - action: utter_cau_3.35
+
+- rule: Cau_3.36
+  steps:
+  - intent: cau_3.36
+  - action: utter_cau_3.36
+
+- rule: Cau_3.37
+  steps:
+  - intent: cau_3.37
+  - action: utter_cau_3.37
+
+- rule: Cau_3.38
+  steps:
+  - intent: cau_3.38
+  - action: utter_cau_3.38
+
+- rule: Cau_3.39
+  steps:
+  - intent: cau_3.39
+  - action: utter_cau_3.39
+
+- rule: Cau_3.40
+  steps:
+  - intent: cau_3.40
+  - action: utter_cau_3.40
+
+- rule: Cau_3.41
+  steps:
+  - intent: cau_3.41
+  - action: utter_cau_3.41
+
+- rule: Cau_3.42
+  steps:
+  - intent: cau_3.42
+  - action: utter_cau_3.42
+
+- rule: Cau_3.43
+  steps:
+  - intent: cau_3.43
+  - action: utter_cau_3.43
+
+- rule: Cau_3.44
+  steps:
+  - intent: cau_3.44
+  - action: utter_cau_3.44
+
+- rule: Cau_3.45
+  steps:
+  - intent: cau_3.45
+  - action: utter_cau_3.45
+
+- rule: Cau_3.46
+  steps:
+  - intent: cau_3.46
+  - action: utter_cau_3.46
+
+- rule: Cau_3.47
+  steps:
+  - intent: cau_3.47
+  - action: utter_cau_3.47
+
+- rule: Cau_3.48
+  steps:
+  - intent: cau_3.48
+  - action: utter_cau_3.48
+
+- rule: Cau_3.49
+  steps:
+  - intent: cau_3.49
+  - action: utter_cau_3.49
+
+- rule: Cau_3.50
+  steps:
+  - intent: cau_3.50
+  - action: utter_cau_3.50
+
+- rule: Cau_3.51
+  steps:
+  - intent: cau_3.51
+  - action: utter_cau_3.51
+
+- rule: Cau_3.52
+  steps:
+  - intent: cau_3.52
+  - action: utter_cau_3.52
+
+- rule: Cau_3.53
+  steps:
+  - intent: cau_3.53
+  - action: utter_cau_3.53
+
+- rule: Cau_3.54
+  steps:
+  - intent: cau_3.54
+  - action: utter_cau_3.54
+
+- rule: Cau_3.55
+  steps:
+  - intent: cau_3.55
+  - action: utter_cau_3.55
+
+- rule: Cau_3.56
+  steps:
+  - intent: cau_3.56
+  - action: utter_cau_3.56
+
+- rule: Cau_3.57
+  steps:
+  - intent: cau_3.57
+  - action: utter_cau_3.57
+
+- rule: Cau_3.58
+  steps:
+  - intent: cau_3.58
+  - action: utter_cau_3.58
+
+- rule: Cau_3.59
+  steps:
+  - intent: cau_3.59
+  - action: utter_cau_3.59
+
+- rule: Cau_3.60
+  steps:
+  - intent: cau_3.60
+  - action: utter_cau_3.60
+
+- rule: Cau_3.61
+  steps:
+  - intent: cau_3.61
+  - action: utter_cau_3.61
+
+- rule: Cau_3.62
+  steps:
+  - intent: cau_3.62
+  - action: utter_cau_3.62
+
+- rule: Cau_3.63
+  steps:
+  - intent: cau_3.63
+  - action: utter_cau_3.63
+
+- rule: Cau_3.64
+  steps:
+  - intent: cau_3.64
+  - action: utter_cau_3.64
+
+- rule: Cau_3.65
+  steps:
+  - intent: cau_3.65
+  - action: utter_cau_3.65
+
+- rule: Cau_3.66
+  steps:
+  - intent: cau_3.66
+  - action: utter_cau_3.66
+
+- rule: Cau_3.67
+  steps:
+  - intent: cau_3.67
+  - action: utter_cau_3.67
+
+- rule: Cau_3.68
+  steps:
+  - intent: cau_3.68
+  - action: utter_cau_3.68
+
+- rule: Cau_3.69
+  steps:
+  - intent: cau_3.69
+  - action: utter_cau_3.69
+
+- rule: Cau_3.70
+  steps:
+  - intent: cau_3.70
+  - action: utter_cau_3.70
+
+- rule: Cau_3.71
+  steps:
+  - intent: cau_3.71
+  - action: utter_cau_3.71
+
+- rule: Cau_3.72
+  steps:
+  - intent: cau_3.72
+  - action: utter_cau_3.72
+
+- rule: Cau_3.73
+  steps:
+  - intent: cau_3.73
+  - action: utter_cau_3.73
+
+- rule: Cau_3.74
+  steps:
+  - intent: cau_3.74
+  - action: utter_cau_3.74
+
+- rule: Cau_3.75
+  steps:
+  - intent: cau_3.75
+  - action: utter_cau_3.75
+
+- rule: Cau_3.76
+  steps:
+  - intent: cau_3.76
+  - action: utter_cau_3.76
+
+- rule: Cau_3.81
+  steps:
+  - intent: cau_3.81
+  - action: utter_cau_3.81
+
+- rule: Cau_3.82
+  steps:
+  - intent: cau_3.82
+  - action: utter_cau_3.82
+
+- rule: Cau_3.83
+  steps:
+  - intent: cau_3.83
+  - action: utter_cau_3.83
+
+- rule: Cau_3.84
+  steps:
+  - intent: cau_3.84
+  - action: utter_cau_3.84
+
+- rule: Cau_3.85
+  steps:
+  - intent: cau_3.85
+  - action: utter_cau_3.85
+
+- rule: Cau_3.86
+  steps:
+  - intent: cau_3.86
+  - action: utter_cau_3.86
+
+- rule: Cau_3.87
+  steps:
+  - intent: cau_3.87
+  - action: utter_cau_3.87
+
+- rule: Cau_3.88
+  steps:
+  - intent: cau_3.88
+  - action: utter_cau_3.88
+
+- rule: Cau_3.89
+  steps:
+  - intent: cau_3.89
+  - action: utter_cau_3.89
+
+- rule: Cau_3.90
+  steps:
+  - intent: cau_3.90
+  - action: utter_cau_3.90
+
+- rule: Cau_3.91
+  steps:
+  - intent: cau_3.91
+  - action: utter_cau_3.91
+
+- rule: Cau_3.92
+  steps:
+  - intent: cau_3.92
+  - action: utter_cau_3.92
+
+- rule: Cau_3.93
+  steps:
+  - intent: cau_3.93
+  - action: utter_cau_3.93
+
+- rule: Cau_3.94
+  steps:
+  - intent: cau_3.94
+  - action: utter_cau_3.94
+
+- rule: Cau_3.95
+  steps:
+  - intent: cau_3.95
+  - action: utter_cau_3.95
+
+
