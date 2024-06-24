@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(235, 244, 246);
+}
+
+.chat-page{
+    width: 100%;
+}
+
+.header {
+    background-image: linear-gradient(to top, rgba(235, 244, 246,0), rgb(235, 244, 246));
+}
+
+h1 {
+    text-align: center;
+}
+
+.chat-area{
+    margin-left :auto;
+    margin-right: auto;
+}
+
+.message-list{
+    background-color: rgb(8, 131, 149);
+    margin-left :25%;
+    margin-right: auto;
+    width: 50%;
+    height: 550px;
+    overflow-y: scroll;
+    overflow-y: hidden;
+}
+
+.message-input{
+    background-color:rgb(7, 25, 82);
+    height:10%;
+    padding: 10px;
+    position: fixed;
+    margin-left :25%;
+    width: 50%;
+    bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.message-input input[type="text"]{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(7, 25, 82);
+    color: white;
+    font-size: 20px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.message-list::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.message-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
