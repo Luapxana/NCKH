@@ -1274,16 +1274,6 @@ rules:
   - intent: cau_3.76
   - action: utter_cau_3.76
 
-- rule: Cau_3.81
-  steps:
-  - intent: cau_3.81
-  - action: utter_cau_3.81
-
-- rule: Cau_3.82
-  steps:
-  - intent: cau_3.82
-  - action: utter_cau_3.82
-
 - rule: Cau_3.83
   steps:
   - intent: cau_3.83
@@ -1333,11 +1323,6 @@ rules:
   steps:
   - intent: cau_3.92
   - action: utter_cau_3.92
-
-- rule: Cau_3.93
-  steps:
-  - intent: cau_3.93
-  - action: utter_cau_3.93
 
 - rule: Cau_3.94
   steps:

@@ -1337,12 +1337,13 @@ nlu:
     - Để được xếp loại giỏi, SV cần đạt điều kiện gì?
     - Điều kiện để xếp loại giỏi?
     - Sinh viên loại giỏi đạt những tiêu chí nào?
+    - Điều kiện nào là cần thiết để sinh viên được xếp loại giỏi?
+    - Xếp loại giỏi cần những điều kiện gì
 
 - intent: cau_3.14
   examples: |
     - Hình thức đánh giá trực tuyến được áp dụng với trọng số cao hơn trong trường hợp nào?
     - Khi nào thì hình thức đánh giá trực tuyến có tỉ lệ điểm cao hơn?
-
 
 - intent: cau_3.15
   examples: |
@@ -1390,9 +1391,6 @@ nlu:
     - Điểm D+ là bao nhiêu điểm trên thang 10?
     - Bao nhiêu điểm là mức D+?
 
-
-
-
 - intent: cau_3.22
   examples: |
     - Cần đạt bao nhiêu điểm để được điểm D hay 1.0 trên hệ 4
@@ -1424,7 +1422,9 @@ nlu:
 - intent: cau_3.27
   examples: |
     - Trong trường hợp sinh viên nhận điểm I, họ cần làm gì để bổ sung điểm?
-
+    - Làm gì sau khi đã được điểm I?
+    - Cách sửa điểm I
+    
 - intent: cau_3.28
   examples: |
     - Thời hạn bổ sung điểm cho học phần được quy định là bao lâu?
@@ -1655,7 +1655,7 @@ nlu:
 - intent: cau_3.59
   examples: |
     - Để đạt xếp loại khá thì cần đạt bao nhiêu điểm?
-    - Điểm trung bình học kỳ là bao nhiêu thì được xếp loại học tập giỏi?
+    - Điểm trung bình học kỳ là bao nhiêu thì được xếp loại học tập khá?
     - Để đạt xếp loại khá, sinh viên cần đạt bao nhiêu điểm?
     - Điểm tối thiểu cần đạt để được xếp loại khá là bao nhiêu?
     - Để được xếp loại khá, cần phải đạt điểm bao nhiêu?
@@ -1678,8 +1678,8 @@ nlu:
 
 - intent: cau_3.62
   examples: |
-    - Để đạt xếp loại kém thì cần đạt bao nhiêu điểm
-    - Mức xếp loại học tập yếu là bao nhiêu điểm?
+    - Để xếp loại kém thì cần đạt bao nhiêu điểm
+    - Mức xếp loại học tập kém là bao nhiêu điểm?
     - Để đạt xếp loại kém, sinh viên cần đạt bao nhiêu điểm?
     - Điểm tối đa để được xếp loại kém là bao nhiêu?
     - Để được xếp loại kém, cần phải đạt điểm ít nhất là bao nhiêu?
@@ -1743,7 +1743,7 @@ nlu:
 - intent: cau_3.70
   examples: |
     - Theo quy định, điều gì sẽ xảy ra nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
-    - Sinh viên vi phạm quy định về ra khỏi phòng thi trong thời gian làm bài sẽ bị xử lý như thế nào?
+    - Sinh viên vi phạm quy định về sử dụng vật dụng không được phép trong phòng thi sẽ bị xử lý như thế nào?
     - Theo quy định, hậu quả gì sẽ xảy ra nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
     - Sinh viên sẽ phải đối mặt với biện pháp xử lý gì nếu họ sử dụng vật dụng không được phép trong lúc thi, theo quy định?
     - Quy định về việc sử dụng vật dụng không được phép trong phòng thi áp đặt hình phạt gì đối với sinh viên vi phạm?
@@ -1795,18 +1795,8 @@ nlu:
     - Hậu quả gì sẽ xảy ra nếu sinh viên không xuất hiện đúng giờ trong phòng thi?
     - Quy định về việc đến trễ vào phòng thi sẽ áp đặt biện pháp xử lý gì đối với sinh viên?
 
-- intent: cau_3.81
-  examples: |
-    - Điều kiện nào là cần thiết để sinh viên được xếp loại xuất sắc?
-    - Xếp loại xuất sắc cần những điều kiện gì?
-    - Những điều kiện để được xếp loại xuất sắc?
-
-- intent: cau_3.82
-  examples: |
-    - Điều kiện nào là cần thiết để sinh viên được xếp loại giỏi?
-    - Điều kiện để xếp loại giỏi?
-    - Xếp loại giỏi cần những điều kiện gì?
-
+# Deleted 3.81, trùng 3.74
+# Deleted 3.82, trùng 3.13
 - intent: cau_3.83
   examples: |
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên bị vi phạm quy định về việc trao đổi giấy nháp trong quá trình thi?
@@ -1859,10 +1849,7 @@ nlu:
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên bị vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
     - Sinh viên sử dụng vật dụng không được phép trong phòng thi thì bị gì?
 
-- intent: cau_3.93
-  examples: |
-    - Quy định nào sẽ được áp dụng nếu sinh viên không tuân thủ quy định về việc giữ trật tự trong giờ thi?
-    - Nếu sinh viên không giữ trật tự trong giờ thi thì bị gì?
+# Deleted 3.93, trùng 3.89
 
 - intent: cau_3.94
   examples: |

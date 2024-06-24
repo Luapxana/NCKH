@@ -190,97 +190,94 @@ intents:
   - cau_4.20
   - cau_4.21
 #chuong 3
-    - cau_3.1
-    - cau_3.2
-    - cau_3.3
-    - cau_3.4
-    - cau_3.5
-    - cau_3.6
-    - cau_3.7
-    - cau_3.8
-    - cau_3.9
-    - cau_3.10
-    - cau_3.11
-    - cau_3.12
-    - cau_3.13
-    - cau_3.14
-    - cau_3.15
-    - cau_3.16
-    - cau_3.17
-    - cau_3.18
-    - cau_3.19
-    - cau_3.20
-    - cau_3.21
-    - cau_3.22
-    - cau_3.23
-    - cau_3.24
-    - cau_3.25
-    - cau_3.26
-    - cau_3.27
-    - cau_3.28
-    - cau_3.29
-    - cau_3.30
-    - cau_3.31
-    - cau_3.32
-    - cau_3.33
-    - cau_3.34
-    - cau_3.35
-    - cau_3.36
-    - cau_3.37
-    - cau_3.38
-    - cau_3.39
-    - cau_3.40
-    - cau_3.41
-    - cau_3.42
-    - cau_3.43
-    - cau_3.44
-    - cau_3.45
-    - cau_3.46
-    - cau_3.47
-    - cau_3.48
-    - cau_3.49
-    - cau_3.50
-    - cau_3.51
-    - cau_3.52
-    - cau_3.53
-    - cau_3.54
-    - cau_3.55
-    - cau_3.56
-    - cau_3.57
-    - cau_3.58
-    - cau_3.59
-    - cau_3.60
-    - cau_3.61
-    - cau_3.62
-    - cau_3.63
-    - cau_3.64
-    - cau_3.65
-    - cau_3.66
-    - cau_3.67
-    - cau_3.68
-    - cau_3.69
-    - cau_3.70
-    - cau_3.71
-    - cau_3.72
-    - cau_3.73
-    - cau_3.74
-    - cau_3.75
-    - cau_3.76
-    - cau_3.81
-    - cau_3.82
-    - cau_3.83
-    - cau_3.84
-    - cau_3.85
-    - cau_3.86
-    - cau_3.87
-    - cau_3.88
-    - cau_3.89
-    - cau_3.90
-    - cau_3.91
-    - cau_3.92
-    - cau_3.93
-    - cau_3.94
-    - cau_3.95
+  - cau_3.1
+  - cau_3.2
+  - cau_3.3
+  - cau_3.4
+  - cau_3.5
+  - cau_3.6
+  - cau_3.7
+  - cau_3.8
+  - cau_3.9
+  - cau_3.10
+  - cau_3.11
+  - cau_3.12
+  - cau_3.13
+  - cau_3.14
+  - cau_3.15
+  - cau_3.16
+  - cau_3.17
+  - cau_3.18
+  - cau_3.19
+  - cau_3.20
+  - cau_3.21
+  - cau_3.22
+  - cau_3.23
+  - cau_3.24
+  - cau_3.25
+  - cau_3.26
+  - cau_3.27
+  - cau_3.28
+  - cau_3.29
+  - cau_3.30
+  - cau_3.31
+  - cau_3.32
+  - cau_3.33
+  - cau_3.34
+  - cau_3.35
+  - cau_3.36
+  - cau_3.37
+  - cau_3.38
+  - cau_3.39
+  - cau_3.40
+  - cau_3.41
+  - cau_3.42
+  - cau_3.43
+  - cau_3.44
+  - cau_3.45
+  - cau_3.46
+  - cau_3.47
+  - cau_3.48
+  - cau_3.49
+  - cau_3.50
+  - cau_3.51
+  - cau_3.52
+  - cau_3.53
+  - cau_3.54
+  - cau_3.55
+  - cau_3.56
+  - cau_3.57
+  - cau_3.58
+  - cau_3.59
+  - cau_3.60
+  - cau_3.61
+  - cau_3.62
+  - cau_3.63
+  - cau_3.64
+  - cau_3.65
+  - cau_3.66
+  - cau_3.67
+  - cau_3.68
+  - cau_3.69
+  - cau_3.70
+  - cau_3.71
+  - cau_3.72
+  - cau_3.73
+  - cau_3.74
+  - cau_3.75
+  - cau_3.76
+  - cau_3.83
+  - cau_3.84
+  - cau_3.85
+  - cau_3.86
+  - cau_3.87
+  - cau_3.88
+  - cau_3.89
+  - cau_3.90
+  - cau_3.91
+  - cau_3.92
+  - cau_3.94
+  - cau_3.95
 actions:
   - whoami
   - action_thanks
@@ -1163,12 +1160,6 @@ responses:
   utter_cau_3.76:
     - text: "Nếu sinh viên không có mặt đúng giờ vào phòng thi, họ có thể không được phép dự thi và sẽ nhận điểm F cho học phần đó."
 
-  utter_cau_3.81:
-    - text: "Sinh viên cần học tập đạt từ loại xuất sắc và rèn luyện đạt từ loại xuất sắc trở lên để được xếp loại xuất sắc."
-
-  utter_cau_3.82:
-    - text: "Sinh viên cần học tập đạt từ loại giỏi và rèn luyện đạt từ loại tốt trở lên để được xếp loại giỏi."
-
   utter_cau_3.83:
     - text: "Nếu sinh viên bị vi phạm quy định về việc trao đổi giấy nháp trong quá trình thi, họ có thể bị cảnh cáo và bị trừ 50% điểm số của lần thi/kiểm tra đó."
 
@@ -1198,9 +1189,6 @@ responses:
 
   utter_cau_3.92:
     - text: "Nếu sinh viên bị vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi, họ có thể bị đình chỉ thi."
-
-  utter_cau_3.93:
-    - text: "Nếu sinh viên không tuân thủ quy định về việc giữ trật tự trong giờ thi, họ có thể bị cảnh cáo hoặc đình chỉ thi."
 
   utter_cau_3.94:
     - text: "Nếu sinh viên vi phạm quy định về việc không được phép ra khỏi phòng thi mà không lập biên bản, họ có thể bị cảnh cáo hoặc đình chỉ thi."
