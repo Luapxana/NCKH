@@ -6,21 +6,27 @@
 </head>
 
 <body>
-    <div class="chat-page">
-        <header class="header">
-          <h1>ChatBot</h1>
-        </header> 
-        <section class="chat-area">
-            <div class="message-list">
-                
-            </div>
-            <div class="message-input">
-              <form>
-                <input type="text" placeholder="Type a message..." />
-                <button type="submit">Send</button>
-              </form>
-            </div>
-        </section>
-    </div>
+  <script>!(function () {
+    let e = document.createElement("script"),
+      t = document.head || document.getElementsByTagName("head")[0];
+    (e.src =
+      "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+      // Replace 1.x.x with the version that you want
+      (e.async = !0),
+      (e.onload = () => {
+        window.WebChat.default(
+          {
+            initPayload: '/greet',
+            customData: { language: "vi" },
+            socketUrl: "http://localhost:5005",
+            title: "Chatbot",
+            subtitle: 'Rasa Chatbot'
+          },
+          null
+        );
+      }),
+      t.insertBefore(e, t.firstChild);
+  })();
+  </script>
 </body>
 </html>
