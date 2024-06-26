@@ -73,6 +73,8 @@ nlu:
     - Ai phải tuân theo quy chế học vụ?
     - Những ai cần phải tuân theo quy chế học vụ?
     - Những người nào bắt buộc tuân thủ quy định học tập?
+    - Quy chế học vụ dành cho ai?
+    - Những ai được đề cập trong quy chế học vụ? 
 
 - intent: cau_1.3
   examples: |
@@ -80,18 +82,27 @@ nlu:
     - Ai là sinh viên chính quy?
     - Sinh viên chính quy là ai?
     - Những ai được coi là sinh viên chính quy?
+    - Những ai được xem là sinh viên?
+    - Sinh viên là gì?
+    - Ai được xem là học tập chính quy?
 
 - intent: cau_1.4
   examples: |
     - Sinh viên sẽ được cấp gì khi theo học tại trường?
     - Trường cấp gì cho sinh viên?
     - Sinh viên có gì khi mới vào học tại trường?
+    - Sinh viên được cấp những gì khi đi học?
+    - Trường cấp cho sinh viên những gì?
+    - Sinh viên được trường cấp những gì khi đi học?
 
 - intent: cau_1.5
   examples: |
     - Trách nhiệm của sinh viên khi theo học tại trường?
     - Sinh viên trường phải làm gì?
     - Sinh viên có những trách nhiệm nào khi học?
+    - Sinh viên phải làm gì?
+    - Sinh viên có trách nhiệm gì?
+    - Trách nhiệm của sinh viên?
 
 - intent: cau_1.6
   examples: |
@@ -100,6 +111,11 @@ nlu:
     - Làm thế nào để trường xây dựng chương trình đào tạo?
     - Phương pháp xây dựng chương trình đào tạo của trường là gì?
     - Cách thức xây dựng chương trình đào tạo của trường?
+    - CTĐT là gì?
+    - Chương trình đào tạo là gì?
+    - Chương trình đào tạo dựa vào đâu?
+    - Căn cứ xây dựng CTĐT
+    - Căn cứ xây dựng chương trình đào tạo
 
 - intent: cau_1.7
   examples: |
@@ -108,6 +124,8 @@ nlu:
     - Bản mô tả chương trình đào tạo được xây dựng như thế nào?
     - Bản mô tả chương trình đào tạo gồm những thành phần nào?
     - Những gì có trong bản mô tả chương trình đào tạo?
+    - Nội dung mô tả chương trình đào tạo
+    - Nội dung bản mô tả CTĐT
 
 - intent: cau_1.7.1
   examples: |
