@@ -1,32 +1,56 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Chatbot</title>
-    <link type="text/css" rel="stylesheet" href="style.css" />
-</head>
-
 <body>
-  <script>!(function () {
-    let e = document.createElement("script"),
-      t = document.head || document.getElementsByTagName("head")[0];
-    (e.src =
-      "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
-      // Replace 1.x.x with the version that you want
-      (e.async = !0),
-      (e.onload = () => {
-        window.WebChat.default(
-          {
-            initPayload: '/greet',
-            customData: { language: "vi" },
-            socketUrl: "http://localhost:5005",
-            title: "Chatbot",
-            subtitle: 'Rasa Chatbot'
-          },
-          null
-        );
-      }),
-      t.insertBefore(e, t.firstChild);
-  })();
-  </script>
+    <div id="rasa-chat-widget" data-websocket-url="http://localhost:5005"></div>
+    <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript">
+      window.RasaChatWidget.init({
+        token: "YOUR_RASA_TOKEN",
+        location: "#rasa-chat-widget",
+        title: "Rasa Chatbot",
+        subtitle: "Welcome to our chatbot!",
+        startButtonLabel: "Start Chatting",
+        language: "vi",
+        welcomeMessage: "Welcome to our chatbot!",
+      });
+      
+      // Optional: Enable logging for debugging purposes
+      window.RasaChatWidget.enableDebug();
+      // Optional: Override the default CSS styles
+      window.RasaChatWidget.setStyle({
+        backgroundColor: "#f8f9fa",
+        color: "#343a40",
+        fontFamily: "Arial, sans-serif",
+        borderRadius: "5px",
+      });
+      // Optional: Override the default message templates
+      window.RasaChatWidget.setTemplates({
+        message: '<div class="message"><div class="message-content">{content}</div></div>',
+        userInput: '<div class="user-input"><input type="text" id="user-input-text" /></div>',
+        userInputSubmit: '<div class="user-input-submit"><button type="submit">Send</button></div>',
+        botResponse: '<div class="bot-response"><div class="bot-response-content">{content}</div></div>',
+      });
+      // Optional: Add custom event listeners
+      window.RasaChatWidget.on("botMessage", (message) => {
+        // Handle bot messages
+        console.log("Received bot message:", message);
+      });
+      window.RasaChatWidget.on("userInput", (input) => {
+        // Handle user input
+        console.log("Received user input:", input);
+      });
+      window.RasaChatWidget.on("connecting", () => {
+        // Handle connecting to the Rasa server
+        console.log("Connecting to Rasa server...");
+      });
+      window.RasaChatWidget.on("connected", () => {
+        // Handle connected to the Rasa server
+        console.log("Connected to Rasa server!");
+      });
+      window.RasaChatWidget.on("disconnected", () => {
+        // Handle disconnected from the Rasa server
+        console.log("Disconnected from Rasa server.");
+      });
+       
+      window.RasaChatWidget.load();
+    </script>
 </body>
 </html>
