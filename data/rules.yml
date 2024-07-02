@@ -21,7 +21,6 @@ rules:
   steps:
   - intent: cau_1.1
   - action: utter_cau_1.1
-  wait_for_user_input: false
 
 - rule: Cau_1.2
   steps:
