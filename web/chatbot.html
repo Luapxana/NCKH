@@ -3,64 +3,63 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
- 
-  <div id="webchat">
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
-  <script>!(function () {
-    let e = document.createElement("script"),
-      t = document.head || document.getElementsByTagName("head")[0];
-    (e.src =
-      "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
-      (e.async = !0),
-      (e.onload = () => {
-        window.WebChat.default(
-          { 
-            selector: "#webchat",
-            initPayload: "/get_started",
-            customData: {"language": "vi"}, // arbitrary custom data. Stay minimal as this will be added to the socket
-            socketUrl: "http://localhost:5005",
-            customMessageDelay: (message) => {
-            let delay = message.length * 30;
-            if (delay > 3 * 200) delay = 3 * 200;
-            if (delay < 100) delay = 100;
-            return delay;
-          },
-      
-          socketPath: "/socket.io/",
-          title: "RASA CHATBOT",
-          tooltipPayload: "/get_started",
-          tooltip: true,    
-          tooltipDelay: 500,
-          subtitle: "Powered by Đạt, Hóa, Nguyên",
-          connectingText: "Waiting for server...",
-          profileAvatar: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
-          openLauncherImage: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
-      
-          params: {"storage": "session"}, 
-
-
-          mainColor: "#071952",
-          userBackgroundColor: "#088395",
-          userTextColor: "#EBF4F6",
-          showMessageDate: false,
-          inputTextFieldHint: "Hi.Type your message here...",
-          badge: " ",
-          displayUnreadCount: true,
-          isChatOpen: false,
-          embedded: false,
-          showCloseButton: true,
-          fullScreenMode: true,
-          showFullScreenButton: true,
-          docViewer: false,
-          
-          
+    <div id="webchat">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+    <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            { 
+              selector: "#webchat",
+              initPayload: "/get_started",
+              customData: {"language": "vi"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+              socketUrl: "http://localhost:5005",
+              customMessageDelay: (message) => {
+              let delay = message.length * 30;
+              if (delay > 3 * 200) delay = 3 * 200;
+              if (delay < 100) delay = 100;
+              return delay;
             },
-            null
-        );
-      }),
-    t.insertBefore(e, t.firstChild);
-  })();
+        
+            socketPath: "/socket.io/",
+            title: "RASA CHATBOT",
+            tooltipPayload: "/get_started",
+            tooltip: true,    
+            tooltipDelay: 500,
+            subtitle: "Powered by Đạt, Hóa, Nguyên",
+            connectingText: "Waiting for server...",
+            profileAvatar: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
+            openLauncherImage: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
+        
+            params: {"storage": "session"}, 
+
+
+            mainColor: "#071952",
+            userBackgroundColor: "#088395",
+            userTextColor: "#EBF4F6",
+            showMessageDate: true,
+            inputTextFieldHint: "Nhập câu hỏi của bạn ở đây nhé!",
+            badge: " ",
+            displayUnreadCount: true,
+            isChatOpen: false,
+            embedded: true,  // fullscreen mode 
+            showCloseButton: true,
+            fullScreenMode: true,
+            showFullScreenButton: true,
+            docViewer: false,
+                   
+            
+              },
+              null
+          );
+        }),
+      t.insertBefore(e, t.firstChild);
+    })();
  
  
  
