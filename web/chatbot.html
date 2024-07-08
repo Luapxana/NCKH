@@ -1,56 +1,70 @@
 <html>
-<body>
-    <div id="rasa-chat-widget" data-websocket-url="http://localhost:5005"></div>
-    <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript">
-      window.RasaChatWidget.init({
-        token: "YOUR_RASA_TOKEN",
-        location: "#rasa-chat-widget",
-        title: "Rasa Chatbot",
-        subtitle: "Welcome to our chatbot!",
-        startButtonLabel: "Start Chatting",
-        language: "vi",
-        welcomeMessage: "Welcome to our chatbot!",
-      });
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+ 
+  <div id="webchat">
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+  <script>!(function () {
+    let e = document.createElement("script"),
+      t = document.head || document.getElementsByTagName("head")[0];
+    (e.src =
+      "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.1/lib/index.js"),
+      (e.async = !0),
+      (e.onload = () => {
+        window.WebChat.default(
+          { 
+            selector: "#webchat",
+            initPayload: "/get_started",
+            customData: {"language": "vi"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+            socketUrl: "http://localhost:5005",
+            customMessageDelay: (message) => {
+            let delay = message.length * 30;
+            if (delay > 3 * 200) delay = 3 * 200;
+            if (delay < 100) delay = 100;
+            return delay;
+          },
       
-      // Optional: Enable logging for debugging purposes
-      window.RasaChatWidget.enableDebug();
-      // Optional: Override the default CSS styles
-      window.RasaChatWidget.setStyle({
-        backgroundColor: "#f8f9fa",
-        color: "#343a40",
-        fontFamily: "Arial, sans-serif",
-        borderRadius: "5px",
-      });
-      // Optional: Override the default message templates
-      window.RasaChatWidget.setTemplates({
-        message: '<div class="message"><div class="message-content">{content}</div></div>',
-        userInput: '<div class="user-input"><input type="text" id="user-input-text" /></div>',
-        userInputSubmit: '<div class="user-input-submit"><button type="submit">Send</button></div>',
-        botResponse: '<div class="bot-response"><div class="bot-response-content">{content}</div></div>',
-      });
-      // Optional: Add custom event listeners
-      window.RasaChatWidget.on("botMessage", (message) => {
-        // Handle bot messages
-        console.log("Received bot message:", message);
-      });
-      window.RasaChatWidget.on("userInput", (input) => {
-        // Handle user input
-        console.log("Received user input:", input);
-      });
-      window.RasaChatWidget.on("connecting", () => {
-        // Handle connecting to the Rasa server
-        console.log("Connecting to Rasa server...");
-      });
-      window.RasaChatWidget.on("connected", () => {
-        // Handle connected to the Rasa server
-        console.log("Connected to Rasa server!");
-      });
-      window.RasaChatWidget.on("disconnected", () => {
-        // Handle disconnected from the Rasa server
-        console.log("Disconnected from Rasa server.");
-      });
-       
-      window.RasaChatWidget.load();
-    </script>
-</body>
+          socketPath: "/socket.io/",
+          title: "RASA CHATBOT",
+          tooltipPayload: "/get_started",
+          tooltip: true,    
+          tooltipDelay: 500,
+          subtitle: "Powered by Đạt, Hóa, Nguyên",
+          connectingText: "Waiting for server...",
+          profileAvatar: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
+          openLauncherImage: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
+      
+          params: {"storage": "session"}, 
+
+
+          mainColor: "#071952",
+          userBackgroundColor: "#088395",
+          userTextColor: "#EBF4F6",
+          showMessageDate: false,
+          inputTextFieldHint: "Hi.Type your message here...",
+          badge: " ",
+          displayUnreadCount: true,
+          isChatOpen: false,
+          embedded: false,
+          showCloseButton: true,
+          fullScreenMode: true,
+          showFullScreenButton: true,
+          docViewer: false,
+          
+          
+            },
+            null
+        );
+      }),
+    t.insertBefore(e, t.firstChild);
+  })();
+ 
+ 
+ 
+ </script>
+
+  </body>
 </html>
