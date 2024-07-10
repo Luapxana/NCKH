@@ -11,6 +11,7 @@ intents:
   - who
   - thanks
   - sorry
+  - get_started
 #chương 1
   - cau_1.1
   - cau_1.2
@@ -286,7 +287,9 @@ responses:
   utter_greet:
   - text: "Xin chào"
   - text: "Xin chào! Đây là chatbot được xây dựng bằng RASA tạo bởi sinh viên!"
-
+  utter_welcome:
+  - text: "Xin chào! Đây là chatbot được xây dựng bằng RASA tạo ra bởi sinh viên! Hãy đặt câu hỏi liên quan đến quy chế học vụ Trường Đại học Cần Thơ ở đây nhé!"
+  
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
