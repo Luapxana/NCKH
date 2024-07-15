@@ -1,0 +1,35 @@
+body {
+    background-color: #f5f5dc; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .header-container {
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    position: relative;
+  }
+  .header-image {
+    width: 40%; 
+    max-width: 700px; 
+    display: block;
+    margin: 0 auto; 
+    border-radius: 10px;
+  }
+  .header {
+    padding: 30px;
+    background-color: #cccc99; 
+    border: 1px solid #888;
+    border-radius: 10px;
+    margin:auto;
+  }
+  .header h1 {
+    margin: 0;
+    color: #333;
+  }
+  #khungngoai {
+    width: 60%;
+    margin: 0 auto;
+  }
+  #webchat {
+    margin-top: 20px;
+  }
