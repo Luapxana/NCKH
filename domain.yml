@@ -546,7 +546,7 @@ responses:
 #chương 2
 # 2.1 - 2.20
   utter_cau_2.1:
-  - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào htql để xây dựng theo hướng dẫn"
+  - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào hệ thống quản lý của Trường để xây dựng theo hướng dẫn"
 
   utter_cau_2.2:
   - text: "Đầu khóa, sinh viên được cung cấp KHHT chuẩn toàn khóa, quy định về công tác học vụ, CVHT."
