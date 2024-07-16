@@ -658,12 +658,17 @@ nlu:
     - Kết quả đăng ký học phần có thể in khi nào?
     - Khi nào kết quả đăng ký học phần được công bố hoặc in ra?
     - Thông tin về kết quả đăng ký học phần thường được cung cấp vào thời điểm nào?
+    - Thời gian được phép in kết quả ĐKHP
+    - Thời gian cho phép in kết quả học phần
+    - Thời gian xin in kết quả ĐKHP
 
 - intent: cau_2.12
   examples: |
     - Đăng ký học phần như thế nào?
     - Làm thế nào để đăng ký học phần?
     - Cách để đăng ký học phần?
+    - Cách ĐKHP
+    - Các bước đăng ký học phần
 
 - intent: cau_2.13
   examples: |
@@ -671,18 +676,25 @@ nlu:
     - Tôi có thể xem thời khóa biểu các học phần khi nào?
     - Sinh viên có thể xem thời khóa biểu của các học phần khi nào?
     - Thông tin về thời khóa biểu của các học phần thường được cung cấp vào thời điểm nào?
+    - Thời gian xem TKB các học phần
+    - Khi nào công bố TKB các học phần?
 
 - intent: cau_2.14
   examples: |
     - Có thể xóa học phần đã đăng ký không?
     - Tôi có thể xóa học phần đã đăng ký không?
     - Học phần đã đăng ký rồi có xóa được không?
+    - Có thể xóa học phần không
+    - Xóa học phần được không
 
 - intent: cau_2.15
   examples: |
     - Có thể đăng ký thêm học phần sau khi học hay không?
     - Tôi muốn đăng ký thêm học phần sau khi học có được không?
     - Sau khi học có thể đăng ký thêm học phần không?
+    - Có thể đăng ký thêm học phần khi học không?
+    - Thời hạn đăng ký học phần
+    - Có thể đăng ký lại học phần đã xóa không?
 
 - intent: cau_2.16
   examples: |
@@ -690,18 +702,26 @@ nlu:
     - Tôi có thể đổi lớp khác khi đang học không?
     - Sinh viên có thể chuyển sang lớp học khác trong khi đang học không?
     - Có quy định nào cho phép sinh viên đổi lớp học khi đã bắt đầu học không?
+    - Trong học kỳ có được xin đổi nhóm học phần không
+    - Thời hạn xin đổi nhóm học phần
+    - Hạn chót để sinh viên có thể đổi nhóm học phần là khi nào?
+    - Đổi lớp học phần trong học kỳ được không
 
 - intent: cau_2.17
   examples: |
     - Có thể thay đổi kết quả đăng ký học phần đến khi nào?
     - Tôi có thể thay đổi kết quả đăng ký học phần đến khi nào?
     - Kết quả đăng ký học phần có thể thay đổi đến khi nào?
+    - Thời hạn thay đổi kết quả ĐKHP
+    - Được phép thay đổi kết quả đăng ký học phần đên khi nào?
+    - Thời hạn thay đổi kết quả đăng ký học phần
 
 - intent: cau_2.18
   examples: |
     - Rút học phần như thế nào?
     - Làm thế nào để rút học phần?
     - Tôi phải làm gì để rút học phần.
+    - Cách rút học phần đang học
 
 - intent: cau_2.19
   examples: |
@@ -709,6 +729,7 @@ nlu:
     - Tôi rút học phần rồi thì có điểm không?
     - Khi rút học phần, liệu có ghi điểm cho học phần đó không?
     - Việc rút học phần có ảnh hưởng đến điểm số của học phần đó không?
+    - Điểm học phần sau khi rút
 
 - intent: cau_2.20
   examples: |
@@ -716,7 +737,9 @@ nlu:
     - Tôi có thể nhận lại học phí sau khi rút học phần không?
     - Khi rút học phần, có được hoàn trả học phí không?
     - Quy định về việc hoàn trả học phí khi rút học phần là như thế nào?
-
+    - Có được hoàn học phí của học phần đã rút?
+    - Rút học phần có được hoàn tiền học phí không?
+    
 - intent: cau_2.21
   examples: |
     - Không đi học thì sẽ như thế nào?
