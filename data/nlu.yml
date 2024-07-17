@@ -781,12 +781,18 @@ nlu:
     - Không đi học thì sẽ như thế nào?
     - Tôi không đi học thì có bị sao không?
     - Không đi học có ảnh hưởng gì không?
+    - Hình thức xử lý nghỉ học
+    - Nghỉ học thì ảnh hưởng gì
+    - Không học đủ số tiết thì bị xử lý như thế nào?
 
 - intent: cau_2.22
   examples: |
     - Không đi thi thì như thế nào?
     - Tôi có thể không đi thi không?
     - Tôi không đi thi có ảnh hưởng gì không?
+    - Không đi thi thì bị xử lý như thế nào
+    - Hình thức xử lý vắng thi
+    - Vắng thi thì tính điểm như thế nào
 
 - intent: cau_2.23
   examples: |
@@ -794,6 +800,9 @@ nlu:
     - Tôi có thể rút học phần đến khi nào?
     - Có những trường hợp nào khiến sinh viên không được phép rút học phần nữa?
     - Quy định nào đặt ra rằng sinh viên không thể rút học phần nữa?
+    - Thời hạn rút học phần
+    - Khi nào thì hết hạn rút học phần
+    - Khi nào không được rút học phần
 
 - intent: cau_2.24
   examples: |
@@ -801,6 +810,17 @@ nlu:
     - Tôi nên rút học phần khi nào?
     - Khi nào thì nên xem xét việc rút học phần?
     - Quyết định nào thường gợi ý rằng sinh viên nên xem xét việc rút học phần?
+    - Trường hợp nào nên rút học phần
+    - Có thể tự ý rút học phần không
+    - Khối lượng học lớn có được rút học phần không
+    - Điểm học phần không tốt có thể rút học phần không
+    - Việc học nhiều học phần bị ảnh hưởng có thể rút học phần không
+    - Học quá tải có thể rút học phần không
+    - Học quá tải thì nên làm gì
+    - Làm gì khi lỡ đăng ký quá nhiều học phần
+    - Đăng ký quá nhiều môn thì nên làm gì
+    - Cách giảm khối lượng học phần trong học kỳ
+    - Học không nổi nhiều môn thì làm gì
 
 - intent: cau_2.25
   examples: | 
@@ -808,6 +828,8 @@ nlu:
     - Trường thông báo lớp học phần bị xóa khi nào?
     - Trường thông báo về việc lớp học phần bị xóa khi nào?
     - Thông tin về việc lớp học phần bị xóa thường được cung cấp trong trường hợp nào?
+    - Thời gian thông báo xóa lớp học phần
+    - Thời gian thông báo xóa nhóm là khi nào
 
 - intent: cau_2.26
   examples: |
@@ -815,6 +837,8 @@ nlu:
     - Tôi phải làm gì nếu lớp học phần tôi đăng ký bị xóa?
     - Nếu một sinh viên đã đăng ký lớp học phần nhưng sau đó lớp đó bị xóa, thì sinh viên sẽ phải làm gì?     
     - Sinh viên có phải thực hiện các biện pháp cụ thể khi lớp học phần bị xóa sau khi họ đã đăng ký không?
+    - Khi nằm trong lớp học phần bị xóa thì làm gì
+    - Trường xóa lớp học phần có mình thì làm gì
 
 - intent: cau_2.27
   examples: |
@@ -822,6 +846,9 @@ nlu:
     - Những lớp học phần bị xóa là những những lớp nào?
     - Lớp học phần nào có thể bị xóa?
     - Có những trường hợp nào khiến cho một lớp học phần bị xóa?
+    - Trường hợp xóa lớp học phần
+    - Khi nào lớp học phần bị xóa
+    - Khi nào thì xóa lớp học phần
 
 - intent: cau_2.28
   examples: |
@@ -829,12 +856,20 @@ nlu:
     - Tôi phải làm gì nếu học phần tôi muốn đăng ký hết chỗ?
     - Nếu sinh viên muốn đăng ký học phần nhưng chỗ đã hết, họ nên làm gì?
     - Trong trường hợp học phần đã đầy chỗ, sinh viên có những phương án nào để giải quyết?
-
+    - Không còn lớp để đăng ký thì làm gì
+    - Xử lý khi không còn lớp để học
+    - Khi không còn lớp để học có phải dời sang học kỳ sau?
+  
 - intent: cau_2.29
   examples: |
     - Xin mở thêm lớp học phần như thế nào? 
     - Làm thế nào để xin mở thêm lớp học phần?
     - Tôi có thể xin mở thêm lớp học phần không?
+    - Cách xin mở lớp học phần
+    - Các bước xin mở lớp học phần
+    - Xin mở lớp học phần ở đâu
+    - Xin mở lớp học phần như thế nào
+    - Cách xin trường mở lớp
 
 - intent: cau_2.30
   examples: |
@@ -842,7 +877,9 @@ nlu:
     - Trường mở thêm lớp học phần khi nào?
     - Trường thường mở thêm lớp học phần khi nào?
     - Thông tin về việc Trường mở thêm lớp học phần thường được cung cấp trong trường hợp nào?
-
+    - Trường hợp mở thêm lớp học phần
+    - Xin mở lớp có chắc chắn có lớp mới không
+    
 - intent: cau_2.31
   examples: |
     - Học phần bị điểm F thì được tích lũy là bao nhiêu?
