@@ -878,17 +878,24 @@ nlu:
   examples: |
     - Học phần bị điểm F thì được tích lũy là bao nhiêu?
     - Học phần điểm F có tính tích lũy không?
+    - Quy đổi tích lũy điểm F
+    - Tích lũy của điểm F
+    - Điểm F là điểm gì
 
 - intent: cau_2.32
   examples: |
     - Làm gì khi bị điểm F?
     - Bị điểm F thì phải làm gì?
     - Cách cải thiện điểm F?
+    - Điểm F thì làm gì
 
 - intent: cau_2.33
   examples: |
     - Có thể học học phần khác để thay thế học phần bị điểm F không?
     - Học học phần khác để thay thế học phần bị điểm F có được không?
+    - Các trường hợp học thay thế học phần điểm F
+    - Có thể đổi học phần tự chọn nếu bị điểm F không
+    - Bị điểm F có đổi môn khác được không
 
 - intent: cau_2.34
   examples: |
@@ -896,17 +903,25 @@ nlu:
     - Cách đăng ký học lại?
     - Tôi phải làm gì nếu muốn đăng ký học lại?
     - Làm thế nào để đăng ký học lại?
+    - Các bước đăng ký học lại
+    - Nơi đăng ký học lại
+    - Đăng ký học lại ở đâu
 
 - intent: cau_2.35
   examples: |
     - Đăng ký học lại thì còn giữ điểm F không?
     - Nếu học lại thì điểm F có mất không?
     - Điểm F có tồn tại sau khi học lại không?
+    - Quy định cải thiện điểm học phần bị điểm F
+    - Học cải thiện có cải thiện điểm F không
 
 - intent: cau_2.36
   examples: |
     - Nếu học nhiều học phần tự chọn cùng một nhóm thì có lấy hết điểm không? 
     - Nếu học nhiều học phần tự chọn cùng nhóm thì tính điểm như thế nào?
+    - Cách tính tích lũy học phần tự chọn
+    - Học nhiều môn tự chọn có được tích lũy nhiều hơn không
+    - Có được tính điểm tất cả môn tự chọn không
 
 - intent: cau_2.37
   examples: |
@@ -914,13 +929,17 @@ nlu:
     - Tôi có thể cải thiện học phần đã học không?
     - Nếu điểm số của một học phần không như ý, sinh viên có thể học lại không?
     - Quy định về việc học lại một học phần nào đó khi điểm số không đạt yêu cầu là gì?
-    
+    - Có thể cải thiện học phần không
+    - Có nên học cải thiện
+
 - intent: cau_2.38
   examples: |
     - Trường hợp nào được xin tạm nghỉ?
     - Sinh viên có thể xin tạm nghỉ khi nào?
     - Tôi có thể xin tạm nghỉ không?
     - Hãy nêu các trường hợp có thể xin tạm nghỉ
+    - Ai được xin tạm nghỉ
+    - Có thể xin tạm nghỉ khi nào
 
 - intent: cau_2.39
   examples: |
@@ -928,6 +947,7 @@ nlu:
     - Tôi có thể xin tạm nghỉ khi đi nghĩa vụ không?
     - Có được phép xin tạm nghỉ khi đang đi nghĩa vụ không?
     - Quy định về việc xin tạm nghỉ trong quá trình thực hiện nghĩa vụ làm quân sự là gì?
+    - Nghĩa vụ quân sự có được xin nghỉ tạm thời không
 
 - intent: cau_2.40
   examples: |
@@ -935,6 +955,7 @@ nlu:
     - Có thể xin tạm nghỉ nếu bị bệnh nặng không?
     - Nếu bị bệnh nặng, có được phép xin tạm nghỉ không?
     - Quy định về việc xin tạm nghỉ do bệnh nặng là như thế nào?
+    - Khi bị bệnh có được xin tạm nghỉ dài hạn không
 
 - intent: cau_2.41
   examples: |
@@ -942,6 +963,7 @@ nlu:
     - Có thể xin tạm nghỉ nếu bị tai nạn không?
     - Nếu bị tai nạn, có được phép xin tạm nghỉ không?
     - Quy định về việc xin tạm nghỉ do tai nạn là như thế nào?
+    - Bị tai nạn có được xin nghỉ dài hạn không
 
 - intent: cau_2.42
   examples: |
@@ -949,6 +971,7 @@ nlu:
     - Muốn xin tạm nghỉ học phải làm gì?
     - Làm thế nào để xin tạm dừng việc học?
     - Có cách nào để nghỉ học một thời gian không?
+    - Các bước xin tạm nghỉ
 
 - intent: cau_2.43
   examples: |
@@ -956,6 +979,10 @@ nlu:
     - Thủ tục sau khi hết thời gian nghỉ học?
     - Khi kỳ nghỉ học tạm thời kết thúc, phải làm gì?
     - Sau thời gian nghỉ học tạm thời, cần thực hiện điều gì?
+    - Quy trình xin học lại sau khi tạm nghỉ
+    - Cách xin học lại sau tạm nghỉ
+    - Có cần làm gì sau khi hết thời gian xin nghỉ không
+    - Có thể đi học lại sau khi tạm nghỉ không
 
 - intent: cau_2.44
   examples: |
@@ -963,6 +990,10 @@ nlu:
     - Thời gian nộp hồ sơ xin học lại là đến khi nào?
     - Khi là thời điểm cuối cùng để gửi hồ sơ đăng ký học lại là khi nào?
     - Đến ngày nào là hạn chót để nộp đơn xin học lại?
+    - Thời hạn xin học lại
+    - Thời hạn làm giấy xin học lại
+    - Phải nộp hồ sơ xin học lại sau tạm nghỉ khi nào
+    - Nộp hồ sơ xin học lại vào thời gian nào
 
 - intent: cau_2.45
   examples: |
@@ -970,6 +1001,10 @@ nlu:
     - Khi nào thì bị cảnh báo học vụ?
     - Khi nào sẽ nhận được cảnh báo về tình trạng học vụ không đạt yêu cầu?
     - Dưới điều kiện nào sẽ bị thông báo về tình trạng học vụ không đủ?
+    - Ai bị cảnh báo học vụ
+    - Làm gì thì có thể bị cảnh báo học vụ
+    - Các vi phạm dẫn đến cảnh báo học vụ
+    - Bị cảnh báo học vụ khi nào?
 
 - intent: cau_2.46
   examples: |
@@ -978,12 +1013,16 @@ nlu:
     - Nếu tạm nghỉ mà không xin phép, hậu quả là gì?
     - Có hậu quả gì nếu tạm nghỉ mà không có sự cho phép?
     - Hình thức xử lý sinh viên tạm nghỉ không xin phép?
+    - Nghỉ dài hạn không xin phép
+    - Không đi học trong thời gian dài thì bị xử lý như thế nào
+    - Trường xử lý sinh viên nghỉ học dài hạn không xin phép
 
 - intent: cau_2.47
   examples: |
     - Cảnh báo học vụ là gì? 
     - Thế nào là cảnh báo học vụ?
     - Khái niệm cảnh báo học vụ?
+    - Cảnh báo học vụ
 
 - intent: cau_2.48
   examples: |
@@ -991,11 +1030,18 @@ nlu:
     - Các trường hợp bị đình chỉ học tập?
     - Điều kiện nào sẽ dẫn đến việc bị đình chỉ học tập?
     - Khi nào sẽ bị tạm ngừng học tập?
+    - Ai bị đình chỉ học tập
+    - Các vi phạm dẫn đến đình chỉ học tập
+    - Làm gì thì có thể bị đình chỉ
+    - Bị đình chỉ khi nào
 
 - intent: cau_2.49
   examples: |
     - Đrl yếu thì có sao không?
     - Điểm rèn luyện yếu có ảnh hưởng gì không?
+    - Điểm rèn luyện yếu thì bị gì
+    - Điểm rèn luyện yếu có bị phạt không
+    - Điểm rèn luyện không cao có tính là vi phạm không
 
 - intent: cau_2.50
   examples: |
@@ -1003,7 +1049,10 @@ nlu:
     - Có mấy mức độ đình chỉ học tập?
     - Các mức độ đình chỉ học tập?
     - Có bao nhiêu mức đình chỉ học?
-
+    - Các hình thức đình chỉ học tập
+    - Sinh viên có thể bị đình chỉ học tập ở mức nào
+    - Khoảng thời gian đình chỉ học tập
+    
 - intent: cau_2.51
   examples: |
     - Khi nào bị đình chỉ 1 học kỳ?
