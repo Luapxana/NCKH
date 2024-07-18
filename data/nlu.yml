@@ -222,6 +222,8 @@ nlu:
     - Có thể xem chương trình dạy học ở đâu?
     - Chương trình dạy học được đăng ở đâu?
     - Tôi có thể xem chương trình dạy học ở đâu?
+    - xem chương trình dạy học
+    - chương trình dậy học ở đâu
 
 - intent: cau_1.12
   examples: |
@@ -229,6 +231,10 @@ nlu:
     - Làm thế nào để xây dựng kế hoạch học tập?
     - Làm thế nào để xây dựng KHHT?
     - Cần hỏi ai khi xây dựng kế hoạch học tập?
+    - xây dựng kế hoạch học tập
+    - cách xây dựng kế hoạch học tập
+    - xây dựng khht như thế nào
+    - xây dựng kế hoạch học tập như thế nào
 
 - intent: cau_1.13
   examples: |
@@ -253,6 +259,9 @@ nlu:
     - Thay đổi kế hoạch học tập có sao không?
     - Được thay đổi kế hoạch học tập không?
     - Có thể thay đổi KHHT không?
+    - đổi kế hoạch học tập được không
+    - đổi khht được không
+    - được đổi khht ko
 
 - intent: cau_1.16
   examples: |
@@ -262,30 +271,12 @@ nlu:
     - Kế hoạch học tập thường trong bao lâu?
     - Sinh viên được phép học tối đa bao lâu trong trường?
     - Thời hạn học tập là bao lâu?
+    - thời hạn học tập
+    - thời gian đào tạo
+    - thời gian đào tạo tối đa
+    - thời gian chương trình đào tạo
 
-- intent: cau_1.17
-  examples: |
-    - Nếu thời gian thiết kế của chương trình đào tạo là 4 năm thì thời gian tối đa là bao nhiêu?
-    - Nếu thời gian thiết kế của CTĐT là 4 năm thì thời gian tối đa là bao nhiêu?
-    - Thời hạn học tập của ngành học 4 năm là bao lâu?
-    - Thời gian học tập của một ngành học kéo dài 4 năm tối đa là bao lâu?
-    - Khi theo học một ngành học kéo dài 4 năm, thời gian học tập tối đa là bao lâu?
-
-- intent: cau_1.18
-  examples: |
-    - Nếu thời gian thiết kế của chương trình đào tạo là 4,5 năm thì thời gian tối đa là bao nhiêu?
-    - Nếu thời gian thiết kế của CTĐT là 4,5 năm thì thời gian tối đa là bao nhiêu?
-    - Thời hạn học tập của ngành học 4,5 năm là bao lâu?
-    - Thời gian học tập của một ngành học kéo dài 4,5 năm tối đa là bao lâu?
-    - Khi theo học một ngành học kéo dài 4,5 năm, thời gian học tập tối đa là bao lâu?
-
-- intent: cau_1.19
-  examples: |
-    - Nếu thời gian thiết kế của chương trình đào tạo là 5 năm thì thời gian tối đa là bao nhiêu?
-    - Nếu thời gian thiết kế của CTĐT là 5 năm thì thời gian tối đa là bao nhiêu?
-    - Thời hạn học tập của ngành học 5 năm là bao lâu?
-    - Thời gian học tập của một ngành học kéo dài 5 năm tối đa là bao lâu?
-    - Khi theo học một ngành học kéo dài 5 năm, thời gian học tập tối đa là bao lâu?
+#xóa cau_1.17 cau_1.18 cau_1.19 (câu hỏi quá giống nhau nên câu 17 và 19 chỉ trả lời được 1 ví dụ, câu 19 còn nhầm thành câu 17, chỉ trả lời đúng câu 18 => những câu này sẽ được trả lời bởi câu 16)
 
 - intent: cau_1.20
   examples: |
@@ -293,6 +284,9 @@ nlu:
     - Có ai được học tập vô thời hạn không?
     - Có người nào được phép học tập vô thời hạn không?
     - Có ai có thể học tập mà không bị ràng buộc bởi thời gian không?
+    - ai không bị giới hạn thời gian học tập
+    - ai có thể học tập mà không bị giới hạn thời gian
+    - ai không có thời hạn học tập
 
 - intent: cau_1.21
   examples: |

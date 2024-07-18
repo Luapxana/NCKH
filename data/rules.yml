@@ -132,20 +132,7 @@ rules:
   - intent: cau_1.16
   - action: utter_cau_1.16
   
-- rule: Cau_1.17
-  steps:
-  - intent: cau_1.17
-  - action: utter_cau_1.17
-  
-- rule: Cau_1.18
-  steps:
-  - intent: cau_1.18
-  - action: utter_cau_1.18
-  
-- rule: Cau_1.19
-  steps:
-  - intent: cau_1.19
-  - action: utter_cau_1.19
+#xóa Cau_1.17  Cau_1.18  Cau_1.19
   
 - rule: Cau_1.20
   steps:

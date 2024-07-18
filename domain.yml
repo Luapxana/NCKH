@@ -34,9 +34,7 @@ intents:
   - cau_1.14
   - cau_1.15
   - cau_1.16
-  - cau_1.17
-  - cau_1.18
-  - cau_1.19
+ #xóa cau_1.17 cau_1.18 cau_1.19
   - cau_1.20
   - cau_1.21
   - cau_1.22
@@ -359,7 +357,7 @@ responses:
   - text: "Chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
 
   utter_cau_1.12:
-  - text: "Căn cứ kế hoạch học tập chuẩn toàn khóa à hướng dẫn của cố vấn học tập, sinh viên phải xây dựng kế hoạch học tập toàn khóa bằng cách liệt kê các học phần phải học cho từng học kỳ của khóa học."
+  - text: "Căn cứ kế hoạch học tập chuẩn toàn khóa và hướng dẫn của cố vấn học tập, sinh viên phải xây dựng kế hoạch học tập toàn khóa bằng cách liệt kê các học phần phải học cho từng học kỳ của khóa học."
 
   utter_cau_1.13:
   - text: "Kế hoạch học tập toàn khóa phải được cố vấn học tập phê duyệt."
