@@ -152,16 +152,25 @@ rules:
 - rule: Cau_1.23
   steps:
   - intent: cau_1.23
+  entities:
+  - entity: hoc_ky
+    value: "1"
   - action: utter_cau_1.23
   
 - rule: Cau_1.24
   steps:
   - intent: cau_1.24
+  entities:
+  - entity: hoc_ky
+    value: "2"
   - action: utter_cau_1.24
   
 - rule: Cau_1.25
   steps:
   - intent: cau_1.25
+  entities:
+  - entity: hoc_ky
+    value: "3"
   - action: utter_cau_1.25
   
 - rule: Cau_1.26

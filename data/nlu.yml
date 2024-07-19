@@ -1,6 +1,14 @@
 version: "3.1"
 
 nlu:
+
+
+actions:
+
+- action: greet
+- action: goodbye
+
+
 - intent: greet
   examples: |
     - xin chào
@@ -294,7 +302,11 @@ nlu:
     - Trường hợp nào được giữ kết quả học tập?
     - Khi nào một người có thể được giữ lại kết quả học tập?
     - Trong trường hợp nào mà kết quả học tập của một cá nhân có thể bị giữ lại?
-
+    - tôi có thể lấy kết quả học tập ở nơi khác sang trường không
+    - có thể lấy kết quả học tập ở nơi khác quy đổi thành kết quả học tập của trường không
+    - tôi có thể giữ kết quả học tập cụ của mình khi chuyển đến trường không
+    - khi nào tôi có thể giữ lại kết quả học tập của tôi ở nơi khác
+    
 - intent: cau_1.22
   examples: |
     - Mỗi năm được tổ chức thành bao nhiêu học kỳ?
@@ -304,33 +316,33 @@ nlu:
 
 - intent: cau_1.23
   examples: |
-    - Học kỳ 1 được tổ chức như thế nào?
-    - Học kỳ I được tổ chức như thế nào?
-    - HK1 được tổ chức như thế nào?
-    - HK I được tổ chức như thế nào?
-    - Học kỳ 1 có bao nhiêu tuần?
-    - Học kỳ 1 kéo dài bao lâu?
-    - Học kỳ 1 là thời gian nào?
+    - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} được tổ chức như thế nào?
+    - [Học kỳ I]{"entity": "hoc_ky", "value": "1"} được tổ chức như thế nào?
+    - [HK1]{"entity": "hoc_ky", "value": "1"} được tổ chức như thế nào?
+    - [HK I]{"entity": "hoc_ky", "value": "1"} được tổ chức như thế nào?
+    - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} có bao nhiêu tuần?
+    - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} kéo dài bao lâu?
+    - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} là thời gian nào?
 
 - intent: cau_1.24
   examples: |
-    - Học kỳ 2 được tổ chức như thế nào?
-    - Học kỳ II được tổ chức như thế nào?
-    - HK2 được tổ chức như thế nào?
-    - HK II được tổ chức như thế nào?
-    - Học kỳ 2 có bao nhiêu tuần?
-    - Học kỳ 2 kéo dài bao lâu?
-    - Học kỳ 2 là thời gian nào?
+    - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} được tổ chức như thế nào?
+    - [Học kỳ II]{"entity": "hoc_ky", "value": "2"} được tổ chức như thế nào?
+    - [HK2]{"entity": "hoc_ky", "value": "2"} được tổ chức như thế nào?
+    - [HK II]{"entity": "hoc_ky", "value": "2"} được tổ chức như thế nào?
+    - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} có bao nhiêu tuần?
+    - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} kéo dài bao lâu?
+    - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} là thời gian nào?
 
 - intent: cau_1.25
   examples: |
-    - Học kỳ 3 được tổ chức như thế nào?
-    - Học kỳ III được tổ chức như thế nào?
-    - HK3 được tổ chức như thế nào?
-    - HK III được tổ chức như thế nào?
-    - Học kỳ 3 có bao nhiêu tuần?
-    - Học kỳ 3 kéo dài bao lâu?
-    - Học kỳ 3 là thời gian nào?
+    - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} được tổ chức như thế nào?
+    - [Học kỳ III]{"entity": "hoc_ky", "value": "3"} được tổ chức như thế nào?
+    - [HK3]{"entity": "hoc_ky", "value": "3"} được tổ chức như thế nào?
+    - [HK III]{"entity": "hoc_ky", "value": "3"} được tổ chức như thế nào?
+    - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} có bao nhiêu tuần?
+    - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} kéo dài bao lâu?
+    - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} là thời gian nào?
 
 - intent: cau_1.26
   examples: |
@@ -338,6 +350,7 @@ nlu:
     - HP là gì?
     - Khái niệm học phần?
     - Học phần được hiểu là gì?
+    - định nghĩa học phần
 
 - intent: cau_1.27
   examples: |
@@ -345,6 +358,7 @@ nlu:
     - HP bắt buộc là gì?
     - Thế nào là học phần bắt buộc?
     - Học phần bắt buộc là những học phần gì?
+    - định nghĩa học phần bắt buộc
 
 - intent: cau_1.28
   examples: |
@@ -352,6 +366,7 @@ nlu:
     - HP tự chọn là gì?
     - Thế nào là học phần tự chọn?
     - Học phần tự chọn là những học phần gì?
+    - định nghĩa học phần tự chọn
 
 - intent: cau_1.29
   examples: |
@@ -359,6 +374,7 @@ nlu:
     - Khái niệm học phần tiên quyết?
     - Học phần tiên quyết là như thế nào?
     - HP tiên quyết là gì?
+    - định nghĩa học phần tiên quyết
 
 - intent: cau_1.30
   examples: |
@@ -366,23 +382,27 @@ nlu:
     - Khái niệm học phần song hành?
     - Học phần song hành là như thế nào?
     - HP song hành là gì?
+    - định nghĩa học phần song hành
 
 - intent: cau_1.31
   examples: |
     - Học phần điều kiện là gì?
     - Thế nào là học phần điều kiện?
     - Khái niệm học phần điều kiện?
+    - định nghĩa học phần điều kiện
 
 - intent: cau_1.31.1
   examples: |
     - Học phần điều kiện gồm những học phần nào?
     - Những học phần nào là học phần điều kiện?
+    - đâu là học phãn điều kiện
 
 - intent: cau_1.32
   examples: |
     - Lớp học phần là gì?
     - Khái niệm lớp học phần?
     - Bạn có thể giải thích ý nghĩa của thuật ngữ "lớp học phần" không?
+    - định nghĩa lớp học phần
 
 - intent: cau_1.33
   examples: |
@@ -401,20 +421,23 @@ nlu:
     - Bao nhiêu tiết học là đủ tích lũy 1 tín chỉ?
     - Mỗi tín chỉ bao gồm bao nhiêu tiết?
     - Mỗi tc bao gồm bao nhiêu tiết?
+    - học bao nhiêu để tích lũy 1 tín chỉ
 
 - intent: cau_1.36
   examples: |
     - 1 tiết học có bao nhiêu phút?
     - Tiết học kéo dài bao lâu?
+    - thời gian 1 tiết học
 
 - intent: cau_1.37
   examples: |
     - Khối lượng chương trình đào tạo được xây dựng như thế nào?
     - Khối lượng CTĐT được xây dựng như thế nào?
-    - Chương trình đào tạo được xây dựng dựa vào đâu?
-    - CTĐT được xây dựng dựa vào đâu?
-    - Thành phần nào thường là cơ sở cho việc xây dựng chương trình đào tạo?
-    - Đâu là cơ sở cho việc xây dựng chương trình đào tạo?
+    - Khối lượng chương trình đào tạo được xây dựng dựa vào đâu?
+    - Khối lượng CTĐT được xây dựng dựa vào đâu?
+    - Thành phần nào thường là cơ sở cho việc xây dựng khối lượng chương trình đào tạo?
+    - Đâu là cơ sở cho việc xây dựng khối lượng chương trình đào tạo?
+    - khối lượng chương trình đào tạo
 
 - intent: cau_1.38
   examples: |
@@ -436,6 +459,7 @@ nlu:
     - Điều kiện cần thiết để được xem xét cho học bổng là gì?
     - Những tiêu chí nào được áp dụng khi xét duyệt hồ sơ học bổng?
     - Sinh viên muốn được xét cấp học bổng phải thỏa mãn những điều kiện nào?
+    - tôi muốn được xét học bổng thì phải đạt yêu cầu gì
 
 - intent: cau_1.41
   examples: |

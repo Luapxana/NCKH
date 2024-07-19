@@ -277,6 +277,10 @@ intents:
   - cau_3.92
   - cau_3.94
   - cau_3.95
+
+entities:
+  - hoc_ky
+
 actions:
   - whoami
   - action_thanks
