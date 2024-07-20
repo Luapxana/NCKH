@@ -1117,58 +1117,81 @@ actions:
     - Khi nào bị đình chỉ 1 học kỳ?
     - Bị đình chỉ chỉ 1 học kỳ khi nào?
     - Trường hợp bị đình chỉ 1 học kỳ
+    - Các vi phạm có thể dẫn đến đình chỉ một học kỳ
+    - Sinh viên nào bị đình chỉ một học kỳ
+
 
 - intent: cau_2.52
   examples: |
     - Khi nào bị đình chỉ 1 năm?
     - Bị đình chỉ 1 năm khi nào?
     - Trường hợp bị đình chỉ 1 năm
+    - Các vi phạm có thể dẫn đến đình chỉ một năm
+    - Sinh viên nào bị đình chỉ một năm
 
 - intent: cau_2.53
   examples: |
     - Trường hợp nào bị buộc thôi học?
     - Bị buộc thôi học khi nào
     - Các trường hợp bị buộc thôi học
+    - Các vi phạm có thể dẫn đến thôi học
+    - Sinh viên nào bị buộc thôi học 
 
 - intent: cau_2.54
   examples: |
     - Nghỉ tạm thời quá thời hạn thì bị gì?
     - Nghỉ tạm thời quá thời hạn có ảnh hưởng gì không?
     - Sẽ thế nào nếu nghỉ tạm thời quá thời hạn?
-
+    - Hình thức xử lý nghỉ học quá thời hạn
+    - Sinh viên bị xử lý như thế nào nếu không đi học lại sau khi hết thời gian nghỉ
 
 - intent: cau_2.55
   examples: |
     - Không đóng học phí thì bị kỷ luật như thế nào?
     - Không đóng học phí có sao không?
     - Sẽ thế nào nếu không đóng học phí?
+    - Hình thức xử lý sinh viên không đóng học phí
+    - Không đóng học phí
 
 - intent: cau_2.56
   examples: |
     - Học quá hạn thì có bị buộc thôi học không?
     - Sinh viên có thể học tập quá hạn không?
     - Học quá hạn sẽ bị gì?
+    - Quá hạn tốt nghiệp bị xử lý như thế nào
+    - Không tốt nghiệp kịp thì bị gì
+    - Xử lý sinh viên quá hạn
 
 - intent: cau_2.57
   examples: |
     - Bị thôi học có được xin học lại không?
     - Có học lại được nếu bị buộc thôi học không?
+    - Bị buộc thôi học có được xin học ngành khách không
+    - Bị buộc thôi học có thể học chương trình khác không
 
 - intent: cau_2.58
   examples: |
     - Làm sao biết mình đang bị kỷ luật?
     - Trường có thông báo nếu mình bị kỷ luật không?
+    - Thông báo kỷ luật sinh viên
 
 - intent: cau_2.59
   examples: |
     - Số tiết tối thiểu cần học để không bị điểm F là bao nhiêu?
     - Phải học tối thiểu bao nhiêu tiết để không bị điểm F?
+    - Học bao nhiêu tiết là đủ
+    - Học phần bắt buộc học bao nhiêu tiết
+    - Có phải tham gia tất cả các tiết học không
+    - Quy định về số tiết tối thiểu học phần
 
 - intent: cau_2.60
   examples: |
     - Vắng học thì sẽ bị gì?
     - Vắng nhiều hơn thời gian quy định có sao không?
     - Sẽ thế nào nếu vắng học quá nhiều?
+    - Sinh viên không học đủ số tiết bị xử lý gì?
+    - Học không đủ số tiết thì bị gì
+    - Không đi học đủ bị xử lý như thế nào?
 
 - intent: cau_2.61.1
   examples: |
@@ -1176,7 +1199,8 @@ actions:
     - Thông tin thời gian các tiết học
     - Các tiết học trong ngày bắt đầu khi nào?
     - Các tiết học trong ngày kết thúc vào thời gian nào?
-
+    - Tất cả các tiết học trong ngày
+    
 - intent: cau_2.61
   examples: |
     - Tiết 1 bắt đầu lúc mấy giờ?
@@ -1245,6 +1269,8 @@ actions:
     - Một buổi học có mấy giờ nghỉ?
     - Các giờ nghỉ giữa buổi học
     - Có giờ nghỉ trong buổi học không?
+    - Có bao nhiêu giờ giải lao
+    - Thời gian giải lao
 
 - intent: cau_2.71
   examples: |
@@ -1283,18 +1309,22 @@ actions:
     - Buổi tối có mấy tiết?
     - Có mấy tiết buổi tối?
     - Thời gian học buổi tối
+    - Có tiết buổi tối không
 
 - intent: cau_2.76
   examples: |
     - Có thể học 2 ngành cùng lúc không?
     - Có thể học cùng lúc 2 ngành không?
     - Đăng ký học thêm ngành khác được không?
+    - Có thể đăng ký chương trình đào tạo thứ hai không
 
 - intent: cau_2.77
   examples: |
     - Điều kiện để học 2 ngành là gì?
     - Học ngành 2 cần những điều kiện nào?
     - Muốn học ngành 2 cần thỏa mãn điều gì?
+    - Điều kiện học ngành hai
+    - Điều kiện đăng ký chương trình đào tạo thứ hai
 
 - intent: cau_2.78
   examples: |
@@ -1303,11 +1333,14 @@ actions:
     - Cách xin học ngành 2
     - Quy trình xin học ngành 2
     - Các bước xin học ngành 2
+    - Các bước xin học chương trình đào tạo thứ hai
+    - Cách xin học CTĐT thứ hai
 
 - intent: cau_2.79
   examples: |
     - Có cần học lại các HP trùng khi học ngành mới không?
     - Học ngành mới có cần học lại các học phần trùng với học phần đã học không?
+    - Có phải học lại học phần trùng của 2 chương trình không
 
 - intent: cau_2.80
   examples: |
@@ -1319,6 +1352,8 @@ actions:
     - Thời gian tối đa học ngành 2?
     - Được phép học ngành 2 đến khi nào?
     - Có giới hạn thời gian học ngành 2 hay không?
+    - Thời hạn tốt nghiệp chương trình đào tạo thứ hai
+    - Thời hạn tốt nghiệp CTĐT thứ hai
 
 - intent: cau_2.82
   examples: | 
@@ -1335,12 +1370,15 @@ actions:
     - Khi nào được công nhận tốt nghiệp ngành 2?
     - Khi nào được công nhận tốt nghiệp chương trình đào tạo thứ hai?
     - Có điều kiện nào thêm khi muốn xét tốt nghiệp ngành 2 không?
+    - Điều kiện tốt nghiệp chương trình đào tạo thứ hai
+    - Điều kiện tốt nghiệp CTĐT thứ hai
 
 - intent: cau_4.1
   examples: |
     - Có những hình thức xét tốt nghiệp nào?
     - Các hình thức xét tốt nghiệp
     - Có bao nhiêu cách để tốt nghiệp?
+    - Các cách tốt nghiệp
 
 - intent: cau_4.2
   examples: |

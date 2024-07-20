@@ -281,7 +281,7 @@ intents:
 entities:
   - hoc_ky
   - loai_chuyen
-
+  - tiet
 actions:
   - whoami
   - action_thanks
