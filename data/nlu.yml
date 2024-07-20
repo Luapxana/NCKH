@@ -1203,66 +1203,66 @@ actions:
     
 - intent: cau_2.61
   examples: |
-    - Tiết 1 bắt đầu lúc mấy giờ?
-    - Tiết 1 là thời gian nào?
-    - Thời gian bắt đầu tiết 1
-    - Thời gian kết thúc tiết 1
+    - [Tiết 1]{"entity": "tiet", "value": "1"} bắt đầu lúc mấy giờ?
+    - [Tiết 1]{"entity": "tiet", "value": "1"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 1]{"entity": "tiet", "value": "1"}
+    - Thời gian kết thúc [tiết 1]{"entity": "tiet", "value": "1"}
 
 - intent: cau_2.62
   examples: |
-    - Tiết 2 bắt đầu lúc mấy giờ?
-    - Tiết 2 là thời gian nào?
-    - Thời gian bắt đầu tiết 2
-    - Thời gian kết thúc tiết 2
+    - [Tiết 2]{"entity": "tiet", "value": "2"} bắt đầu lúc mấy giờ?
+    - [Tiết 2]{"entity": "tiet", "value": "2"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 2]{"entity": "tiet", "value": "2"}
+    - Thời gian kết thúc [tiết 2]{"entity": "tiet", "value": "2"}
 
 - intent: cau_2.63
   examples: |
-    - Tiết 3 bắt đầu lúc mấy giờ?
-    - Tiết 3 là thời gian nào?
-    - Thời gian bắt đầu tiết 3
-    - Thời gian kết thúc tiết 3
+    - [Tiết 3]{"entity": "tiet", "value": "3"} bắt đầu lúc mấy giờ?
+    - [Tiết 3]{"entity": "tiet", "value": "3"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 3]{"entity": "tiet", "value": "3"}
+    - Thời gian kết thúc [tiết 3]{"entity": "tiet", "value": "3"}
 
 - intent: cau_2.64
   examples: |
-    - Tiết 4 bắt đầu lúc mấy giờ?
-    - Tiết 4 là thời gian nào?
-    - Thời gian bắt đầu tiết 4
-    - Thời gian kết thúc tiết 4
+    - [Tiết 4]{"entity": "tiet", "value": "4"} bắt đầu lúc mấy giờ?
+    - [Tiết 4]{"entity": "tiet", "value": "4"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 4]{"entity": "tiet", "value": "4"}
+    - Thời gian kết thúc [tiết 4]{"entity": "tiet", "value": "4"}
 
 - intent: cau_2.65
   examples: |
-    - Tiết 5 bắt đầu lúc mấy giờ?
-    - Tiết 5 là thời gian nào?
-    - Thời gian bắt đầu tiết 5
-    - Thời gian kết thúc tiết 5
+    - [Tiết 5]{"entity": "tiet", "value": "5"} bắt đầu lúc mấy giờ?
+    - [Tiết 5]{"entity": "tiet", "value": "5"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 5]{"entity": "tiet", "value": "5"}
+    - Thời gian kết thúc {"entity": "tiet", "value": "5"}
 
 - intent: cau_2.66
   examples: |
-    - Tiết 6 bắt đầu lúc mấy giờ?
-    - Tiết 6 là thời gian nào?
-    - Thời gian bắt đầu tiết 6
-    - Thời gian kết thúc tiết 6
+    - [Tiết 6]{"entity": "tiet", "value": "6"} bắt đầu lúc mấy giờ?
+    - [Tiết 6][Tiết 6]{"entity": "tiet", "value": "6"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 6][Tiết 6]{"entity": "tiet", "value": "6"}
+    - Thời gian kết thúc [tiết 6][Tiết 6]{"entity": "tiet", "value": "6"}
 
 - intent: cau_2.67
   examples: |
-    - Tiết 7 bắt đầu lúc mấy giờ?
-    - Tiết 7 là thời gian nào?
-    - Thời gian bắt đầu tiết 7
-    - Thời gian kết thúc tiết 7
+    - [Tiết 7]{"entity": "tiet", "value": "7"} bắt đầu lúc mấy giờ?
+    - [Tiết 7]{"entity": "tiet", "value": "7"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 7]{"entity": "tiet", "value": "7"}
+    - Thời gian kết thúc [tiết 7]{"entity": "tiet", "value": "7"}
 
 - intent: cau_2.68
   examples: |
-    - Tiết 8 bắt đầu lúc mấy giờ?
-    - Tiết 8 là thời gian nào?
-    - Thời gian bắt đầu tiết 8
-    - Thời gian kết thúc tiết 8
+    - [Tiết 8]{"entity": "tiet", "value": "8"} bắt đầu lúc mấy giờ?
+    - [Tiết 8]{"entity": "tiet", "value": "8"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 8]{"entity": "tiet", "value": "8"}
+    - Thời gian kết thúc [tiết 8]{"entity": "tiet", "value": "8"}
 
 - intent: cau_2.69
   examples: |
-    - Tiết 9 bắt đầu lúc mấy giờ?
-    - Tiết 9 là thời gian nào?
-    - Thời gian bắt đầu tiết 9
-    - Thời gian kết thúc tiết 9
+    - [Tiết 9]{"entity": "tiet", "value": "9"} bắt đầu lúc mấy giờ?
+    - [Tiết 9]{"entity": "tiet", "value": "9"} là thời gian nào?
+    - Thời gian bắt đầu [tiết 9]{"entity": "tiet", "value": "9"}
+    - Thời gian kết thúc [tiết 9]{"entity": "tiet", "value": "9"}
 
 - intent: cau_2.70
   examples: |
