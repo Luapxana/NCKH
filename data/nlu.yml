@@ -2,6 +2,18 @@ version: "3.1"
 
 nlu:
 
+- synonyms: loai_chuyen
+  examples:
+    - cơ sở đào tạo
+    - trường
+    - chương trình
+    - chương trình đào tạo
+    - ngành đào tạo
+    - ngành
+    - hình thức học
+
+
+
 
 actions:
 
@@ -465,6 +477,8 @@ actions:
   examples: |
     - Tiêu chuẩn cho từng mức học bổng
     - Điều kiện của từng mức học bổng
+    - điều kiện để được nhận học bổng
+    - tiêu chuẩn để đạt học bổng
 
 - intent: cau_1.41.1
   examples: |
@@ -490,17 +504,20 @@ actions:
   examples: |
     - Mức học bổng do ai quy định?
     - Ai quyết định mức học bổng?
+    - người quy định mức học bổng
+    - người quy định mức học bổng là ai
 
 - intent: cau_1.44
   examples: |
     - Học bổng tài trợ là gì?
     - Khái niệm học bổng tài trợ?
-    - Học bổng tài trợ khác gì so với học bổng khuyến khích?
 
 - intent: cau_1.45
   examples: |
     - Quỹ hỗ trợ sinh viên là gì?
     - Khái niệm quỹ hỗ trợ sinh viên?
+    - khi gặp khó khăn về kinh tế sinh viên có thể làm gì
+    - tôi có thể làm gì khi gặp khó khăn về kinh tế
 
 - intent: cau_1.46
   examples: |
@@ -515,6 +532,9 @@ actions:
     - Học phí đóng theo năm hay học kỳ?
     - Quy trình đóng học phí là gì?
     - Cách thức thanh toán học phí được tổ chức như thế nào?
+    - bao lâu đóng học phí một lần
+    - bao lâu mới thanh toán học phí một lần
+    - đóng học phí khi nào
 
 - intent: cau_1.48
   examples: |
@@ -528,7 +548,7 @@ actions:
     - Mức học phí do ai quyết định?
     - Ai quy định học phí?
     - Ai là người quyết định về mức học phí?
-    - Mức độ của học phí được quyết định bởi ai?
+    - Mức của học phí được quyết định bởi ai?
 
 - intent: cau_1.50
   examples: |
@@ -544,6 +564,7 @@ actions:
     - Xem cách thức xin miễn giảm học phí ở đâu?
     - Thông tin về hồ sơ hướng dẫn thực hiện miễn giảm học phí và hỗ trợ chi phí học tập có thể được tìm thấy ở đâu?
     - Nơi nào cung cấp hướng dẫn chi tiết về việc làm hồ sơ để được miễn giảm học phí và hỗ trợ chi phí học tập?
+    - hồ sơ miễn giảm học phí
 
 - intent: cau_1.52
   examples: |
@@ -551,6 +572,10 @@ actions:
     - Không đóng học phí thì bị ảnh hưởng gì?
     - Những hậu quả nào có thể xảy ra nếu sinh viên không đóng học phí?
     - Sinh viên không đóng học phí có thể gặp phải những vấn đề gì?
+    - không đóng học phí có sao không
+    - không đóng học phí thì bị gì
+    - sinh viên không đóng học phí
+    - không đóng học phí
 
 - intent: cau_1.53
   examples: |
@@ -568,12 +593,14 @@ actions:
     - Bảo hiểm tai nạn có bắt buộc không
     - Bảo hiểm tai nạn có bắt buộc đối với sinh viên không?
     - Sinh viên cần phải đóng bảo hiểm tai nạn không?
+    - sinh viên có cần đóng bhtn không
 
 - intent: cau_1.55
   examples: |
     - Sinh viên có thể xin vay tín dụng không?
     - Tôi có thể xin vay tín dụng không?
     - Có cơ hội nào cho sinh viên vay tiền không?
+    - tôi muốn vay tín dụng
 
 - intent: cau_1.56
   examples: |
@@ -594,6 +621,9 @@ actions:
     - Điều kiện chuyển sang vừa học vừa làm là gì?
     - Điều kiện để chuyển sang học vừa làm vừa học là gì?
     - Những tiêu chí nào cần được đáp ứng để chuyển sang hình thức học vừa làm vừa học?
+    - tôi muốn chuyển sang đào tạo từ xa
+    - điều kiện chuyển sang đào tạo từ xa
+    - tôi muốn chuyển sang đào tạo từ xa
   
 - intent: cau_1.59
   examples: |
@@ -608,12 +638,17 @@ actions:
     - Số tín chỉ tối đa mà sinh viên có thể tích lũy tại cơ sở đào tạo khác là bao nhiêu?
     - Sinh viên có thể học tối đa bao nhiêu tín chỉ ở một cơ sở khác?
     - Giới hạn về số lượng tín chỉ sinh viên có thể học tại một cơ sở khác là bao nhiêu?
+    - số tc tối đa sinh viên có thể tích lũy ở trường khác
+    - giới hạn số tín chỉ mà sinh viên có thể tích lũy ở trường khác
+    - tôi có thể học tối đa bao nhiêu tín chỉ ở trường khác
 
 - intent: cau_1.61
   examples: |
-    - Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi có được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
-    - Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học, cũng như sinh viên tham gia trao đổi, có được xem xét để công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
-    - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trong trường hợp chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học không?
+    - Sinh viên chuyển [cơ sở đào tạo]{"entity": "loai_chuyen", "value": "cơ sở đào tạo"} có được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
+    - Sinh viên chuyển [cơ sở đào tạo]{"entity": "loai_chuyen", "value": "cơ sở đào tạo"} có được xem xét để công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
+    - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trong trường hợp chuyển [cơ sở đào tạo]{"entity": "loai_chuyen", "value": "cơ sở đào tạo"} không?
+    - Sinh viên tham gia trao đổi có được xem xét để công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
+    -  Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trao đổi không
 
 
 - intent: cau_2.1

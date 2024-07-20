@@ -280,6 +280,7 @@ intents:
 
 entities:
   - hoc_ky
+  - loai_chuyen
 
 actions:
   - whoami
@@ -520,7 +521,7 @@ responses:
   - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.\n\n
   - Nơi chuyển đến có đủ các điều kiện đảm bảo chất lượng, chưa  vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
   - Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.\n\n
-  \n\n
+  \n
   Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
   - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
   - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
