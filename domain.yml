@@ -12,6 +12,7 @@ intents:
   - thanks
   - sorry
   - get_started
+  - give_time
 #chương 1
   - cau_1.1
   - cau_1.2
@@ -286,6 +287,7 @@ actions:
   - whoami
   - action_thanks
   - action_sorry
+  - action_show_time
 responses:
   utter_greet:
   - text: "Xin chào"
@@ -353,13 +355,13 @@ responses:
   - text: "Tổng khối lượng (tính theo tín chỉ) được thực hiện bằng phương thức dạy và học trực tuyến không quá 30% khối lượng của chương trình đào tạo. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường có thể thực hiện việc dạy và học bằng phương thức trực tuyến theo yêu cầu và hướng dẫn của Nhà nước."
 
   utter_cau_1.9:
-  - text: "Chương trình đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
+  - text: "Chương trình đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
   utter_cau_1.10:
-  - text: "Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
+  - text: "Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
   utter_cau_1.11:
-  - text: "Chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết."
+  - text: "Chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
   utter_cau_1.12:
   - text: "Căn cứ kế hoạch học tập chuẩn toàn khóa và hướng dẫn của cố vấn học tập, sinh viên phải xây dựng kế hoạch học tập toàn khóa bằng cách liệt kê các học phần phải học cho từng học kỳ của khóa học."
@@ -444,7 +446,7 @@ responses:
   - text: "1 tiết học được tính bằng 50 phút."
 
   utter_cau_1.37:
-  - text: "Khối lượng CTĐT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTĐT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường."
+  - text: "Khối lượng CTĐT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTĐT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
   utter_cau_1.38:
   - text: "Học bổng khuyến khích học tập được xét cấp theo HK dựa trên cơ sở điểm trung bình chung học kỳ và điểm rèn luyện của HK chính trước đó. Học bổng được cấp cho sinh viên từ cao xuống thấp theo mức học bổng, trong từng mức ưu tiên theo điểm trung bình chung học kỳ(trường hợp sinh viên có cùng ĐTBCHK thì xét ưu tiên theo ĐRL). Riêng đối với HK đầu tiên của khóa học, học bổng được cấp dựa trên kết quả xét tuyển đầu vào do Hiệu trưởng quyết định."
@@ -498,10 +500,10 @@ responses:
   - text: "Mức học phí do Hiệu trưởng quyết định."
 
   utter_cau_1.50:
-  - text: "Đối tượng được miễn giảm học phí và được hỗ trợ chi phí học tập thực hiện theo các quy định hiện hành và các văn bản hướng dẫn có liên quan."
+  - text: "Đối tượng được miễn giảm học phí và được hỗ trợ chi phí học tập thực hiện theo các quy định hiện hành và các văn bản hướng dẫn có liên quan. [Miễn giảm học phí](https://dsa.ctu.edu.vn/thong-bao/che-do-chinh-sach/mien.html)"
 
   utter_cau_1.51:
-  - text: "Hồ sơ hướng dẫn thực hiện miễn, giảm học phí và hỗ trợ chi phí học tập xem tại trang thông tin điện tử của Phòng Công tác Sinh viên."
+  - text: "Hồ sơ hướng dẫn thực hiện miễn, giảm học phí và hỗ trợ chi phí học tập xem tại trang thông tin điện tử của Phòng Công tác Sinh viên. [Phòng Công tác Sinh viên](https://dsa.ctu.edu.vn/)"
 
   utter_cau_1.52:
   - text: "Sau thời hạn đóng học phí, sinh viên không đóng học phí sẽ bị hủy kết quả học tập những học phần nợ học phí trong HK đó và buộc phải đóng học phí còn nợ cùng lúc với học phí của HK tiếp theo. Sinh viên không đóng học phí 2 HK liên tiếp sẽ bị buộc thôi học."

@@ -79,6 +79,18 @@ actions:
     - thank you
     - Cảm ơn
 
+- intent: give_time
+  examples: |
+    - thời gian
+    - time
+    - mấy giờ rồi
+    - bây giờ là mấy giờ
+    - nói cho tôi thời gian hiện tại
+    - cho tôi thông tin về thời gian
+    - what time
+
+
+
 
 - intent: cau_1.1
   examples: |

@@ -3,6 +3,7 @@
 #
 # See this guide on how to implement these action:
 # https://rasa.com/docs/rasa/custom-actions
+import datetime as dt
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from typing import Text, Any, Dict, List
@@ -44,6 +45,22 @@ class ActionWhoami(Action):
         dispatcher.utter_message(text="It's fine.")
 
         return []
+    
+
+class ActionDateTime(Action):
+
+    def name(self) -> Text:
+        return "action_show_time"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text=f"{dt.datetime.now()}")
+
+        return []
+
+
 
 
 # This is a simple example for a custom action which utters "Hello World!"
