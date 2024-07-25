@@ -1366,3 +1366,8 @@ rules:
   steps:
   - intent: diemhp
   - action: action_diemhp
+
+- rule: Xếp loại
+  steps:
+  - intent: diem_hk
+  - action: action_diemhk
