@@ -295,26 +295,17 @@ responses:
   utter_greet:
   - text: "Xin chào"
   - text: "Xin chào! Đây là chatbot được xây dựng bằng RASA tạo bởi sinh viên!"
+  
   utter_welcome:
   - text: "Xin chào! Đây là chatbot được xây dựng bằng RASA tạo ra bởi sinh viên! Hãy đặt câu hỏi liên quan đến quy chế học vụ Trường Đại học Cần Thơ ở đây nhé!"
   
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
   utter_goodbye:
   - text: "Tạm biệt"
   - text: "Hẹn gặp lại!"
   - text: "Xin cảm ơn bạn đã sử dụng chatbot, tạm biệt và hẹn gặp lại!"
 
   utter_thanks:
-  - text: "Hân hạnh được phụ vụ"
+  - text: "Hân hạnh được phục vụ bạn, nếu có thêm câu hỏi nào về quy chế học vụ Trường Đại học Cần Thơ hãy đặt câu hỏi tại đây nhé!"
 
 # chương 1
 # 1.1 - 1.20
