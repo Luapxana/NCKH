@@ -2140,6 +2140,12 @@ actions:
 
 - intent: diemhp
   examples: |
-    - Điểm chữ khi được [8.9](number) điểm là bao nhiêu
-    - Học phần được [7.9](number) là được điểm gì
-    - Quy đổi điểm chữ từ [6.9]number
+    - Điểm chữ khi được [diemso: 8.9] điểm là bao nhiêu
+    - Học phần được [diemso: 7.9] là được điểm gì
+    - Quy đổi điểm chữ từ [diemso: 6.9]
+
+- intent: diemhk
+  examples: |
+    - ĐTBHK [diemso: 3.59](number) thì được xếp loại gì
+    - Điểm trung bình học kỳ là [diemso: 3.19] thì xếp loại nào
+    - Xếp loại khi được [diemso: 2.49]

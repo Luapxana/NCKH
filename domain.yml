@@ -13,6 +13,7 @@ intents:
   - sorry
   - get_started
   - diem_hp
+  - diem_hk
 #chương 1
   - cau_1.1
   - cau_1.2
@@ -283,11 +284,13 @@ entities:
   - hoc_ky
   - loai_chuyen
   - tiet
+  - diemso
 actions:
   - whoami
   - action_thanks
   - action_sorry
   - action_diemhp
+  - actiob_diemhk
 responses:
   utter_greet:
   - text: "Xin chào"
