@@ -17,15 +17,10 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
-
 - rule: Reply to thank
   steps:
   - intent: thanks
-  - action: action_thanks
+  - action: utter_thanks
 
 - rule: Cau_1.1
   steps:
@@ -1367,4 +1362,7 @@ rules:
   - intent: cau_3.95
   - action: utter_cau_3.95
 
-
+- rule: So điểm học phần
+  steps:
+  - intent: diemhp
+  - action: action_diemhp
