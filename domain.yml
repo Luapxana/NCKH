@@ -12,6 +12,7 @@ intents:
   - thanks
   - sorry
   - get_started
+  - diem_hp
 #chương 1
   - cau_1.1
   - cau_1.2
@@ -286,6 +287,7 @@ actions:
   - whoami
   - action_thanks
   - action_sorry
+  - action_diemhp
 responses:
   utter_greet:
   - text: "Xin chào"
@@ -306,9 +308,11 @@ responses:
   utter_goodbye:
   - text: "Tạm biệt"
   - text: "Hẹn gặp lại!"
+  - text: "Xin cảm ơn bạn đã sử dụng chatbot, tạm biệt và hẹn gặp lại!"
 
-  utter_iamabot:
-  - text: "I am a bot"
+  utter_thanks:
+  - text: "Hân hạnh được phụ vụ"
+
 # chương 1
 # 1.1 - 1.20
   utter_cau_1.1:
@@ -582,7 +586,13 @@ responses:
   - text: "Sau tuần 2 của học kỳ có thể in kết quả đăng ký học phần."
 
   utter_cau_2.12:
-  - text: "Sinh viên có thể đăng ký học phần dựa trên danh mục dự kiến các học phần (được Trường công bố chậm nhất trước 6 tuần) để đăng ký trên hệ thống quản lý, sinh viên có thể xóa, đổi lớp học phần đến tuần thứ 1 của học kỳ và có thể rút học phần đến tuần thứ 8 (HK chính), tuần 2(học kỳ phụ)."
+  - text: "Sinh viên thực hiện đăng ký học phần trên hệ thống quản lý của trường hoặc ứng dung MyCTUs, chọn mục \"Đăng ký học phần\":\n\n
+          \n\n1. Sinh viên vào mục \"Danh mục học phần\" để xem trước thời khóa biểu các học phần trong học kỳ, sinh viên dựa vào thời khóa biểu để sắp xếp thời gian sao cho các học phần đã thêm vào kế hoạch học tập không trùng nhau
+          \n\n2. Mục \"Quy định đăng ký\" quy định thời gian đăng ký học phần của từng nhóm ngành của học kỳ đó
+          \n\n3. Khi đến thời gian đăng ký học phần, sinh viên vào mục \"Đăng ký học phần\", ở Danh sách học phần, chọn học phần cần đăng ký, chọn nhóm học phần sau đó chọn đăng ký
+          \n\n4. Sinh viên có thể xóa lớp học phần đã đăng ký hoặc đổi nhóm ở bảng Kết quả đăng ký học phần.
+          \n\n5. Sau khi đăng ký học phần xong, sinh viên có thể vào mục \"Thời khóa biểu\" để xem thông tin các nhóm học phần đã đăng ký và thời khóa biểu trong tuần
+          Video hướng dẫn đăng ký cụ thể tại đây: https://www.youtube.com/watch?v=Z3EsqtiZtH4."
 
   utter_cau_2.13:
   - text: "Sinh viên sẽ được xem thời khóa biểu chậm nhất là 6 tuần trước khi HK mới bắt đầu."
@@ -600,7 +610,11 @@ responses:
   - text: "Kết quả đăng ký học phần có thể được thay đổi đến hết tuần 1 của học kỳ."
 
   utter_cau_2.18:
-  - text: "Thực hiện rút học phần thông qua hệ thống quản lý đào tạo của trường hoặc ứng dụng MyCTUS và làm theo hướng dẫn."
+  - text: "Trên hệ thống quản lý, trong phần \"Đăng ký học phần\", sinh viên vào mục \"Rút học phần\", lựa chọn học phần cần rút, chọn học phần cần rút, chọn rút học phần. Lưu ý:
+          \n\n- Mỗi học phần sinh viên chỉ được rút học phần một lần không thể phục hồi, sinh viên suy nghĩ kỹ trước khi thực hiện rút học phần.
+          \n\n- Những học phần đã rút đều bị tính học phí theo quy định.
+          \n\n- Điểm học phần sau khi rút thành công là điểm W.
+          \n\n- Mỗi học kỳ sẽ có thời gian rút học phần cố định."
 
   utter_cau_2.19:
   - text: "Sinh viên rút học phần sẽ nhận điểm W của học phần trong học kỳ đó."

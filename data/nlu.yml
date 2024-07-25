@@ -2137,3 +2137,9 @@ actions:
     - Sinh viên cần điều kiện nào để được khen thưởng cuối năm?
     - Điều kiện để được khen thưởng cuối năm?
 
+
+- intent: diemhp
+  examples: |
+    - Điểm chữ khi được [8.9](number) điểm là bao nhiêu
+    - Học phần được [7.9](number) là được điểm gì
+    - Quy đổi điểm chữ từ [6.9]number
