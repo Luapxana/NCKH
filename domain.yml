@@ -12,6 +12,7 @@ intents:
   - thanks
   - sorry
   - get_started
+  - give_time
 #chương 1
   - cau_1.1
   - cau_1.2
@@ -287,6 +288,7 @@ actions:
   - whoami
   - action_thanks
   - action_sorry
+  - action_show_time
 responses:
   utter_greet:
   - text: "Xin chào"
