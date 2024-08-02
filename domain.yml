@@ -392,16 +392,20 @@ responses:
     Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
 
   utter_cau_1.22:
-  - text: "Mỗi năm được tổ chức thành 3 HK: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ."
+  - text: "Mỗi năm được tổ chức thành 3 học kỳ: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ.\n\n
+  Kể từ học kỳ 2 năm học 2024-2025, một năm học được tổ chức thành 3 học kỳ chính được gọi là Học kỳ 1, Học kỳ 2 và Học kỳ 3."
 
   utter_cau_1.23:
-  - text: "Học kỳ I là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12."
+  - text: "Học kỳ I là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12.\n\n
+  Kể từ học kỳ 2 năm học 2024-2025, học kỳ 1 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 1 bắt đầu từ tuần thứ tuần thứ 37 đến tuần thứ 51 của năm."
 
   utter_cau_1.24:
-  - text: "Học kỳ II là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ II bắt đầu từ tháng 1 đến cuối tháng 5."
+  - text: "Học kỳ II là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ II bắt đầu từ tháng 1 đến cuối tháng 5.\n\n
+  Kể từ học kỳ 2 năm học 2024-2025, học kỳ 2 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 2 bắt đầu từ tuần thứ tuần thứ 1 đến tuần thứ 17 của năm (bao gồm 2 tuần nghỉ Tết Nguyên Đán)."
 
   utter_cau_1.25:
-  - text: "Học kỳ III là học kỳ phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả. Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6. Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học HK III. Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỷ luật SV."
+  - text: "Học kỳ III là học kỳ phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả. Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6. Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học HK III. Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỷ luật SV.\n\n
+  Kể từ học kỳ 2 năm học 2024-2025, học kỳ 3 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 3 bắt đầu từ tuần thứ tuần thứ 20 đến tuần thứ 34 của năm."
 
   utter_cau_1.26:
   - text: "Học phần là lượng kiến thức tương đối trọn vẹn được dạy trong 1 HK. Mỗi học phần có tên riêng và được ký hiệu bằng một mã số."
@@ -566,7 +570,8 @@ responses:
   - text: "Đăng ký học phần dựa vào KHHT và thời khóa biểu các lớp học phần trong học kỳ do Trường công bố"
 
   utter_cau_2.8:
-  - text: "Số tín chỉ tối đa sinh viên có thể đăng ký là 25 đối với học kỳ chính và 8 đối với học kỳ phụ"
+  - text: "Số tín chỉ tối đa sinh viên có thể đăng ký là 25 đối với học kỳ chính và 8 đối với học kỳ phụ\n\n
+  Kể từ học kỳ 2 năm học 2024-2024, số tín chỉ tối đa mà sinh viên có thể đăng ký là 20 tín chỉ đối với mỗi học kỳ"
 
   utter_cau_2.9:
   - text: "Trường không bắt buộc sinh viên học HK hè."
