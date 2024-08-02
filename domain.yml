@@ -571,7 +571,7 @@ responses:
 
   utter_cau_2.8:
   - text: "Số tín chỉ tối đa sinh viên có thể đăng ký là 25 đối với học kỳ chính và 8 đối với học kỳ phụ\n\n
-  Kể từ học kỳ 2 năm học 2024-2024, số tín chỉ tối đa mà sinh viên có thể đăng ký là 20 tín chỉ đối với mỗi học kỳ"
+  Kể từ học kỳ 2 năm học 2024-2025, số tín chỉ tối đa mà sinh viên có thể đăng ký là 20 tín chỉ đối với mỗi học kỳ"
 
   utter_cau_2.9:
   - text: "Trường không bắt buộc sinh viên học HK hè."
