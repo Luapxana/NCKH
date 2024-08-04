@@ -9,11 +9,11 @@
   <div class="header-container">
     <img src="./image/chatbot3.png" alt="Header Image" class="header-image">
     <div class="header">
-      <h1>XIN CHÀO MỪNG CÁC BẠN</h1>
+      <h1>Chào bạn! Tôi có thể giúp gì cho bạn?</h1>
     </div>
+    <button class="openbutton" onclick="openFullscreen()">Bắt đầu chat nhé</button>
   </div>
   <div id="khungngoai">
-    <div id="webchat"></div>
     <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
     <script>
       !(function () {
@@ -42,7 +42,7 @@
               subtitle: "Powered by Đạt, Hóa, Nguyên",
               connectingText: "Waiting for server...",
               profileAvatar: "./image/chatbot3.png",
-              openLauncherImage: "https://th.bing.com/th/id/OIP.je8h2Cb0kVO2TzWXe53U7QAAAA?rs=1&pid=ImgDetMain",
+              openLauncherImage: "/image/chatbot3.png",
               params: {"storage": "session"},
               mainColor: "#cccc99",
               userBackgroundColor: "#cccc99",
@@ -52,7 +52,7 @@
               badge: " ",
               displayUnreadCount: true,
               isChatOpen: false,
-              embedded: true,
+              embedded: false,
               showCloseButton: true,
               fullScreenMode: true,
               showFullScreenButton: true,
@@ -63,6 +63,11 @@
         },
         t.insertBefore(e, t.firstChild);
       })();
+      
+      function openFullscreen() {
+        document.querySelector('.rw-launcher').click();
+        document.querySelector('.rw-toggle-fullscreen').click();
+      }
     </script>
   </div>
 </body>
