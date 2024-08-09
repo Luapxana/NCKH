@@ -22,6 +22,11 @@ rules:
   - intent: thanks
   - action: utter_thanks
 
+- rule: hoi_gio
+  steps:
+  - intent: give_time
+  - action: action_show_time
+
 - rule: Cau_1.1
   steps:
   - intent: cau_1.1
@@ -147,25 +152,16 @@ rules:
 - rule: Cau_1.23
   steps:
   - intent: cau_1.23
-  entities:
-  - entity: hoc_ky
-    value: "1"
   - action: utter_cau_1.23
   
 - rule: Cau_1.24
   steps:
   - intent: cau_1.24
-  entities:
-  - entity: hoc_ky
-    value: "2"
   - action: utter_cau_1.24
   
 - rule: Cau_1.25
   steps:
   - intent: cau_1.25
-  entities:
-  - entity: hoc_ky
-    value: "3"
   - action: utter_cau_1.25
   
 - rule: Cau_1.26
@@ -677,73 +673,46 @@ rules:
 - rule: Cau_2.61
   steps:
   - intent: cau_2.61
-  entities:
-  - entity: tiet
-    value: "1"
   - action: utter_cau_2.61
 
 - rule: Cau_2.62
   steps:
   - intent: cau_2.62
-  entities:
-  - entity: tiet
-    value: "2"
   - action: utter_cau_2.62
 
 - rule: Cau_2.63
   steps:
   - intent: cau_2.63
-  entities:
-  - entity: tiet
-    value: "3"
   - action: utter_cau_2.63
 
 - rule: Cau_2.64
   steps:
   - intent: cau_2.64
-  entities:
-  - entity: tiet
-    value: "4"
   - action: utter_cau_2.64
 
 - rule: Cau_2.65
   steps:
   - intent: cau_2.65
-  entities:
-  - entity: tiet
-    value: "5"
   - action: utter_cau_2.65
 
 - rule: Cau_2.66
   steps:
   - intent: cau_2.66
-  entities:
-  - entity: tiet
-    value: "6"
   - action: utter_cau_2.66
 
 - rule: Cau_2.67
   steps:
   - intent: cau_2.67
-  entities:
-  - entity: tiet
-    value: "7"
   - action: utter_cau_2.67
 
 - rule: Cau_2.68
   steps:
   - intent: cau_2.68
-  entities:
-  - entity: tiet
-    value: "8"
   - action: utter_cau_2.68
 
 - rule: Cau_2.69
   steps:
   - intent: cau_2.69
-  entities:
-  - entity: tiet
-    value: "9"
   - action: utter_cau_2.69
 
 - rule: Cau_2.70
