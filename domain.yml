@@ -13,6 +13,8 @@ intents:
   - sorry
   - get_started
   - give_time
+  - diemhp
+  - diem_hk
 #chương 1
   - cau_1.1
   - cau_1.2
@@ -289,6 +291,8 @@ actions:
   - action_thanks
   - action_sorry
   - action_show_time
+  - action_diemhp
+  - action_diemhk
 responses:
   utter_greet:
   - text: "Xin chào"
