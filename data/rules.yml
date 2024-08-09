@@ -1338,5 +1338,5 @@ rules:
 
 - rule: Xếp loại
   steps:
-  - intent: diem_hk
+  - intent: diemhk
   - action: action_diemhk
