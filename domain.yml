@@ -16,74 +16,74 @@ intents:
   - diemhp
   - diemhk
 #chương 1
-  - cau_1.1
-  - cau_1.2
-  - cau_1.3
-  - cau_1.4
-  - cau_1.5
-  - cau_1.6
-  - cau_1.7
-  - cau_1.7.1
-  - cau_1.7.2
-  - cau_1.7.3
-  - cau_1.8
-  - cau_1.8.1
-  - cau_1.8.2
-  - cau_1.9
-  - cau_1.10
-  - cau_1.11
-  - cau_1.12
-  - cau_1.13
-  - cau_1.14
-  - cau_1.15
-  - cau_1.16
+  - khai_niem_qchv
+  - doi_tuong_ap_dung_qchv
+  - khai_niem_sinh_vien
+  - truong_cap_cho_sinh_vien
+  - trach_nhiem_sinh_vien
+  - chuong_trinh_dao_tao
+  - khai_niem_ban_mo_ta_ctdt
+  - khai_niem_khung_ctdt
+  - khai_niem_ke_hoach_day_va_hoc
+  - noi_xem_tom_tat_hoc_phan
+  - hoc_truc_tuyen
+  - noi_xem_noi_dung_day_hoc_truc_tuyen
+  - khoi_luong_ctdt_toi_da_hoc_truc_tuyen
+  - noi_xem_ctdt
+  - noi_xem_ban_mo_ta_ctdt
+  - noi_xem_chuong_trinh_day_hoc
+  - cach_xay_dung_khht
+  - nguoi_duyet_khht_toan_khoa
+  - chuc_nang_cua_khht
+  - thay_doi_khht
+  - thoi_gian_toi_da_ctdt
  #xóa cau_1.17 cau_1.18 cau_1.19
-  - cau_1.20
-  - cau_1.21
-  - cau_1.22
-  - cau_1.23
-  - cau_1.24
-  - cau_1.25
-  - cau_1.26
-  - cau_1.27
-  - cau_1.28
-  - cau_1.29
-  - cau_1.30
-  - cau_1.31
-  - cau_1.31.1
-  - cau_1.32
-  - cau_1.33
-  - cau_1.34
-  - cau_1.35
-  - cau_1.36
-  - cau_1.37
-  - cau_1.38
-  - cau_1.39
-  - cau_1.40
-  - cau_1.41
-  - cau_1.41.1
-  - cau_1.41.2
-  - cau_1.41.3
-  - cau_1.42
-  - cau_1.43
-  - cau_1.44
-  - cau_1.45
-  - cau_1.46
-  - cau_1.47
-  - cau_1.48
-  - cau_1.49
-  - cau_1.50
-  - cau_1.51
-  - cau_1.52
-  - cau_1.53
-  - cau_1.54
-  - cau_1.55
-  - cau_1.56
-  - cau_1.57
-  - cau_1.58
-  - cau_1.59
-  - cau_1.60
-  - cau_1.61
+  - nguoi_duoc_hoc_tap_vo_han
+  - quy_dinh_cong_nhan_kqht_o_noi_khac
+  - so_hoc_ki_moi_nam
+  - cach_to_chuc_hoc_ky_1
+  - cach_to_chuc_hoc_ky_2
+  - cach_to_chuc_hoc_ky_3
+  - khai_niem_hoc_phan
+  - khai_niem_hoc_phan_bat_buoc
+  - khai_niem_hoc_phan_tu_chon
+  - khai_niem_hoc_phan_tien_quyet
+  - khai_niem_hoc_phan_song_hanh
+  - khai_niem_hoc_phan_dieu_kien
+  - nhung_hoc_phan_dieu_kien
+  - khai_niem_lop_hoc_phan
+  - khai_niem_lop_chuyen_nganh
+  - khai_niem_tin_chi
+  - so_tiet_moi_tin_chi
+  - thoi_gian_1_tiet_hoc
+  - cach_xay_dung_khoi_luong_ctdt
+  - khai_niem_hoc_bong_khuyen_khich
+  - thong_tin_quy_hoc_bong
+  - dieu_kien_xet_hoc_bong
+  - tieu_chuan_tung_muc_hoc_bong
+  - dieu_kien_hoc_bong_xuat_sac
+  - dieu_kien_hoc_bong_gioi
+  - dieu_kien_hoc_bong_kha
+  - dieu_kien_hoc_bong_nuoc_ngoai
+  - nguoi_quy_dinh_muc_hoc_bong
+  - khai_niem_hoc_bong_tai_tro
+  - khai_niem_quy_ho_tro_sinh_vien
+  - nguoi_duoc_huong_tro_cap_xa_hoi
+  - cach_dong_hoc_phi
+  - cach_tinh_hoc_phi
+  - nguoi_quy_dinh_muc_hoc_phi
+  - dieu_kien_mien_giam_hoc_phi
+  - ho_so_mien_giam_hoc_phi
+  - anh_huong_khong_dong_hoc_phi
+  - bao_hiem_y_te
+  - bao_hiem_tai_nan
+  - vay_tin_dung_cho_sinh_vien
+  - dieu_kien_chuyen_co_so_dao_tao
+  - dieu_kien_chuyen_co_so_dao_tao_k47
+  - dieu_kien_chuyen_he_dao_tao
+  - hoc_hoc_phan_truong_khac
+  - tin_chi_toi_da_hoc_truong_khac
+  - sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
 # chương 2
   - cau_2.1
   - cau_2.2
@@ -283,7 +283,6 @@ intents:
 
 entities:
   - hoc_ky
-  - loai_chuyen
   - tiet
   - diemso
 actions:
@@ -311,207 +310,207 @@ responses:
 
 # chương 1
 # 1.1 - 1.20
-  utter_cau_1.1:
+  utter_khai_niem_qchv:
   - text: "Quy chế học vụ quy định về công tác học vụ dành cho sinh viên trình độ đại học chính quy bao gồm: Chương trình đào tạo(CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cấp bằng tốt nghiệp và những quy định khác đối với sinh viên."
 
-  utter_cau_1.2:
+  utter_doi_tuong_ap_dung_qchv:
   - text: "Quy chế học vụ áp dụng đối với sinh viên các ngành, khóa đào tạo trình độ đại học hệ chính quy của Trường Đại học Cần Thơ(ĐHCT)."
 
-  utter_cau_1.3:
+  utter_khai_niem_sinh_vien:
   - text: "Sinh viên hệ chính quy của Trường ĐHCT là những người đã trúng tuyển kỳ thi tuyển sinh hoặc được xét tuyển và có quyết định thu nhận vào học hệ chính quy của Trường."
   
-  utter_cau_1.4:
+  utter_truong_cap_cho_sinh_vien:
   - text: "Mỗi sinh viên sẽ được cấp một mã số sinh viên, thẻ sinh viên và địa chỉ thư điện tử (email) để sử dụng trong suốt quá trình theo học tại Trường."
 
-  utter_cau_1.5:
+  utter_trach_nhiem_sinh_vien:
   - text: "Sinh viên Trường ĐHCT phải chấp hành nội quy, quy định của Trường, của Khoa/Viện/Bộ môn trực thuộc Trường, của lớp và của các đơn vị khác trong Trường.\n\n
     Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.\n\n
     Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định. Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ồn, gây mất trật tự; không tụ tập uống rượu bia.\n\n"
 
-  utter_cau_1.6:
+  utter_chuong_trinh_dao_tao:
   - text: "Chương trình đào tạo của mỗi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp."
   
-  utter_cau_1.7:
+  utter_khai_niem_ban_mo_ta_ctdt:
   - text: "Bản mô tả chương trình đào tạo và chương trình dạy học được xây dựng căn cứ vào CTĐT, gồm các nội dung: thông tin chung về CTĐT; thông tin về đối sánh giữa CTĐT với các chương trình tương tự trong và ngoài nước; thông tin về kết quả đánh giá hoặc kiểm định chất lượng CTĐT; mục tiêu đào tạo của CTĐT; chuẩn đầu ra của CTĐT; tiêu chí tuyển sinh; cấu trúc chương trình dạy học, khung CTĐT; kế hoạch dạy học; tóm tắt các học phần; phương pháp giảng dạy và học tập; phương pháp đánh giá."
 
-  utter_cau_1.7.1:
+  utter_khai_niem_khung_ctdt:
   - text: "Khung chương trình đào tạo là CTĐT với các học phần được bố trí theo khối kiến thức."
 
-  utter_cau_1.7.2:
+  utter_khai_niem_ke_hoach_day_va_hoc:
   - text: "Kế hoạch dạy và học là CTĐT với các học phần được bố trí theo học kỳ trong thời gian thiết kế của CTĐT. Còn được gọi là kế hoạch học tập chuẩn toàn khóa."
 
-  utter_cau_1.7.3:
+  utter_noi_xem_tom_tat_hoc_phan:
   - text: "Tóm tắt các học phần được đính kèm đề cương chi tiết các học phần."
 
-  utter_cau_1.8:
+  utter_hoc_truc_tuyen:
   - text: "Một số học phần thuộc CTĐT có thể được tổ chức lớp học bằng phương thức dạy và học trực tuyến một phần hoặc toàn bộ học phần khi đáp ứng các quy định  hiện hành."
 
-  utter_cau_1.8.1:
+  utter_noi_xem_noi_dung_day_hoc_truc_tuyen:
   - text: "Những nội dung dạy và học trực tuyến được ghi trong đề cương chi tiết học phần."
 
-  utter_cau_1.8.2:
+  utter_khoi_luong_ctdt_toi_da_hoc_truc_tuyen:
   - text: "Tổng khối lượng (tính theo tín chỉ) được thực hiện bằng phương thức dạy và học trực tuyến không quá 30% khối lượng của chương trình đào tạo. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường có thể thực hiện việc dạy và học bằng phương thức trực tuyến theo yêu cầu và hướng dẫn của Nhà nước."
 
-  utter_cau_1.9:
+  utter_noi_xem_ctdt:
   - text: "Chương trình đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
-  utter_cau_1.10:
+  utter_noi_xem_ban_mo_ta_ctdt:
   - text: "Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
-  utter_cau_1.11:
+  utter_noi_xem_chuong_trinh_day_hoc:
   - text: "Chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
-  utter_cau_1.12:
+  utter_cach_xay_dung_khht:
   - text: "Căn cứ kế hoạch học tập chuẩn toàn khóa và hướng dẫn của cố vấn học tập, sinh viên phải xây dựng kế hoạch học tập toàn khóa bằng cách liệt kê các học phần phải học cho từng học kỳ của khóa học."
 
-  utter_cau_1.13:
+  utter_nguoi_duyet_khht_toan_khoa:
   - text: "Kế hoạch học tập toàn khóa phải được cố vấn học tập phê duyệt."
 
-  utter_cau_1.14:
+  utter_chuc_nang_cua_khht:
   - text: "Kế hoạch học tập toàn khóa là cơ sở để sinh viên đăng ký học phần trong mỗi học kỳ."
 
-  utter_cau_1.15:
+  utter_thay_doi_khht:
   - text: "Sinh viên có thể thay đổi kế hoạch học tập toàn khóa trong quá trình học nhưng phải có ý kiến của cố vấn học tập."
 
-  utter_cau_1.16:
+  utter_thoi_gian_toi_da_ctdt:
   - text: "Kế hoạch học tập chuẩn toàn khóa có thời gian thiết kế cho một chương trình đào tạo tùy theo ngành học. Thời gian học tập tối đa cho phép sinh viên hoàn thành CTĐT được xác định như sau:\n\n
     - Thời gian thiết kế của CTĐT là 4 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 8 năm.\n\n
     - Thời gian thiết kế của CTĐT là 4,5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 9 năm.\n\n
     - Thời gian thiết kế của CTĐT là 5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 10 năm.\n\n"
 
 
-  utter_cau_1.20:
+  utter_nguoi_duoc_hoc_tap_vo_han:
   - text: "Những sinh viên được hưởng chính sách ưu tiên theo đối tượng quy định tại Quy chế tuyển sinh đại học, cao đẳng hệ chính quy thì không giới hạn về thời gian tối đa để hoàn thành CTĐT."
 #1.21 - 1.40 
-  utter_cau_1.21:
+  utter_quy_dinh_cong_nhan_kqht_o_noi_khac:
   - text: "Những sinh viên học liên thông và những sinh viên có kết quả học tập đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một CTĐT khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT theo học theo Quy định xét miễn và công nhận điểm học phần trong CTĐT trình độ đại học hệ chính quy của Trường. \n\n
     Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
 
-  utter_cau_1.22:
+  utter_so_hoc_ki_moi_nam:
   - text: "Mỗi năm được tổ chức thành 3 học kỳ: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ.\n\n
   Kể từ học kỳ 2 năm học 2024-2025, một năm học được tổ chức thành 3 học kỳ chính được gọi là Học kỳ 1, Học kỳ 2 và Học kỳ 3."
 
-  utter_cau_1.23:
+  utter_cach_to_chuc_hoc_ky_1:
   - text: "Học kỳ I là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12.\n\n
   Kể từ học kỳ 2 năm học 2024-2025, học kỳ 1 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 1 bắt đầu từ tuần thứ tuần thứ 37 đến tuần thứ 51 của năm."
 
-  utter_cau_1.24:
+  utter_cach_to_chuc_hoc_ky_2:
   - text: "Học kỳ II là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ II bắt đầu từ tháng 1 đến cuối tháng 5.\n\n
   Kể từ học kỳ 2 năm học 2024-2025, học kỳ 2 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 2 bắt đầu từ tuần thứ tuần thứ 1 đến tuần thứ 17 của năm (bao gồm 2 tuần nghỉ Tết Nguyên Đán)."
 
-  utter_cau_1.25:
+  utter_cach_to_chuc_hoc_ky_3:
   - text: "Học kỳ III là học kỳ phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả. Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6. Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học HK III. Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỷ luật SV.\n\n
   Kể từ học kỳ 2 năm học 2024-2025, học kỳ 3 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 3 bắt đầu từ tuần thứ tuần thứ 20 đến tuần thứ 34 của năm."
 
-  utter_cau_1.26:
+  utter_khai_niem_hoc_phan:
   - text: "Học phần là lượng kiến thức tương đối trọn vẹn được dạy trong 1 HK. Mỗi học phần có tên riêng và được ký hiệu bằng một mã số."
 
-  utter_cau_1.27:
+  utter_khai_niem_hoc_phan_bat_buoc:
   - text: "Học phần bắt buộc là học phần sinh viên phải tích lũy. "
 
-  utter_cau_1.28:
+  utter_khai_niem_hoc_phan_tu_chon:
   - text: "Học phần tự chọn là học phần sinh viên tự lựa chọn để tích lũy."
 
-  utter_cau_1.29:
+  utter_khai_niem_hoc_phan_tien_quyet:
   - text: "Học phần tiên quyết của học phần HPxxx là học phần mà sinh viên phải tích lũy mới được đăng ký học học phần HPxxx."
 
-  utter_cau_1.30:
+  utter_khai_niem_hoc_phan_song_hanh:
   - text: "Học phần song hành của học phần HPxxx là học phần mà sinh viên phải học trước hoặc học cùng lúc với học phần HPxxx."
 
-  utter_cau_1.31:
+  utter_khai_niem_hoc_phan_dieu_kien:
   - text: "Học phần điều kiện là học phần mà sinh viên phải hoàn thành nhưng kết quả học phần không dùng để tính điểm trung bình chung tích lũy; ngoài ra, điểm học phần GDTC không dùng để tính điểm trung bình chung học kỳ và điểm trung bình chung năm học."
 
-  utter_cau_1.31.1:
+  utter_nhung_hoc_phan_dieu_kien:
   - text: "Học phần điều kiện bao gồm các học phần Giáo dục Quốc phòng và An ninh, Giáo dục thể chất, Ngoại ngữ căn bản, Tin học căn bản."
 
-  utter_cau_1.32:
+  utter_khai_niem_lop_hoc_phan:
   - text: "Lớp học phần là lớp bao gồm những sinh viên đăng ký theo học cùng học phần trong 1 HK. Mỗi học phần có thể có nhiều lớp học phần với mã số khác nhau."
 
-  utter_cau_1.33:
+  utter_khai_niem_lop_chuyen_nganh:
   - text: "Lớp chuyên ngành là lớp được hình thành từ đầu khóa học cho đến cuối khóa học. Tổ chức lớp chuyên ngành để duy trì những sinh hoạt đoàn thể, lao động, xét kết quả rèn luyện, xét khen thưởng, phổ biến những thông tin của Trường, Khoa đến sinh viên. Mỗi lớp chuyên ngành có mã số riêng và được bố trí một cố vấn học tập để giúp đỡ sinh viên."
   
-  utter_cau_1.34:
+  utter_khai_niem_tin_chi:
   - text: "Kiến thức của mỗi học phần và toàn khóa dọc được đo lường bằng tín chỉ."
 
-  utter_cau_1.35:
+  utter_so_tiet_moi_tin_chi:
   - text: "1 TC = 15 tiết học lý thuyết và 30 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 30 tiết thực hành, thí nghiệm, thảo luận, seminar,... và 15 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 45 tiết thực tập tại cơ sở, làm tiểu luận, bài tập lớn, đồ án, niên luận, tiểu luận tốt nghiệp, luận văn tốt nghiệp."
 
-  utter_cau_1.36:
+  utter_thoi_gian_1_tiet_hoc:
   - text: "1 tiết học được tính bằng 50 phút."
 
-  utter_cau_1.37:
+  utter_cach_xay_dung_khoi_luong_ctdt:
   - text: "Khối lượng CTĐT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTĐT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
-  utter_cau_1.38:
+  utter_khai_niem_hoc_bong_khuyen_khich:
   - text: "Học bổng khuyến khích học tập được xét cấp theo HK dựa trên cơ sở điểm trung bình chung học kỳ và điểm rèn luyện của HK chính trước đó. Học bổng được cấp cho sinh viên từ cao xuống thấp theo mức học bổng, trong từng mức ưu tiên theo điểm trung bình chung học kỳ(trường hợp sinh viên có cùng ĐTBCHK thì xét ưu tiên theo ĐRL). Riêng đối với HK đầu tiên của khóa học, học bổng được cấp dựa trên kết quả xét tuyển đầu vào do Hiệu trưởng quyết định."
 
-  utter_cau_1.39:
+  utter_thong_tin_quy_hoc_bong:
   - text: "Quỹ học bổng cấp cho sinh viên từng lớp chuyên ngành được công bố từ đầu khóa học và sẽ được điều chỉnh nếu nguồn quỹ học bổng của Trường có thay đổi."
 
-  utter_cau_1.40:
+  utter_dieu_kien_xet_hoc_bong:
   - text: "Những điều kiện để sinh viên được xét học bổng:\n\n
     - Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n\n
     - HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;\n\n
     - Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n\n"
 #1.41 - 1.61
-  utter_cau_1.41:
+  utter_tieu_chuan_tung_muc_hoc_bong:
   - text: "Điều kiện của các mức học bổng:\n\n
   - Xuất sắc: Có ĐTBCHK và ĐRL đạt loại xuất sắc.\n\n
   - Giỏi: Có ĐTBCHK đạt từ loại giỏi và ĐRL đạt từ loại tốt trở lên.\n\n
   - Khá: Có ĐTBCHK và ĐRL đạt từ lại khá trở lên."
 
-  utter_cau_1.41.1:
+  utter_dieu_kien_hoc_bong_xuat_sac:
   - text: "Có ĐTBCHK và ĐRL đạt loại xuất sắc."
 
-  utter_cau_1.41.2:
+  utter_dieu_kien_hoc_bong_gioi:
   - text: "Có ĐTBCHK và ĐRL đạt từ loại giỏi trở lên."
 
-  utter_cau_1.41.3:
+  utter_dieu_kien_hoc_bong_kha:
   - text: "Có ĐTBCHK và ĐRL đạt từ lại khá trở lên."
 
-  utter_cau_1.42:
+  utter_dieu_kien_hoc_bong_nuoc_ngoai:
   - text: "Sinh viên được cấp HBKKHT còn được xét cấp học bổng để đi học nước ngoài theo quy định hiện hành của Hiệu trưởng Trường Đại học Cần Thơ."
   
-  utter_cau_1.43:
+  utter_nguoi_quy_dinh_muc_hoc_bong:
   - text: "Mức học bổng do Hiệu trưởng quyết định."
 
-  utter_cau_1.44:
+  utter_khai_niem_hoc_bong_tai_tro:
   - text: "Hằng năm, Trường xét cấp học bổng tài trợ từ nguồn tài trợ của các cơ quan, doanh nghiệp, tổ chức, cá nhân,... trong và ngoài nước theo Quy định về quản lý và cấp phát học bổng tài trợ."
 
-  utter_cau_1.45:
+  utter_khai_niem_quy_ho_tro_sinh_vien:
   - text: "Khi gặp khó khăn đột xuất về kinh tế, sinh viên có thể làm đơn trình bày rõ hoàn cảnh khó khăn, có xác nhận của CVHT và trưởng khoa để Hiệu trưởng xem xét."
 
-  utter_cau_1.46:
+  utter_nguoi_duoc_huong_tro_cap_xa_hoi:
   - text: "Đối tượng được hưởng trợ cấp xã hội là sinh viên dân tộc ít người ở vùng cao; sinh viên mồ côi cả cha lẫn mẹ; sinh viên tàn tật trên 41%; sinh viên thuộc hộ nghèo, hộ đói."
 
-  utter_cau_1.47:
+  utter_cach_dong_hoc_phi:
   - text: "Học phí đóng theo học kỳ."
 
-  utter_cau_1.48:
+  utter_cach_tinh_hoc_phi:
   - text: "Học phí được tính theo tổng số tín chỉ mà sinh viên đã đăng ký học ở học kỳ đó."
 
-  utter_cau_1.49:
+  utter_nguoi_quy_dinh_muc_hoc_phi:
   - text: "Mức học phí do Hiệu trưởng quyết định."
 
-  utter_cau_1.50:
+  utter_dieu_kien_mien_giam_hoc_phi:
   - text: "Đối tượng được miễn giảm học phí và được hỗ trợ chi phí học tập thực hiện theo các quy định hiện hành và các văn bản hướng dẫn có liên quan. [Miễn giảm học phí](https://dsa.ctu.edu.vn/thong-bao/che-do-chinh-sach/mien.html)"
 
-  utter_cau_1.51:
+  utter_ho_so_mien_giam_hoc_phi:
   - text: "Hồ sơ hướng dẫn thực hiện miễn, giảm học phí và hỗ trợ chi phí học tập xem tại trang thông tin điện tử của Phòng Công tác Sinh viên. [Phòng Công tác Sinh viên](https://dsa.ctu.edu.vn/)"
 
-  utter_cau_1.52:
+  utter_anh_huong_khong_dong_hoc_phi:
   - text: "Sau thời hạn đóng học phí, sinh viên không đóng học phí sẽ bị hủy kết quả học tập những học phần nợ học phí trong HK đó và buộc phải đóng học phí còn nợ cùng lúc với học phí của HK tiếp theo. Sinh viên không đóng học phí 2 HK liên tiếp sẽ bị buộc thôi học."
 
-  utter_cau_1.53:
+  utter_bao_hiem_y_te:
   - text: "Sinh viên phải nộp phí BHYT theo các quy định hiện hành của pháp luật và các văn bản hướng dẫn có liên quan."
 
-  utter_cau_1.54:
+  utter_bao_hiem_tai_nan:
   - text: "Trường khuyến khích sinh viên tham gia nộp Bảo hiểm tai nạn."
 
-  utter_cau_1.55:
+  utter_vay_tin_dung_cho_sinh_vien:
   - text: "Sinh viên có thể xin vay tín dụng từ các Ngân hàng Chính sách xã hội tại địa phương nơi gia đình sinh viên cư trú. Trường sẽ cấp giấy xác nhận để sinh viên bổ sung hồ sơ xin vay vốn."
 
-  utter_cau_1.56:
+  utter_dieu_kien_chuyen_co_so_dao_tao:
   - text: "Sinh viên từ khóa 46 về trước được xem xét chuyển cơ sở đào tạo khi có đủ các điều kiện sau:\n\n
   - Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập.\n\n
   - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.\n\n
@@ -524,23 +523,23 @@ responses:
   - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
   - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
 
-  utter_cau_1.57:
+  utter_dieu_kien_chuyen_co_so_dao_tao_k47:
   - text: "Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
   - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
   - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
   - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
   - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
 
-  utter_cau_1.58:
+  utter_dieu_kien_chuyen_he_dao_tao:
   - text: "Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa của Trường nếu còn đủ thời gian học tập theo quy định đối với hình thức chuyển đến và được sự đồng ý của Hiệu trưởng."
 
-  utter_cau_1.59:
+  utter_hoc_hoc_phan_truong_khac:
   - text: "Trong hợp tác đào tạo giữa Trường và cơ sở đào tạo khác, nếu được hiệu trưởng của hai cơ sở đào tạo đồng ý, sinh viên có thể đăng ký thực hiện học một số học phần tại cơ sở đào tạo khác."
 
-  utter_cau_1.60:
+  utter_tin_chi_toi_da_hoc_truong_khac:
   - text: "Số lượng tín chỉ mà sinh viên tích lũy tại cơ sở đào tạo khác (nếu có) không vượt quá 25% tổng khối lượng của CTĐT."
 
-  utter_cau_1.61:
+  utter_sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht:
   - text: "Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy theo quy định hiện hành của Trường."
 #chương 2
 # 2.1 - 2.20

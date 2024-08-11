@@ -27,342 +27,341 @@ rules:
   - intent: give_time
   - action: action_show_time
 
-- rule: Cau_1.1
+- rule: Khai_niem_qchv
   steps:
-  - intent: cau_1.1
-  - action: utter_cau_1.1
+  - intent: khai_niem_qchv
+  - action: utter_khai_niem_qchv
 
-- rule: Cau_1.2
+- rule: Doi_tuong_ap_dung_qchv
   steps:
-  - intent: cau_1.2
-  - action: utter_cau_1.2
+  - intent: doi_tuong_ap_dung_qchv
+  - action: utter_doi_tuong_ap_dung_qchv
 
-- rule: Cau_1.3
+- rule: Khai_niem_sinh_vien
   steps:
-  - intent: cau_1.3
-  - action: utter_cau_1.3
+  - intent: khai_niem_sinh_vien
+  - action: utter_khai_niem_sinh_vien
 
-- rule: Cau_1.4
+- rule: Truong_cap_cho_sinh_vien
   steps:
-  - intent: cau_1.4
-  - action: utter_cau_1.4
+  - intent: truong_cap_cho_sinh_vien
+  - action: utter_truong_cap_cho_sinh_vien
 
-- rule: Cau_1.5
+- rule: Trach_nhiem_sinh_vien
   steps:
-  - intent: cau_1.5
-  - action: utter_cau_1.5
+  - intent: trach_nhiem_sinh_vien
+  - action: utter_trach_nhiem_sinh_vien
+- rule: Chuong_trinh_dao_tao
+  steps:
+  - intent: chuong_trinh_dao_tao
+  - action: utter_chuong_trinh_dao_tao
   
-- rule: Cau_1.6
+- rule: Khai_niem_ban_mo_ta_ctdt
   steps:
-  - intent: cau_1.6
-  - action: utter_cau_1.6
+  - intent: khai_niem_ban_mo_ta_ctdt
+  - action: utter_khai_niem_ban_mo_ta_ctdt
+
+- rule: Khai_niem_khung_ctdt
+  steps:
+  - intent: khai_niem_khung_ctdt
+  - action: utter_khai_niem_khung_ctdt
+
+- rule: Khai_niem_ke_hoach_day_va_hoc
+  steps:
+  - intent: khai_niem_ke_hoach_day_va_hoc
+  - action: utter_khai_niem_ke_hoach_day_va_hoc
+
+- rule: Noi_xem_tom_tat_hoc_phan
+  steps:
+  - intent: noi_xem_tom_tat_hoc_phan
+  - action: utter_noi_xem_tom_tat_hoc_phan
   
-- rule: Cau_1.7
+- rule: Hoc_truc_tuyen
   steps:
-  - intent: cau_1.7
-  - action: utter_cau_1.7
+  - intent: hoc_truc_tuyen
+  - action: utter_hoc_truc_tuyen
 
-- rule: Cau_1.7.1
+- rule: Noi_xem_noi_dung_day_hoc_truc_tuyen
   steps:
-  - intent: cau_1.7.1
-  - action: utter_cau_1.7.1
+  - intent: noi_xem_noi_dung_day_hoc_truc_tuyen
+  - action: utter_noi_xem_noi_dung_day_hoc_truc_tuyen
 
-- rule: Cau_1.7.2
+- rule: Khoi_luong_ctdt_toi_da_hoc_truc_tuyen
   steps:
-  - intent: cau_1.7.2
-  - action: utter_cau_1.7.2
-
-- rule: Cau_1.7.3
-  steps:
-  - intent: cau_1.7.3
-  - action: utter_cau_1.7.3
+  - intent: khoi_luong_ctdt_toi_da_hoc_truc_tuyen
+  - action: utter_khoi_luong_ctdt_toi_da_hoc_truc_tuyen
   
-- rule: Cau_1.8
+- rule: Noi_xem_ctdt
   steps:
-  - intent: cau_1.8
-  - action: utter_cau_1.8
-
-- rule: Cau_1.8.1
-  steps:
-  - intent: cau_1.8.1
-  - action: utter_cau_1.8.1
-
-- rule: Cau_1.8.2
-  steps:
-  - intent: cau_1.8.2
-  - action: utter_cau_1.8.2
+  - intent: noi_xem_ctdt
+  - action: utter_noi_xem_ctdt
   
-- rule: Cau_1.9
+- rule: Noi_xem_ban_mo_ta_ctdt
   steps:
-  - intent: cau_1.9
-  - action: utter_cau_1.9
-  
-- rule: Cau_1.10
-  steps:
-  - intent: cau_1.10
-  - action: utter_cau_1.10
+  - intent: noi_xem_ban_mo_ta_ctdt
+  - action: utter_noi_xem_ban_mo_ta_ctdt
 
-- rule: Cau_1.11
+- rule: Noi_xem_chuong_trinh_day_hoc
   steps:
-  - intent: cau_1.11
-  - action: utter_cau_1.11
+  - intent: noi_xem_chuong_trinh_day_hoc
+  - action: utter_noi_xem_chuong_trinh_day_hoc
 
-- rule: Cau_1.12
+- rule: Cach_xay_dung_khht
   steps:
-  - intent: cau_1.12
-  - action: utter_cau_1.12
+  - intent: cach_xay_dung_khht
+  - action: utter_cach_xay_dung_khht
 
-- rule: Cau_1.13
+- rule: Nguoi_duyet_khht_toan_khoa
   steps:
-  - intent: cau_1.13
-  - action: utter_cau_1.13
+  - intent: nguoi_duyet_khht_toan_khoa
+  - action: utter_nguoi_duyet_khht_toan_khoa
   
-- rule: Cau_1.14
+- rule: Chuc_nang_cua_khht
   steps:
-  - intent: cau_1.14
-  - action: utter_cau_1.14
+  - intent: chuc_nang_cua_khht
+  - action: utter_chuc_nang_cua_khht
   
-- rule: Cau_1.15
+- rule: Thay_doi_khht
   steps:
-  - intent: cau_1.15
-  - action: utter_cau_1.15
+  - intent: thay_doi_khht
+  - action: utter_thay_doi_khht
   
-- rule: Cau_1.16
+- rule: Thoi_gian_toi_da_ctdt
   steps:
-  - intent: cau_1.16
-  - action: utter_cau_1.16
+  - intent: thoi_gian_toi_da_ctdt
+  - action: utter_thoi_gian_toi_da_ctdt
   
 #xóa Cau_1.17  Cau_1.18  Cau_1.19
   
-- rule: Cau_1.20
+- rule: Nguoi_duoc_hoc_tap_vo_han
   steps:
-  - intent: cau_1.20
-  - action: utter_cau_1.20
+  - intent: nguoi_duoc_hoc_tap_vo_han
+  - action: utter_nguoi_duoc_hoc_tap_vo_han
 
-- rule: Cau_1.21
+- rule: Quy_dinh_cong_nhan_kqht_o_noi_khac
   steps:
-  - intent: cau_1.21
-  - action: utter_cau_1.21
+  - intent: quy_dinh_cong_nhan_kqht_o_noi_khac
+  - action: utter_quy_dinh_cong_nhan_kqht_o_noi_khac
   
-- rule: Cau_1.22
+- rule: So_hoc_ki_moi_nam
   steps:
-  - intent: cau_1.22
-  - action: utter_cau_1.22
+  - intent: so_hoc_ki_moi_nam
+  - action: utter_so_hoc_ki_moi_nam
   
-- rule: Cau_1.23
+- rule: Cach_to_chuc_hoc_ky_1
   steps:
-  - intent: cau_1.23
-  - action: utter_cau_1.23
+  - intent: cach_to_chuc_hoc_ky_1
+  - action: utter_cach_to_chuc_hoc_ky_1
   
-- rule: Cau_1.24
+- rule: Cach_to_chuc_hoc_ky_2
   steps:
-  - intent: cau_1.24
-  - action: utter_cau_1.24
+  - intent: cach_to_chuc_hoc_ky_2
+  - action: utter_cach_to_chuc_hoc_ky_2
   
-- rule: Cau_1.25
+- rule: Cach_to_chuc_hoc_ky_3
   steps:
-  - intent: cau_1.25
-  - action: utter_cau_1.25
+  - intent: cach_to_chuc_hoc_ky_3
+  - action: utter_cach_to_chuc_hoc_ky_3
   
-- rule: Cau_1.26
+- rule: Khai_niem_hoc_phan
   steps:
-  - intent: cau_1.26
-  - action: utter_cau_1.26
+  - intent: khai_niem_hoc_phan
+  - action: utter_khai_niem_hoc_phan
 
-- rule: Cau_1.27
+- rule: Khai_niem_hoc_phan_bat_buoc
   steps:
-  - intent: cau_1.27
-  - action: utter_cau_1.27
+  - intent: khai_niem_hoc_phan_bat_buoc
+  - action: utter_khai_niem_hoc_phan_bat_buoc
   
-- rule: Cau_1.28
+- rule: Khai_niem_hoc_phan_tu_chon
   steps:
-  - intent: cau_1.28
-  - action: utter_cau_1.28
+  - intent: khai_niem_hoc_phan_tu_chon
+  - action: utter_khai_niem_hoc_phan_tu_chon
   
-- rule: Cau_1.29
+- rule: Khai_niem_hoc_phan_tien_quyet
   steps:
-  - intent: cau_1.29
-  - action: utter_cau_1.29
+  - intent: khai_niem_hoc_phan_tien_quyet
+  - action: utter_khai_niem_hoc_phan_tien_quyet
   
-- rule: Cau_1.30
+- rule: Khai_niem_hoc_phan_song_hanh
   steps:
-  - intent: cau_1.30
-  - action: utter_cau_1.30
+  - intent: khai_niem_hoc_phan_song_hanh
+  - action: utter_khai_niem_hoc_phan_song_hanh
 
-- rule: Cau_1.31
+- rule: Khai_niem_hoc_phan_dieu_kien
   steps:
-  - intent: cau_1.31
-  - action: utter_cau_1.31
+  - intent: khai_niem_hoc_phan_dieu_kien
+  - action: utter_khai_niem_hoc_phan_dieu_kien
 
-- rule: Cau_1.31.1
+- rule: Nhung_hoc_phan_dieu_kien
   steps:
-  - intent: cau_1.31.1
-  - action: utter_cau_1.31.1
+  - intent: nhung_hoc_phan_dieu_kien
+  - action: utter_nhung_hoc_phan_dieu_kien
 
-- rule: Cau_1.32
+- rule: Khai_niem_lop_hoc_phan
   steps:
-  - intent: cau_1.32
-  - action: utter_cau_1.32
+  - intent: khai_niem_lop_hoc_phan
+  - action: utter_khai_niem_lop_hoc_phan
 
-- rule: Cau_1.33
+- rule: Khai_niem_lop_chuyen_nganh
   steps:
-  - intent: cau_1.33
-  - action: utter_cau_1.33
+  - intent: khai_niem_lop_chuyen_nganh
+  - action: utter_khai_niem_lop_chuyen_nganh
   
-- rule: Cau_1.34
+- rule: Khai_niem_tin_chi
   steps:
-  - intent: cau_1.34
-  - action: utter_cau_1.34
+  - intent: khai_niem_tin_chi
+  - action: utter_khai_niem_tin_chi
   
-- rule: Cau_1.35
+- rule: So_tiet_moi_tin_chi
   steps:
-  - intent: cau_1.35
-  - action: utter_cau_1.35
+  - intent: so_tiet_moi_tin_chi
+  - action: utter_so_tiet_moi_tin_chi
   
-- rule: Cau_1.36
+- rule: Thoi_gian_1_tiet_hoc
   steps:
-  - intent: cau_1.36
-  - action: utter_cau_1.36
+  - intent: thoi_gian_1_tiet_hoc
+  - action: utter_thoi_gian_1_tiet_hoc
   
-- rule: Cau_1.37
+- rule: Cach_xay_dung_khoi_luong_ctdt
   steps:
-  - intent: cau_1.37
-  - action: utter_cau_1.37
+  - intent: cach_xay_dung_khoi_luong_ctdt
+  - action: utter_cach_xay_dung_khoi_luong_ctdt
   
-- rule: Cau_1.38
+- rule: Khai_niem_hoc_bong_khuyen_khich
   steps:
-  - intent: cau_1.38
-  - action: utter_cau_1.38
+  - intent: khai_niem_hoc_bong_khuyen_khich
+  - action: utter_khai_niem_hoc_bong_khuyen_khich
   
-- rule: Cau_1.39
+- rule: Thong_tin_quy_hoc_bong
   steps:
-  - intent: cau_1.39
-  - action: utter_cau_1.39
+  - intent: thong_tin_quy_hoc_bong
+  - action: utter_thong_tin_quy_hoc_bong
   
-- rule: Cau_1.40
+- rule: Dieu_kien_xet_hoc_bong
   steps:
-  - intent: cau_1.40
-  - action: utter_cau_1.40
+  - intent: dieu_kien_xet_hoc_bong
+  - action: utter_dieu_kien_xet_hoc_bong
 
-- rule: Cau_1.41
+- rule: Tieu_chuan_tung_muc_hoc_bong
   steps:
-  - intent: cau_1.41
-  - action: utter_cau_1.41
+  - intent: tieu_chuan_tung_muc_hoc_bong
+  - action: utter_tieu_chuan_tung_muc_hoc_bong
 
-- rule: Cau_1.41.1
+- rule: Dieu_kien_hoc_bong_xuat_sac
   steps:
-  - intent: cau_1.41.1
-  - action: utter_cau_1.41.1
+  - intent: cau_dieu_kien_hoc_bong_xuat_sac
+  - action: utter_dieu_kien_hoc_bong_xuat_sac
   
-- rule: Cau_1.41.2
+- rule: Dieu_kien_hoc_bong_gioi
   steps:
-  - intent: cau_1.41.2
-  - action: utter_cau_1.41.2
+  - intent: dieu_kien_hoc_bong_gioi
+  - action: utter_dieu_kien_hoc_bong_gioi
   
-- rule: Cau_1.41.3
+- rule: Dieu_kien_hoc_bong_kha
   steps:
-  - intent: cau_1.41.3
-  - action: utter_cau_1.41.3
+  - intent: dieu_kien_hoc_bong_kha
+  - action: utter_dieu_kien_hoc_bong_kha
   
-- rule: Cau_1.42
+- rule: Dieu_kien_hoc_bong_nuoc_ngoai
   steps:
-  - intent: cau_1.42
-  - action: utter_cau_1.42
+  - intent: dieu_kien_hoc_bong_nuoc_ngoai
+  - action: utter_dieu_kien_hoc_bong_nuoc_ngoai
   
-- rule: Cau_1.43
+- rule: Nguoi_quy_dinh_muc_hoc_bong
   steps:
-  - intent: cau_1.43
-  - action: utter_cau_1.43
+  - intent: nguoi_quy_dinh_muc_hoc_bong
+  - action: utter_nguoi_quy_dinh_muc_hoc_bong
   
-- rule: Cau_1.44
+- rule: Khai_niem_hoc_bong_tai_tro
   steps:
-  - intent: cau_1.44
-  - action: utter_cau_1.44
+  - intent: khai_niem_hoc_bong_tai_tro
+  - action: utter_khai_niem_hoc_bong_tai_tro
   
-- rule: Cau_1.45
+- rule: Khai_niem_quy_ho_tro_sinh_vien
   steps:
-  - intent: cau_1.45
-  - action: utter_cau_1.45
+  - intent: khai_niem_quy_ho_tro_sinh_vien
+  - action: utter_khai_niem_quy_ho_tro_sinh_vien
   
-- rule: Cau_1.46
+- rule: Nguoi_duoc_huong_tro_cap_xa_hoi
   steps:
-  - intent: cau_1.46
-  - action: utter_cau_1.46
+  - intent: nguoi_duoc_huong_tro_cap_xa_hoi
+  - action: utter_nguoi_duoc_huong_tro_cap_xa_hoi
   
-- rule: Cau_1.47
+- rule: Cach_dong_hoc_phi
   steps:
-  - intent: cau_1.47
-  - action: utter_cau_1.47
+  - intent: cach_dong_hoc_phi
+  - action: utter_cach_dong_hoc_phi
   
-- rule: Cau_1.48
+- rule: Cach_tinh_hoc_phi
   steps:
-  - intent: cau_1.48
-  - action: utter_cau_1.48
+  - intent: cach_tinh_hoc_phi
+  - action: utter_cach_tinh_hoc_phi
   
-- rule: Cau_1.49
+- rule: Nguoi_quy_dinh_muc_hoc_phi
   steps:
-  - intent: cau_1.49
-  - action: utter_cau_1.49
+  - intent: nguoi_quy_dinh_muc_hoc_phi
+  - action: utter_nguoi_quy_dinh_muc_hoc_phi
   
-- rule: Cau_1.50
+- rule: Dieu_kien_mien_giam_hoc_phi
   steps:
-  - intent: cau_1.50
-  - action: utter_cau_1.50
+  - intent: dieu_kien_mien_giam_hoc_phi
+  - action: utter_dieu_kien_mien_giam_hoc_phi
   
-- rule: Cau_1.51
+- rule: Ho_so_mien_giam_hoc_phi
   steps:
-  - intent: cau_1.51
-  - action: utter_cau_1.51
+  - intent: ho_so_mien_giam_hoc_phi
+  - action: utter_ho_so_mien_giam_hoc_phi
   
-- rule: Cau_1.52
+- rule: Anh_huong_khong_dong_hoc_phi
   steps:
-  - intent: cau_1.52
-  - action: utter_cau_1.52
+  - intent: anh_huong_khong_dong_hoc_phi
+  - action: utter_anh_huong_khong_dong_hoc_phi
   
-- rule: Cau_1.53
+- rule: Bao_hiem_y_te
   steps:
-  - intent: cau_1.53
-  - action: utter_cau_1.53
+  - intent: bao_hiem_y_te
+  - action: utter_bao_hiem_y_te
   
-- rule: Cau_1.54
+- rule: Bao_hiem_tai_nan
   steps:
   - intent: cau_1.54
   - action: utter_cau_1.54
   
-- rule: Cau_1.55
+- rule: Vay_tin_dung_cho_sinh_vien
   steps:
-  - intent: cau_1.55
-  - action: utter_cau_1.55
+  - intent: vay_tin_dung_cho_sinh_vien
+  - action: utter_vay_tin_dung_cho_sinh_vien
   
-- rule: Cau_1.56
+- rule: Dieu_kien_chuyen_co_so_dao_tao
   steps:
-  - intent: cau_1.56
-  - action: utter_cau_1.56
+  - intent: dieu_kien_chuyen_co_so_dao_tao
+  - action: utter_dieu_kien_chuyen_co_so_dao_tao
   
-- rule: Cau_1.57
+- rule: Dieu_kien_chuyen_co_so_dao_tao_k47
   steps:
-  - intent: cau_1.57
-  - action: utter_cau_1.57
+  - intent: dieu_kien_chuyen_co_so_dao_tao_k47
+  - action: utter_dieu_kien _chuyen_co_so_dao_tao_k47
   
-- rule: Cau_1.58
+- rule: Dieu_kien_chuyen_he_dao_tao
   steps:
-  - intent: cau_1.58
-  - action: utter_cau_1.58
+  - intent: dieu_kien_chuyen_he_dao_tao
+  - action: utter_dieu_kien_chuyen_he_dao_tao
   
-- rule: Cau_1.59
+- rule: Hoc_hoc_phan_truong_khac
   steps:
-  - intent: cau_1.59
-  - action: utter_cau_1.59
+  - intent: hoc_hoc_phan_truong_khac
+  - action: utter_hoc_hoc_phan_truong_khac
   
-- rule: Cau_1.60
+- rule: Tin_chi_toi_da_hoc_truong_khac
   steps:
-  - intent: cau_1.60
-  - action: utter_cau_1.60
+  - intent: tin_chi_toi_da_hoc_truong_khac
+  - action: utter_tin_chi_toi_da_hoc_truong_khac
   
-- rule: Cau_1.61
+- rule: Sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
   steps:
-  - intent: cau_1.61
-  - action: utter_cau_1.61
+  - intent: sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
+  - action: utter_sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
 
 
 - rule: Cau_2.1

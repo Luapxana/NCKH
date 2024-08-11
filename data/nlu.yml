@@ -74,7 +74,7 @@ nlu:
 
 
 
-- intent: cau_1.1
+- intent: khai_niem_qchv
   examples: |
     - Quy chế học vụ quy định về những vấn đề gì?
     - Những vấn đề nào được nhắc đến trong quy chế học vụ?
@@ -82,7 +82,7 @@ nlu:
     - Quy chế học vụ có gì?
     - Quy chế học vụ
 
-- intent: cau_1.2
+- intent: doi_tuong_ap_dung_qchv
   examples: |
     - Quy chế học vụ áp dụng với những ai?
     - Ai phải tuân theo quy chế học vụ?
@@ -92,7 +92,7 @@ nlu:
     - Quy chế học vụ dành cho ai?
     - Những ai được đề cập trong quy chế học vụ? 
 
-- intent: cau_1.3
+- intent: khai_niem_sinh_vien
   examples: |
     - Sinh viên hệ chính quy là những ai?
     - Ai là sinh viên chính quy?
@@ -103,7 +103,7 @@ nlu:
     - Sinh viên là gì?
     - Ai được xem là học tập chính quy?
 
-- intent: cau_1.4
+- intent: truong_cap_cho_sinh_vien
   examples: |
     - Sinh viên sẽ được cấp gì khi theo học tại trường?
     - Trường cấp gì cho sinh viên?
@@ -113,7 +113,7 @@ nlu:
     - Trường cấp cho sinh viên những gì?
     - Sinh viên được trường cấp những gì khi đi học?
 
-- intent: cau_1.5
+- intent: trach_nhiem_sinh_vien
   examples: |
     - Trách nhiệm của sinh viên khi theo học tại trường?
     - Sinh viên trường phải làm gì?
@@ -123,7 +123,7 @@ nlu:
     - Sinh viên có trách nhiệm gì?
     - Trách nhiệm của sinh viên?
 
-- intent: cau_1.6
+- intent: chuong_trinh_dao_tao
   examples: |
     - CTĐT được xây dựng như thế nào
     - Chương trình đào tạo được xây dựng như thế nào?
@@ -140,7 +140,7 @@ nlu:
     - Căn cứ vào đâu để xây dựng ctdt
     - Căn cứ xây dựng chương trình đào tạo
 
-- intent: cau_1.7
+- intent: khai_niem_ban_mo_ta_ctdt
   examples: |
     - Bản mô tả CTĐT bao gồm những gì?
     - Mô tả chương trình đào tạo
@@ -154,7 +154,7 @@ nlu:
     - Nội dung bản mô tả CTĐT
     - Nội dung mô tả CTĐT
 
-- intent: cau_1.7.1
+- intent: khai_niem_khung_ctdt
   examples: |
     - Khung CTĐT là gì?
     - nội dung khung ctdt
@@ -162,22 +162,24 @@ nlu:
     - Khung chương trình đào tạo được hiểu là gì?
     - Khung chương trình đào tạo là gì theo định nghĩa?
 
-- intent: cau_1.7.2
+- intent: khai_niem_ke_hoach_day_va_hoc
   examples: |
     - Kế hoạch dạy và học là gì?
     - Kế hoạch dạy học là gì?
     - Kế hoạch dạy và học được hiểu như thế nào?
     - Kế hoạch dạy và học có nghĩa là gì?
     - Kế hoạch dạy và học được định nghĩa ra sao?
+    - Kế hoạch học tập là gì
+    - Kế hoạch học tập
 
-- intent: cau_1.7.3
+- intent: noi_xem_tom_tat_hoc_phan
   examples: |
     - Tóm tắt các học phần xem ở đâu?
     - tóm tắt hp
     - Tôi có thể xem tóm tắt các học phần ở đâu?
     - Xem thông tin tóm tắt học phần ở đâu?
 
-- intent: cau_1.8
+- intent: hoc_truc_tuyen
   examples: |
     - Có thể học trực tuyến được không?
     - Có thể học online được không?
@@ -190,7 +192,7 @@ nlu:
     - học online được khả thi không
     - lúc nào cũng học trực tiếp hả
 
-- intent: cau_1.8.1
+- intent: noi_xem_noi_dung_day_hoc_truc_tuyen
   examples: |
     - Xem nội dung dạy và học trực tuyến ở đâu?
     - Xem nội dung dạy và học online ở đâu?
@@ -200,7 +202,7 @@ nlu:
     - Nơi nào cung cấp nội dung dạy và học online?
     - Bạn có thể tìm kiếm nội dung dạy và học trực tuyến ở đâu?
 
-- intent: cau_1.8.2
+- intent: khoi_luong_ctdt_toi_da_hoc_truc_tuyen
   examples: |
     - Khối lượng tối đa của CTĐT được thực hiện theo phương thức dạy và học trực tuyến?
     - khối lượng tối đa ctdt học trực tuyến
@@ -211,7 +213,7 @@ nlu:
     - Khối lượng tối đa của chương trình đào tạo được dạy học online
     - Theo phương thức dạy và học trực tuyến, khối lượng tối đa của chương trình đào tạo là bao nhiêu?
 
-- intent: cau_1.9
+- intent: noi_xem_ctdt
   examples: |
     - Có thể xem CTĐT tại đâu?
     - Có thể xem CTĐT ở đâu
@@ -222,7 +224,7 @@ nlu:
     - thông tin ctdt ở đâu
     - xem ctdt ở đâu
 
-- intent: cau_1.10
+- intent: noi_xem_ban_mo_ta_ctdt
   examples: |
     - Có thể xem bản mô tả CTĐT tại đâu?
     - Có thể xem bản mô tả chương trình đào tại đâu?
@@ -231,7 +233,7 @@ nlu:
     - mô tả ctdt ở đâu
     - xem mô tả ctdt
 
-- intent: cau_1.11
+- intent: noi_xem_chuong_trinh_day_hoc
   examples: |
     - Có thể xem chương trình dạy học ở đâu?
     - Chương trình dạy học được đăng ở đâu?
@@ -239,7 +241,7 @@ nlu:
     - xem chương trình dạy học
     - chương trình dậy học ở đâu
 
-- intent: cau_1.12
+- intent: cach_xay_dung_khht
   examples: |
     - Sinh viên xây dựng kế hoạch học tập như thế nào?
     - Làm thế nào để xây dựng kế hoạch học tập?
@@ -250,7 +252,7 @@ nlu:
     - xây dựng khht như thế nào
     - xây dựng kế hoạch học tập như thế nào
 
-- intent: cau_1.13
+- intent: nguoi_duyet_khht_toan_khoa
   examples: |
     - Kế hoạch học tập có cần được phê duyệt không?
     - Kế hoạch học tập toàn khóa do ai phê duyệt?
@@ -258,7 +260,7 @@ nlu:
     - Ai chịu trách nhiệm phê duyệt kế hoạch học tập toàn khóa?
     - Kế hoạch học tập toàn khóa được phê duyệt bởi ai?
 
-- intent: cau_1.14
+- intent: chuc_nang_cua_khht
   examples: |
     - Sinh viên đăng ký học phần mỗi kỳ dựa trên đâu?
     - Sinh viên ĐKHP mỗi kỳ dựa trên đâu?
@@ -266,7 +268,7 @@ nlu:
     - Sinh viên dùng KHHT để làm gì?
     - Dựa vào đâu để đăng ký học phần?
 
-- intent: cau_1.15
+- intent: thay_doi_khht
   examples: |
     - Sinh viên có thể thay đổi kế hoạch học tập trong quá trình học không?
     - Sinh viên có thể thay đổi KHHT trong quá trình học không?
@@ -277,7 +279,7 @@ nlu:
     - đổi khht được không
     - được đổi khht ko
 
-- intent: cau_1.16
+- intent: thoi_gian_toi_da_ctdt
   examples: |
     - Kế hoạch học tập chuẩn toàn khóa có thời gian tối đa không?
     - KHHT chuẩn toàn khóa có thời gian tối đa không?
@@ -292,7 +294,7 @@ nlu:
 
 #xóa cau_1.17 cau_1.18 cau_1.19 (câu hỏi quá giống nhau nên câu 17 và 19 chỉ trả lời được 1 ví dụ, câu 19 còn nhầm thành câu 17, chỉ trả lời đúng câu 18 => những câu này sẽ được trả lời bởi câu 16)
 
-- intent: cau_1.20
+- intent: nguoi_duoc_hoc_tap_vo_han
   examples: |
     - Những sinh viên nào không bị giới hạn về thời gian tối đa hoàn thành chương trình đào tạo?
     - Có ai được học tập vô thời hạn không?
@@ -302,7 +304,7 @@ nlu:
     - ai có thể học tập mà không bị giới hạn thời gian
     - ai không có thời hạn học tập
 
-- intent: cau_1.21
+- intent: quy_dinh_cong_nhan_kqht_o_noi_khac
   examples: |
     - Những ai được công nhận quy đổi kết quả học tập từ trình độ đào tạo khác, ngành đào tạo khác, chương trình đào tạo khác, cơ sở đào tạo khác sang tín chỉ của những học phần trong chương trình đào tạo trình độ đại học hệ chính quy của trường?
     - Trường hợp nào được giữ kết quả học tập?
@@ -313,14 +315,14 @@ nlu:
     - tôi có thể giữ kết quả học tập cụ của mình khi chuyển đến trường không
     - khi nào tôi có thể giữ lại kết quả học tập của tôi ở nơi khác
     
-- intent: cau_1.22
+- intent: so_hoc_ki_moi_nam
   examples: |
     - Mỗi năm được tổ chức thành bao nhiêu học kỳ?
     - Mỗi năm học có bao nhiêu học kỳ?
     - Mỗi năm học bao gồm bao nhiêu học kỳ?
     - Trong một năm học, có bao nhiêu học kỳ thường được tổ chức?
 
-- intent: cau_1.23
+- intent: cach_to_chuc_hoc_ky_1
   examples: |
     - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} được tổ chức như thế nào?
     - [Học kỳ I]{"entity": "hoc_ky", "value": "1"} được tổ chức như thế nào?
@@ -330,7 +332,7 @@ nlu:
     - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} kéo dài bao lâu?
     - [Học kỳ 1]{"entity": "hoc_ky", "value": "1"} là thời gian nào?
 
-- intent: cau_1.24
+- intent: cach_to_chuc_hoc_ky_2
   examples: |
     - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} được tổ chức như thế nào?
     - [Học kỳ II]{"entity": "hoc_ky", "value": "2"} được tổ chức như thế nào?
@@ -340,7 +342,7 @@ nlu:
     - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} kéo dài bao lâu?
     - [Học kỳ 2]{"entity": "hoc_ky", "value": "2"} là thời gian nào?
 
-- intent: cau_1.25
+- intent: cach_to_chuc_hoc_ky_3
   examples: |
     - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} được tổ chức như thế nào?
     - [Học kỳ III]{"entity": "hoc_ky", "value": "3"} được tổ chức như thế nào?
@@ -350,7 +352,7 @@ nlu:
     - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} kéo dài bao lâu?
     - [Học kỳ 3]{"entity": "hoc_ky", "value": "3"} là thời gian nào?
 
-- intent: cau_1.26
+- intent: khai_niem_hoc_phan
   examples: |
     - Học phần là gì?
     - HP là gì?
@@ -358,7 +360,7 @@ nlu:
     - Học phần được hiểu là gì?
     - định nghĩa học phần
 
-- intent: cau_1.27
+- intent: khai_niem_hoc_phan_bat_buoc
   examples: |
     - Học phần bắt buộc là gì?
     - HP bắt buộc là gì?
@@ -366,7 +368,7 @@ nlu:
     - Học phần bắt buộc là những học phần gì?
     - định nghĩa học phần bắt buộc
 
-- intent: cau_1.28
+- intent: khai_niem_hoc_phan_tu_chon
   examples: |
     - Học phần tự chọn là gì?
     - HP tự chọn là gì?
@@ -374,7 +376,7 @@ nlu:
     - Học phần tự chọn là những học phần gì?
     - định nghĩa học phần tự chọn
 
-- intent: cau_1.29
+- intent: khai_niem_hoc_phan_tien_quyet
   examples: |
     - Học phần tiên quyết là gì?
     - Khái niệm học phần tiên quyết?
@@ -382,7 +384,7 @@ nlu:
     - HP tiên quyết là gì?
     - định nghĩa học phần tiên quyết
 
-- intent: cau_1.30
+- intent: khai_niem_hoc_phan_song_hanh
   examples: |
     - Học phần song hành là gì?
     - Khái niệm học phần song hành?
@@ -390,38 +392,38 @@ nlu:
     - HP song hành là gì?
     - định nghĩa học phần song hành
 
-- intent: cau_1.31
+- intent: khai_niem_hoc_phan_dieu_kien
   examples: |
     - Học phần điều kiện là gì?
     - Thế nào là học phần điều kiện?
     - Khái niệm học phần điều kiện?
     - định nghĩa học phần điều kiện
 
-- intent: cau_1.31.1
+- intent: nhung_hoc_phan_dieu_kien
   examples: |
     - Học phần điều kiện gồm những học phần nào?
     - Những học phần nào là học phần điều kiện?
-    - đâu là học phãn điều kiện
+    - đâu là học phần điều kiện
 
-- intent: cau_1.32
+- intent: khai_niem_lop_hoc_phan
   examples: |
     - Lớp học phần là gì?
     - Khái niệm lớp học phần?
     - Bạn có thể giải thích ý nghĩa của thuật ngữ "lớp học phần" không?
     - định nghĩa lớp học phần
 
-- intent: cau_1.33
+- intent: khai_niem_lop_chuyen_nganh
   examples: |
     - Lớp chuyên ngành là gì?
     - Khái niệm lớp chuyên ngành?
     - Bạn có thể mô tả ý nghĩa của thuật ngữ "lớp chuyên ngành" không?
 
-- intent: cau_1.34
+- intent: khai_niem_tin_chi
   examples: |
     - Tín chỉ là gì?
     - Khái niệm tín chỉ?
 
-- intent: cau_1.35
+- intent: so_tiet_moi_tin_chi
   examples: |
     - 1 tín chỉ có bao nhiêu tiết học?
     - Bao nhiêu tiết học là đủ tích lũy 1 tín chỉ?
@@ -429,13 +431,13 @@ nlu:
     - Mỗi tc bao gồm bao nhiêu tiết?
     - học bao nhiêu để tích lũy 1 tín chỉ
 
-- intent: cau_1.36
+- intent: thoi_gian_1_tiet_hoc
   examples: |
     - 1 tiết học có bao nhiêu phút?
     - Tiết học kéo dài bao lâu?
     - thời gian 1 tiết học
 
-- intent: cau_1.37
+- intent: cach_xay_dung_khoi_luong_ctdt
   examples: |
     - Khối lượng chương trình đào tạo được xây dựng như thế nào?
     - Khối lượng CTĐT được xây dựng như thế nào?
@@ -445,21 +447,21 @@ nlu:
     - Đâu là cơ sở cho việc xây dựng khối lượng chương trình đào tạo?
     - khối lượng chương trình đào tạo
 
-- intent: cau_1.38
+- intent: khai_niem_hoc_bong_khuyen_khich
   examples: |
     - Học bổng khuyến khích là gì?
     - Học bổng khuyến khích học tập được xét cấp như thế nào?
     - Quy trình cấp học bổng khuyến khích?
     - Dựa vào đâu để cấp học bổng khuyến khích?
 
-- intent: cau_1.39
+- intent: thong_tin_quy_hoc_bong
   examples: |
     - Quỹ học bổng được quy định như thế nào?
     - Quỹ học bổng được công bố khi nào?
     - Quy định về quỹ học bổng là gì?
     - Cơ cấu của quỹ học bổng được quy định như thế nào?
 
-- intent: cau_1.40
+- intent: dieu_kien_xet_hoc_bong
   examples: |
     - Điều kiện để được xét học bổng?
     - Điều kiện cần thiết để được xem xét cho học bổng là gì?
@@ -467,60 +469,60 @@ nlu:
     - Sinh viên muốn được xét cấp học bổng phải thỏa mãn những điều kiện nào?
     - tôi muốn được xét học bổng thì phải đạt yêu cầu gì
 
-- intent: cau_1.41
+- intent: tieu_chuan_tung_muc_hoc_bong
   examples: |
     - Tiêu chuẩn cho từng mức học bổng
     - Điều kiện của từng mức học bổng
     - điều kiện để được nhận học bổng
     - tiêu chuẩn để đạt học bổng
 
-- intent: cau_1.41.1
+- intent: dieu_kien_hoc_bong_xuat_sac
   examples: |
     - Tiêu chuẩn cho mức học bổng loại xuất sắc là gì?
     - Điều kiện của mức học bổng xuất sắc?
 
-- intent: cau_1.41.2
+- intent: dieu_kien_hoc_bong_gioi
   examples: |
     - Tiêu chuẩn cho mức học bổng loại giỏi là gì?
     - Điều kiện của mức học bổng giỏi?
 
-- intent: cau_1.41.3
+- intent: dieu_kien_hoc_bong_kha
   examples: |
     - Tiêu chuẩn cho mức học bổng loại khá là gì?
     - Điều kiện của mức học bổng khá?
 
-- intent: cau_1.42
+- intent: dieu_kien_hoc_bong_nuoc_ngoai
   examples: |
     - Học bổng cho sinh viên đi học tập ở nước ngoài được xét như thế nào?
     - Điều kiện để nhận được học bổng để đi học nước ngoài?
 
-- intent: cau_1.43
+- intent: nguoi_quy_dinh_muc_hoc_bong
   examples: |
     - Mức học bổng do ai quy định?
     - Ai quyết định mức học bổng?
     - người quy định mức học bổng
     - người quy định mức học bổng là ai
 
-- intent: cau_1.44
+- intent: khai_niem_hoc_bong_tai_tro
   examples: |
     - Học bổng tài trợ là gì?
     - Khái niệm học bổng tài trợ?
 
-- intent: cau_1.45
+- intent: khai_niem_quy_ho_tro_sinh_vien
   examples: |
     - Quỹ hỗ trợ sinh viên là gì?
     - Khái niệm quỹ hỗ trợ sinh viên?
     - khi gặp khó khăn về kinh tế sinh viên có thể làm gì
     - tôi có thể làm gì khi gặp khó khăn về kinh tế
 
-- intent: cau_1.46
+- intent: nguoi_duoc_huong_tro_cap_xa_hoi
   examples: |
     - Những đối tượng nào được hưởng trợ cấp xã hội?
     - Trợ cấp xã hội dành cho ai?
     - Những đối tượng nào được hưởng trợ cấp xã hội?
     - Ai là những người được hưởng trợ cấp xã hội theo quy định?
 
-- intent: cau_1.47
+- intent: cach_dong_hoc_phi
   examples: |
     - Học phí đóng như thế nào?
     - Học phí đóng theo năm hay học kỳ?
@@ -530,21 +532,21 @@ nlu:
     - bao lâu mới thanh toán học phí một lần
     - đóng học phí khi nào
 
-- intent: cau_1.48
+- intent: cach_tinh_hoc_phi
   examples: |
     - Học phí được tính như thế nào?
     - Làm thế nào để tính tiền học phí?
     - Cách tính học phí là gì?
     - Quy trình tính toán học phí được thực hiện như thế nào?
 
-- intent: cau_1.49
+- intent: nguoi_quy_dinh_muc_hoc_phi
   examples: |
     - Mức học phí do ai quyết định?
     - Ai quy định học phí?
     - Ai là người quyết định về mức học phí?
     - Mức của học phí được quyết định bởi ai?
 
-- intent: cau_1.50
+- intent: dieu_kien_mien_giam_hoc_phi
   examples: |
     - Làm thế nào để nào được miễn giảm học phí và hỗ trợ chi phí học tập?
     - Muốn được miễn, giảm học phí phải làm gì?
@@ -552,7 +554,7 @@ nlu:
     - Làm thế nào để đủ điều kiện để được miễn giảm học phí và nhận hỗ trợ chi phí học tập?
     - Điều kiện để được miễn giảm học phí và nhận hỗ trợ chi phí học tập?
 
-- intent: cau_1.51
+- intent: ho_so_mien_giam_hoc_phi
   examples: |
     - Hồ sơ hướng dẫn thực hiện miễn giảm học phí và hỗ trợ chi phí học tập xem ở đâu?
     - Xem cách thức xin miễn giảm học phí ở đâu?
@@ -560,7 +562,7 @@ nlu:
     - Nơi nào cung cấp hướng dẫn chi tiết về việc làm hồ sơ để được miễn giảm học phí và hỗ trợ chi phí học tập?
     - hồ sơ miễn giảm học phí
 
-- intent: cau_1.52
+- intent: anh_huong_khong_dong_hoc_phi
   examples: |
     - Sinh viên không đóng học phí có bị ảnh hưởng gì không?
     - Không đóng học phí thì bị ảnh hưởng gì?
@@ -571,7 +573,7 @@ nlu:
     - sinh viên không đóng học phí
     - không đóng học phí
 
-- intent: cau_1.53
+- intent: bao_hiem_y_te
   examples: |
     - Sinh viên có cần đóng bảo hiểm y tế không?
     - Sinh viên có cần đóng BHYT không?
@@ -580,7 +582,7 @@ nlu:
     - Sinh viên có cần phải mua bảo hiểm y tế không?
     - Việc mua bảo hiểm y tế có bắt buộc đối với sinh viên không?
 
-- intent: cau_1.54
+- intent: bao_hiem_tai_nan
   examples: |
     - Sinh viên có cần đóng bảo hiểm tai nạn không?
     - BHTN có bắt buộc không?
@@ -589,27 +591,27 @@ nlu:
     - Sinh viên cần phải đóng bảo hiểm tai nạn không?
     - sinh viên có cần đóng bhtn không
 
-- intent: cau_1.55
+- intent: vay_tin_dung_cho_sinh_vien
   examples: |
     - Sinh viên có thể xin vay tín dụng không?
     - Tôi có thể xin vay tín dụng không?
     - Có cơ hội nào cho sinh viên vay tiền không?
     - tôi muốn vay tín dụng
 
-- intent: cau_1.56
+- intent: dieu_kien_chuyen_co_so_dao_tao
   examples: |
     - Sinh viên được xem xét chuyển cơ sở đào tạo khi nào?
     - Điều kiện được xin chuyển cơ sở đào tạo?
     - Điều kiện chuyển trường?
 
-- intent: cau_1.57
+- intent: dieu_kien_chuyen_co_so_dao_tao_k47
   examples: |
     - Sinh viên từ khóa 47 trở đi được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi nào?
     - Điều kiện xin chuyển cơ sở đào tạo đối với sinh viên khóa 47?
     - Điều kiện nào áp dụng cho sinh viên khóa 47 muốn xin chuyển cơ sở đào tạo?
     - Những yêu cầu cụ thể nào được đặt ra cho sinh viên khóa 47 muốn chuyển cơ sở đào tạo?
 
-- intent: cau_1.58
+- intent: dieu_kien_chuyen_he_dao_tao
   examples: |
     - Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa khi nào?
     - Điều kiện chuyển sang vừa học vừa làm là gì?
@@ -619,14 +621,14 @@ nlu:
     - điều kiện chuyển sang đào tạo từ xa
     - tôi muốn chuyển sang đào tạo từ xa
   
-- intent: cau_1.59
+- intent: hoc_hoc_phan_truong_khac
   examples: |
     - Sinh viên có thể đăng ký học một số học phần tại cơ sở đào tạo khác không?
     - Có thể học học phần ở trường khác không?
     - Sinh viên có thể học học phần ở một trường khác không?
     - Có được phép tham gia học học phần tại các trường khác không?
 
-- intent: cau_1.60
+- intent: tin_chi_toi_da_hoc_truong_khac
   examples: |
     - Số tín chỉ tối đa mà sinh viên có thể tích lũy tại cơ sở đào tạo khác là bao nhiêu?
     - Số tín chỉ tối đa mà sinh viên có thể tích lũy tại cơ sở đào tạo khác là bao nhiêu?
@@ -636,13 +638,12 @@ nlu:
     - giới hạn số tín chỉ mà sinh viên có thể tích lũy ở trường khác
     - tôi có thể học tối đa bao nhiêu tín chỉ ở trường khác
 
-- intent: cau_1.61
+- intent: sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
   examples: |
-    - Sinh viên chuyển [cơ sở đào tạo]{"entity": "loai_chuyen", "value": "cơ sở đào tạo"} có được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
-    - Sinh viên chuyển [cơ sở đào tạo]{"entity": "loai_chuyen", "value": "cơ sở đào tạo"} có được xem xét để công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
-    - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trong trường hợp chuyển [cơ sở đào tạo]{"entity": "loai_chuyen", "value": "cơ sở đào tạo"} không?
+    - Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi có được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
+    - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trong trường hợp chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi không?
     - Sinh viên tham gia trao đổi có được xem xét để công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
-    -  Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trao đổi không
+    - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trao đổi không
 
 
 - intent: cau_2.1
