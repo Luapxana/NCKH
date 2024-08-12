@@ -646,7 +646,7 @@ nlu:
     - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trao đổi không
 
 
-- intent: cau_2.1
+- intent: xay_dung_khht
   examples: |
     - Kế hoạch học tập xây dựng như thế nào?
     - Làm thế nào để tạo kế hoạch học tập?
@@ -657,21 +657,21 @@ nlu:
     - Xây dựng kế hoạch học tập
     - Xây dựng KHHT
     
-- intent: cau_2.2
+- intent: dau_khoa_co_gi
   examples: |
     - Đầu khóa sinh viên được cung cấp những gì?
     - Sinh viên được trường cung cấp gì vào đầu khóa học?
     - Đầu khóa, sinh viên được cung cấp những thông tin gì?
     - Những gì sinh viên nhận được khi bắt đầu khóa học?
 
-- intent: cau_2.3
+- intent: trach_nhiem_sv_trong_khi_hoc
   examples: |
     - Trong quá trình học, sinh viên có trách nhiệm gì?
     - Sinh viên có trách nhiệm gì trong quá trình học tập?
     - Nhiệm vụ nào được giao cho sinh viên trong quá trình học?
     - Nhiệm vụ của sinh viên trong quá trình học
 
-- intent: cau_2.4
+- intent: noi_dkhp
   examples: | 
     - ĐKHP ở đâu?
     - Đăng ký học phần ở đâu?
@@ -680,7 +680,7 @@ nlu:
     - Quy trình đăng ký học phần được thực hiện ở đâu?
     - Nơi đăng ký học phần
 
-- intent: cau_2.5
+- intent: noi_xem_khht
   examples: |
     - Xem kế hoạch học tập ở đâu? 
     - Tôi có thể xem khht ở đâu?
@@ -690,7 +690,7 @@ nlu:
     - Nơi điều chỉnh KHHT
     - Xem KHHT ở đâu?
 
-- intent: cau_2.6
+- intent: tai_sao_phai_lam_khht
   examples: |
     - Tại sao phải xây dựng kế hoạch học tập?
     - Xây dựng kế hoạch học tập để làm gì?
@@ -700,7 +700,7 @@ nlu:
     - Có phải xây dựng KHHT không?
     - Có bắt buộc xây dựng kế hoạch học tập không?
 
-- intent: cau_2.7
+- intent: co_so_dkhp
   examples: |
     - Đăng ký học phần mỗi học kỳ dựa vào đâu?
     - Dựa vào đâu để đăng ký học phần mỗi học kì?
@@ -708,7 +708,7 @@ nlu:
     - Thường thì quy trình đăng ký học phần mỗi học kỳ được căn cứ vào đâu?
     - Cơ sở để đăng ký học phần
 
-- intent: cau_2.8
+- intent: so_tin_chi_toi_da
   examples: |
     - Số tín chỉ tối đa có thể đăng ký trong một học kỳ là bao nhiêu?
     - Sinh viên có thể đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ?
@@ -718,15 +718,7 @@ nlu:
     - Số chỉ tối đa được đăng ký mỗi học kỳ
     - Số chỉ được phép đăng ký mỗi học kỳ
 
-- intent: cau_2.9
-  examples: |
-    - Có bắt buộc phải học học kỳ hè hay không?
-    - Sinh viên có buộc phải học học kỳ hè không?
-    - Có nhất thiết phải học hè không?
-    - Có bắt buộc học học kỳ 3 không?
-    - Học kỳ 3 có bắt buộc không?
-
-- intent: cau_2.10
+- intent: dkhp_hoc_ky_dau
   examples: |
     - Học kỳ đầu tiên có cần tự đăng ký học phần không?
     - Sinh viên có phải đăng ký học phần học kỳ đầu tiên không?
@@ -736,7 +728,7 @@ nlu:
     - Tân sinh viên phải tự đăng ký học phần cho học kỳ đầu tiên không?
     - Có phải tự đăng ký học phần cho học kỳ đầu tiên không?
     
-- intent: cau_2.11
+- intent: in_ket_qua_dkhp
   examples: |
     - Khi nào được in kết quả đăng ký học phần?
     - Kết quả đăng ký học phần có thể in khi nào?
@@ -746,7 +738,7 @@ nlu:
     - Thời gian cho phép in kết quả học phần
     - Thời gian xin in kết quả ĐKHP
 
-- intent: cau_2.12
+- intent: cach_dkhp
   examples: |
     - Đăng ký học phần như thế nào?
     - Làm thế nào để đăng ký học phần?
@@ -754,7 +746,7 @@ nlu:
     - Cách ĐKHP
     - Các bước đăng ký học phần
 
-- intent: cau_2.13
+- intent: thoi_gian_xem_tkb
   examples: |
     - Khi nào được xem thời khóa biểu các học phần?
     - Tôi có thể xem thời khóa biểu các học phần khi nào?
@@ -763,7 +755,7 @@ nlu:
     - Thời gian xem TKB các học phần
     - Khi nào công bố TKB các học phần?
 
-- intent: cau_2.14
+- intent: xoa_hoc_phan
   examples: |
     - Có thể xóa học phần đã đăng ký không?
     - Tôi có thể xóa học phần đã đăng ký không?
@@ -771,7 +763,7 @@ nlu:
     - Có thể xóa học phần không
     - Xóa học phần được không
 
-- intent: cau_2.15
+- intent: thoi_han_dkhp
   examples: |
     - Có thể đăng ký thêm học phần sau khi học hay không?
     - Tôi muốn đăng ký thêm học phần sau khi học có được không?
@@ -780,7 +772,7 @@ nlu:
     - Thời hạn đăng ký học phần
     - Có thể đăng ký lại học phần đã xóa không?
 
-- intent: cau_2.16
+- intent: thoi_han_doi_lop_hp
   examples: |
     - Có được đổi lớp khác khi đang học không? 
     - Tôi có thể đổi lớp khác khi đang học không?
@@ -791,7 +783,7 @@ nlu:
     - Hạn chót để sinh viên có thể đổi nhóm học phần là khi nào?
     - Đổi lớp học phần trong học kỳ được không
 
-- intent: cau_2.17
+- intent: thoi_han_doi_kqdkhp
   examples: |
     - Có thể thay đổi kết quả đăng ký học phần đến khi nào?
     - Tôi có thể thay đổi kết quả đăng ký học phần đến khi nào?
@@ -800,14 +792,14 @@ nlu:
     - Được phép thay đổi kết quả đăng ký học phần đên khi nào?
     - Thời hạn thay đổi kết quả đăng ký học phần
 
-- intent: cau_2.18
+- intent: cach_rut_hp
   examples: |
     - Rút học phần như thế nào?
     - Làm thế nào để rút học phần?
     - Tôi phải làm gì để rút học phần.
     - Cách rút học phần đang học
 
-- intent: cau_2.19
+- intent: diem_rut_hp
   examples: |
     - Rút học phần thì có điểm học phần không?
     - Tôi rút học phần rồi thì có điểm không?
@@ -815,7 +807,7 @@ nlu:
     - Việc rút học phần có ảnh hưởng đến điểm số của học phần đó không?
     - Điểm học phần sau khi rút
 
-- intent: cau_2.20
+- intent: hoc_phi_rut_hp
   examples: |
     - Rút học phần có được trả học phí không?
     - Tôi có thể nhận lại học phí sau khi rút học phần không?
@@ -824,7 +816,7 @@ nlu:
     - Có được hoàn học phí của học phần đã rút?
     - Rút học phần có được hoàn tiền học phí không?
     
-- intent: cau_2.21
+- intent: xu_ly_vang_hoc
   examples: |
     - Không đi học thì sẽ như thế nào?
     - Tôi không đi học thì có bị sao không?
@@ -833,7 +825,7 @@ nlu:
     - Nghỉ học thì ảnh hưởng gì
     - Không học đủ số tiết thì bị xử lý như thế nào?
 
-- intent: cau_2.22
+- intent: xu_ly_vang_thi
   examples: |
     - Không đi thi thì như thế nào?
     - Tôi có thể không đi thi không?
@@ -842,7 +834,7 @@ nlu:
     - Hình thức xử lý vắng thi
     - Vắng thi thì tính điểm như thế nào
 
-- intent: cau_2.23
+- intent: thoi_han_rut_hp
   examples: |
     - Khi nào thì không được rút học phần nữa?
     - Tôi có thể rút học phần đến khi nào?
@@ -852,7 +844,7 @@ nlu:
     - Khi nào thì hết hạn rút học phần
     - Khi nào không được rút học phần
 
-- intent: cau_2.24
+- intent: co_nen_rut_hp
   examples: |
     - Khi nào thì nên rút học phần?
     - Tôi nên rút học phần khi nào?
@@ -870,7 +862,7 @@ nlu:
     - Cách giảm khối lượng học phần trong học kỳ
     - Học không nổi nhiều môn thì làm gì
 
-- intent: cau_2.25
+- intent: thoi_gian_xoa_lop_hp
   examples: | 
     - Khi nào thì trường cho biết lớp học phần bị xóa?
     - Trường thông báo lớp học phần bị xóa khi nào?
@@ -879,7 +871,7 @@ nlu:
     - Thời gian thông báo xóa lớp học phần
     - Thời gian thông báo xóa nhóm là khi nào
 
-- intent: cau_2.26
+- intent: dang_ky_lop_bi_xoa
   examples: |
     - Nếu lỡ đăng ký lớp bị xóa thì sao?
     - Tôi phải làm gì nếu lớp học phần tôi đăng ký bị xóa?
@@ -888,7 +880,7 @@ nlu:
     - Khi nằm trong lớp học phần bị xóa thì làm gì
     - Trường xóa lớp học phần có mình thì làm gì
 
-- intent: cau_2.27
+- intent: lop_hp_bi_xoa
   examples: |
     - Những lớp học phần nào bị xóa?
     - Những lớp học phần bị xóa là những những lớp nào?
@@ -898,7 +890,7 @@ nlu:
     - Khi nào lớp học phần bị xóa
     - Khi nào thì xóa lớp học phần
 
-- intent: cau_2.28
+- intent: xin_mo_them_lop
   examples: |
     - Nếu học phần muốn đăng ký hết chỗ thì làm gì?
     - Tôi phải làm gì nếu học phần tôi muốn đăng ký hết chỗ?
@@ -908,7 +900,7 @@ nlu:
     - Xử lý khi không còn lớp để học
     - Khi không còn lớp để học có phải dời sang học kỳ sau?
   
-- intent: cau_2.29
+- intent: cach_xin_mo_them_lop
   examples: |
     - Xin mở thêm lớp học phần như thế nào? 
     - Làm thế nào để xin mở thêm lớp học phần?
@@ -919,7 +911,7 @@ nlu:
     - Xin mở lớp học phần như thế nào
     - Cách xin trường mở lớp
 
-- intent: cau_2.30
+- intent: truong_hop_mo_them_lop
   examples: |
     - Khi nào thì Trường mở thêm lớp học phần?
     - Trường mở thêm lớp học phần khi nào?
@@ -928,7 +920,7 @@ nlu:
     - Trường hợp mở thêm lớp học phần
     - Xin mở lớp có chắc chắn có lớp mới không
     
-- intent: cau_2.31
+- intent: tich_luy_F
   examples: |
     - Học phần bị điểm F thì được tích lũy là bao nhiêu?
     - Học phần điểm F có tính tích lũy không?
@@ -936,14 +928,14 @@ nlu:
     - Tích lũy của điểm F
     - Điểm F là điểm gì
 
-- intent: cau_2.32
+- intent: cai_thien_F
   examples: |
     - Làm gì khi bị điểm F?
     - Bị điểm F thì phải làm gì?
     - Cách cải thiện điểm F?
     - Điểm F thì làm gì
 
-- intent: cau_2.33
+- intent: doi_hp_F
   examples: |
     - Có thể học học phần khác để thay thế học phần bị điểm F không?
     - Học học phần khác để thay thế học phần bị điểm F có được không?
@@ -951,7 +943,7 @@ nlu:
     - Có thể đổi học phần tự chọn nếu bị điểm F không
     - Bị điểm F có đổi môn khác được không
 
-- intent: cau_2.34
+- intent: cach_dk_hoc_lai
   examples: |
     - Đăng ký học lại như thế nào? 
     - Cách đăng ký học lại?
@@ -961,7 +953,7 @@ nlu:
     - Nơi đăng ký học lại
     - Đăng ký học lại ở đâu
 
-- intent: cau_2.35
+- intent: diem_hoc_lai
   examples: |
     - Đăng ký học lại thì còn giữ điểm F không?
     - Nếu học lại thì điểm F có mất không?
@@ -969,7 +961,7 @@ nlu:
     - Quy định cải thiện điểm học phần bị điểm F
     - Học cải thiện có cải thiện điểm F không
 
-- intent: cau_2.36
+- intent: tinh_diem_hp_tu_chon
   examples: |
     - Nếu học nhiều học phần tự chọn cùng một nhóm thì có lấy hết điểm không? 
     - Nếu học nhiều học phần tự chọn cùng nhóm thì tính điểm như thế nào?
@@ -977,7 +969,7 @@ nlu:
     - Học nhiều môn tự chọn có được tích lũy nhiều hơn không
     - Có được tính điểm tất cả môn tự chọn không
 
-- intent: cau_2.37
+- intent: hoc_cai_thien
   examples: |
     - Điểm học phần không như ý thì có thể học lại không?
     - Tôi có thể cải thiện học phần đã học không?
@@ -986,7 +978,7 @@ nlu:
     - Có thể cải thiện học phần không
     - Có nên học cải thiện
 
-- intent: cau_2.38
+- intent: truong_hop_tam_nghi
   examples: |
     - Trường hợp nào được xin tạm nghỉ?
     - Sinh viên có thể xin tạm nghỉ khi nào?
@@ -995,7 +987,7 @@ nlu:
     - Ai được xin tạm nghỉ
     - Có thể xin tạm nghỉ khi nào
 
-- intent: cau_2.39
+- intent: tam_nghi_nvqs
   examples: |
     - Đi nghĩa vụ có được xin tạm nghỉ không?
     - Tôi có thể xin tạm nghỉ khi đi nghĩa vụ không?
@@ -1003,7 +995,7 @@ nlu:
     - Quy định về việc xin tạm nghỉ trong quá trình thực hiện nghĩa vụ làm quân sự là gì?
     - Nghĩa vụ quân sự có được xin nghỉ tạm thời không
 
-- intent: cau_2.40
+- intent: tam_nghi_benh
   examples: |
     - Bị bệnh nặng có được xin tạm nghỉ không?
     - Có thể xin tạm nghỉ nếu bị bệnh nặng không?
@@ -1011,7 +1003,7 @@ nlu:
     - Quy định về việc xin tạm nghỉ do bệnh nặng là như thế nào?
     - Khi bị bệnh có được xin tạm nghỉ dài hạn không
 
-- intent: cau_2.41
+- intent: tam_nghi_tai_nan
   examples: |
     - Bị tai nạn có được xin tạm nghỉ không?
     - Có thể xin tạm nghỉ nếu bị tai nạn không?
@@ -1019,7 +1011,7 @@ nlu:
     - Quy định về việc xin tạm nghỉ do tai nạn là như thế nào?
     - Bị tai nạn có được xin nghỉ dài hạn không
 
-- intent: cau_2.42
+- intent: cach_xin_tam_nghi
   examples: |
     - Xin tạm nghỉ học như thế nào?
     - Muốn xin tạm nghỉ học phải làm gì?
@@ -1027,7 +1019,7 @@ nlu:
     - Có cách nào để nghỉ học một thời gian không?
     - Các bước xin tạm nghỉ
 
-- intent: cau_2.43
+- intent: xin_hoc_lai_sau_tam_nghi
   examples: |
     - Hết thời gian nghỉ học tạm thời thì làm gì?
     - Thủ tục sau khi hết thời gian nghỉ học?
@@ -1038,7 +1030,7 @@ nlu:
     - Có cần làm gì sau khi hết thời gian xin nghỉ không
     - Có thể đi học lại sau khi tạm nghỉ không
 
-- intent: cau_2.44
+- intent: han_chot_xin_hoc_lai_sau_tam_nghi
   examples: |
     - Hạn chót nộp hồ sơ xin học lại là khi nào?
     - Thời gian nộp hồ sơ xin học lại là đến khi nào?
@@ -1049,7 +1041,7 @@ nlu:
     - Phải nộp hồ sơ xin học lại sau tạm nghỉ khi nào
     - Nộp hồ sơ xin học lại vào thời gian nào
 
-- intent: cau_2.45
+- intent: truong_hop_canh_bao_hoc_vu
   examples: |
     - Trường hợp nào thì bị cảnh báo học vụ?
     - Khi nào thì bị cảnh báo học vụ?
@@ -1060,7 +1052,7 @@ nlu:
     - Các vi phạm dẫn đến cảnh báo học vụ
     - Bị cảnh báo học vụ khi nào?
 
-- intent: cau_2.46
+- intent: xu_ly_nghi_khong phep
   examples: |
     - Tạm nghỉ mà không xin phép thì sao?
     - Không xin phép tạm nghỉ thì bị xử lý như thế nào?
@@ -1071,14 +1063,14 @@ nlu:
     - Không đi học trong thời gian dài thì bị xử lý như thế nào
     - Trường xử lý sinh viên nghỉ học dài hạn không xin phép
 
-- intent: cau_2.47
+- intent: khai_niem_canh_bao_hoc_vu
   examples: |
     - Cảnh báo học vụ là gì? 
     - Thế nào là cảnh báo học vụ?
     - Khái niệm cảnh báo học vụ?
     - Cảnh báo học vụ
 
-- intent: cau_2.48
+- intent: truong_hop_dinh_chi
   examples: |
     - Khi nào thì bị đình chỉ học tập?
     - Các trường hợp bị đình chỉ học tập?
@@ -1089,7 +1081,7 @@ nlu:
     - Làm gì thì có thể bị đình chỉ
     - Bị đình chỉ khi nào
 
-- intent: cau_2.49
+- intent: drl_yeu
   examples: |
     - Đrl yếu thì có sao không?
     - Điểm rèn luyện yếu có ảnh hưởng gì không?
@@ -1097,7 +1089,7 @@ nlu:
     - Điểm rèn luyện yếu có bị phạt không
     - Điểm rèn luyện không cao có tính là vi phạm không
 
-- intent: cau_2.50
+- intent: muc_do_dinh_chi
   examples: |
     - Đình chỉ học tập có mấy mức độ?
     - Có mấy mức độ đình chỉ học tập?
@@ -1107,7 +1099,7 @@ nlu:
     - Sinh viên có thể bị đình chỉ học tập ở mức nào
     - Khoảng thời gian đình chỉ học tập
     
-- intent: cau_2.51
+- intent: dinh_chi_1_hk
   examples: |
     - Khi nào bị đình chỉ 1 học kỳ?
     - Bị đình chỉ chỉ 1 học kỳ khi nào?
@@ -1116,7 +1108,7 @@ nlu:
     - Sinh viên nào bị đình chỉ một học kỳ
 
 
-- intent: cau_2.52
+- intent: dinh_chi_1_nam
   examples: |
     - Khi nào bị đình chỉ 1 năm?
     - Bị đình chỉ 1 năm khi nào?
@@ -1124,7 +1116,7 @@ nlu:
     - Các vi phạm có thể dẫn đến đình chỉ một năm
     - Sinh viên nào bị đình chỉ một năm
 
-- intent: cau_2.53
+- intent: buoc_thoi_hoc
   examples: |
     - Trường hợp nào bị buộc thôi học?
     - Bị buộc thôi học khi nào
@@ -1132,7 +1124,7 @@ nlu:
     - Các vi phạm có thể dẫn đến thôi học
     - Sinh viên nào bị buộc thôi học 
 
-- intent: cau_2.54
+- intent: nghi_qua_han
   examples: |
     - Nghỉ tạm thời quá thời hạn thì bị gì?
     - Nghỉ tạm thời quá thời hạn có ảnh hưởng gì không?
@@ -1140,7 +1132,7 @@ nlu:
     - Hình thức xử lý nghỉ học quá thời hạn
     - Sinh viên bị xử lý như thế nào nếu không đi học lại sau khi hết thời gian nghỉ
 
-- intent: cau_2.55
+- intent: khong_dong_hoc_phi
   examples: |
     - Không đóng học phí thì bị kỷ luật như thế nào?
     - Không đóng học phí có sao không?
@@ -1148,7 +1140,7 @@ nlu:
     - Hình thức xử lý sinh viên không đóng học phí
     - Không đóng học phí
 
-- intent: cau_2.56
+- intent: hoc_qua_han
   examples: |
     - Học quá hạn thì có bị buộc thôi học không?
     - Sinh viên có thể học tập quá hạn không?
@@ -1157,20 +1149,20 @@ nlu:
     - Không tốt nghiệp kịp thì bị gì
     - Xử lý sinh viên quá hạn
 
-- intent: cau_2.57
+- intent: xin_hoc_lai_sau_thoi_hoc
   examples: |
     - Bị thôi học có được xin học lại không?
     - Có học lại được nếu bị buộc thôi học không?
     - Bị buộc thôi học có được xin học ngành khách không
     - Bị buộc thôi học có thể học chương trình khác không
 
-- intent: cau_2.58
+- intent: bi_ky_luat
   examples: |
     - Làm sao biết mình đang bị kỷ luật?
     - Trường có thông báo nếu mình bị kỷ luật không?
     - Thông báo kỷ luật sinh viên
 
-- intent: cau_2.59
+- intent: di_hoc_toi_thieu
   examples: |
     - Số tiết tối thiểu cần học để không bị điểm F là bao nhiêu?
     - Phải học tối thiểu bao nhiêu tiết để không bị điểm F?
@@ -1179,7 +1171,7 @@ nlu:
     - Có phải tham gia tất cả các tiết học không
     - Quy định về số tiết tối thiểu học phần
 
-- intent: cau_2.60
+- intent: vang_hoc
   examples: |
     - Vắng học thì sẽ bị gì?
     - Vắng nhiều hơn thời gian quy định có sao không?
@@ -1188,7 +1180,7 @@ nlu:
     - Học không đủ số tiết thì bị gì
     - Không đi học đủ bị xử lý như thế nào?
 
-- intent: cau_2.61.1
+- intent: thoi_gian_cac_tiet
   examples: |
     - Thời gian bắt đầu và kết thúc các tiết học?
     - Thông tin thời gian các tiết học
@@ -1196,70 +1188,70 @@ nlu:
     - Các tiết học trong ngày kết thúc vào thời gian nào?
     - Tất cả các tiết học trong ngày
     
-- intent: cau_2.61
+- intent: thoi_gian_tiet_1
   examples: |
     - [Tiết 1]{"entity": "tiet", "value": "1"} bắt đầu lúc mấy giờ?
     - [Tiết 1]{"entity": "tiet", "value": "1"} là thời gian nào?
     - Thời gian bắt đầu [tiết 1]{"entity": "tiet", "value": "1"}
     - Thời gian kết thúc [tiết 1]{"entity": "tiet", "value": "1"}
 
-- intent: cau_2.62
+- intent: thoi_gian_tiet_2
   examples: |
     - [Tiết 2]{"entity": "tiet", "value": "2"} bắt đầu lúc mấy giờ?
     - [Tiết 2]{"entity": "tiet", "value": "2"} là thời gian nào?
     - Thời gian bắt đầu [tiết 2]{"entity": "tiet", "value": "2"}
     - Thời gian kết thúc [tiết 2]{"entity": "tiet", "value": "2"}
 
-- intent: cau_2.63
+- intent: thoi_gian_tiet_3
   examples: |
     - [Tiết 3]{"entity": "tiet", "value": "3"} bắt đầu lúc mấy giờ?
     - [Tiết 3]{"entity": "tiet", "value": "3"} là thời gian nào?
     - Thời gian bắt đầu [tiết 3]{"entity": "tiet", "value": "3"}
     - Thời gian kết thúc [tiết 3]{"entity": "tiet", "value": "3"}
 
-- intent: cau_2.64
+- intent: thoi_gian_tiet_4
   examples: |
     - [Tiết 4]{"entity": "tiet", "value": "4"} bắt đầu lúc mấy giờ?
     - [Tiết 4]{"entity": "tiet", "value": "4"} là thời gian nào?
     - Thời gian bắt đầu [tiết 4]{"entity": "tiet", "value": "4"}
     - Thời gian kết thúc [tiết 4]{"entity": "tiet", "value": "4"}
 
-- intent: cau_2.65
+- intent: thoi_gian_tiet_5
   examples: |
     - [Tiết 5]{"entity": "tiet", "value": "5"} bắt đầu lúc mấy giờ?
     - [Tiết 5]{"entity": "tiet", "value": "5"} là thời gian nào?
     - Thời gian bắt đầu [tiết 5]{"entity": "tiet", "value": "5"}
     - Thời gian kết thúc {"entity": "tiet", "value": "5"}
 
-- intent: cau_2.66
+- intent: thoi_gian_tiet_6
   examples: |
     - [Tiết 6]{"entity": "tiet", "value": "6"} bắt đầu lúc mấy giờ?
     - [Tiết 6][Tiết 6]{"entity": "tiet", "value": "6"} là thời gian nào?
     - Thời gian bắt đầu [tiết 6][Tiết 6]{"entity": "tiet", "value": "6"}
     - Thời gian kết thúc [tiết 6][Tiết 6]{"entity": "tiet", "value": "6"}
 
-- intent: cau_2.67
+- intent: thoi_gian_tiet_7
   examples: |
     - [Tiết 7]{"entity": "tiet", "value": "7"} bắt đầu lúc mấy giờ?
     - [Tiết 7]{"entity": "tiet", "value": "7"} là thời gian nào?
     - Thời gian bắt đầu [tiết 7]{"entity": "tiet", "value": "7"}
     - Thời gian kết thúc [tiết 7]{"entity": "tiet", "value": "7"}
 
-- intent: cau_2.68
+- intent: thoi_gian_tiet_8
   examples: |
     - [Tiết 8]{"entity": "tiet", "value": "8"} bắt đầu lúc mấy giờ?
     - [Tiết 8]{"entity": "tiet", "value": "8"} là thời gian nào?
     - Thời gian bắt đầu [tiết 8]{"entity": "tiet", "value": "8"}
     - Thời gian kết thúc [tiết 8]{"entity": "tiet", "value": "8"}
 
-- intent: cau_2.69
+- intent: thoi_gian_tiet_9
   examples: |
     - [Tiết 9]{"entity": "tiet", "value": "9"} bắt đầu lúc mấy giờ?
     - [Tiết 9]{"entity": "tiet", "value": "9"} là thời gian nào?
     - Thời gian bắt đầu [tiết 9]{"entity": "tiet", "value": "9"}
     - Thời gian kết thúc [tiết 9]{"entity": "tiet", "value": "9"}
 
-- intent: cau_2.70
+- intent: cac_gio_nghi
   examples: |
     - Một buổi học có mấy giờ nghỉ?
     - Các giờ nghỉ giữa buổi học
@@ -1267,21 +1259,21 @@ nlu:
     - Có bao nhiêu giờ giải lao
     - Thời gian giải lao
 
-- intent: cau_2.71
+- intent: thoi_gian_hoc_sang
   examples: |
     - Buổi sáng học đến mấy giờ?
     - Thời gian học của buổi sáng
     - Buổi sáng học lúc mấy giờ?
     - Mấy giờ bắt đầu giờ học buổi sáng?
 
-- intent: cau_2.72
+- intent: thoi_gian_hoc_chieu
   examples: |
     - Buổi chiều học đến mấy giờ?
     - Thời gian học của buổi chiều
     - Buổi chiều học lúc mấy giờ?
     - Mấy giờ bắt đầu giờ học buổi chiều?
 
-- intent: cau_2.73
+- intent: ngay_hoc_trong_tuan
   examples: |
     - Một tuần học có bao nhiêu ngày?
     - Có bao nhiêu ngày học trong tuần?
@@ -1291,7 +1283,7 @@ nlu:
     - Tuần học có bao gồm chủ nhật không?
     - Thứ bảy chủ nhật có phải học không?
 
-- intent: cau_2.74
+- intent: buoi_hoc_dau_tien
   examples: |
     - Buổi học đầu tiên có học không?
     - Buổi học đầu tiên có quan trọng không?
@@ -1299,21 +1291,21 @@ nlu:
     - Nội dung buổi học đầu tiên của học phần
     - Buổi học đầu tiên của học phần cần chuẩn bị gì?
 
-- intent: cau_2.75
+- intent: tiet_buoi_toi
   examples: |
     - Buổi tối có mấy tiết?
     - Có mấy tiết buổi tối?
     - Thời gian học buổi tối
     - Có tiết buổi tối không
 
-- intent: cau_2.76
+- intent: hoc_2_nganh
   examples: |
     - Có thể học 2 ngành cùng lúc không?
     - Có thể học cùng lúc 2 ngành không?
     - Đăng ký học thêm ngành khác được không?
     - Có thể đăng ký chương trình đào tạo thứ hai không
 
-- intent: cau_2.77
+- intent: dieu_kien_hoc_nganh_@
   examples: |
     - Điều kiện để học 2 ngành là gì?
     - Học ngành 2 cần những điều kiện nào?
@@ -1321,7 +1313,7 @@ nlu:
     - Điều kiện học ngành hai
     - Điều kiện đăng ký chương trình đào tạo thứ hai
 
-- intent: cau_2.78
+- intent: cach_xin_hoc_nganh_2
   examples: |
     - Xin học cùng lúc 2 ngành như thế nào?
     - Cách xin học cùng lúc 2 ngành
@@ -1331,18 +1323,18 @@ nlu:
     - Các bước xin học chương trình đào tạo thứ hai
     - Cách xin học CTĐT thứ hai
 
-- intent: cau_2.79
+- intent: nganh_2_trung_hp
   examples: |
     - Có cần học lại các HP trùng khi học ngành mới không?
     - Học ngành mới có cần học lại các học phần trùng với học phần đã học không?
     - Có phải học lại học phần trùng của 2 chương trình không
 
-- intent: cau_2.80
+- intent: nganh_2_chu_y
   examples: |
     - Những điều cần lưu ý khi học 2 chương trình?
     - Khi học 2 chương trình cần lưu ý những gì?
 
-- intent: cau_2.81
+- intent: nganh_2_thoi_han
   examples: |
     - Thời gian tối đa học ngành 2?
     - Được phép học ngành 2 đến khi nào?
@@ -1350,7 +1342,7 @@ nlu:
     - Thời hạn tốt nghiệp chương trình đào tạo thứ hai
     - Thời hạn tốt nghiệp CTĐT thứ hai
 
-- intent: cau_2.82
+- intent: nganh_2_bi_loai
   examples: | 
     - Điểm trung bình dưới 2 thì có còn được học ngành 2 không?
     - Trường hợp nào phải tạm dừng học ngành 2?
@@ -1360,7 +1352,7 @@ nlu:
     - Khi nào thì bị loại khỏi danh sách chương trình đào tạp thứ hai?
     - Có thể đăng ký học lại ngành 2 nếu bị loại không?
 
-- intent: cau_2.83
+- intent: nganh_2_tot_nghiep
   examples: |
     - Khi nào được công nhận tốt nghiệp ngành 2?
     - Khi nào được công nhận tốt nghiệp chương trình đào tạo thứ hai?
@@ -1368,67 +1360,61 @@ nlu:
     - Điều kiện tốt nghiệp chương trình đào tạo thứ hai
     - Điều kiện tốt nghiệp CTĐT thứ hai
 
-- intent: cau_4.1
+- intent: cac_hinh_thuc_tot_nghiep
   examples: |
     - Có những hình thức xét tốt nghiệp nào?
     - Các hình thức xét tốt nghiệp
     - Có bao nhiêu cách để tốt nghiệp?
     - Các cách tốt nghiệp
 
-- intent: cau_4.2
+- intent: luan_van
   examples: |
     - Bảo vệ luận văn như thế nào?
     - Hình thức bảo vệ luận văn
     - Bảo vệ luận văn là gì?
 
-- intent: cau_4.3
+- intent: tieu_luan
   examples: |
     - Tiểu luận tốt nghiệp là gì?
     - Thông tin về tiểu luận tốt nghiệp
     - Khái niệm tiểu luận tốt nghiệp
 
-- intent: cau_4.4
+- intent: dieu_kien_tot_nghiep
   examples: |
     - Các điều kiện để tốt nghiệp là gì?
     - Tốt nghiệp cần những điều kiện gì
     - Muốn tốt nghiệp phải thỏa mãn những gì?
     - Các điều kiện để xin xét tốt nghiệp
 
-- intent: cau_4.5
+- intent: thoi_gian_xet_tot_nghiep
   examples: |
     - Thời điểm nào thì được xét tốt nghiệp?
     - Thời điểm xét tốt nghiệp
     - Xét tốt nghiệp vào thời điểm nào
     - Muốn xin xét tốt nghiệp phải đợi đến khi nào?
 
-- intent: cau_4.6
+- intent: thoi_gian_le_tot_nghiep
   examples: |
     - Lễ trao bằng tốt nghiệp thường tổ chức vào thời gian nào?
     - Thời gian tổ chức lễ tốt nghiệp
     - Lễ tốt nghiệp thường diễn ra khi nào?
     - Tháng nào có lễ tốt nghiệp?
 
-- intent: cau_4.7
+- intent: noi_xin_xet_tot_nghiep
   examples: |
     - Đăng ký xét tốt nghiệp ở đâu?
     - Đăng ký xét tốt nghiệp thông qua đâu
     - Nơi đăng ký xét tốt nghiệp
     - Xin xét tốt nghiệp ở đâu?
 
-- intent: cau_4.8
+- intent: quy_trinh_xet_tot_nghiep
   examples: |
     - Quy trình xét tốt nghiệp?
     - Quá trình xét tốt nghiệp
     - Quá trình xét tốt nghiệp như thế nào
     - Các bước xét tốt nghiệp
 
-- intent: cau_4.9
-  examples: |
-    - Sinh viên học tập quá thời gian thì bị xử lý như thế nào?
-    - Hình thức xử lý sinh viên khi học tập quá hạn
-    - Học tập quá hạn thì bị hậu quả gì?
-
-- intent: cau_4.10
+- intent: no_gdtc_gdqp
   examples: |
     - Nợ GDQP, GDTC thì có bị xóa tên không?
     - Sinh viên có được phép hoàn thiện GDQP/GDTC sau khi hêt hết thời gian học không
@@ -1438,68 +1424,68 @@ nlu:
     - Nợ thể chất có bị xóa tên không?
     - Nợ quốc phòng có bị đuổi học không?
 
-- intent: cau_4.11
+- intent: no_ngoai_ngu
   examples: |
     - Không đủ chuẩn ngoại ngữ, công nghệ thông tin thì có bị xóa tên không?
     - Sinh viên có được hoàn thành các chuẩn đầu ra sau khi hết thời gian học không
     - Nợ chứng chỉ ngoại ngữ có bị xóa tên không?
     - Thời hạn nợ chứng chỉ ngoại ngữ.
 
-- intent: cau_4.12
+- intent: khong_tot_nghiep
   examples: |
     - Không đủ điều kiện tốt nghiệp thì có bị xóa kết quả học tập không?
     - Kết quả học tập sẽ như thế nào nếu sinh viên không đủ điều kiện tốt nghiệp
     - Có thể bảo lưu kết quả học tập nếu chưa tốt nghiệp hay không
 
-- intent: cau_4.13
+- intent: hoc_sau_khi_qua_han
   examples: |
     - Hết thời gian học thì có được học chương trình khác không?
     - Có được học chương trình khác nếu hết thời gian học không?
 
-- intent: cau_4.14
+- intent: hang_tot_nghiep
   examples: |
     - Các hạng tốt nghiệp?
     - Các hạng tốt nghiệp căn cứ vào đâu
     - Căn cứ vào đâu để xét hạng tốt nghiệp
 
-- intent: cau_4.15
+- intent: tot_nghiep_xuat_sac
   examples: |
     - Điều kiện tốt nghiệp loại xuất sắc?
     - Tốt nghiệp loại xuất sắc cần điều kiện gì?
     - Bao nhiêu điểm thì tốt nghiệp loại xuất sắc?
 
-- intent: cau_4.16
+- intent: tot_nghiep_gioi
   examples: |
     - Điều kiện tốt nghiệp loại giỏi?
     - Tốt nghiệp loại giỏi cần điều kiện gì?
     - Bao nhiêu điểm thì tốt nghiệp loại giỏi?
 
-- intent: cau_4.17
+- intent: tot_nghiep_kha
   examples: |
     - Điều kiện tốt nghiệp loại khá?
     - Tốt nghiệp loại khá cần điều kiện gì?
     - Bao nhiêu điểm thì tốt nghiệp loại khá?
 
-- intent: cau_4.18
+- intent: tot_nghiep_trung_binh
   examples: |
     - Điều kiện tốt nghiệp loại trung bình?
     - Tốt nghiệp loại trung bình cần điều kiện gì?
     - Bao nhiêu điểm thì tốt nghiệp loại trung bình?
 
-- intent: cau_4.19 
+- intent: ha_tot_nghiep
   examples: |
     - Các trường hợp nào thì bị hạ một mức tốt nghiệp?
     - Bị hạ một mức tốt nghiệp khi nào
     - Trường hợp bị hạ bậc tốt nghiệp
 
-- intent: cau_4.20
+- intent: xin_ra_truong
   examples: |
     - Quy trình, thủ tục ra trường
     - Sinh viên liên hệ ai sau khi nhận quyết định tốt nghiệp
     - Các bước thực hiện thủ tục ra trường
     - Làm gì để xin ra trường?
 
-- intent: cau_4.21
+- intent: xin_lai_bang_tot_nghiep
   examples: |
     - Sau này có thể xin lại bằng tốt nghiệp khi bị mất/ hỏng hay không?
     - Cách xin lại bằng tốt nghiệp khi bị hỏng/mất

@@ -85,112 +85,110 @@ intents:
   - tin_chi_toi_da_hoc_truong_khac
   - sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
 # chương 2
-  - cau_2.1
-  - cau_2.2
-  - cau_2.3
-  - cau_2.4
-  - cau_2.5
-  - cau_2.6
-  - cau_2.7
-  - cau_2.8
-  - cau_2.9
-  - cau_2.10
-  - cau_2.11
-  - cau_2.12
-  - cau_2.13
-  - cau_2.14
-  - cau_2.15
-  - cau_2.16
-  - cau_2.17
-  - cau_2.18
-  - cau_2.19
-  - cau_2.20
-  - cau_2.21
-  - cau_2.22
-  - cau_2.23
-  - cau_2.24
-  - cau_2.25
-  - cau_2.26
-  - cau_2.27
-  - cau_2.28
-  - cau_2.29
-  - cau_2.30
-  - cau_2.31
-  - cau_2.32
-  - cau_2.33
-  - cau_2.34
-  - cau_2.35
-  - cau_2.36
-  - cau_2.37
-  - cau_2.38
-  - cau_2.39
-  - cau_2.40
-  - cau_2.41
-  - cau_2.42
-  - cau_2.43
-  - cau_2.44
-  - cau_2.45
-  - cau_2.46
-  - cau_2.47
-  - cau_2.48
-  - cau_2.49
-  - cau_2.50
-  - cau_2.51
-  - cau_2.52
-  - cau_2.53
-  - cau_2.54
-  - cau_2.55
-  - cau_2.56
-  - cau_2.57
-  - cau_2.58
-  - cau_2.59
-  - cau_2.60
-  - cau_2.61.1
-  - cau_2.61
-  - cau_2.62
-  - cau_2.63
-  - cau_2.64
-  - cau_2.65
-  - cau_2.66
-  - cau_2.67
-  - cau_2.68
-  - cau_2.69
-  - cau_2.70
-  - cau_2.71
-  - cau_2.72
-  - cau_2.73
-  - cau_2.74
-  - cau_2.75
-  - cau_2.76
-  - cau_2.77
-  - cau_2.78
-  - cau_2.79
-  - cau_2.80
-  - cau_2.81
-  - cau_2.82
-  - cau_2.83
+  - xay_dung_khht
+  - dau_khoa_co_gi
+  - trach_nhiem_sv_khi_hoc
+  - noi_dkhp
+  - noi_xem_khht
+  - tai_sao_phai_lam_khht
+  - co_so_dkhp
+  - so_tin_chi_toi_da
+  - dkhp_hoc_ky_dau
+  - in_ket_qua_dkhp
+  - cach_dkhp
+  - thoi_gian_xem_tkb
+  - xoa_hoc_phan
+  - thoi_han_dkhp
+  - thoi_han_doi_lop_hp
+  - thoi_han_doi_kqdkhp
+  - cach_rut_hp
+  - diem_rut_hp
+  - hoc_phi_rut_hp
+  - xu_ly_vang_hoc
+  - xu_ly_vang_thi
+  - thoi_han_rut_hp
+  - co_nen_rut_hp
+  - thoi_gian_xoa_lop_hp
+  - dang_ky_lop_bi_xoa
+  - lop_hp_bi_xoa
+  - xin_mo_them_lop
+  - cach_xin_mo_them_lop
+  - truong_hop_mo_them_lop
+  - tich_luy_F
+  - cai_thien_F
+  - doi_hp_F
+  - cach_dk_hoc_lai
+  - diem_hoc_lai
+  - tinh_diem_hp_tu_chon
+  - hoc_cai_thien
+  - truong_hop_tam_nghi
+  - tam_nghi_nvqs
+  - tam_nghi_benh
+  - tam_nghi_tai_nan
+  - cach_xin_tam_nghi
+  - xin_hoc_lai_sau_tam_nghi
+  - han_chot_xin_hoc_lai_sau_tam_nghi
+  - truong_hop_canh_bao_hoc_vu
+  - xu_ly_nghi_khong_phep
+  - khai_niem_canh_bao_hoc_vu
+  - truong_hop_dinh_chi
+  - drl_yeu
+  - muc_do_dinh_chi
+  - dinh_chi_1_hk
+  - dinh_chi_1_nam
+  - buoc_thoi_hoc
+  - nghi_qua_han
+  - khong_dong_hoc_phi
+  - hoc_qua_han
+  - xin_hoc_lai_sau_thoi_hoc
+  - bi_ky_luat
+  - di_hoc_toi_thieu
+  - vang_hoc
+  - thoi_gian_cac_tiet
+  - thoi_gian_tiet_1
+  - thoi_gian_tiet_2
+  - thoi_gian_tiet_3
+  - thoi_gian_tiet_4
+  - thoi_gian_tiet_5
+  - thoi_gian_tiet_6
+  - thoi_gian_tiet_7
+  - thoi_gian_tiet_8
+  - thoi_gian_tiet_9
+  - cac_gio_nghi
+  - thoi_gian_hoc_sang
+  - thoi_gian_hoc_chieu
+  - ngay_hoc_trong_tuan
+  - buoi_hoc_dau_tien
+  - tiet_buoi_toi
+  - hoc_2_nganh
+  - dieu_kien_hoc_nganh_2
+  - cach_xin_hoc_nganh_2
+  - nganh_2_trung_hp
+  - nganh_2_chu_y
+  - nganh_2_thoi_han
+  - nganh_2_bi_loai
+  - nganh_2_tot_nghiep
 #chuong 4
-  - cau_4.1
-  - cau_4.2
-  - cau_4.3
-  - cau_4.4
-  - cau_4.5
-  - cau_4.6
-  - cau_4.7
-  - cau_4.8
-  - cau_4.9
-  - cau_4.10
-  - cau_4.11
-  - cau_4.12
-  - cau_4.13
-  - cau_4.14
-  - cau_4.15
-  - cau_4.16
-  - cau_4.17
-  - cau_4.18
-  - cau_4.19
-  - cau_4.20
-  - cau_4.21
+  - cac_hinh_thuc_tot_nghiep
+  - luan_van
+  - tieu_luan
+  - dieu_kien_tot_nghiep
+  - thoi_gian_le_tot_nghiep
+  - thoi_gian_xet_tot_nghiep
+  - noi_xin_xet_tot_nghiep
+  - quy_trinh_xet_tot_nghiep
+  - no_gdtc_gdqp
+  - no_ngoai_ngu
+  - khong_tot_nghiep
+  - hoc_sau_khi_qua_han
+  - hang_tot_nghiep
+  - tot_nghiep_xuat_sac
+  - tot_nghiep_gioi
+  - tot_nghiep_trung_binh
+  - tot_nghiep_kha
+  - ha_tot_nghiep
+  - xin_ra_truong
+  - xin_lai_bang_tot_nghiep
 #chuong 3
   - cau_3.1
   - cau_3.2
@@ -543,41 +541,39 @@ responses:
   - text: "Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy theo quy định hiện hành của Trường."
 #chương 2
 # 2.1 - 2.20
-  utter_cau_2.1:
+  utter_xay_dung_khht:
   - text: "Có thể xây dựng kế hoạch học tập dựa vào KHHT toàn khóa được cung cấp, vào hệ thống quản lý của Trường để xây dựng theo hướng dẫn"
 
-  utter_cau_2.2:
+  utter_dau_khoa_co_gi:
   - text: "Đầu khóa, sinh viên được cung cấp KHHT chuẩn toàn khóa, quy định về công tác học vụ, CVHT."
 
-  utter_cau_2.3:
+  utter_trach_nhiem_sv_khi_hoc:
   - text: "Sinh viên có trách nhiệm thực hiện xây dựng KHHT, đăng ký học phần trước khi học kỳ mới bắt đầu"
 
-  utter_cau_2.4:
+  utter_noi_dkhp:
   - text: "Đăng ký học phần trên hệ thống quản lý đào tạo của trường hoặc ứng dụng MyCTUS"
 
-  utter_cau_2.5:
+  utter_noi_xem_khht:
   - text: "Có thể xem hoặc điều chỉnh kế hoạch học tập trên hệ thống quản lý đào tạo của trường hoặc thông qua ứng dụng MyCTUS"
 
-  utter_cau_2.6:
+  utter_tai_sao_phai_lam_khht:
   - text: "Khi đăng ký học phần phải dựa trên KHHT, chỉ có thể đăng ký một học phần nếu học phần đó có trong KHTT của HK đăng ký."
 
-  utter_cau_2.7:
+  utter_co_so_dkhp:
   - text: "Đăng ký học phần dựa vào KHHT và thời khóa biểu các lớp học phần trong học kỳ do Trường công bố"
 
-  utter_cau_2.8:
+  utter_so_tin_chi_toi_da:
   - text: "Số tín chỉ tối đa sinh viên có thể đăng ký là 25 đối với học kỳ chính và 8 đối với học kỳ phụ\n\n
   Kể từ học kỳ 2 năm học 2024-2025, số tín chỉ tối đa mà sinh viên có thể đăng ký là 20 tín chỉ đối với mỗi học kỳ"
 
-  utter_cau_2.9:
-  - text: "Trường không bắt buộc sinh viên học HK hè."
 
-  utter_cau_2.10:
+  utter_dkhp_hoc_ky_dau:
   - text: "Vào học kỳ đầu tiên, sinh viên không cần tự đăng ký học phần mà TKB sẽ do Trường bố trí trong học kỳ đầu tiên."
 
-  utter_cau_2.11:
+  utter_in_ket_qua_dkhp:
   - text: "Sau tuần 2 của học kỳ có thể in kết quả đăng ký học phần."
 
-  utter_cau_2.12:
+  utter_cach_dkhp:
   - text: "Sinh viên thực hiện đăng ký học phần trên hệ thống quản lý của trường hoặc ứng dung MyCTUs, chọn mục \"Đăng ký học phần\":\n\n
           \n\n1. Sinh viên vào mục \"Danh mục học phần\" để xem trước thời khóa biểu các học phần trong học kỳ, sinh viên dựa vào thời khóa biểu để sắp xếp thời gian sao cho các học phần đã thêm vào kế hoạch học tập không trùng nhau
           \n\n2. Mục \"Quy định đăng ký\" quy định thời gian đăng ký học phần của từng nhóm ngành của học kỳ đó
@@ -586,111 +582,111 @@ responses:
           \n\n5. Sau khi đăng ký học phần xong, sinh viên có thể vào mục \"Thời khóa biểu\" để xem thông tin các nhóm học phần đã đăng ký và thời khóa biểu trong tuần
           Video hướng dẫn đăng ký cụ thể tại đây: https://www.youtube.com/watch?v=Z3EsqtiZtH4."
 
-  utter_cau_2.13:
+  12.utter_thoi_gian_xem_tkb:
   - text: "Sinh viên sẽ được xem thời khóa biểu chậm nhất là 6 tuần trước khi HK mới bắt đầu."
 
-  utter_cau_2.14:
+  utter_xoa_hoc_phan:
   - text: "Sinh viên có thể xóa các lớp học phần chậm nhất đến tuần thứ 1 của học kỳ."
 
-  utter_cau_2.15:
+  14.utter_thoi_han_dkhp:
   - text: "Sinh viên có thể đăng ký bổ sung các học phần mới chậm nhất là tuần 1 của HK (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC) trong trường hợp đăng ký các lớp học phần bị xóa trước đó."
 
-  utter_cau_2.16:
+  15.utter_thoi_han_doi_lop_hp:
   - text: "Sinh viên có thể đổi lớp học phần chậm nhất là đến hết tuần đầu tiên của học kỳ."
 
-  utter_cau_2.17:
+  utter_thoi_han_doi_kqdkhp:
   - text: "Kết quả đăng ký học phần có thể được thay đổi đến hết tuần 1 của học kỳ."
 
-  utter_cau_2.18:
+  utter_cach_rut_hp:
   - text: "Trên hệ thống quản lý, trong phần \"Đăng ký học phần\", sinh viên vào mục \"Rút học phần\", lựa chọn học phần cần rút, chọn học phần cần rút, chọn rút học phần. Lưu ý:
           \n\n- Mỗi học phần sinh viên chỉ được rút học phần một lần không thể phục hồi, sinh viên suy nghĩ kỹ trước khi thực hiện rút học phần.
           \n\n- Những học phần đã rút đều bị tính học phí theo quy định.
           \n\n- Điểm học phần sau khi rút thành công là điểm W.
           \n\n- Mỗi học kỳ sẽ có thời gian rút học phần cố định."
 
-  utter_cau_2.19:
+  utter_diem_rut_hp:
   - text: "Sinh viên rút học phần sẽ nhận điểm W của học phần trong học kỳ đó."
 
-  utter_cau_2.20:
+  utter_hoc_phi_rut_hp:
   - text: "Rút học phần sẽ không nhận lại học phí."
 # 2.21 - 2.40
-  utter_cau_2.21:
+  utter_xu_ly_vang_hoc:
   - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
   
-  utter_cau_2.22:
+  utter_xu_ly_vang_th:
   - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
 
-  utter_cau_2.23:
+  utter_thoi_han_rut_hp:
   - text: "Đến hết tuần 8 của học kỳ chính hoặc tuần 2 của học kỳ phụ thì không được rút học phần nữa."
 
-  utter_cau_2.24:
+  utter_co_nen_rut_hp:
   - text: "Khi sinh viên cảm thấy việc học khó khăn có thể dẫn đến kết quả kém thì có thể xin rút học phần."
 
-  utter_cau_2.25:
+  utter_thoi_gian_xoa_lop_hp:
   - text: "Sinh viên được cung cấp danh sách lớp học phần bị xóa chậm nhất 1 tuần trước khi học kỳ bắt đầu."
 
-  utter_cau_2.26:
+  utter_dang_ky_lop_bi_xoa:
   - text: "Sinh viên có thể đăng ký các học phần khác để thay thế (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC)."
   
-  utter_cau_2.27:
+  utter_lop_hp_bi_xoa:
   - text: "Những lớp học phần bị xóa là những lớp có số lượng đăng ký ít hơn 25 SV, có trường hợp đặc biệt sẽ do Hiệu trưởng quyết định."
 
-  utter_cau_2.28:
-  - text: "Có thể truy cập HTQL đào tạo của trường để xin mở thêm lớp học phần."
+  utter_xin_mo_them_lop:
+  - text: "Có thể truy cập HTQL đào tạo của Trường để xin mở thêm lớp học phần."
 
-  utter_cau_2.29:
-  - text: "Có thể xin mở thêm lớp học phần thông qua hệ thống quản lý đào tạo của trường tại mục đăng ký học phần."
+  utter_cach_xin_mo_them_lop:
+  - text: "Có thể xin mở thêm lớp học phần thông qua hệ thống quản lý đào tạo của trường tại mục đăng ký học phần,  sinh viên xin mở thêm lớp ở cuối danh mục lớp học phần khi đang đăng ký."
 
-  utter_cau_2.30:
+  utter_truong_hop_mo_them_lop:
   - text: "Khi có nhiều hơn 25 SV xin mở lớp học phần đó, được trưởng bộ môn và trưởng khoa quản lý học phần đó chấp thuận."
   
-  utter_cau_2.31:
+  utter_tich_luy_F:
   - text: "Học phần điểm F sẽ không tính tích lũy."
   
-  utter_cau_2.32:
+  utter_cai_thien_F:
   - text: "Có thể đăng ký học lại hoặc đăng ký học phần khác cùng nhóm nếu học phần bị điểm F là tự chọn."
 
-  utter_cau_2.33:
+  utter_doi_hp_F:
   - text: "Có thể nếu học phần bị điểm F là học phần tự chọn."
 
-  utter_cau_2.34:
-  - text: "Sinh viên thực hiện thêm học phần cần học lại vào kế hoạch học tập học kỳ tiếp theo sau đó thực hiện đăng ký học phần."
+  utter_cach_dk_hoc_lai:
+  - text: "Sinh viên thực hiện thêm học phần cần học lại vào kế hoạch học tập học kỳ tiếp theo sau đó thực hiện đăng ký học phần vào học kỳ sau."
 
-  utter_cau_2.35:
+  utter_diem_hoc_lai:
   - text: "Khi học lại sẽ là điểm cao nhất trong các lần học, do đó sẽ không giữ điểm F nếu lần học sau có cải thiện."
 
-  utter_cau_2.36:
+  utter_tinh_diem_hp_tu_cho:
   - text: "Các học phần tự chọn trong cùng nhóm học phần tự chọn chỉ lấy 1 số điểm, do đó có thể chọn học phần có điểm cao nhất trong nhóm đó."
 
-  utter_cau_2.37:
+  utter_hoc_cai_thien:
   - text: "Có thể đăng ký học cải thiện giống như đăng ký học lại."
 
-  utter_cau_2.38:
+  utter_truong_hop_tam_nghi:
   - text: "Sinh viên có thể xin tạm nghỉ trong các trường hợp sau:\n\n
             1. Được điều động vào các lực lượng vũ trang\n\n
             2. Được cơ quan có thẩm quyền điều động, đại diện quốc gia tham dự các kỳ thi, giải đấu quốc tế\n\n
             3. Bị ốm, thai sản hoặc tai nạn phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế\n\n
             4. Vì lý do cá nhân (hoàn cảnh gia đình neo đơn, việc riêng,...). Trường hợp nào chỉ giải quyết khi SV đã học ít nhất 1 HK ở Trường, không thuộc các trường hợp bị xem xét thôi học hoặc xem xét kỷ luật. Thời gian nghỉ trong trường hợp nào được tính vào thời gian học tập để hoàn thành CTĐT theo quy định tại Điều 5 quy chế học vụ."
 
-  utter_cau_2.39:
+  utter_tam_nghi_nvqs:
   - text: "Sinh viên có thể xin tạm nghỉ nếu được triệu tập nghĩa vụ quân sự."
 
-  utter_cau_2.40:
+  utter_tam_nghi_benh:
   - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
 #2.41 - 2.60
-  utter_cau_2.41:
+  utter_tam_nghi_tai_nan:
   - text: "Có thể xin nghỉ trong trường hợp phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế."
 
-  utter_cau_2.42:
+  utter_cach_xin_tam_nghi:
   - text: "Có thể nộp đơn để xin tạm nghỉ, nếu được chấp thuận sẽ được nhận quyết định cho phép nghỉ học của Hiệu trưởng."
 
-  utter_cau_2.43:
+  utter_xin_hoc_lai_sau_tam_nghi:
   - text: "Khi hết thời gian tạm nghỉ học, phải làm hồ sơ xin học lại và nộp chậm nhất là 2 tuần trước khi HK mới bắt đầu."
 
-  utter_cau_2.44:
+  utter_han_chot_xin_hoc_lai_sau_tam_nghi:
   - text: "Hạn chót nộp hồ sơ xin học lại là 2 tuần trước khi HK mới bắt đầu."
 
-  utter_cau_2.45:
+  utter_truong_hop_canh_bao_hoc_vu:
   - text: "Cảnh báo học vụ trong các trường hợp sau:\n\n
     \t1. Có ĐTBCHK đạt dưới 0.8 đối với học kỳ đầu của khóa học hoặc dưới 1.0 đối với các học kỳ tiếp theo\n\n
     \t2. Không đăng ký học trong HK chính mà không được sự cho phép của Hiệu trưởng\n\n
@@ -698,34 +694,34 @@ responses:
     \t\t3.1. Tổng số tín chỉ không đạt trong học kỳ vượt quá 50% khối lượng đã đăng ký học trong HK, hoặc tổng số tín chỉ nợ đọng từ đầu khóa học vượt quá 24 TC.\n\n
     \t\t3.2. ĐTBTL đạt dưới 1.2 đối với SV năm nhất, 1.8 đối với SV các năm tiếp theo."
 
-  utter_cau_2.46:
+  utter_xu_ly_nghi_khong_phep:
   - text: "Trường hợp không đăng ký trong HK chính, có thể bị cảnh báo học vụ, buộc thôi học."
 
-  utter_cau_2.47:
+  utter_khai_niem_canh_bao_hoc_vu:
   - text: "Là hình thức cảnh báo để sinh viên nhận thức tình trạng học tập và cải thiện."
 
-  utter_cau_2.48:
+  utter_truong_hop_dinh_chi:
   - text: "Có các trường hợp đình chỉ học tập sau\n\n
       \t1. Đình chỉ học tập 1 HK trong các trường hợp\n\n
       \t2. Bị kỷ luật mức đình chỉ học tập 1 HK\n\n
       \t3. Có ĐRL yếu, kém trong 2 học kỳ liên tiếp\n\n
       \t4. Đình chỉ học tập 1 năm trong trường hợp bị kỷ luật ở mức đình chỉ học tập."
 
-  utter_cau_2.49:
+  utter_drl_yeu:
   - text: "Nếu có đrl yếu 2 HK liên tiếp sẽ bị đình chỉ học tập 1 HK, lần thứ 2 sẽ bị buộc thôi học."
 
-  utter_cau_2.50:
+  utter_muc_do_dinh_chi:
   - text: "Có 2 mức độ đình chỉ học tập: 1 HK và 1 năm."
 
-  utter_cau_2.51:
+  utter_dinh_chi_1_hk:
   - text: "Đình chỉ học tập 1 HK trong các trường hợp sau:\n\n
   \t1. Bị kỷ luật mức đình chỉ học tập 1 HK\n\n
   \t2. Có ĐRL yếu, kém trong 2 học kỳ liên tiếp."
 
-  utter_cau_2.52:
+  utter_dinh_chi_1_nam:
   - text: "Đình chỉ học tập 1 năm trong trường hợp bị kỷ luật ở mức đình chỉ học tập."
   
-  utter_cau_2.53:
+  utter_buoc_thoi_hoc:
   - text: "Buộc thôi học trong các trường hợp sau: \n\n
     \t1. Bị kỷ luật ở mức buộc thôi học\n\n
     \t2. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
@@ -736,30 +732,30 @@ responses:
     \t7. Thời gian học tập vượt quá thời hạn theo quy định\n\n
     \t8. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ."
   
-  utter_cau_2.54:
+  utter_nghi_qua_han:
   - text: "Nếu nghỉ tạm thời quá thời hạn sẽ bị buộc thôi học."
   
-  utter_cau_2.55:
+  utter_khong_dong_hoc_phi:
   - text: "Không đóng học phí HK đầu bị hủy kết quả học tập của học kỳ đó, không đóng học phí 2 HK liên tiếp, sinh viên sẽ bị buộc thôi học."
   
-  utter_cau_2.56:
+  utter_hoc_qua_han:
   - text: "Học tập quá hạn thì sinh viên sẽ bị buộc thôi học."
   
-  utter_cau_2.57:
+  utter_xin_hoc_lai_sau_thoi_hoc:
   - text: "Trong các trường hợp sau có thể xin xét chuyển sang học các chương trình giáo dục thường xuyên tương ứng (nếu có):\n\n
     \t1. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
     \t2. Thời gian học tập vượt quá thời hạn theo quy định."
   
-  utter_cau_2.58:
+  utter_bi_ky_luat:
   - text: "CVHT thông báo về gia đình nếu SV bị cảnh báo học tập và bị xử lý kỷ luật, Trường gửi quyết định về địa phương và gia đình nếu SV bị đình chỉ hoặc buộc thôi học."
   
-  utter_cau_2.59:
+  utter_di_hoc_toi_thieu:
   - text: "Sinh viên phải học đủ 100% số tiết đối với các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC; 80% số tiết đối với các học phần lý thuyết."
   
-  utter_cau_2.60:
+  utter_vang_hoc:
   - text: "Vắng nhiều hơn thời gian quy định sẽ bị cấm thi và điểm F."
 #2.61.1 - 2.83
-  utter_cau_2.61.1:
+  utter_thoi_gian_cac_tiet:
   - text: " Thời gian bắt đầu và kết thúc các tiết học: \n\n
             \tTiết 1 bắt đầu từ 7h00 - 7h50\n\n
             \tTiết 2 bắt đầu từ 7h50 - 8h40\n\n
@@ -772,58 +768,58 @@ responses:
             \tTiết 9 bắt đầu từ 16h10 - 17h00\n\n
             \tTiết 10 là tiết nghỉ chung."
 
-  utter_cau_2.61:
+  utter_thoi_gian_tiet_1:
   - text: "Tiết 1 bắt đầu từ 7h00 - 7h50."
 
-  utter_cau_2.62:
+  utter_thoi_gian_tiet_2:
   - text: "Tiết 2 bắt đầu từ 7h50 - 8h40."
 
-  utter_cau_2.63:
+  utter_thoi_gian_tiet_3:
   - text: "Tiết 3 bắt đầu từ 8h50 - 9h40."
 
-  utter_cau_2.64:
+  utter_thoi_gian_tiet_4:
   - text: "Tiết 4 bắt đầu từ 9h50 - 10h40."
 
-  utter_cau_2.65:
+  utter_thoi_gian_tiet_5:
   - text: "Tiết 5 bắt đầu từ 10h40 - 11h30."
 
-  utter_cau_2.66:
+  utter_thoi_gian_tiet_6:
   - text: "Tiết 6 bắt đầu từ 13h30 - 14h20."
 
-  utter_cau_2.67:
+  utter_thoi_gian_tiet_7:
   - text: "Tiết 7 bắt đầu từ 14h20 - 15h10."
 
-  utter_cau_2.68:
+  utter_thoi_gian_tiet_8:
   - text: "Tiết 8 bắt đầu từ 15h20 - 16h10."
 
-  utter_cau_2.69:
+  utter_thoi_gian_tiet_9:
   - text: "Tiết 9 bắt đầu từ 16h10 - 17h00."
 
-  utter_cau_2.70:
+  utter_cac_gio_nghi:
   - text: "Có các giờ nghỉ (10 phút) sau đây:\n\n
     \tGiữa tiết 2 - 3\n\n
     \tGiữa tiết 3 - 4\n\n
     \tGiữa tiết 7 - 8."
   
-  utter_cau_2.71:
+  utter_thoi_gian_hoc_sang:
   - text: "Thời gian học buổi sáng là từ 7h00 đến 11h30."
 
-  utter_cau_2.72:
+  utter_thoi_gian_hoc_chieu:
   - text: "Thời gian học buổi chiều là từ 13h30 đến 17h00."
 
-  utter_cau_2.73:
+  utter_ngay_hoc_trong_tuan:
   - text: "Một tuần có 6 ngày học từ Thứ hai đến Thứ bảy."
 
-  utter_cau_2.74:
+  utter_buoi_hoc_dau_tien:
   - text: "Buổi học đầu tiên là buổi GV thông báo đề cương chi tiết học phần."
 
-  utter_cau_2.75:
+  utter_tiet_buoi_toi:
   - text: "Buổi tối có 2 tiết (18h20 - 19h10 và 19h10 đến 20h00), các học phần thường không có thời khóa biểu trong những tiết này."
 
-  utter_cau_2.76:
+  utter_hoc_2_nganh:
   - text: "Sinh viên có thể đăng ký học thêm chương trình khác để lấy thêm văn bằng thứ hai."
 
-  utter_cau_2.77:
+  utter_dieu_kien_hoc_nganh_2:
   - text: "Sinh viên được đăng ký học CTĐT thứ hai khi sinh viên và Trường thỏa mãn các điều kiện sau đây: \n\n
           \t1. Ngành đào tạo ở chương trình thứ hai phải khác ngành đào tạo ở chương trình thứ nhất\n\n
           \t2. Đối với SV Khóa 46 về trước, SV phải hoàn thành HK đầu tiên và có ĐTBCTL từ 2.0 trở lên.\n\n
@@ -832,7 +828,7 @@ responses:
           \t\t3.2 Có ĐTBCTL từ 2.0 trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh (điểm chuẩn và các điều kiện khác nếu có)\n\n
           \t4. Khoa/Trường quản lý chương trình thứ hai còn khả năng tiếp nhận thêm SV."
 
-  utter_cau_2.78:
+  utter_cach_xin_hoc_nganh_2:
   - text: "Sinh viên có thể đăng ký học CTĐT thứ hai như sau:\n\n
           \t1. Sinh viên đăng ký học chương trình thứ hai vào đầu mỗi HK chính (theo thông báo của Trường)\n\n
           \t2. Khi có quyết định chấp thuận, SV tự nghiên cứu CTĐT của chương trình thứ hai và bổ sung các học phần phải học vào KHHTTK để đăng ký học phần\n\n
@@ -846,10 +842,10 @@ responses:
           \t5. Trong quá trình học, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện.\n\n
           \t6. SV chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
-  utter_cau_2.79:
+  utter_nganh_2_trung_hp:
   - text: "Các học phần trùng lặp đã tích lũy sẽ được xem xét miễn khi học CTĐT mới, sinh viên không cần học lại nếu được chấp thuận."
 
-  utter_cau_2.80:
+  utter_nganh_2_chu_y:
   - text: "Khi đăng ký học chương trình đào tạo thứ hai, sinh viên cần lưu ý những điểm sau:\n\n
           \t1. Sinh viên học cùng lúc 2 chương trình chi được hưởng các chế độ quyền lợi đối với chương trình thứ nhất.\n\n
           \t2. Tổng số TC SV học cùng lúc 2 chương trình được phép đăng ký  tối đa  ở HK chính là 25 TC/HK và phụ là 8 TC/HK.\n\n
@@ -858,90 +854,87 @@ responses:
           \t5. Trong quá trình học, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện.\n\n
           \t6. SV chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
-  utter_cau_2.81:
+  utter_nganh_2_thoi_han:
   - text: "Thời gian tối đa được phép học đối với SV học cùng lúc 2 chương trình là thời gian tối đa quy định đối với chương trình thứ nhất."
   
-  utter_cau_2.82:
+  utter_nganh_2_bi_loai:
   - text: "Trong quá trình học CTĐT thứ hai, nếu ĐTBCHK dưới 2.0 sẽ không được ĐKHP thuộc CTĐT thứ hai trong HK tiếp theo và được học tiếp khi kết quả học tập được cải thiện. Từ SV Khóa 47 về sau, nếu ĐTBCTL dưới 2.0 hoặc khi bị cảnh báo học tập thì phải dừng học CTĐT thứ hai ở HK tiếp theo và bị loại khỏi danh sách học CTĐT thứ hai và có thể đăng ký lại nếu đạt điều kiện."
 
-  utter_cau_2.83:
+  utter_nganh_2_tot_nghiep:
   - text: "Sinh viên chỉ được xét tốt nghiệp CTĐT thứ hai nếu có đủ điều kiện tốt nghiệp CTĐT thứ nhất; đối với SV Khóa 47 về sau thì thêm là đã đăng ký muộn nhất 2 năm trước thời điểm xét tốt nghiệp CTĐT thứ hai."
 
 #chương 4
 
-  utter_cau_4.1:
+  utter_cac_hinh_thuc_tot_nghiep:
   - text: "Có các hình thức xét tốt nghiệp: luận văn tốt nghiệp, tiểu luận tốt nghiệp hoặc tích lũy đủ số TC, hình thức tốt nghiệp cụ thể theo quy định tùy theo tính chất của ngành đào tạo."
 
-  utter_cau_4.2:
+  utter_luan_van:
   - text: "Sau khi hoàn thành luận văn, SV bảo vệ trước hội đồng gồm 3 thành viên bao gồm cán bộ hướng dẫn, hội đồng sẽ do trưởng Khoa quyết định. Điểm của LVTN là điểm trung bình cộng của 3 thành viên hội đồng. Có thể đánh giá tập trung tại Trường hoặc trực tuyến tùy trường hợp."
   
-  utter_cau_4.3:
+  utter_tieu_luan:
   - text: "Tiểu luận tốt nghiệp là hình thức xét tốt nghiệp trong đó sẽ do cán bộ hướng dẫn và 1 cán bộ khác do trưởng Khoa quyết định chấm và không phải bảo vệ trước hội đồng."
   
-  utter_cau_4.4:
+  utter_dieu_kien_tot_nghiep:
   - text: "SV phải có đủ các điều kiện sau đây mới được xét tốt nghiệp:\n\n
     \tTích lũy đủ các học phần và số tín chỉ quy định trong CTĐT; ĐTBCTL của các học phần đạt từ 2.0 trở lên (theo thang điểm 4); đạt chuẩn đầu ra của chương trình đào tạo (kể cả ngoại ngữ và công nghệ thông tin)\n\n
     \tHoàn thành các học phần điều kiện, ĐTB chung của các học phần GDQP&AN từ 5.0 trở lên (theo thang điểm 10)\n\n
     \tTại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự, không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập."
 
-  utter_cau_4.5:
+  utter_thoi_gian_le_tot_nghiep:
   - text: "Trường xét tốt nghiệp vào tháng 1, 6 và tháng 8 hằng năm, SV được nhận bằng tốt nghiệp 30 ngày từ ngày có quyết định tốt nghiệp."
 
-  utter_cau_4.6:
+  utter_thoi_gian_xet_tot_nghiep:
   - text: "Lễ trao bằng tốt nghiệp tổ chức vào tháng 4 và tháng 9 hằng năm, các Khoa có đào tạo giáo viên tổ chức vào tháng 8 hằng năm."
 
-  utter_cau_4.7:
+  utter_noi_xin_xet_tot_nghiep:
   - text: "SV đăng ký xét tốt nghiệp thông qua hệ thống quản lý của Trường"
 
-  utter_cau_4.8:
+  utter_quy_trinh_xet_tot_nghiep:
   - text: "SV truy cập htql để đăng ký xét tốt nghiệp theo hướng dẫn\n\n
           Hội đồng xét tốt nghiệp đúng thời hạn và đề nghị lên Hiệu trưởng\n\n
           Phòng Đào tạo và Phòng Công tác Sinh viên thẩm định quá trình và trình ký Hiệu trưởng\n\n
           SV đủ điều kiện tốt nghiệp nhận quyết định công nhận tốt nghiệp, bằng tốt nghiệp và phụ lục văn bằng tốt nghiệp, SV nộp các chi phí nếu có yêu cầu."
 
-  utter_cau_4.9:
-  - text: "Khi học tập quá thời hạn, sinh viên không đủ điều kiện tốt nghiệp sẽ bị xóa tên, buộc thôi học, trừ SV được ưu tiên theo quy định."
-
-  utter_cau_4.10:
+  utter_no_gdtc_gdqp:
   - text: "SV được phép hoàn thiện các học phần trên trong 5 năm kể từ thời điểm hết thời gian đối với SV khóa 46 về trước và 3 năm kể từ thời điểm hết thời gian đối với SV Khóa 47 về sau. Khi hết thời gian đó SV sẽ bị xóa tên."
 
-  utter_cau_4.11:
+  utter_no_ngoai_ngu:
   - text: "SV có thời gian 3 năm kể từ khi thôi học để hoàn thành các chuẩn đầu ra, qua thời gian đó sinh viên sẽ bị xóa tên."
 
-  utter_cau_4.12:
+  utter_khong_tot_nghiep:
   - text: "Sinh viên không đủ điều kiện tốt nghiệp được Trường bảo lưu, công nhận kết quả học tập đã tích lũy và cấp bảng điểm các học phần đã tích lũy."
 
-  utter_cau_4.13:
+  utter_hoc_sau_khi_qua_han3:
   - text: "SV hết thời gian học chính quy được chuyển qua hình thức vừa làm vừa học, đào tạo từ xa tương ứng (nếu có) nếu còn trong thời gian học tập theo quy định đối với hình thức đào tạo chuyển đến. Trường hợp khác không được học lại."
 
-  utter_cau_4.14:
+  utter_hang_tot_nghiep:
   - text: "Các hạng tốt nghiệp được xác định căn cứ vào ĐTBCTL như sau:\n\n
     \tLoại xuất sắc: từ 3.6 đến 4.0\n\n
     \tLoại giỏi: từ 3.2 đến 3.59\n\n
     \tLoại khá: từ 2.50 đến 3.19\n\n
     \tLoại trung bình: từ 2.00 đến 2.49"
 
-  utter_cau_4.15:
+  utter_tot_nghiep_xuat_sac:
   - text: "Để đạt tốt nghiệp loại xuất sắc, sinh viên phải có điểm trung bình chung tích lũy từ 3.6 đến 4.0 và không nằm trong các trường hợp giảm mức tốt nghiệp."
 
-  utter_cau_4.16:
+  utter_tot_nghiep_gioi:
   - text: "Để đạt tốt nghiệp loại giỏi, sinh viên phải có điểm trung bình chung tích lũy từ 3.2 đến 3.59 và không nằm trong các trường hợp giảm mức tốt nghiệp."
 
-  utter_cau_4.17:
+  utter_tot_nghiep_kha:
   - text: "Để đạt tốt nghiệp loại khá, sinh viên phải có điểm trung bình chung tích lũy từ 2.50 đến 3.19."
 
-  utter_cau_4.18:
+  utter_tot_nghiep_trung_binh:
   - text: "Để đạt tốt nghiệp loại trung bình, sinh viên phải có điểm trung bình chung tích lũy từ 2.00 đến 2.49."
 
-  utter_cau_4.19:
+  utter_ha_tot_nghiep:
   - text: "Các hạng xuất sắc và giỏi sẽ bị hạ một mức tốt nghiệp trong các trường hợp sau:\n\n
     \tCó khối lượng học phần bị điểm F quá 5% tổng số TC quy định của CTĐT (không tính học phần đã cải thiện)\n\n
     \tBị kỷ luật ở mức cảnh cáo cấp Trường trong thời gian học."
 
-  utter_cau_4.20:
+  utter_xin_ra_truong:
   - text: "Sinh viên liên hệ Khoa/Trường quản lý ngành sau khi nhận quyết định tốt nghiệp"
 
-  utter_cau_4.21:
+  utter_xin_lai_bang_tot_nghiep:
   - text: "Có thể nộp đơn cho Phòng Đào tạo để đề nghị cấp bản sao bằng tốt nghiệp, bản chính chỉ cấp 1 lần duy nhất."
 #chuong 3
   utter_cau_3.1:
