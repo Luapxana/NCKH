@@ -1490,19 +1490,20 @@ nlu:
     - Sau này có thể xin lại bằng tốt nghiệp khi bị mất/ hỏng hay không?
     - Cách xin lại bằng tốt nghiệp khi bị hỏng/mất
     - Nộp đơn xin cấp lại bằng tốt nghiệp cho ai?
+# chương 3 
 
-- intent: cau_3.1
+- intent: hoc_phan_danh_gia_yeu_to
   examples: |
     - Học phần được đánh giá dựa trên những yếu tố nào?
     - Có bao nhiêu tiêu chí đánh giá học phần?
     - Điểm học phần bao gồm những thành phần nào?
 
-- intent: cau_3.2
+- intent: so_diem_thanh_phan
   examples: |
     - Có bao nhiêu điểm thành phần cần đánh giá cho học phần lý thuyết hoặc lý thuyết kết hợp thực hành?
     - Tối thiểu một học phần cần bao nhiêu điểm thành phần?
 
-- intent: cau_3.3
+- intent: danh_gia_truc_tuyen
   examples: |
     - Hình thức đánh giá trực tuyến được áp dụng khi nào?
     - Khi nào thì được đánh giá trực tuyến?
@@ -1511,9 +1512,7 @@ nlu:
     - Hoàn cảnh hay bối cảnh nào đòi hỏi việc triển khai hình thức đánh giá trực tuyến?
     - Tình huống hoặc ngữ cảnh cụ thể nào cần đến sự vận hành của hệ thống đánh giá qua internet?
 
-
-
-- intent: cau_3.4
+- intent: quy_dinh_phuong_phap_danh_gia
   examples: |
     - Ai là người quyết định về phương pháp đánh giá, hình thức đánh giá và trọng số điểm thành phần của học phần?
     - Điểm học phần do ai quy định?
@@ -1521,13 +1520,13 @@ nlu:
     - Nhân vật nào đóng vai trò quyết định phương thức đo lường năng lực, hình thái tiến hành đánh giá và tầm quan trọng của các cột điểm cấu thành trong một môn học?
     - Đối tượng ra quyết định cuối cùng về phương pháp kiểm tra năng lực, cách thức tổ chức đánh giá và hệ số nhân cho các phần điểm thành phần trong khuôn khổ một khóa học là ai?
 
-- intent: cau_3.5
+- intent: diem_danh_gia_nho
   examples: |
     - Khi nào có thể áp dụng chỉ một điểm đánh giá cho các học phần có khối lượng nhỏ hơn 02 TC?
     - Có trường hợp chỉ có 1 điểm thành phần không?
     - Có thể có 1 điểm thành phần cho 1 học phần không?
 
-- intent: cau_3.6
+- intent: trong_so_diem_thi
   examples: |
     - Điểm thi kết thúc học phần phải có trọng số ít nhất bao nhiêu phần trăm?
     - Điểm thi cuối kỳ thường chiếm bao nhiêu tổng điểm tín chỉ?
@@ -1535,8 +1534,7 @@ nlu:
     - Theo quy chế đánh giá, mức trọng lượng điểm tối thiểu cần đạt bao nhiêu phần trăm đối với bài kiểm tra kết thúc môn học?
     - Có yêu cầu nào về tỷ lệ phần trăm điểm tối thiểu mà kỳ thi cuối cùng của học phần phải chiếm không?
 
-
-- intent: cau_3.7
+- intent: dieu_kien_danh_gia_truc_tuyen
   examples: |
     - Để áp dụng hình thức bảo vệ và đánh giá trực tuyến, cần đáp ứng những điều kiện gì?
     - Điều kiện để được bảo vệ, đánh giá trực tuyến?
@@ -1544,7 +1542,7 @@ nlu:
     - Điều kiện tiên quyết nào là bắt buộc để việc tổ chức bảo vệ và đánh giá theo hình thức trực tuyến có thể được thực hiện?
     - Những yếu tố nào là cần thiết để quá trình bảo vệ và đánh giá có thể diễn ra trên môi trường mạng một cách hiệu quả?
 
-- intent: cau_3.8
+- intent: giang_vien_giai_dap
   examples: |
     - Ai chịu trách nhiệm giải đáp thắc mắc của sinh viên về kết quả học tập của học phần?
     - Khi có thắc mắc về kết quả học tập sinh viên cần liên hệ ai?
@@ -1553,7 +1551,7 @@ nlu:
     - Đối tượng nào phải đảm nhận trách nhiệm giải đáp những vấn đề, nghi vấn của sinh viên về thành tích, điểm số họ đạt được trong quá trình học tập một học phần?
     - Vai trò của ai trong việc làm sáng tỏ những điều chưa rõ ràng, thỏa đáng cho sinh viên liên quan đến kết quả đã đạt được trong một khóa học?
 
-- intent: cau_3.9
+- intent: dang_ky_bang_diem
   examples: |
     - Trong quá trình học tập, sinh viên có thể đăng ký cấp bảng điểm HK khi nào?
     - Có được xin cấp bảng điểm học kỳ không?
@@ -1561,9 +1559,7 @@ nlu:
     - Giai đoạn cụ thể nào thuộc khóa đào tạo là thời gian phù hợp để sinh viên tiến hành thủ tục đăng ký nhận bảng điểm tổng hợp học kỳ?
     - Sinh viên có thể thực hiện việc đăng ký cấp phát bảng kê kết quả học tập trong một học kỳ vào lúc nào trong quá trình theo học?
 
-
-
-- intent: cau_3.10
+- intent: diem_thuc_hanh
   examples: |
     - Các điểm thành phần trong học phần thực hành được tính như thế nào để đưa ra điểm cuối cùng?
     - Điểm học phần thực hành tính như thế nào?
@@ -1571,7 +1567,7 @@ nlu:
     - Quy trình đánh giá và lấy điểm cuối cùng đối với những môn học yêu cầu phần thực tập, thực nghiệm diễn ra như thế nào?
     - Tiêu chí và công thức nào được sử dụng để xác định điểm tổng kết cho các học phần có nội dung thực hành, thí nghiệm?
 
-- intent: cau_3.11
+- intent: xu_ly_vi_pham
   examples: |
     - Khi SV vi phạm quy định về thi và kiểm tra, hình thức xử lý nào có thể được áp dụng?
     - Có bao nhiêu hình thức xử lý vi phạm quy định về thi và kiểm tra?
@@ -1579,7 +1575,7 @@ nlu:
     - Trong các quy chế liên quan đến quá trình tổ chức thi và đánh giá, số lượng hình thức xử phạt dành cho các hành vi vi phạm là bao nhiêu?
     - Có bao nhiêu cách thức khác nhau được quy định để xử lý những trường hợp không tuân thủ nội quy trong các kỳ thi và đợt đánh giá?
 
-- intent: cau_3.12
+- intent: ky_luat_vi_pham
   examples: |
     - Số lần SV bị khiển trách trong một năm học sẽ dẫn đến hình phạt gì?
     - Bị khiển trách nhiều lần sẽ bị xử lý như thế nào?
@@ -1587,100 +1583,100 @@ nlu:
     - Biện pháp xử lý nào sẽ được áp dụng trong trường hợp một đối tượng cứ tái phạm sau những lần bị phê bình?
     - Hình thức kỷ luật nghiêm khắc hơn nào sẽ được đưa ra áp dụng đối với những trường hợp khiển trách nhưng vẫn không chấm dứt hành vi vi phạm?
 
-- intent: cau_3.13
+- intent: xep_loai_gioi
   examples: |
     - Để được xếp loại giỏi, SV cần đạt điều kiện gì?
     - Điều kiện để xếp loại giỏi?
     - Sinh viên loại giỏi đạt những tiêu chí nào?
     - Điều kiện nào là cần thiết để sinh viên được xếp loại giỏi?
-    - Xếp loại giỏi cần những điều kiện gì
+    - Xếp loại giỏi cần những điều kiện gì?
 
-- intent: cau_3.14
+- intent: danh_gia_truc_tuyen_tuong_xung
   examples: |
     - Hình thức đánh giá trực tuyến được áp dụng với trọng số cao hơn trong trường hợp nào?
     - Khi nào thì hình thức đánh giá trực tuyến có tỉ lệ điểm cao hơn?
 
-- intent: cau_3.15
+- intent: giang_vien_thong_bao_ket_qua
   examples: |
     - Trách nhiệm chính của giảng viên trong việc thông báo kết quả học tập của học phần là gì?
     - Giảng viên có trách nhiệm gì khi thông báo kết quả học phần?
 
-- intent: cau_3.16
+- intent: diem_a
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm A hay 4.0 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm A hay 4.0 trên hệ 4?
     - Để đạt điểm A cần bao nhiêu điểm?
     - Khung điểm cho mức điểm A?
     - Bao nhiêu điểm thì được A?
 
-- intent: cau_3.17
+- intent: diem_b_plus
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm B+ hay 3.5 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm B+ hay 3.5 trên hệ 4?
     - Để đạt điểm B+ cần bao nhiêu điểm?
     - Khung điểm cho mức điểm B+?
     - Bao nhiêu điểm thì được B+?
 
-- intent: cau_3.18
+- intent: diem_b
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm B hay 3.0 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm B hay 3.0 trên hệ 4?
     - Để đạt điểm B cần bao nhiêu điểm?
     - Khung điểm cho mức điểm B?
     - Bao nhiêu điểm thì được B?
 
-- intent: cau_3.19
+- intent: diem_c_plus
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm C+ hay 2.5 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm C+ hay 2.5 trên hệ 4?
     - Để đạt điểm C+ cần bao nhiêu điểm?
     - Khung điểm cho mức điểm C+?
     - Bao nhiêu điểm thì được C+?
 
-- intent: cau_3.20
+- intent: diem_c
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm C hay 2.0 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm C hay 2.0 trên hệ 4?
     - Để đạt điểm C cần bao nhiêu điểm?
     - Khung điểm cho mức điểm C?
     - Bao nhiêu điểm thì được C?
 
-- intent: cau_3.21
+- intent: diem_d_plus
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm D+ hay 1.5 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm D+ hay 1.5 trên hệ 4?
     - Điểm D+ là bao nhiêu điểm trên thang 10?
     - Bao nhiêu điểm là mức D+?
 
-- intent: cau_3.22
+- intent: diem_d
   examples: |
-    - Cần đạt bao nhiêu điểm để được điểm D hay 1.0 trên hệ 4
+    - Cần đạt bao nhiêu điểm để được điểm D hay 1.0 trên hệ 4?
     - Điểm D là bao nhiêu điểm trên thang 10?
     - Bao nhiêu điểm là mức D?
 
-- intent: cau_3.23
+- intent: diem_f
   examples: |
-    - Bao nhiêu điểm thì sẽ đạt điểm F hay 0 trên hệ 4
+    - Bao nhiêu điểm thì sẽ đạt điểm F hay 0 trên hệ 4?
     - Điểm F là bao nhiêu điểm trên thang 10?
     - Bao nhiêu điểm thì bị điểm F?
 
-- intent: cau_3.24
+- intent: diem_m
   examples: |
     - Điểm M được tính vào tổng số tín chỉ tích lũy của sinh viên không?
     - Điểm M được tích lũy bao nhiêu điểm?
 
-- intent: cau_3.25
+- intent: xin_diem_m
   examples: |
     - Để nhận điểm M, sinh viên cần thực hiện thủ tục gì?
     - Xin điểm M như thế nào?
 
-- intent: cau_3.26
+- intent: diem_i
   examples: |
     - Điểm I được tính vào điểm trung bình chung học kỳ không?
     - Điểm I được đổi sang điểm thang 4 là bao nhiêu?
     - Điểm I là bao nhiêu điểm trung bình?
 
-- intent: cau_3.27
+- intent: sua_diem_i
   examples: |
     - Trong trường hợp sinh viên nhận điểm I, họ cần làm gì để bổ sung điểm?
     - Làm gì sau khi đã được điểm I?
-    - Cách sửa điểm I
-    
-- intent: cau_3.28
+    - Cách sửa điểm I?
+
+- intent: thoi_han_bo_sung_diem
   examples: |
     - Thời hạn bổ sung điểm cho học phần được quy định là bao lâu?
     - Hạn chót bổ sung điểm cho học phần điểm I?
@@ -1688,7 +1684,7 @@ nlu:
     - Quy chế hiện hành đưa ra khung thời gian cụ thể nào để sinh viên có thể bổ sung, cập nhật điểm cho một môn học đã học?
     - Hạn chót để sinh viên được phép hoàn tất các công việc nhằm nâng cao điểm số cho một học phần là bao lâu theo quy định hiện tại?
 
-- intent: cau_3.29
+- intent: diem_w
   examples: |
     - Điểm W có tính vào điểm trung bình chung học kỳ không?
     - Điểm W được đổi sang điểm thang 4 là bao nhiêu?
@@ -1696,7 +1692,7 @@ nlu:
     - Điểm W trung bình là bao nhiêu?
     - Điểm W tích lũy bao nhiêu?
 
-- intent: cau_3.30
+- intent: xin_rut_hoc_phan
   examples: |
     - Khi nào sinh viên được phép rút học phần và nhận điểm W?
     - Điều kiện để xin rút học phần và nhận điểm W?
@@ -1704,8 +1700,15 @@ nlu:
     - Điều kiện cụ thể nào cho phép một sinh viên được quyền từ bỏ một học phần đã đăng ký và chỉ nhận điểm tạm dừng (W) thay vì điểm số?
     - Hoàn cảnh hay bối cảnh ra sao để sinh viên có thể chủ động rút khỏi một lớp học mà không bị tính điểm, chỉ được đánh dấu W?
 
+- intent: rut_hoc_phan_nhan_diem_W
+  examples: |
+    - Khi nào sinh viên được phép rút học phần và nhận điểm W?
+    - Điều kiện để xin rút học phần và nhận điểm W?
+    - Trong trường hợp nào thì sinh viên có quyền huỷ đăng ký một môn học và được ghi nhận điểm tạm rút (W)?
+    - Điều kiện cụ thể nào cho phép một sinh viên được quyền từ bỏ một học phần đã đăng ký và chỉ nhận điểm tạm dừng (W) thay vì điểm số?
+    - Hoàn cảnh hay bối cảnh ra sao để sinh viên có thể chủ động rút khỏi một lớp học mà không bị tính điểm, chỉ được đánh dấu W?
 
-- intent: cau_3.31
+- intent: diem_R_muc_dich_su_dung
   examples: |
     - Điểm R (tương đương điểm M) được sử dụng cho mục đích gì?
     - Điểm R là điểm gì?
@@ -1713,7 +1716,7 @@ nlu:
     - Việc áp dụng điểm R (hay gọi là điểm M) nhằm đáp ứng yêu cầu nào trong quy trình tính toán và ghi nhận kết quả học tập?
     - Có ý nghĩa ra sao khi hệ thống điểm số có sự xuất hiện của điểm R (tương đương với điểm M) trong bản ghi nhận kết quả của sinh viên?
 
-- intent: cau_3.32
+- intent: ai_quyet_dinh_diem_M
   examples: |
     - Ai là người quyết định việc nhận điểm M cho sinh viên?
     - Điểm M do ai quyết định?
@@ -1721,7 +1724,7 @@ nlu:
     - Đối tượng nào được giao trọng trách ra quyết định về việc sinh viên được nhận điểm M hay không?
     - Nhân vật nào đóng vai trò quyết định xem liệu sinh viên có đủ điều kiện để được hưởng điểm M hay không?
 
-- intent: cau_3.33
+- intent: qua_thoi_han_bo_sung_diem1
   examples: |
     - Nếu quá thời hạn bổ sung điểm của học phần, sinh viên không hoàn thành sẽ bị điểm gì?
     - Nếu quá thời hạn bổ sung điểm thì học phần đó tính như thế nào?
@@ -1729,7 +1732,7 @@ nlu:
     - Làm thế nào để tính toán và xử lý kết quả của một môn học mà sinh viên đã không kịp bổ sung điểm trước hạn chót quy định?
     - Hậu quả gì sẽ xảy ra đối với kết quả học tập của một học phần nếu sinh viên để quá thời hạn được phép bổ sung điểm?
 
-- intent: cau_3.34
+- intent: dieu_kien_nhan_diem_I
   examples: |
     - Các lý do nào có thể được chấp nhận để nhận điểm I?
     - Điều kiện nào có thể nhận điểm I?
@@ -1737,7 +1740,7 @@ nlu:
     - Những hoàn cảnh hoặc tình huống cụ thể nào mà nếu xảy ra thì sinh viên có thể đạt được điều kiện để được ghi nhận điểm I?
     - Yếu tố hay nguyên nhân nào nếu có xảy ra sẽ giúp sinh viên được hưởng quyền nhận điểm I thay vì điểm số cụ thể?
 
-- intent: cau_3.35
+- intent: thoi_han_bo_sung_diem2
   examples: |
     - Thời hạn bổ sung điểm của học phần được tính từ khi nào?
     - Từ lúc nào thì tính thời hạn bổ sung điểm?
@@ -1745,9 +1748,7 @@ nlu:
     - Điểm khởi đầu để tính khoảng thời gian dành cho việc bổ sung điểm của một môn học là từ lúc nào?
     - Thời hạn bổ sung điểm số cho một học phần cụ thể bắt đầu được tính kể từ thời khắc mốc nào?
 
-
-
-- intent: cau_3.36
+- intent: diem_M_tac_dong_trung_binh_tich_luy
   examples: |
     - Điểm M có ảnh hưởng đến điểm trung bình chung tích lũy không?
     - Điểm trung bình tích lũy có giảm khi có điểm M không?
@@ -1755,7 +1756,7 @@ nlu:
     - Liệu rằng điểm số M có được tính vào hay có ảnh hưởng gì đến con số thể hiện điểm trung bình tích lũy của sinh viên hay không?
     - Khi sinh viên được cấp điểm M thì có hay không việc điểm số đó được tính vào và làm thay đổi mức điểm trung bình tích lũy?
 
-- intent: cau_3.37
+- intent: duyet_don_bo_sung_diem
   examples: |
     - Ai là người duyệt đơn bổ sung điểm của sinh viên?
     - Đơn bổ sung điểm do ai duyệt?
@@ -1763,32 +1764,32 @@ nlu:
     - Bên nào có trách nhiệm thẩm định và quyết định chấp thuận hay từ chối đơn yêu cầu bổ sung điểm của sinh viên?
     - Nhân vật có thẩm quyền cuối cùng trong việc đánh giá tính hợp lệ và ra quyết định về các đơn xin bổ sung điểm nộp bởi sinh viên là ai?
 
-- intent: cau_3.38
+- intent: diem_I_truong_hop_su_dung
   examples: |
     - Điểm I được sử dụng trong trường hợp nào?
     - Các trường hợp nào có thể được điểm I?
 
-- intent: cau_3.39
+- intent: diem_W_tren_bang_diem
   examples: |
     - Điểm W được ghi nhận như thế nào trên bảng điểm?
     - Điểm W được tính là?
 
-- intent: cau_3.40
+- intent: diem_tich_luy_tu_xep_loai
   examples: |
     - Học phần chỉ được tính tích lũy khi đạt từ điểm nào trở lên?
     - Điểm học phần là bao nhiêu thì được tích lũy?
 
-- intent: cau_3.41
+- intent: diem_M_tinh_trung_binh_hoc_ky
   examples: |
     - Điểm M có tính vào điểm trung bình chung của học kỳ không?
     - Điểm M có tính trung bình không?
 
-- intent: cau_3.42
+- intent: xin_diem_I
   examples: |
     - Sinh viên cần làm gì nếu muốn nhận điểm I cho một học phần?
     - Cách xin nhận điểm I?
 
-- intent: cau_3.43
+- intent: diem_W_tinh_trung_binh_hoc_ky
   examples: |
     - Điểm W được tính vào điểm trung bình chung học kỳ không?
     - Điểm W có tính trung bình không?
@@ -1796,7 +1797,7 @@ nlu:
     - Điểm W có được tính vào điểm trung bình học kỳ không?
     - Liệu điểm W có được tính vào điểm trung bình chung của học kỳ không?
 
-- intent: cau_3.44
+- intent: thong_bao_lich_thi
   examples: |
     - Sinh viên được thông báo về lịch thi kết thúc học phần như thế nào?
     - Làm thế nào để biết lịch thi cuối kỳ?
@@ -1804,7 +1805,7 @@ nlu:
     - Phương pháp nào được sử dụng để thông báo về lịch thi kết thúc học phần cho sinh viên?
     - Cách nào được áp dụng để thông báo lịch thi kết thúc học phần cho sinh viên?
 
-- intent: cau_3.45
+- intent: thoi_gian_to_chuc_thi
   examples: |
     - Làm thế nào để biết thời gian tổ chức thi kết thúc học phần?
     - Thời gian tổ chức thi cuối kỳ là khi nào?
@@ -1812,7 +1813,7 @@ nlu:
     - Làm sao để biết thời gian cụ thể của các kỳ thi kết thúc học phần?
     - Phương pháp nào được sử dụng để thông báo thời gian tổ chức thi kết thúc học phần?
 
-- intent: cau_3.46
+- intent: quyet_dinh_lich_thi_sinh_vien_nhieu
   examples: |
     - Ai quyết định lịch thi cho các học phần có nhiều sinh viên?
     - Lịch thi cuối kỳ do ai chọn?
@@ -1820,7 +1821,7 @@ nlu:
     - Trong trường hợp các học phần có số lượng sinh viên đông đảo, ai đảm nhận việc quyết định lịch thi?
     - Ai chịu trách nhiệm trong việc đề xuất và quyết định lịch thi cho các học phần có số lượng sinh viên đông đảo?
 
-- intent: cau_3.47
+- intent: phe_duyet_vang_thi_diem_I
   examples: |
     - Sinh viên được phép vắng thi trong trường hợp nào?
     - Trường hợp nào được phép vắng thi?
@@ -1828,32 +1829,31 @@ nlu:
     - Dưới những điều kiện nào, sinh viên được cho phép vắng mặt trong kỳ thi?
     - Có những tình huống cụ thể nào khiến cho sinh viên được miễn tham dự thi?
 
-
-- intent: cau_3.48
+- intent: diem_hoc_phan_vang_thi
   examples: |
     - Điểm học phần của sinh viên vắng thi được tính là bao nhiêu?
     - Sinh viên vắng thi sẽ được ghi nhận điểm học phần như thế nào?
     - Điểm học phần của sinh viên không tham dự thi sẽ được xác định như thế nào?
 
-- intent: cau_3.49
+- intent: quy_trinh_tinh_diem_trung_binh_hoc_ky
   examples: |
     - Quy trình tính điểm trung bình chung của học kỳ là gì?
     - Làm thế nào để tính điểm trung bình chung của một học kỳ?
     - Cách tính điểm trung bình chung học kỳ được thực hiện như thế nào?
 
-- intent: cau_3.50
+- intent: diem_trung_binh_hoc_ky
   examples: |
     - Điểm trung bình chung học kỳ có ảnh hưởng đến kết quả học tập của sinh viên như thế nào?
     - Điểm trung bình học kỳ có ý nghĩa gì?
     - Điểm trung bình chung học kỳ dùng để làm gì?
 
-- intent: cau_3.51
+- intent: diem_F_tinh_trung_binh
   examples: |
     - Điểm F có được tính vào điểm trung bình không?
     - Liệu điểm F có ảnh hưởng đến điểm trung bình không?
     - Có tính điểm F vào điểm trung bình chung không?
 
-- intent: cau_3.52
+- intent: diem_dieu_kien_tinh_trung_binh
   examples: |
     - Điểm trung bình chung học kỳ có tính điểm các học phần điều kiện không?
     - Các học phần điều kiện có được tính điểm trung bình không?
@@ -1861,14 +1861,14 @@ nlu:
     - Điểm các học phần điều kiện có được tính vào điểm trung bình chung học kỳ không?
     - Liệu điểm của các học phần điều kiện có ảnh hưởng đến điểm trung bình chung của học kỳ không?
 
-- intent: cau_3.53
+- intent: so_tin_chi_tich_luy
   examples: |
     - Số tín chỉ tích lũy được tính như thế nào?
     - Làm thế nào biết số tín chỉ tích lũy?
     - Tính số tín chỉ đã tích lũy như thế nào?
     - Số tín chỉ tích lũy là gì?
 
-- intent: cau_3.54
+- intent: thong_bao_lich_thi_truoc
   examples: |
     - Thời gian thông báo lịch thi kết thúc học phần là bao lâu trước ngày thi?
     - Khi nào thì sinh viên được thông báo lịch thi cuối kỳ?
@@ -1876,7 +1876,7 @@ nlu:
     - Thông báo về lịch thi kết thúc học phần được cung cấp trước ngày thi trong khoảng bao nhiêu ngày?
     - Bao lâu trước khi diễn ra kỳ thi kết thúc học phần thì thông báo về lịch thi thường được đưa ra?
 
-- intent: cau_3.55
+- intent: phe_duyet_vang_thi_diem_I1
   examples: |
     - Ai là người quyết định cho phép sinh viên vắng thi và nhận điểm I?
     - Ai có quyền/nghĩa vụ cho phép vắng thi và cho điểm I?
@@ -1884,8 +1884,7 @@ nlu:
     - Trong trường hợp sinh viên vắng thi, người nào có quyền quyết định ghi điểm I cho sinh viên đó?
     - Ai là người có thẩm quyền quyết định về việc cho phép sinh viên vắng thi và nhận điểm I?
 
-
-- intent: cau_3.56
+- intent: ai_quyet_dinh_xep_lich_thi_sinh_vien_nhieu_sv
   examples: |
     - Ai là người quyết định và xếp lịch thi cho các học phần có nhiều sinh viên?
     - Lịch thi cuối kỳ các học phần nhiều sinh viên do ai sắp xếp?
@@ -1893,7 +1892,7 @@ nlu:
     - Ai là người đảm nhận vai trò quyết định và tổ chức lịch thi cho các học phần có số lượng sinh viên đông đảo?
     - Trong các trường hợp các học phần có quá nhiều sinh viên, người nào chịu trách nhiệm xác định và sắp xếp lịch thi?
 
-- intent: cau_3.57
+- intent: diem_xep_loai_xuat_sac
   examples: |
     - Để đạt xếp loại xuất sắc thì cần đạt bao nhiêu điểm?
     - Điểm trung bình học kỳ là bao nhiêu thì được xếp loại học tập xuất sắc?
@@ -1901,7 +1900,7 @@ nlu:
     - Điểm tối thiểu cần đạt để được xếp loại xuất sắc là bao nhiêu?
     - Cần phải đạt điểm bao nhiêu để đạt được xếp loại xuất sắc?
 
-- intent: cau_3.58
+- intent: diem_xep_loai_gioi
   examples: |
     - Để đạt xếp loại giỏi thì cần đạt bao nhiêu điểm?
     - Điểm trung bình học kỳ là bao nhiêu thì được xếp loại học tập giỏi?
@@ -1909,7 +1908,7 @@ nlu:
     - Điểm tối thiểu cần đạt để được xếp loại giỏi là bao nhiêu?
     - Để được xếp loại giỏi, cần phải đạt điểm bao nhiêu?
 
-- intent: cau_3.59
+- intent: diem_xep_loai_kha
   examples: |
     - Để đạt xếp loại khá thì cần đạt bao nhiêu điểm?
     - Điểm trung bình học kỳ là bao nhiêu thì được xếp loại học tập khá?
@@ -1917,7 +1916,7 @@ nlu:
     - Điểm tối thiểu cần đạt để được xếp loại khá là bao nhiêu?
     - Để được xếp loại khá, cần phải đạt điểm bao nhiêu?
 
-- intent: cau_3.60
+- intent: diem_xep_loai_trung_binh
   examples: |
     - Để đạt xếp loại trung bình thì cần đạt bao nhiêu điểm
     - Mức xếp loại học tập trung bình là bao nhiêu điểm?
@@ -1925,7 +1924,7 @@ nlu:
     - Điểm tối thiểu cần đạt để được xếp loại trung bình là bao nhiêu?
     - Để được xếp loại trung bình, cần phải đạt điểm bao nhiêu?
 
-- intent: cau_3.61
+- intent: diem_xep_loai_yeu
   examples: |
     - Để đạt xếp loại yếu thì cần đạt bao nhiêu điểm
     - Mức xếp loại học tập yếu là bao nhiêu điểm?
@@ -1933,7 +1932,7 @@ nlu:
     - Điểm tối đa để được xếp loại yếu là bao nhiêu?
     - Để được xếp loại yếu, cần phải đạt điểm ít nhất là bao nhiêu?
 
-- intent: cau_3.62
+- intent: diem_xep_loai_kem
   examples: |
     - Để xếp loại kém thì cần đạt bao nhiêu điểm
     - Mức xếp loại học tập kém là bao nhiêu điểm?
@@ -1941,7 +1940,7 @@ nlu:
     - Điểm tối đa để được xếp loại kém là bao nhiêu?
     - Để được xếp loại kém, cần phải đạt điểm ít nhất là bao nhiêu?
 
-- intent: cau_3.63
+- intent: xu_ly_vi_pham_tham_gia_thi
   examples: |
     - Sinh viên sẽ bị xử lý như thế nào nếu không tuân thủ quy định về việc tham gia thi và kiểm tra?
     - Hình thức xử lý vi phạm quy định về thi và kiểm tra là gì?
@@ -1949,8 +1948,7 @@ nlu:
     - Sinh viên sẽ đối mặt với biện pháp xử lý gì nếu không tuân thủ các quy định về tham gia thi và kiểm tra?
     - Hậu quả sẽ như thế nào đối với sinh viên nếu họ không tuân thủ quy định về việc tham gia thi và kiểm tra?
 
-
-- intent: cau_3.64
+- intent: xu_ly_nhin_bai_cua_nguoi_khac
   examples: |
     - Hình thức xử lý nào sẽ được áp dụng nếu sinh viên nhìn bài của người khác trong quá trình thi?
     - Nhìn bài của người khác trong lúc thi thì bị xử lý như thế nào?
@@ -1958,7 +1956,7 @@ nlu:
     - Trường hợp sinh viên bị phát hiện nhìn bài của người khác trong lúc thi, biện pháp xử lý nào sẽ được áp dụng?
     - Nếu sinh viên vi phạm bằng cách nhìn bài của người khác trong quá trình thi, liệu hình thức xử lý nào sẽ được kích động?
 
-- intent: cau_3.65
+- intent: xu_ly_khien_trach_nhieu_lan
   examples: |
     - Sinh viên bị khiển trách hai lần trong một năm học sẽ đối mặt với hình phạt gì?
     - Bị khiển trách nhiều lần thì bị xử lý như thế nào?
@@ -1966,14 +1964,14 @@ nlu:
     - Sinh viên sẽ phải đối mặt với biện pháp xử lý gì nếu bị khiển trách hai lần trong cùng một năm học?
     - Hậu quả sẽ ra sao đối với sinh viên nếu họ bị khiển trách hai lần trong một năm học?
 
-- intent: cau_3.66
+- intent: khong_mang_the_sinh_vien
   examples: |
     - Theo quy định, điều gì sẽ xảy ra nếu sinh viên không mang theo thẻ sinh viên vào phòng thi?
     - Có thể không mang thẻ sinh viên khi thi không?
     - Trường hợp sinh viên không mang theo thẻ sinh viên vào phòng thi, quy định sẽ áp đặt biện pháp gì?
     - Nếu không có thẻ sinh viên trong quá trình thi, theo quy định, sinh viên sẽ đối mặt với những hậu quả gì?
 
-- intent: cau_3.67
+- intent: xu_ly_su_dung_giay_nhap_cua_nguoi_khac
   examples: |
     - Sinh viên sẽ bị xử lý như thế nào nếu vi phạm quy định về việc sử dụng giấy nháp của người khác trong quá trình thi?
     - Hình thức xử lý trường hợp dùng giấy nháp của người khác khi thi?
@@ -1981,7 +1979,7 @@ nlu:
     - Sinh viên sẽ phải đối mặt với biện pháp xử lý gì nếu họ sử dụng giấy nháp của người khác trong lúc thi?
     - Hình phạt nào sẽ được áp đặt nếu sinh viên vi phạm quy định về việc sử dụng giấy nháp của người khác trong quá trình thi?
 
-- intent: cau_3.68
+- intent: xu_ly_vi_pham_lich_kiem_tra_thi
   examples: |
     - Có bao nhiêu loại xử lý được quy định nếu sinh viên không tuân thủ quy định về việc thực hiện đúng lịch kiểm tra và thi?
     - Các hình thức xử lý vi phạm quy chế thi?
@@ -1989,7 +1987,7 @@ nlu:
     - Có những biện pháp xử lý gì được quy định nếu sinh viên không thực hiện đúng lịch kiểm tra và thi?
     - Nếu không tuân thủ quy định về lịch kiểm tra và thi, sinh viên sẽ phải đối mặt với bao nhiêu loại hình phạt?
 
-- intent: cau_3.69
+- intent: xu_ly_ra_khoi_phong_thi
   examples: |
     - Hình phạt nào sẽ được áp dụng nếu sinh viên vi phạm quy định về ra khỏi phòng thi trong thời gian làm bài?
     - Sinh viên vi phạm quy định về ra khỏi phòng thi trong thời gian làm bài sẽ bị xử lý như thế nào?
@@ -1997,7 +1995,7 @@ nlu:
     - Sinh viên sẽ đối mặt với biện pháp xử lý gì nếu họ rời khỏi phòng thi trong quá trình làm bài?
     - Quy định về việc ra khỏi phòng thi trong thời gian làm bài áp đặt hình phạt gì đối với sinh viên vi phạm?
 
-- intent: cau_3.70
+- intent: xu_ly_vat_dung_khong_duoc_phep
   examples: |
     - Theo quy định, điều gì sẽ xảy ra nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
     - Sinh viên vi phạm quy định về sử dụng vật dụng không được phép trong phòng thi sẽ bị xử lý như thế nào?
@@ -2005,7 +2003,7 @@ nlu:
     - Sinh viên sẽ phải đối mặt với biện pháp xử lý gì nếu họ sử dụng vật dụng không được phép trong lúc thi, theo quy định?
     - Quy định về việc sử dụng vật dụng không được phép trong phòng thi áp đặt hình phạt gì đối với sinh viên vi phạm?
 
-- intent: cau_3.71
+- intent: xu_ly_su_dung_giay_nhap_bai_lam
   examples: |
     - Hình phạt nào sẽ được áp dụng nếu sinh viên được phát hiện sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi?
     - Hình thức xử lý trường hợp dùng giấy nháp hoặc bài làm của người khác khi thi?
@@ -2013,7 +2011,7 @@ nlu:
     - Sinh viên sẽ phải đối mặt với biện pháp xử lý gì nếu họ sử dụng giấy nháp hoặc bài làm của người khác trong lúc thi?
     - Quy định về việc sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi áp đặt hình phạt gì đối với sinh viên vi phạm?
 
-- intent: cau_3.72
+- intent: sinh_vien_khen_thuong_tot_nghiep_som
   examples: |
     - Sinh viên sẽ được khen thưởng như thế nào nếu tốt nghiệp đúng hoặc sớm hơn thời gian thiết kế của chương trình đào tạo?
     - Tốt nghiệp đúng hay sớm hơn thời hạn có được khen thưởng không?
@@ -2021,7 +2019,7 @@ nlu:
     - Cơ hội khen thưởng được cung cấp cho sinh viên nếu họ tốt nghiệp đúng hoặc sớm hơn dự kiến trong chương trình đào tạo là gì?
     - Quy định về việc khen thưởng sinh viên khi họ tốt nghiệp đúng hoặc sớm hơn thời gian dự kiến trong chương trình đào tạo là gì?
 
-- intent: cau_3.73
+- intent: sinh_vien_khen_thuong_loai_gioi_nam_hoc
   examples: |
     - Hình thức khen thưởng nào sẽ được áp dụng cho sinh viên đạt loại giỏi trở lên cuối mỗi năm học?
     - Sinh viên loại giỏi cả năm học có được khen thưởng không?
@@ -2029,7 +2027,7 @@ nlu:
     - Có những biện pháp khen thưởng cụ thể nào được áp dụng cho sinh viên đạt loại giỏi trở lên ở cuối mỗi năm học?
     - Quy định về hình thức khen thưởng đối với sinh viên đạt thành tích loại giỏi trở lên ở cuối mỗi năm học là gì?
 
-- intent: cau_3.74
+- intent: dieu_kien_xep_loai_xuat_sac
   examples: |
     - Điều kiện nào là cần thiết để sinh viên được xếp loại xuất sắc?
     - Tốt nghiệp loại xuất sắc cần những điều kiện nào?
@@ -2037,7 +2035,7 @@ nlu:
     - Những yếu tố nào là cần thiết để sinh viên được đánh giá là xuất sắc?
     - Để đạt xếp loại cao nhất, sinh viên cần thỏa mãn những điều kiện gì?
 
-- intent: cau_3.75
+- intent: vi_pham_giay_thi_xu_ly
   examples: |
     - Theo quy định, điều gì sẽ xảy ra nếu sinh viên vi phạm quy định về việc làm bài trên giấy thi không đúng quy định?
     - Nếu sinh viên vi phạm quy định về làm bài thi trên giấy không đúng quy định thì bị gì?
@@ -2045,77 +2043,66 @@ nlu:
     - Sinh viên sẽ phải đối mặt với hậu quả gì nếu vi phạm quy định về cách làm bài trên giấy thi theo quy định?
     - Quy định về việc làm bài trên giấy thi sẽ áp đặt biện pháp xử lý gì đối với sinh viên khi vi phạm?
 
-- intent: cau_3.76
+- intent: vi_pham_thi_den_tre
   examples: |
     - Nếu sinh viên không có mặt đúng giờ vào phòng thi, họ sẽ đối mặt với hình phạt gì?
     - Sinh viên sẽ bị gì nếu không có mặt đúng giờ tại phòng thi?
     - Hậu quả gì sẽ xảy ra nếu sinh viên không xuất hiện đúng giờ trong phòng thi?
     - Quy định về việc đến trễ vào phòng thi sẽ áp đặt biện pháp xử lý gì đối với sinh viên?
 
-# Deleted 3.81, trùng 3.74
-# Deleted 3.82, trùng 3.13
-
-- intent: cau_3.83
+- intent: vi_pham_trao_doi_giay_nhap
   examples: |
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên bị vi phạm quy định về việc trao đổi giấy nháp trong quá trình thi?
     - Sinh viên trao đổi giấy nháp trong lúc thi sẽ bị kỷ luật như thế nào?
 
-- intent: cau_3.84
+- intent: vi_pham_su_dung_giay_nhap_bai_lam
   examples: |
     - Quy định nào sẽ được áp dụng nếu sinh viên sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi?
     - Nếu sinh viên sử dụng giấy nháp hoặc bài làm của người khác trong lúc thi thì bị gì?
 
-- intent: cau_3.85
+- intent: vi_pham_quan_ly_can_bo_coi_thi
   examples: |
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc không tuân thủ sự quản lý, nhắc nhở của cán bộ coi thi?
     - Nếu sinh viên không tuân thủ sự quản lý, nhắc nhở của cán bộ coi thi thì bị gì?
 
-- intent: cau_3.86
+- intent: dieu_kien_thu_khoa
   examples: |
     - Điều kiện nào là cần thiết để sinh viên được khen thưởng làm thủ khoa của ngành/chuyên ngành đào tạo?
     - Sinh viên được khen thưởng làm thủ khoa của chuyên ngành/ngành đào tạo cần điều kiện gì?
 
-- intent: cau_3.87
+- intent: vi_pham_ra_phong_thi_khong_lap_bien_ban
   examples: |
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên bị vi phạm quy định về việc ra khỏi phòng thi mà không lập biên bản?
     - Nếu sinh viên ra khỏi phòng thi mà không lập biên bản thì bị gì?
 
-- intent: cau_3.88
+- intent: vi_pham_su_dung_vat_dung_khong_phep
   examples: |
     - Quy định nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
     - Nếu sinh viên sử dụng vật dụng không được phép trong phòng thi thì bị gì?
 
-- intent: cau_3.89
+- intent: vi_pham_giu_trat_tu
   examples: |
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc không giữ trật tự trong giờ thi?
     - Nếu sinh viên không giữ trật tự trong giờ thi thì bị gì?
 
-- intent: cau_3.90
+- intent: dieu_kien_xep_loai_kha
   examples: |
     - Điều kiện nào là cần thiết để sinh viên được xếp loại khá?
     - Sinh viên muốn xếp loại khá cần những điều kiện gì?
     - Để đạt được xếp loại khá, sinh viên cần đáp ứng những điều kiện nào?
 
-- intent: cau_3.91
+- intent: vi_pham_ra_phong_thi_trong_gio_lam_bai
   examples: |
     - Quy định nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc không được ra khỏi phòng thi trong thời gian làm bài?
     - Nếu sinh viên ra khỏi phòng thi trong giờ làm bài thì bị gì?
     - Nếu sinh viên rời khỏi phòng thi trong giờ làm bài, họ sẽ bị hậu quả gì?
 
-- intent: cau_3.92
+- intent: vi_pham_su_dung_vat_dung_khong_phep_lap_bien_ban
   examples: |
     - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên bị vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
     - Sinh viên sử dụng vật dụng không được phép trong phòng thi thì bị gì?
 
-# Deleted 3.93, trùng 3.89
-
-- intent: cau_3.94
-  examples: |
-    - Hình thức kỷ luật nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc không được phép ra khỏi phòng thi mà không lập biên bản?
-    - Sinh viên bị gì nếu ra khỏi phòng thi mà không lập biên bản?
-
-
-- intent: cau_3.95
+- intent: dieu_kien_khen_thuong_cuoi_nam
   examples: |
     - Điều kiện nào là cần thiết để sinh viên được khen thưởng cuối mỗi năm học?
     - Sinh viên cần điều kiện nào để được khen thưởng cuối năm?
