@@ -250,7 +250,7 @@ rules:
 
 - rule: Dieu_kien_hoc_bong_xuat_sac
   steps:
-  - intent: cau_dieu_kien_hoc_bong_xuat_sac
+  - intent: dieu_kien_hoc_bong_xuat_sac
   - action: utter_dieu_kien_hoc_bong_xuat_sac
   
 - rule: Dieu_kien_hoc_bong_gioi
@@ -325,8 +325,8 @@ rules:
   
 - rule: Bao_hiem_tai_nan
   steps:
-  - intent: cau_1.54
-  - action: utter_cau_1.54
+  - intent: bao_hiem_tai_nan
+  - action: utter_bao_hiem_tai_nan
   
 - rule: Vay_tin_dung_cho_sinh_vien
   steps:
@@ -341,7 +341,7 @@ rules:
 - rule: Dieu_kien_chuyen_co_so_dao_tao_k47
   steps:
   - intent: dieu_kien_chuyen_co_so_dao_tao_k47
-  - action: utter_dieu_kien _chuyen_co_so_dao_tao_k47
+  - action: utter_dieu_kien_chuyen_co_so_dao_tao_k47
   
 - rule: Dieu_kien_chuyen_he_dao_tao
   steps:
@@ -572,7 +572,7 @@ rules:
 - rule: Xin_hoc_lai_sau_tam_nghi
   steps:
   - intent: xin_hoc_lai_sau_tam_nghi
-  - action: xin_hoc_lai_sau_tam_nghi
+  - action: utter_xin_hoc_lai_sau_tam_nghi
 
 - rule: Han_chot_xin_hoc_lai_sau_tam_nghi
   steps:
@@ -677,7 +677,7 @@ rules:
 - rule: Thoi_gian_tiet_3
   steps:
   - intent: thoi_gian_tiet_3
-  - action: utter_3
+  - action: utter_thoi_gian_tiet_3
 
 - rule: Thoi_gian_tiet_4
   steps:
@@ -687,7 +687,7 @@ rules:
 - rule: Thoi_gian_tiet_5
   steps:
   - intent: thoi_gian_tiet_5
-  - action: utter_thoi_gian_tiet_6
+  - action: utter_thoi_gian_tiet_5
 
 - rule: Thoi_gian_tiet_6
   steps:
@@ -737,7 +737,7 @@ rules:
 - rule: Tiet_buoi_toi
   steps:
   - intent: tiet_buoi_toi
-  - action: utter_ tiet_buoi_toi
+  - action: utter_tiet_buoi_toi
 
 - rule: Hoc_2_nganh
   steps:
@@ -762,7 +762,7 @@ rules:
 - rule: Nganh_2_chu_y
   steps:
   - intent: nganh_2_chu_y
-  - action: uter_nganh_2_chu_y
+  - action: utter_nganh_2_chu_y
 
 - rule: Nganh_2_thoi_han
   steps:
@@ -807,7 +807,7 @@ rules:
 - rule: Thoi_gian_xet_tot_nghiep
   steps:
   - intent: thoi_gian_xet_tot_nghiep
-  - action: thoi_gian_xet_tot_nghiep
+  - action: utter_thoi_gian_xet_tot_nghiep
 
 - rule: Noi_xin_xet_tot_nghiep
   steps:
@@ -862,7 +862,7 @@ rules:
 - rule: Tot_nghiep_kha
   steps:
   - intent: tot_nghiep_kha
-  - action: tot_nghiep_kha
+  - action: utter_tot_nghiep_kha
 
 - rule: Ha_tot_nghiep
   steps:
