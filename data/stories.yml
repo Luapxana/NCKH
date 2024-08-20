@@ -10,3 +10,82 @@ stories:
   - action: action_show_time
 
 
+- story: path_qchv
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_qchv
+  - action: utter_khai_niem_qchv
+  - intent: doi_tuong_ap_dung_qchv
+  - action: utter_doi_tuong_ap_dung_qchv
+
+- story: path_sinh_vien
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_sinh_vien
+  - action: utter_khai_niem_sinh_vien
+  - intent: truong_cap_cho_sinh_vien
+  - action: utter_truong_cap_cho_sinh_vien
+  - intent: trach_nhiem_sinh_vien
+  - action: utter_trach_nhiem_sinh_vien
+
+- story: path_ctdt
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: chuong_trinh_dao_tao
+  - action: utter_chuong_trinh_dao_tao
+  - intent: noi_xem_ctdt
+  - action: utter_noi_xem_ctdt
+  - intent: khai_niem_ban_mo_ta_ctdt
+  - action: utter_khai_niem_ban_mo_ta_ctdt
+  - intent: noi_xem_ban_mo_ta_ctdt
+  - action: utter_noi_xem_ban_mo_ta_ctdt
+  - intent: khai_niem_khung_ctdt
+  - action: utter_khai_niem_khung_ctdt
+  - intent: thoi_gian_toi_da_ctdt
+  - action: utter_thoi_gian_toi_da_ctdt
+
+- story: path_hoc_phan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_hoc_phan
+  - action: utter_khai_niem_hoc_phan
+  - intent: noi_xem_tom_tat_hoc_phan
+  - action: utter_noi_xem_tom_tat_hoc_phan
+  - intent: khai_niem_hoc_phan_bat_buoc
+  - action: utter_khai_niem_hoc_phan_bat_buoc
+  - intent: khai_niem_hoc_phan_tu_chon
+  - action: utter_khai_niem_hoc_phan_tu_chon
+  - intent: khai_niem_hoc_phan_tien_quyet
+  - action: utter_khai_niem_hoc_phan_tien_quyet
+  - intent: khai_niem_hoc_phan_song_hanh
+  - action: utter_khai_niem_hoc_phan_song_hanh
+  - intent: khai_niem_hoc_phan_dieu_kien
+  - action: utter_khai_niem_hoc_phan_dieu_kien
+  - intent: nhung_hoc_phan_dieu_kien
+  - action: utter_nhung_hoc_phan_dieu_kien
+
+- story: path_khht
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_ke_hoach_day_va_hoc
+  - action: utter_khai_niem_ke_hoach_day_va_hoc
+  - intent: cach_xay_dung_khht
+  - action: utter_cach_xay_dung_khht
+  - intent: chuc_nang_cua_khht
+  - action: utter_chuc_nang_cua_khht
+  - intent: thay_doi_khht
+  - action: utter_thay_doi_khht
+
+- story: path_tin_chi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_tin_chi
+  - action: utter_khai_niem_tin_chi
+  - intent: so_tiet_moi_tin_chi
+  - action: utter_so_tiet_moi_tin_chi
