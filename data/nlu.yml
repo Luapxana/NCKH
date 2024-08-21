@@ -664,7 +664,7 @@ nlu:
     - Đầu khóa, sinh viên được cung cấp những thông tin gì?
     - Những gì sinh viên nhận được khi bắt đầu khóa học?
 
-- intent: trach_nhiem_sv_trong_khi_hoc
+- intent: trach_nhiem_sv_khi_hoc
   examples: |
     - Trong quá trình học, sinh viên có trách nhiệm gì?
     - Sinh viên có trách nhiệm gì trong quá trình học tập?
@@ -745,6 +745,15 @@ nlu:
     - Cách để đăng ký học phần?
     - Cách ĐKHP
     - Các bước đăng ký học phần
+
+- intent: thoi_gian_dkhp
+    - Thời gian đăng ký học phần
+    - Thời gian đkhp
+    - Khi nào thì được đăng ký học phần
+    - Khi nào cần đăng ký học phần
+    - Khi nào cần đkhp
+    - Khoảng thời gian cho phép đăng ký học phần
+    - Sinh viên đăng ký học phần khi nào
 
 - intent: thoi_gian_xem_tkb
   examples: |

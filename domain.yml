@@ -96,6 +96,7 @@ intents:
   - dkhp_hoc_ky_dau
   - in_ket_qua_dkhp
   - cach_dkhp
+  - thoi_gian_dkhp
   - thoi_gian_xem_tkb
   - xoa_hoc_phan
   - thoi_han_dkhp
@@ -584,9 +585,12 @@ responses:
           \n\n4. Sinh viên có thể xóa lớp học phần đã đăng ký hoặc đổi nhóm ở bảng Kết quả đăng ký học phần.
           \n\n5. Sau khi đăng ký học phần xong, sinh viên có thể vào mục \"Thời khóa biểu\" để xem thông tin các nhóm học phần đã đăng ký và thời khóa biểu trong tuần
           Video hướng dẫn đăng ký cụ thể tại đây: https://www.youtube.com/watch?v=Z3EsqtiZtH4."
-
+  
+  utter_thoi_gian_dkhp:
+  - text: "Sinh viên sẽ được thông báo thời gian cụ thể trong kế hoạch học tập và giảng dạy từng học kỳ thông qua email sinh viên."
+  
   utter_thoi_gian_xem_tkb:
-  - text: "Sinh viên sẽ được xem thời khóa biểu chậm nhất là 6 tuần trước khi HK mới bắt đầu."
+  - text: "Sinh viên sẽ được xem thời khóa biểu các học phần chậm nhất là 6 tuần trước khi HK mới bắt đầu."
 
   utter_xoa_hoc_phan:
   - text: "Sinh viên có thể xóa các lớp học phần chậm nhất đến tuần thứ 1 của học kỳ."
