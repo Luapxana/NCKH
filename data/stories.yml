@@ -83,10 +83,6 @@ stories:
   - intent: thay_doi_khht
   - action: utter_thay_doi_khht
 
-
-#chuong 2
-# Không (chưa) có story: dau_khoa_co_gi, tinh_diem_hp_tu_chon 
-
 - story: path_tin_chi
   steps:
   - intent: greet
@@ -95,6 +91,64 @@ stories:
   - action: utter_khai_niem_tin_chi
   - intent: so_tiet_moi_tin_chi
   - action: utter_so_tiet_moi_tin_chi
+
+- story: path_hoc_bong
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thong_tin_quy_hoc_bong
+  - action: utter_thong_tin_quy_hoc_bong
+  - intent: nguoi_quy_dinh_muc_hoc_bong
+  - action: utter_nguoi_quy_dinh_muc_hoc_bong
+  - intent: dieu_kien_xet_hoc_bong
+  - action: utter_dieu_kien_xet_hoc_bong
+
+- story: path_hoc_bong_kk
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_hoc_bong_khuyen_khich
+  - action: utter_khai_niem_hoc_bong_khuyen_khich
+  - intent: tieu_chuan_tung_muc_hoc_bong
+  - action: utter_tieu_chuan_tung_muc_hoc_bong
+  - intent: dieu_kien_hoc_bong_xuat_sac
+  - action: utter_dieu_kien_hoc_bong_xuat_sac
+  - intent: dieu_kien_hoc_bong_gioi
+  - action: utter_dieu_kien_hoc_bong_gioi
+  - intent: dieu_kien_hoc_bong_kha
+  - action: utter_dieu_kien_hoc_bong_kha
+
+- story: path_hoc_phi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cach_dong_hoc_phi
+  - action: utter_cach_dong_hoc_phi
+  - intent: cach_tinh_hoc_phi
+  - action: utter_cach_tinh_hoc_phi
+  - intent: nguoi_quy_dinh_muc_hoc_phi
+  - action: utter_nguoi_quy_dinh_muc_hoc_phi
+  - intent: dieu_kien_mien_giam_hoc_phi
+  - action: utter_dieu_kien_mien_giam_hoc_phi
+  - intent: ho_so_mien_giam_hoc_phi
+  - action: utter_ho_so_mien_giam_hoc_phi
+  - intent: anh_huong_khong_dong_hoc_phi
+  - action: utter_anh_huong_khong_dong_hoc_phi
+
+- story: path_bao_hiem
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bao_hiem_y_te
+  - action: utter_bao_hiem_y_te
+  - intent: bao_hiem_tai_nan
+  - action: utter_bao_hiem_tai_nan
+
+  
+#chuong 2
+# Không (chưa) có story: dau_khoa_co_gi, tinh_diem_hp_tu_chon 
+
+
 
 - story: path_dkhp
   steps:
