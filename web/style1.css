@@ -1,0 +1,57 @@
+body {
+    background-color: #FEFAE0; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .header-container {
+    margin-left: 20px;
+    margin-top:  10%;
+    position: relative;
+    display:flex;
+  }
+
+  .header {
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    display: inline-block;
+  }
+  
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, #C0C78C, #A6B37D);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .rw-launcher {
+    display: none !important;
+  }
+
+  .openbutton{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #B99470;
+    color: white;
+    padding: 10px;
+  }
+
+  .openbutton:hover{
+    background-color: #997b5d;
+  }
+
+  .chat-img{
+    margin-left: auto;
+    margin-right: 20px;
+    width: 560px;
+  }
+
+  .chat-img img{
+    max-width: 100%;
+    max-height: 100%;
+  }
