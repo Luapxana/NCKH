@@ -1314,7 +1314,7 @@ nlu:
     - Đăng ký học thêm ngành khác được không?
     - Có thể đăng ký chương trình đào tạo thứ hai không
 
-- intent: dieu_kien_hoc_nganh_@
+- intent: dieu_kien_hoc_nganh_2
   examples: |
     - Điều kiện để học 2 ngành là gì?
     - Học ngành 2 cần những điều kiện nào?

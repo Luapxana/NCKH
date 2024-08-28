@@ -146,8 +146,8 @@ stories:
 
   
 #chuong 2
-# Không (chưa) có story: dau_khoa_co_gi, tinh_diem_hp_tu_chon 
-
+# Không (chưa) có story: dau_khoa_co_gi, tinh_diem_hp_tu_chon, drl_yeu, 
+# khong_dong_hoc_phi, hoc_qua_han, buoi_hoc_dau_tien, hoc_lai_khi_qua_han, xin_lai_bang_tot_nghiep
 
 
 - story: path_dkhp
@@ -249,3 +249,165 @@ stories:
   - action: utter_diem_hoc_lai
   - intent: hoc_cai_thien
   - action: utter_hoc_cai_thien
+
+- story: path_tam_nghi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: truong_hop_tam_nghi
+  - action: utter_truong_hop_tam_nghi
+  - intent: cach_xin_tam_nghi
+  - action: utter_cach_xin_tam_nghi
+  - intent: xin_hoc_lai_sau_tam_nghi
+  - action: utter_xin_hoc_lai_sau_tam_nghi
+  - intent: han_chot_xin_hoc_lai_sau_tam_nghi
+  - action: utter_han_chot_xin_hoc_lai_sau_tam_nghi
+  - intent: xu_ly_nghi_khong_phep
+  - action: utter_xu_ly_nghi_khong_phep
+  - intent: nghi_qua_han
+  - action: utter_nghi_qua_han
+  - intent: tam_nghi_nvqs
+  - action: utter_tam_nghi_nvqs
+  - intent: tam_nghi_benh
+  - action: utter_tam_nghi_benh
+  - intent: tam_nghi_tai_nam
+  - action: utter_tam_nghi_tai_nan
+
+- story: path_ky_luat
+  - intent: greet
+  - action: utter_greet
+  - intent: khai_niem_canh_bao_hoc_vu
+  - action: utter_khai_niem_canh_bao_hoc_vu
+  - intent: truong_hop_canh_bao_hoc_vu
+  - action: utter_truong_hop_canh_bao_hoc_vu
+  - intent: muc_do_dinh_chi
+  - action: utter_muc_do_dinh_chi
+  - intent: truong_hop_dinh_chi
+  - action: utter_truong_hop_dinh_chi
+  - intent: dinh_chi_1_hk
+  - aciotn: utter_dinh_chi_1_hk
+  - intent: dinh_chi_1_nam
+  - action: utter_dinh_chi_mot_nam
+  - intent: buoc_thoi_hoc
+  - action: utter_buoc_thoi_hoc
+  - intent: xin_hoc_lai_sau_thoi_hoc
+  - action: utter_xin_hoc_lai_sau_thoi_Hoc
+  - intent: bi_ky_luau
+  - action: utter_bi_ky_luat
+
+- story: path_tiet_hoc
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: di_hoc_toi_thieu
+  - action: utter_di_hoc_toi_thieu
+  - intent: vang_hoc
+  - action: utter_vang_hoc
+  - intent: thoi_gian_cac_tiet
+  - intent: thoi_gian_tiet_1
+  - action: utter_thoi_gian_tiet_1
+  - intent: thoi_gian_tiet_2
+  - action: utter_thoi_gian_tiet_2
+  - intent: thoi_gian_tiet_3
+  - action: utter_thoi_gian_tiet_3
+  - intent: thoi_gian_tiet_4
+  - action: utter_thoi_gian_tiet_4
+  - intent: thoi_gian_tiet_5
+  - action: utter_thoi_gian_tiet_5
+  - intent: thoi_gian_tiet_6
+  - action: utter_thoi_gian_tiet_6
+  - intent: thoi_gian_tiet_7
+  - action: utter_thoi_gian_tiet_7
+  - intent: thoi_gian_tiet_8
+  - action: utter_thoi_gian_tiet_8
+  - intent: thoi_gian_tiet_9
+  - action: utter_thoi_gian_tiet_9
+
+- story: path_thoi_gian_hoc
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thoi_gian_cac_tiet
+  - action: utter_thoi_gian_cac_tiet
+  - intent: cac_gio_ngho
+  - action: utter_cac_gio_nghi
+  - intent: thoi_gian_hoc_sang
+  - action: utter_thoi_gian_hoc_sang
+  - intent: thoi_gian_hoc_chieu
+  - action: utter_thoi_gian_hoc_chieu
+  - intent: ngay_hoc_trong_tuan
+  - action: utter_ngay_hoc_trong_tuan
+  - intent: tiet_buoi_toi
+  - action: utter_tiet_buoi_toi
+
+- story: path_nganh_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hoc_2_nganh
+  - action: utter_hoc_2_nganh
+  - intent: dieu_kien_hoc_nganh_2
+  - action: utter_dieu_kien_hoc_nganh_2
+  - intent: cach_xin_hoc_nganh_2
+  - action: utter_cach_xin_hoc_nganh_2
+  - intent: nganh_2_trung_hp
+  - action: utter_nganh_2_trung_hp
+  - intent: nganh_2_chu_y
+  - action: utter_nganh_2_chu_y
+  - intent: nganh_2_thoi_han
+  - action: utter_nganh_2_thoi_han
+  - intent: nganh_2_bi_loai
+  - action: utter_nganh_2_bi_loai
+  - intent: nganh_2_tot_nghiep
+  - action: utter_nganh_2_tot_nghiep
+
+- story: path_xet_tot_nghiep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cac_hinh_thuc_tot_nghiep
+  - action: utter_cac_hinh_thuc_tot_nghiep
+  - intent: luan_van
+  - action: utter_luan_van
+  - intent: tieu_luan
+  - action: utter_tieu_luan
+  - intent: thoi_gian_xet_tot_nghiep
+  - action: utter_thoi_gian_xet_tot_nghiep
+  - intent: noi_xin_xet_tot_nghiep
+  - action: utter_noi_xin_xet_tot_nghiep
+  - intent: quy_trinh_xet_tot_nghiep
+  - action: utter_quy_trinh_xet_tot_nghiep
+
+- story: path_tot_nghiep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: dieu_kien_tot_nghiep
+  - action: utter_dieu_kien_tot_nghiep
+  - intent: thoi_gian_le_tot_nghiep
+  - action: utter_thoi_gian_le_tot_nghiep
+  - intent: no_gdtc_gdqp
+  - action: utter_no_gdtc_gdqp
+  - intent: no_ngoai_ngu
+  - action: utter_no_ngoai_ngu
+  - intent: khong_tot_nghiep
+  - action: utter_khong_tot_nghiep
+  - intent: xin_ra_truong
+  - action: utter_xin_ra_truong
+
+- story: path_hang_tot_nghiep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hang_tot_nghiep
+  - action: utter_hang_tot_nghiep
+  - intent: tot_nghiep_xuat_sac
+  - action: utter_tot_nghiep_xuat_sac
+  - intent: tot_nghiep_gioi
+  - action: utter_tot_nghiep_gioi
+  - intent: tot_nghiep_kha
+  - action: utter_tot_nghiep_kha
+  - intent: tot_nghiep_trung_binh
+  - action: utter_tot_nghiep_trung_binh
+  - intent: ha_tot_nghiep
+  - action: utter_ha_tot_nghiep
