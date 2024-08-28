@@ -411,3 +411,115 @@ stories:
   - action: utter_tot_nghiep_trung_binh
   - intent: ha_tot_nghiep
   - action: utter_ha_tot_nghiep
+
+# chuong 3
+
+- story: path_hoc_phan_danh_gia_yeu_to
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: so_diem_thanh_phan
+  - action: utter_so_diem_thanh_phan
+  - intent: danh_gia_truc_tuyen
+  - action: utter_danh_gia_truc_tuyen
+  - intent: quy_dinh_phuong_phap_danh_gia
+  - action: utter_quy_dinh_phuong_phap_danh_gia
+
+- story: path_danh_gia
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diem_danh_gia_nho
+  - action: utter_diem_danh_gia_nho
+  - intent: trong_so_diem_thi
+  - action: utter_trong_so_diem_thi
+  - intent: dieu_kien_danh_gia_truc_tuyen
+  - action: utter_dieu_kien_danh_gia_truc_tuyen
+
+- story: path_giao_vien
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: giang_vien_giai_dap
+  - action: utter_giang_vien_giai_dap
+  - intent: dang_ky_bang_diem
+  - action: utter_dang_ky_bang_diem
+  - intent: diem_thuc_hanh
+  - action: utter_diem_thuc_hanh
+
+- story: path_xu_ly_vi_pham
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: xu_ly_vi_pham
+  - action: utter_xu_ly_vi_pham
+  - intent: ky_luat_vi_pham
+  - action: utter_ky_luat_vi_pham
+  - intent: xep_loai_gioi
+  - action: utter_xep_loai_gioi
+
+- story: path_danh_gia_truc_tuyen
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: danh_gia_truc_tuyen_tuong_xung
+  - action: utter_danh_gia_truc_tuyen_tuong_xung
+  - intent: giang_vien_thong_bao_ket_qua
+  - action: utter_giang_vien_thong_bao_ket_qua
+  - intent: diem_a
+  - action: utter_diem_a
+
+- story: path_diem_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diem_b_plus
+  - action: utter_diem_b_plus
+  - intent: diem_b
+  - action: utter_diem_b
+  - intent: diem_c_plus
+  - action: utter_diem_c_plus
+
+- story: path_diem_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diem_c
+  - action: utter_diem_c
+  - intent: diem_d_plus
+  - action: utter_diem_d_plus
+  - intent: diem_d
+  - action: utter_diem_d
+
+- story: path_diem_3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diem_f
+  - action: utter_diem_f
+  - intent: diem_m
+  - action: utter_diem_m
+  - intent: xin_diem_m
+  - action: utter_xin_diem_m
+
+- story: path_diem_4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diem_i
+  - action: utter_diem_i
+  - intent: sua_diem_i
+  - action: utter_sua_diem_i
+  - intent: thoi_han_bo_sung_diem
+  - action: utter_thoi_han_bo_sung_diem
+
+- story: path_diem_5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: diem_w
+  - action: utter_diem_w
+  - intent: xin_rut_hoc_phan
+  - action: utter_xin_rut_hoc_phan
+  - intent: diem_r_muc_dich_su_dung
+  - action: utter_diem_r_muc_dich_su_dung
