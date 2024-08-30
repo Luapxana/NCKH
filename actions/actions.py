@@ -55,8 +55,18 @@ class ActionDateTime(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text=f"{dt.datetime.now()}")
+        now = dt.datetime.now()
+        hour = now.hour
+        hour = str(hour)
+        minute = now.minute
+        minute = str(minute)
+        day = now.day
+        day = str(day)
+        month = now.month
+        month = str(month)
+        year = now.year
+        year = str(year)
+        dispatcher.utter_message("Bây giờ là "+hour+" giờ "+minute+" phút ngày "+day+" tháng "+month+" năm "+year)
 
         return []
 
