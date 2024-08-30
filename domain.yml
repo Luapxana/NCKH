@@ -280,8 +280,6 @@ intents:
   - vi_pham_ra_phong_thi_trong_gio_lam_bai
   - vi_pham_su_dung_vat_dung_khong_phep_lap_bien_ban
   - dieu_kien_khen_thuong_cuoi_nam
-  - diemhp
-  - diemhk
 
 entities:
   - hoc_ky

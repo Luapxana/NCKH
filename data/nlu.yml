@@ -747,6 +747,7 @@ nlu:
     - Các bước đăng ký học phần
 
 - intent: thoi_gian_dkhp
+  examples: |
     - Thời gian đăng ký học phần
     - Thời gian đkhp
     - Khi nào thì được đăng ký học phần
@@ -1061,7 +1062,7 @@ nlu:
     - Các vi phạm dẫn đến cảnh báo học vụ
     - Bị cảnh báo học vụ khi nào?
 
-- intent: xu_ly_nghi_khong phep
+- intent: xu_ly_nghi_khong_phep
   examples: |
     - Tạm nghỉ mà không xin phép thì sao?
     - Không xin phép tạm nghỉ thì bị xử lý như thế nào?

@@ -165,7 +165,7 @@ stories:
   - intent: dkhp_hoc_ky_dau
   - action: utter_dkhp_hoc_ky_dau
   - intent: in_ket_qua_dkhp
-  - action: utter_in_ket_qua_dang_ky_hoc_phan
+  - action: utter_in_ket_qua_dkhp
   - intent: cach_dkhp
   - action: utter_cach_dkhp
 
@@ -204,8 +204,8 @@ stories:
   - action: utter_hoc_phi_rut_hp
   - intent: thoi_han_rut_hp
   - action: utter_thoi_han_rut_hp
-  - intent: co_nen_rut_hoc_phan
-  - action: utter_co_nen_rut_hoc_phan
+  - intent: co_nen_rut_hp
+  - action: utter_co_nen_rut_hp
 
 - story: path_vang
   steps:
@@ -270,10 +270,11 @@ stories:
   - action: utter_tam_nghi_nvqs
   - intent: tam_nghi_benh
   - action: utter_tam_nghi_benh
-  - intent: tam_nghi_tai_nam
+  - intent: tam_nghi_tai_nan
   - action: utter_tam_nghi_tai_nan
 
 - story: path_ky_luat
+  steps:
   - intent: greet
   - action: utter_greet
   - intent: khai_niem_canh_bao_hoc_vu
@@ -285,14 +286,14 @@ stories:
   - intent: truong_hop_dinh_chi
   - action: utter_truong_hop_dinh_chi
   - intent: dinh_chi_1_hk
-  - aciotn: utter_dinh_chi_1_hk
+  - action: utter_dinh_chi_1_hk
   - intent: dinh_chi_1_nam
-  - action: utter_dinh_chi_mot_nam
+  - action: utter_dinh_chi_1_nam
   - intent: buoc_thoi_hoc
   - action: utter_buoc_thoi_hoc
   - intent: xin_hoc_lai_sau_thoi_hoc
-  - action: utter_xin_hoc_lai_sau_thoi_Hoc
-  - intent: bi_ky_luau
+  - action: utter_xin_hoc_lai_sau_thoi_hoc
+  - intent: bi_ky_luat
   - action: utter_bi_ky_luat
 
 - story: path_tiet_hoc
@@ -329,7 +330,7 @@ stories:
   - action: utter_greet
   - intent: thoi_gian_cac_tiet
   - action: utter_thoi_gian_cac_tiet
-  - intent: cac_gio_ngho
+  - intent: cac_gio_nghi
   - action: utter_cac_gio_nghi
   - intent: thoi_gian_hoc_sang
   - action: utter_thoi_gian_hoc_sang
