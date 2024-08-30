@@ -1717,7 +1717,7 @@ nlu:
     - Điều kiện cụ thể nào cho phép một sinh viên được quyền từ bỏ một học phần đã đăng ký và chỉ nhận điểm tạm dừng (W) thay vì điểm số?
     - Hoàn cảnh hay bối cảnh ra sao để sinh viên có thể chủ động rút khỏi một lớp học mà không bị tính điểm, chỉ được đánh dấu W?
 
-- intent: diem_R_muc_dich_su_dung
+- intent: diem_r_muc_dich_su_dung
   examples: |
     - Điểm R (tương đương điểm M) được sử dụng cho mục đích gì?
     - Điểm R là điểm gì?
@@ -1725,7 +1725,7 @@ nlu:
     - Việc áp dụng điểm R (hay gọi là điểm M) nhằm đáp ứng yêu cầu nào trong quy trình tính toán và ghi nhận kết quả học tập?
     - Có ý nghĩa ra sao khi hệ thống điểm số có sự xuất hiện của điểm R (tương đương với điểm M) trong bản ghi nhận kết quả của sinh viên?
 
-- intent: ai_quyet_dinh_diem_M
+- intent: ai_quyet_dinh_diem_m
   examples: |
     - Ai là người quyết định việc nhận điểm M cho sinh viên?
     - Điểm M do ai quyết định?
@@ -1741,7 +1741,7 @@ nlu:
     - Làm thế nào để tính toán và xử lý kết quả của một môn học mà sinh viên đã không kịp bổ sung điểm trước hạn chót quy định?
     - Hậu quả gì sẽ xảy ra đối với kết quả học tập của một học phần nếu sinh viên để quá thời hạn được phép bổ sung điểm?
 
-- intent: dieu_kien_nhan_diem_I
+- intent: dieu_kien_nhan_diem_i
   examples: |
     - Các lý do nào có thể được chấp nhận để nhận điểm I?
     - Điều kiện nào có thể nhận điểm I?
@@ -1757,7 +1757,7 @@ nlu:
     - Điểm khởi đầu để tính khoảng thời gian dành cho việc bổ sung điểm của một môn học là từ lúc nào?
     - Thời hạn bổ sung điểm số cho một học phần cụ thể bắt đầu được tính kể từ thời khắc mốc nào?
 
-- intent: diem_M_tac_dong_trung_binh_tich_luy
+- intent: diem_m_tac_dong_trung_binh_tich_luy
   examples: |
     - Điểm M có ảnh hưởng đến điểm trung bình chung tích lũy không?
     - Điểm trung bình tích lũy có giảm khi có điểm M không?
@@ -1773,12 +1773,12 @@ nlu:
     - Bên nào có trách nhiệm thẩm định và quyết định chấp thuận hay từ chối đơn yêu cầu bổ sung điểm của sinh viên?
     - Nhân vật có thẩm quyền cuối cùng trong việc đánh giá tính hợp lệ và ra quyết định về các đơn xin bổ sung điểm nộp bởi sinh viên là ai?
 
-- intent: diem_I_truong_hop_su_dung
+- intent: diem_i_truong_hop_su_dung
   examples: |
     - Điểm I được sử dụng trong trường hợp nào?
     - Các trường hợp nào có thể được điểm I?
 
-- intent: diem_W_tren_bang_diem
+- intent: diem_w_tren_bang_diem
   examples: |
     - Điểm W được ghi nhận như thế nào trên bảng điểm?
     - Điểm W được tính là?
@@ -1788,7 +1788,7 @@ nlu:
     - Học phần chỉ được tính tích lũy khi đạt từ điểm nào trở lên?
     - Điểm học phần là bao nhiêu thì được tích lũy?
 
-- intent: diem_M_tinh_trung_binh_hoc_ky
+- intent: diem_m_tinh_trung_binh_hoc_ky
   examples: |
     - Điểm M có tính vào điểm trung bình chung của học kỳ không?
     - Điểm M có tính trung bình không?
