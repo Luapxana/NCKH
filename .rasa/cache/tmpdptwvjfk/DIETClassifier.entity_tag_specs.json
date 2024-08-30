@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-diemso",
+      "2": "I-diemso",
+      "3": "L-diemso",
+      "4": "U-diemso",
+      "5": "B-hoc_ky",
+      "6": "I-hoc_ky",
+      "7": "L-hoc_ky",
+      "8": "U-hoc_ky",
+      "9": "B-tiet",
+      "10": "I-tiet",
+      "11": "L-tiet",
+      "12": "U-tiet",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-diemso": 1,
+      "I-diemso": 2,
+      "L-diemso": 3,
+      "U-diemso": 4,
+      "B-hoc_ky": 5,
+      "I-hoc_ky": 6,
+      "L-hoc_ky": 7,
+      "U-hoc_ky": 8,
+      "B-tiet": 9,
+      "I-tiet": 10,
+      "L-tiet": 11,
+      "U-tiet": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
