@@ -151,16 +151,25 @@ rules:
 - rule: Cach_to_chuc_hoc_ky_1
   steps:
   - intent: cach_to_chuc_hoc_ky_1
+    conditions:
+      - slot_was_set:
+        - hoc_ky: "1"
   - action: utter_cach_to_chuc_hoc_ky_1
   
 - rule: Cach_to_chuc_hoc_ky_2
   steps:
   - intent: cach_to_chuc_hoc_ky_2
+    conditions:
+      - slot_was_set:
+        - hoc_ky: "2"
   - action: utter_cach_to_chuc_hoc_ky_2
   
 - rule: Cach_to_chuc_hoc_ky_3
   steps:
   - intent: cach_to_chuc_hoc_ky_3
+    conditions:
+      - slot_was_set:
+        - hoc_ky: "3"
   - action: utter_cach_to_chuc_hoc_ky_3
   
 - rule: Khai_niem_hoc_phan

@@ -288,6 +288,12 @@ actions:
   - action_show_time
   - action_diemhp
   - action_diemhk
+
+slots:
+  hoc_ky:
+    type: text
+    influence_conversation: true
+
 responses:
   utter_greet:
   - text: "Xin chào"
