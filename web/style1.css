@@ -4,7 +4,7 @@ body {
   }
   .header-container {
     margin-left: 20px;
-    margin-top:  10%;
+    margin-top:  5%;
     position: relative;
     display:flex;
   }
@@ -17,11 +17,17 @@ body {
   }
   
   .title {
-    font-size: 50px;
+    font-size: 100px;
     font-weight: bold;
     background: linear-gradient(to right, #C0C78C, #A6B37D);
     background-clip: text;
     color: transparent;
+  }
+
+  .intro {
+    font-size: 18px;
+    color:#997b5d;
+    font-weight: 550;
   }
 
   .rw-launcher {

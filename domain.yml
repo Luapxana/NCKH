@@ -42,6 +42,9 @@ intents:
   - quy_dinh_cong_nhan_kqht_o_noi_khac
   - so_hoc_ki_moi_nam
   - cach_to_chuc_hoc_ky
+  - cach_to_chuc_hoc_ky_1
+  - cach_to_chuc_hoc_ky_2
+  - cach_to_chuc_hoc_ky_3
   - khai_niem_hoc_phan
   - khai_niem_hoc_phan_bat_buoc
   - khai_niem_hoc_phan_tu_chon
@@ -390,12 +393,26 @@ responses:
   - text: "Mỗi năm được tổ chức thành 3 học kỳ: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ.\n\n
   Kể từ học kỳ 2 năm học 2024-2025, một năm học được tổ chức thành 3 học kỳ chính được gọi là Học kỳ 1, Học kỳ 2 và Học kỳ 3."
 
+  utter_cach_to_chuc_hoc_ky:
+  - text: "Bạn vui lòng chọn học kì nhé"
+    buttons:
+      - title: "Học kỳ I"
+        payload: "/cach_to_chuc_hoc_ky_1"
+      - title: "Học kỳ II"
+        payload: "/cach_to_chuc_hoc_ky_2"
+      - title: "Học kỳ III"
+        payload: "/cach_to_chuc_hoc_ky_3"
+
   utter_cach_to_chuc_hoc_ky_1:
   - text: "Học kỳ I là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12.\n\n
-          Kể từ học kỳ 2 năm học 2024-2025, học kỳ 1 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 1 bắt đầu từ tuần thứ tuần thứ 37 đến tuần thứ 51 của năm.
-          Học kỳ II là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ II bắt đầu từ tháng 1 đến cuối tháng 5.\n\n
-          Kể từ học kỳ 2 năm học 2024-2025, học kỳ 2 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 2 bắt đầu từ tuần thứ tuần thứ 1 đến tuần thứ 17 của năm (bao gồm 2 tuần nghỉ Tết Nguyên Đán).
-          Học kỳ III là học kỳ phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả. Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6. Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học HK III. Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỷ luật SV.\n\n
+          Kể từ học kỳ 2 năm học 2024-2025, học kỳ 1 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 1 bắt đầu từ tuần thứ tuần thứ 37 đến tuần thứ 51 của năm."
+
+  utter_cach_to_chuc_hoc_ky_2:
+  - text: "Học kỳ II là học kỳ chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi những học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK. Học kỳ II bắt đầu từ tháng 1 đến cuối tháng 5.\n\n
+          Kể từ học kỳ 2 năm học 2024-2025, học kỳ 2 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 2 bắt đầu từ tuần thứ tuần thứ 1 đến tuần thứ 17 của năm (bao gồm 2 tuần nghỉ Tết Nguyên Đán)."
+
+  utter_cach_to_chuc_hoc_ky_3:
+  - text: "Học kỳ III là học kỳ phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả. Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6. Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học HK III. Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỷ luật SV.\n\n
           Kể từ học kỳ 2 năm học 2024-2025, học kỳ 3 kéo dài 15 tuần, trong đó gồm 11 tuần dạy và học, 1 tuần dự trữ và tổ chức thi những học phần thi riêng, 1 tuần tổ chức thi những học phần thi riêng còn lại, 1 tuần tổ chức những học phần thi chung và 1 tuần xử lý kết quả. Học kỳ 3 bắt đầu từ tuần thứ tuần thứ 20 đến tuần thứ 34 của năm."
 
   utter_khai_niem_hoc_phan:

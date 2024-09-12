@@ -152,8 +152,27 @@ rules:
   steps:
   - intent: so_hoc_ki_moi_nam
   - action: utter_so_hoc_ki_moi_nam
-  
-  
+
+- rule: Cach_to_chuc_hoc_ky
+  steps:
+  - intent: cach_to_chuc_hoc_ky
+  - action: utter_cach_to_chuc_hoc_ky
+
+- rule: Cach_to_chuc_hoc_ky_1
+  steps:
+  - intent: cach_to_chuc_hoc_ky_1
+  - action: utter_cach_to_chuc_hoc_ky_1
+
+- rule: Cach_to_chuc_hoc_ky_2
+  steps:
+  - intent: cach_to_chuc_hoc_ky_2
+  - action: utter_cach_to_chuc_hoc_ky_2
+
+- rule: Cach_to_chuc_hoc_ky_3
+  steps:
+  - intent: cach_to_chuc_hoc_ky_3
+  - action: utter_cach_to_chuc_hoc_ky_3
+
 - rule: Khai_niem_hoc_phan
   steps:
   - intent: khai_niem_hoc_phan

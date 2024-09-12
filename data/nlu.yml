@@ -322,29 +322,23 @@ nlu:
     - Mỗi năm học bao gồm bao nhiêu học kỳ?
     - Trong một năm học, có bao nhiêu học kỳ thường được tổ chức?
 
-- intent: cach_to_chuc_hoc_ky_1
+- intent: cach_to_chuc_hoc_ky
   examples: |
-    - Học kỳ [1](hoc_ky) được tổ chức như thế nào?
-    - HK[1](hoc_ky) được tổ chức như thế nào?
-    - Học kỳ [1](hoc_ky) có bao nhiêu tuần?
-    - Học kỳ [1](hoc_ky) kéo dài bao lâu?
-    - Học kỳ [1](hoc_ky) là thời gian nào?
-
-- intent: cach_to_chuc_hoc_ky_2
-  examples: |
-    - Học kỳ [2](hoc_ky) được tổ chức như thế nào?
-    - HK[2](hoc_ky) được tổ chức như thế nào?
-    - Học kỳ [2](hoc_ky) có bao nhiêu tuần?
-    - Học kỳ [2](hoc_ky) kéo dài bao lâu?
-    - Học kỳ [2](hoc_ky) là thời gian nào?
-
-- intent: cach_to_chuc_hoc_ky_3
-  examples: |
-    - Học kỳ [3](hoc_ky) được tổ chức như thế nào?
-    - HK[3](hoc_ky) được tổ chức như thế nào?
-    - Học kỳ [3](hoc_ky) có bao nhiêu tuần?
-    - Học kỳ [3](hoc_ky) kéo dài bao lâu?
-    - Học kỳ [3](hoc_ky) là thời gian nào?
+    - Học kỳ 1 được tổ chức như thế nào?
+    - HK1 được tổ chức như thế nào?
+    - Học kỳ 1 có bao nhiêu tuần?
+    - Học kỳ 1 kéo dài bao lâu?
+    - Học kỳ 1 là thời gian nào?
+    - Học kỳ 2 được tổ chức như thế nào?
+    - HK2 được tổ chức như thế nào?
+    - Học kỳ 2 có bao nhiêu tuần?
+    - Học kỳ 2 kéo dài bao lâu?
+    - Học kỳ 2 là thời gian nào?
+    - Học kỳ 3 được tổ chức như thế nào?
+    - HK3 được tổ chức như thế nào?
+    - Học kỳ 3 có bao nhiêu tuần?
+    - Học kỳ 3 kéo dài bao lâu?
+    - Học kỳ 3 là thời gian nào?
 
 - intent: khai_niem_hoc_phan
   examples: |
