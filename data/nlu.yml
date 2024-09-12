@@ -1704,14 +1704,6 @@ nlu:
     - Điều kiện cụ thể nào cho phép một sinh viên được quyền từ bỏ một học phần đã đăng ký và chỉ nhận điểm tạm dừng (W) thay vì điểm số?
     - Hoàn cảnh hay bối cảnh ra sao để sinh viên có thể chủ động rút khỏi một lớp học mà không bị tính điểm, chỉ được đánh dấu W?
 
-- intent: rut_hoc_phan_nhan_diem_W
-  examples: |
-    - Khi nào sinh viên được phép rút học phần và nhận điểm W?
-    - Điều kiện để xin rút học phần và nhận điểm W?
-    - Trong trường hợp nào thì sinh viên có quyền huỷ đăng ký một môn học và được ghi nhận điểm tạm rút (W)?
-    - Điều kiện cụ thể nào cho phép một sinh viên được quyền từ bỏ một học phần đã đăng ký và chỉ nhận điểm tạm dừng (W) thay vì điểm số?
-    - Hoàn cảnh hay bối cảnh ra sao để sinh viên có thể chủ động rút khỏi một lớp học mà không bị tính điểm, chỉ được đánh dấu W?
-
 - intent: diem_r_muc_dich_su_dung
   examples: |
     - Điểm R (tương đương điểm M) được sử dụng cho mục đích gì?
