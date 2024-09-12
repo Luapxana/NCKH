@@ -1202,6 +1202,8 @@ utter_vi_pham_su_dung_vat_dung_khong_phep_lap_bien_ban:
 utter_dieu_kien_khen_thuong_cuoi_nam:
   - text: "Sinh viên cần được xếp loại giỏi trở lên để được khen thưởng cuối mỗi năm học từ Hiệu trưởng."
 
+utter_fallback:
+  text: "Xin lỗi, tôi không thể tìm ra câu trả lời phù hợp cho câu hỏi của bạn. Bạn hãy hỏi lại bằng cách khác nhé?" 
 
 session_config:
   session_expiration_time: 60
