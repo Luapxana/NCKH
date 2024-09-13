@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style1.css" type="text/css">
+  <title>RASA CHATBOT</title>
 </head>
 <body>
   <div class="header-container">
-
-        <div class="header">
-            <div class="title">RASA CHATBOT</div>
-            <p class="intro">Chúc bạn có một ngày tốt lành! Tôi là chatbot RASA được xây dựng bởi sinh viên nhằm hỗ trợ các bạn sinh viên trong việc hiểu rõ các quy chế học vụ.
+    <header class="head">
+      <nav class="navbar">
+        <a href="./chatbot1.html">Trang chủ</a>
+        <a href="./about.html">Về chúng tôi</a>
+        <a href="./ref.html">Các trang liên quan</a>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="title">RASA CHATBOT</div>
+      <p class="intro">Chúc bạn có một ngày tốt lành! Tôi là chatbot RASA được xây dựng bởi sinh viên nhằm hỗ trợ các bạn sinh viên trong việc hiểu rõ các quy chế học vụ.
               Nếu bạn có bất kì thắc mắc nào liên quan đến quy chế học vụ tôi sẽ sẵn lòng hỗ trợ bạn!</p>
-            <button class="openbutton" onclick="openFullscreen()">Bắt đầu chat nhé</button>
-        </div>
-        <div class="chat-img">
-            <img src="./image/Chat bot-cuate.png" alt="chatbot"/>
-        </div>
+      <button class="openbutton" onclick="openFullscreen()">Bắt đầu chat nhé</button>
+    </div>
+    <div class="chat-img">
+      <img src="./image/Chat bot-cuate.png" alt="chatbot"/>
+    </div>
   </div>
   <div id="khungngoai">
     <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>

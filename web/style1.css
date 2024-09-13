@@ -3,13 +3,30 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .header-container {
-    margin-left: 20px;
-    margin-top:  5%;
     position: relative;
-    display:flex;
   }
 
-  .header {
+  .navbar {
+    padding: 20px;
+    display: flex;
+    justify-content:flex-start;
+  }
+
+  .navbar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 50px;
+    transition: 200ms ease;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+    transform:translateY(-0.2rem) ;
+  }
+
+  .main {
     padding: 30px;
     border-radius: 10px;
     width: 40%;
@@ -45,19 +62,96 @@ body {
     background-color: #B99470;
     color: white;
     padding: 10px;
+    transition: 200ms ease;
   }
 
   .openbutton:hover{
     background-color: #997b5d;
+    scale: 1.2;
   }
 
   .chat-img{
     margin-left: auto;
     margin-right: 20px;
     width: 560px;
+    float:inline-end;
   }
 
   .chat-img img{
     max-width: 100%;
     max-height: 100%;
+  }
+
+  .container {
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content {
+    margin-left: 20px;
+  }
+
+  .content h1 {
+    text-align: center;
+  }
+
+  .content ul {
+    list-style-type:circle;
+    font-size: large;
+  }
+
+  .content ul a {
+    text-decoration: none;
+    color:#333;
+    transition: 200ms ease-in-out;
+  }
+
+  .content ul li {
+    margin-bottom: 10px;
+  }
+
+  .content ul a:hover {
+    color:#997b5d;
+  }
+
+  @keyframes appear {
+    from{
+      opacity: 0;
+      scale: 0.5;
+    }
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+
+  .intro-block{
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    justify-content: space-between;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+  }
+
+  .ctu {
+    width: 60%;
+    border-radius: 10px;
+    margin: 5px 20px;
+  }
+
+  .member-block{
+    background-color: rgba(166, 179, 125, 0.2);
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
