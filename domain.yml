@@ -13,7 +13,7 @@ intents:
   - sorry
   - get_started
   - give_time
-  - diemhp
+  - diemchu
   - diemhk
 #chương 1
   - khai_niem_qchv
@@ -283,17 +283,32 @@ intents:
 
 entities:
   - hoc_ky
-  - tiet
   - diemso
+  - gpa
 actions:
   - whoami
   - action_thanks
   - action_sorry
   - action_show_time
-  - action_diemhp
+  - action_diemchu
   - action_diemhk
 
+slots:
+  diemso:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: diemso
+        intent: diemchu
 
+  gpa:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: gpa
+        intent: diemhk
 
 responses:
   utter_greet:

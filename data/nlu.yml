@@ -1049,6 +1049,7 @@ nlu:
     - Làm gì thì có thể bị cảnh báo học vụ
     - Các vi phạm dẫn đến cảnh báo học vụ
     - Bị cảnh báo học vụ khi nào?
+    - Điều kiện cảnh báo học vụ
 
 - intent: xu_ly_nghi_khong_phep
   examples: |
@@ -1383,6 +1384,7 @@ nlu:
     - Tốt nghiệp cần những điều kiện gì
     - Muốn tốt nghiệp phải thỏa mãn những gì?
     - Các điều kiện để xin xét tốt nghiệp
+    - Điều kiện tốt nghiệp ra trường
 
 - intent: thoi_gian_xet_tot_nghiep
   examples: |
@@ -2099,7 +2101,7 @@ nlu:
     - Điều kiện để được khen thưởng cuối năm?
 
 
-- intent: diemhp
+- intent: diemchu
   examples: |
     - Điểm chữ khi được [8.9](diemso) điểm là bao nhiêu
     - Học phần được [7.9](diemso)  là được điểm gì
@@ -2107,6 +2109,6 @@ nlu:
 
 - intent: diemhk
   examples: |
-    - ĐTBHK [3.59](diemso)  thì được xếp loại gì
-    - Điểm trung bình học kỳ là [3.19](diemso)  thì xếp loại nào
-    - Xếp loại khi được [2.49](diemso) 
+    - ĐTBHK [3.59](gpa)  thì được xếp loại gì
+    - Điểm trung bình học kỳ là [3.19](gpa)  thì xếp loại nào
+    - Xếp loại khi được [2.49](gpa) 

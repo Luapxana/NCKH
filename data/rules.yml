@@ -1325,12 +1325,16 @@ rules:
   - intent: dieu_kien_khen_thuong_cuoi_nam
   - action: utter_dieu_kien_khen_thuong_cuoi_nam
 
-- rule: So điểm học phần
+- rule: So điểm chữ
   steps:
-  - intent: diemhp
-  - action: action_diemhp
+  - intent: diemchu
+    entities: 
+      - diemso: 8.0
+  - action: action_diemchu
 
 - rule: Xếp loại
   steps:
   - intent: diemhk
+    entities:
+      - gpa: 3.6
   - action: action_diemhk
