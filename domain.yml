@@ -285,6 +285,7 @@ entities:
   - hoc_ky
   - diemso
   - gpa
+  - diemso1
 actions:
   - whoami
   - action_thanks
@@ -292,7 +293,8 @@ actions:
   - action_show_time
   - action_diemchu
   - action_diemhk
-
+  - action_diemchu1
+  
 slots:
   diemso:
     type: float
@@ -302,6 +304,13 @@ slots:
         entity: diemso
         intent: diemchu
 
+  diemso1:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: diemso1
+        intent: diem
   gpa:
     type: float
     influence_conversation: true

@@ -517,3 +517,14 @@ stories:
   - action: utter_xin_rut_hoc_phan
   - intent: diem_r_muc_dich_su_dung
   - action: utter_diem_r_muc_dich_su_dung
+
+- story: path_doi_diem
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: doi_diem
+  - action: utter_doi_diem
+  - intent: diem
+    entities: 
+        - diemso1: 8.0
+  - action: action_diemchu1

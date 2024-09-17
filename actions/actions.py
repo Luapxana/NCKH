@@ -64,6 +64,37 @@ class ActionConvertGrade(Action):
         dispatcher.utter_message(text=f"Điểm học phần {grade} sẽ tương đương với điểm chữ {grade_letter}.")
         return []
 
+class ActionConvertGrade(Action):
+    def name(self) -> str:
+        return "action_diemchu1"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict) -> list:
+
+        grade = tracker.get_slot('diemso1')
+        grade = float(grade) if grade else 0.0
+
+        # Định nghĩa điểm chữ tương ứng
+        if grade >= 9.0:
+            grade_letter = 'A'
+        elif grade >= 8.0:
+            grade_letter = 'B+'
+        elif grade >= 7.0:
+            grade_letter = 'B'
+        elif grade >= 6.5:
+            grade_letter = 'C+'
+        elif grade >= 6.0:
+            grade_letter = 'C+'
+        elif grade >= 5.0:
+            grade_letter = 'D+'
+        elif grade >= 4.0:
+            grade_letter = 'D'   
+        else:
+            grade_letter = 'F'
+
+        dispatcher.utter_message(text=f"Điểm học phần {grade} sẽ tương đương với điểm chữ {grade_letter}.")
+        return []
 
 class ActionInquireGrade(Action):
     def name(self) -> str:
