@@ -4,3 +4,12 @@ Thêm entity điểm (để không bị nhầm điểm này sang điểm kia)
 
 cái hàm mở khung chat ra còn lỗi, thêm điều kiện để check coi mình có mở fullscreen sẵn chưa vô hàm mới đc (t ko biết đường check)
 web còn xấu, t mới thêm 1 cái nút à chưa edit
+
+script:
+unit tesing:
+    Intent and Entity Testing: rasa test nlu --nlu data/nlu.yml --out results
+    --> kết quả test lưu trong thư mục results
+
+conversation tests(end to end):
+viết test stories trong tests/test_stories.yml (thủ công)
+    rasa test --stories tests/test_stories.yml --out results

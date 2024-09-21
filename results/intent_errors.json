@@ -1,0 +1,562 @@
+[
+  {
+    "text": "Kế hoạch học tập xây dựng như thế nào?",
+    "intent": "xay_dung_khht",
+    "intent_prediction": {
+      "name": "cach_xay_dung_khht",
+      "confidence": 0.3870305120944977
+    }
+  },
+  {
+    "text": "Quy trình xây dựng kế hoạch học tập là gì?",
+    "intent": "xay_dung_khht",
+    "intent_prediction": {
+      "name": "cach_xay_dung_khht",
+      "confidence": 0.30613404512405396
+    }
+  },
+  {
+    "text": "Xây dựng kế hoạch học tập",
+    "intent": "xay_dung_khht",
+    "intent_prediction": {
+      "name": "cach_xay_dung_khht",
+      "confidence": 0.33282917737960815
+    }
+  },
+  {
+    "text": "Xây dựng KHHT",
+    "intent": "xay_dung_khht",
+    "intent_prediction": {
+      "name": "cach_xay_dung_khht",
+      "confidence": 0.3307831883430481
+    }
+  },
+  {
+    "text": "Xây dựng kế hoạch học tập để làm gì?",
+    "intent": "tai_sao_phai_lam_khht",
+    "intent_prediction": {
+      "name": "cach_xay_dung_khht",
+      "confidence": 0.3460566997528076
+    }
+  },
+  {
+    "text": "Không học đủ số tiết thì bị xử lý như thế nào?",
+    "intent": "xu_ly_vang_hoc",
+    "intent_prediction": {
+      "name": "vang_hoc",
+      "confidence": 0.4769047200679779
+    }
+  },
+  {
+    "text": "Cảnh báo học vụ là gì?",
+    "intent": "khai_niem_canh_bao_hoc_vu",
+    "intent_prediction": {
+      "name": "truong_hop_canh_bao_hoc_vu",
+      "confidence": 0.576170027256012
+    }
+  },
+  {
+    "text": "Thế nào là cảnh báo học vụ?",
+    "intent": "khai_niem_canh_bao_hoc_vu",
+    "intent_prediction": {
+      "name": "truong_hop_canh_bao_hoc_vu",
+      "confidence": 0.5415757894515991
+    }
+  },
+  {
+    "text": "Khái niệm cảnh báo học vụ?",
+    "intent": "khai_niem_canh_bao_hoc_vu",
+    "intent_prediction": {
+      "name": "truong_hop_canh_bao_hoc_vu",
+      "confidence": 0.5721984505653381
+    }
+  },
+  {
+    "text": "Cảnh báo học vụ",
+    "intent": "khai_niem_canh_bao_hoc_vu",
+    "intent_prediction": {
+      "name": "truong_hop_canh_bao_hoc_vu",
+      "confidence": 0.6281901001930237
+    }
+  },
+  {
+    "text": "Ai bị đình chỉ học tập",
+    "intent": "truong_hop_dinh_chi",
+    "intent_prediction": {
+      "name": "muc_do_dinh_chi",
+      "confidence": 0.4275473356246948
+    }
+  },
+  {
+    "text": "Không đóng học phí thì bị kỷ luật như thế nào?",
+    "intent": "khong_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.4276864528656006
+    }
+  },
+  {
+    "text": "Không đóng học phí có sao không?",
+    "intent": "khong_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.4943030774593353
+    }
+  },
+  {
+    "text": "Sẽ thế nào nếu không đóng học phí?",
+    "intent": "khong_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.3468168377876282
+    }
+  },
+  {
+    "text": "Hình thức xử lý sinh viên không đóng học phí",
+    "intent": "khong_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.4340802729129791
+    }
+  },
+  {
+    "text": "Không đóng học phí",
+    "intent": "khong_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.38853079080581665
+    }
+  },
+  {
+    "text": "Tiết 2 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_2",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 2 là thời gian nào?",
+    "intent": "thoi_gian_tiet_2",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 2",
+    "intent": "thoi_gian_tiet_2",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc tiết 2",
+    "intent": "thoi_gian_tiet_2",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13472981750965118
+    }
+  },
+  {
+    "text": "Tiết 3 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_3",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 3 là thời gian nào?",
+    "intent": "thoi_gian_tiet_3",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 3",
+    "intent": "thoi_gian_tiet_3",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc tiết 3",
+    "intent": "thoi_gian_tiet_3",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13472981750965118
+    }
+  },
+  {
+    "text": "Tiết 4 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_4",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 4 là thời gian nào?",
+    "intent": "thoi_gian_tiet_4",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 4",
+    "intent": "thoi_gian_tiet_4",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc tiết 4",
+    "intent": "thoi_gian_tiet_4",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13472981750965118
+    }
+  },
+  {
+    "text": "Tiết 5 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_5",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 5 là thời gian nào?",
+    "intent": "thoi_gian_tiet_5",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 5",
+    "intent": "thoi_gian_tiet_5",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc {\"entity\": \"tiet\", \"value\": \"5\"}",
+    "intent": "thoi_gian_tiet_5",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_6",
+      "confidence": 0.3712998032569885
+    }
+  },
+  {
+    "text": "Tiết 6 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_6",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 7 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_7",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 7 là thời gian nào?",
+    "intent": "thoi_gian_tiet_7",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 7",
+    "intent": "thoi_gian_tiet_7",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc tiết 7",
+    "intent": "thoi_gian_tiet_7",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13472981750965118
+    }
+  },
+  {
+    "text": "Tiết 8 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_8",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 8 là thời gian nào?",
+    "intent": "thoi_gian_tiet_8",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 8",
+    "intent": "thoi_gian_tiet_8",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc tiết 8",
+    "intent": "thoi_gian_tiet_8",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13472981750965118
+    }
+  },
+  {
+    "text": "Tiết 9 bắt đầu lúc mấy giờ?",
+    "intent": "thoi_gian_tiet_9",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.1256984919309616
+    }
+  },
+  {
+    "text": "Tiết 9 là thời gian nào?",
+    "intent": "thoi_gian_tiet_9",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13412076234817505
+    }
+  },
+  {
+    "text": "Thời gian bắt đầu tiết 9",
+    "intent": "thoi_gian_tiet_9",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13018083572387695
+    }
+  },
+  {
+    "text": "Thời gian kết thúc tiết 9",
+    "intent": "thoi_gian_tiet_9",
+    "intent_prediction": {
+      "name": "thoi_gian_tiet_1",
+      "confidence": 0.13472981750965118
+    }
+  },
+  {
+    "text": "Có thể học 2 ngành cùng lúc không?",
+    "intent": "hoc_2_nganh",
+    "intent_prediction": {
+      "name": "cach_xin_hoc_nganh_2",
+      "confidence": 0.44880643486976624
+    }
+  },
+  {
+    "text": "Có thể học cùng lúc 2 ngành không?",
+    "intent": "hoc_2_nganh",
+    "intent_prediction": {
+      "name": "cach_xin_hoc_nganh_2",
+      "confidence": 0.445803701877594
+    }
+  },
+  {
+    "text": "Cần đạt bao nhiêu điểm để được điểm B hay 3.0 trên hệ 4?",
+    "intent": "diem_b",
+    "intent_prediction": {
+      "name": "diem_b_plus",
+      "confidence": 0.3254763185977936
+    }
+  },
+  {
+    "text": "Để đạt điểm B cần bao nhiêu điểm?",
+    "intent": "diem_b",
+    "intent_prediction": {
+      "name": "diem_b_plus",
+      "confidence": 0.42467162013053894
+    }
+  },
+  {
+    "text": "Khung điểm cho mức điểm B?",
+    "intent": "diem_b",
+    "intent_prediction": {
+      "name": "diem_b_plus",
+      "confidence": 0.389377623796463
+    }
+  },
+  {
+    "text": "Bao nhiêu điểm thì được B?",
+    "intent": "diem_b",
+    "intent_prediction": {
+      "name": "diem_b_plus",
+      "confidence": 0.434425413608551
+    }
+  },
+  {
+    "text": "Để đạt điểm C+ cần bao nhiêu điểm?",
+    "intent": "diem_c_plus",
+    "intent_prediction": {
+      "name": "diem_c",
+      "confidence": 0.33565402030944824
+    }
+  },
+  {
+    "text": "Bao nhiêu điểm thì được C+?",
+    "intent": "diem_c_plus",
+    "intent_prediction": {
+      "name": "diem_c",
+      "confidence": 0.3579748570919037
+    }
+  },
+  {
+    "text": "Cần đạt bao nhiêu điểm để được điểm C hay 2.0 trên hệ 4?",
+    "intent": "diem_c",
+    "intent_prediction": {
+      "name": "diem_c_plus",
+      "confidence": 0.19163665175437927
+    }
+  },
+  {
+    "text": "Khung điểm cho mức điểm C?",
+    "intent": "diem_c",
+    "intent_prediction": {
+      "name": "diem_c_plus",
+      "confidence": 0.3785380721092224
+    }
+  },
+  {
+    "text": "Cần đạt bao nhiêu điểm để được điểm D+ hay 1.5 trên hệ 4?",
+    "intent": "diem_d_plus",
+    "intent_prediction": {
+      "name": "diem_d",
+      "confidence": 0.24101020395755768
+    }
+  },
+  {
+    "text": "Điểm D+ là bao nhiêu điểm trên thang 10?",
+    "intent": "diem_d_plus",
+    "intent_prediction": {
+      "name": "diem_d",
+      "confidence": 0.3887520432472229
+    }
+  },
+  {
+    "text": "Bao nhiêu điểm là mức D+?",
+    "intent": "diem_d_plus",
+    "intent_prediction": {
+      "name": "diem_d",
+      "confidence": 0.3971063494682312
+    }
+  },
+  {
+    "text": "Điểm W có tính vào điểm trung bình chung học kỳ không?",
+    "intent": "diem_w",
+    "intent_prediction": {
+      "name": "diem_W_tinh_trung_binh_hoc_ky",
+      "confidence": 0.4515598714351654
+    }
+  },
+  {
+    "text": "Bị khiển trách nhiều lần thì bị xử lý như thế nào?",
+    "intent": "xu_ly_khien_trach_nhieu_lan",
+    "intent_prediction": {
+      "name": "ky_luat_vi_pham",
+      "confidence": 0.42385533452033997
+    }
+  },
+  {
+    "text": "Tốt nghiệp loại xuất sắc cần những điều kiện nào?",
+    "intent": "dieu_kien_xep_loai_xuat_sac",
+    "intent_prediction": {
+      "name": "tot_nghiep_xuat_sac",
+      "confidence": 0.36575111746788025
+    }
+  },
+  {
+    "text": "Quy định nào sẽ được áp dụng nếu sinh viên sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi?",
+    "intent": "vi_pham_su_dung_giay_nhap_bai_lam",
+    "intent_prediction": {
+      "name": "xu_ly_su_dung_giay_nhap_bai_lam",
+      "confidence": 0.3790854811668396
+    }
+  },
+  {
+    "text": "Nếu sinh viên sử dụng giấy nháp hoặc bài làm của người khác trong lúc thi thì bị gì?",
+    "intent": "vi_pham_su_dung_giay_nhap_bai_lam",
+    "intent_prediction": {
+      "name": "xu_ly_su_dung_giay_nhap_bai_lam",
+      "confidence": 0.36545702815055847
+    }
+  },
+  {
+    "text": "Quy định nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?",
+    "intent": "vi_pham_su_dung_vat_dung_khong_phep",
+    "intent_prediction": {
+      "name": "xu_ly_vat_dung_khong_duoc_phep",
+      "confidence": 0.2970793843269348
+    }
+  },
+  {
+    "text": "Nếu sinh viên sử dụng vật dụng không được phép trong phòng thi thì bị gì?",
+    "intent": "vi_pham_su_dung_vat_dung_khong_phep",
+    "intent_prediction": {
+      "name": "vi_pham_su_dung_vat_dung_khong_phep_lap_bien_ban",
+      "confidence": 0.3538849949836731
+    }
+  },
+  {
+    "text": "Quy định nào sẽ được áp dụng nếu sinh viên vi phạm quy định về việc không được ra khỏi phòng thi trong thời gian làm bài?",
+    "intent": "vi_pham_ra_phong_thi_trong_gio_lam_bai",
+    "intent_prediction": {
+      "name": "xu_ly_ra_khoi_phong_thi",
+      "confidence": 0.38501980900764465
+    }
+  },
+  {
+    "text": "Tôi muốn đổi điểm số sang điểm chữ",
+    "intent": "doi_diem",
+    "intent_prediction": {
+      "name": "diem_dieu_kien_tinh_trung_binh",
+      "confidence": 0.1030191108584404
+    }
+  },
+  {
+    "text": "Đổi điểm chữ",
+    "intent": "doi_diem",
+    "intent_prediction": {
+      "name": "diemchu",
+      "confidence": 0.11406752467155457
+    }
+  },
+  {
+    "text": "Điểm số của tôi là 8.0",
+    "intent": "diem",
+    "intent_prediction": {
+      "name": "diemchu",
+      "confidence": 0.3142866790294647
+    }
+  },
+  {
+    "text": "9.0",
+    "intent": "diem",
+    "intent_prediction": {
+      "name": "diemchu",
+      "confidence": 0.22420498728752136
+    }
+  }
+]

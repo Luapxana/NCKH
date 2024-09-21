@@ -1,0 +1,52 @@
+{
+  "tiet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 64,
+    "confused_with": {}
+  },
+  "diemso": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 3,
+    "confused_with": {}
+  },
+  "diemso1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "gpa": 1,
+      "diemso": 1
+    }
+  },
+  "gpa": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 3,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9722222222222222,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.9722222222222222,
+    "support": 72
+  },
+  "macro avg": {
+    "precision": 0.625,
+    "recall": 0.75,
+    "f1-score": 0.6785714285714286,
+    "support": 72
+  },
+  "weighted avg": {
+    "precision": 0.9513888888888888,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.9603174603174602,
+    "support": 72
+  },
+  "accuracy": 0.9998602961721151
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Điểm số của tôi là 8.0",
+    "entities": [
+      {
+        "start": 19,
+        "end": 22,
+        "value": "8.0",
+        "entity": "diemso1"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "diemso",
+        "start": 19,
+        "end": 22,
+        "confidence_entity": 0.7175516486167908,
+        "value": "8.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "9.0",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "9.0",
+        "entity": "diemso1"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gpa",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.8155955076217651,
+        "value": "9.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
