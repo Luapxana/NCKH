@@ -674,51 +674,6 @@ rules:
   - intent: thoi_gian_cac_tiet
   - action: utter_thoi_gian_cac_tiet
 
-- rule: Thoi_gian_tiet_1
-  steps:
-  - intent: thoi_gian_tiet_1
-  - action: utter_thoi_gian_tiet_1
-
-- rule: Thoi_gian_tiet_2
-  steps:
-  - intent: thoi_gian_tiet_2
-  - action: utter_thoi_gian_tiet_2
-
-- rule: Thoi_gian_tiet_3
-  steps:
-  - intent: thoi_gian_tiet_3
-  - action: utter_thoi_gian_tiet_3
-
-- rule: Thoi_gian_tiet_4
-  steps:
-  - intent: thoi_gian_tiet_4
-  - action: utter_thoi_gian_tiet_4
-
-- rule: Thoi_gian_tiet_5
-  steps:
-  - intent: thoi_gian_tiet_5
-  - action: utter_thoi_gian_tiet_5
-
-- rule: Thoi_gian_tiet_6
-  steps:
-  - intent: thoi_gian_tiet_6
-  - action: utter_thoi_gian_tiet_6
-
-- rule: Thoi_gian_tiet_7
-  steps:
-  - intent: thoi_gian_tiet_7
-  - action: utter_thoi_gian_tiet_7
-
-- rule: Thoi_gian_tiet_8
-  steps:
-  - intent: thoi_gian_tiet_8
-  - action: utter_thoi_gian_tiet_8
-
-- rule: Thoi_gian_tiet_9
-  steps:
-  - intent: thoi_gian_tiet_9
-  - action: utter_thoi_gian_tiet_9
-
 - rule: Cac_gio_nghi
   steps:
   - intent: cac_gio_nghi
@@ -1332,9 +1287,19 @@ rules:
       - diemso: 8.0
   - action: action_diemchu
 
-- rule: Xếp loại
+- rule: Thời gian các tiết học
   steps:
-  - intent: diemhk
+  - intent: thoi_gian_tung_tiet_hoc
     entities:
-      - gpa: 3.6
-  - action: action_diemhk
+      - tiet: 1
+  - action: action_tiet_hoc
+
+- rule: Submit form
+  condition:
+  - active_loop: form_xep_loai
+  steps:
+  - action: xep_loai
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_xep_loai

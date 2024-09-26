@@ -14,7 +14,9 @@ intents:
   - get_started
   - give_time
   - diemchu
-  - diemhk
+  - xep_loai
+  - provide_gpa
+  - provide_drl
 #chương 1
   - khai_niem_qchv
   - doi_tuong_ap_dung_qchv
@@ -147,15 +149,7 @@ intents:
   - di_hoc_toi_thieu
   - vang_hoc
   - thoi_gian_cac_tiet
-  - thoi_gian_tiet_1
-  - thoi_gian_tiet_2
-  - thoi_gian_tiet_3
-  - thoi_gian_tiet_4
-  - thoi_gian_tiet_5
-  - thoi_gian_tiet_6
-  - thoi_gian_tiet_7
-  - thoi_gian_tiet_8
-  - thoi_gian_tiet_9
+  - thoi_gian_tung_tiet_hoc
   - cac_gio_nghi
   - thoi_gian_hoc_sang
   - thoi_gian_hoc_chieu
@@ -282,19 +276,18 @@ intents:
   - dieu_kien_khen_thuong_cuoi_nam
 
 entities:
-  - hoc_ky
+  - tiet
   - diemso
   - gpa
-  - diemso1
+  - drl
 actions:
   - whoami
   - action_thanks
   - action_sorry
   - action_show_time
   - action_diemchu
-  - action_diemhk
-  - action_diemchu1
-  
+  - action_xep_loai
+  - action_tiet_hoc
 slots:
   diemso:
     type: float
@@ -304,22 +297,44 @@ slots:
         entity: diemso
         intent: diemchu
 
-  diemso1:
+  tiet:
     type: float
     influence_conversation: true
     mappings:
       - type: from_entity
-        entity: diemso1
-        intent: diem
+        entity: tiet
+        intent: thoi_gian_tung_tiet_hoc
+    
   gpa:
     type: float
     influence_conversation: true
     mappings:
       - type: from_entity
         entity: gpa
-        intent: diemhk
+        intent: provide_gpa
+
+  drl: 
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: drl
+        intent: provide_drl
+
+forms: 
+  form_xep_loai:
+    required_slots:
+      - gpa
+      - drl
 
 responses:
+
+  utter_ask_gpa:
+  - text: Xin vui lòng cung cấp điểm trung bình của bạn (0-4).
+
+  utter_ask_drl:
+  - text: Xin vui lòng cung cấp điểm rèn luyện của bạn (0-100).
+
   utter_greet:
   - text: "Xin chào"
   - text: "Xin chào! Đây là chatbot được xây dựng bằng RASA tạo bởi sinh viên!"
@@ -808,33 +823,6 @@ responses:
             \tTiết 8 bắt đầu từ 15h20 - 16h10\n\n
             \tTiết 9 bắt đầu từ 16h10 - 17h00\n\n
             \tTiết 10 là tiết nghỉ chung."
-
-  utter_thoi_gian_tiet_1:
-  - text: "Tiết 1 bắt đầu từ 7h00 - 7h50."
-
-  utter_thoi_gian_tiet_2:
-  - text: "Tiết 2 bắt đầu từ 7h50 - 8h40."
-
-  utter_thoi_gian_tiet_3:
-  - text: "Tiết 3 bắt đầu từ 8h50 - 9h40."
-
-  utter_thoi_gian_tiet_4:
-  - text: "Tiết 4 bắt đầu từ 9h50 - 10h40."
-
-  utter_thoi_gian_tiet_5:
-  - text: "Tiết 5 bắt đầu từ 10h40 - 11h30."
-
-  utter_thoi_gian_tiet_6:
-  - text: "Tiết 6 bắt đầu từ 13h30 - 14h20."
-
-  utter_thoi_gian_tiet_7:
-  - text: "Tiết 7 bắt đầu từ 14h20 - 15h10."
-
-  utter_thoi_gian_tiet_8:
-  - text: "Tiết 8 bắt đầu từ 15h20 - 16h10."
-
-  utter_thoi_gian_tiet_9:
-  - text: "Tiết 9 bắt đầu từ 16h10 - 17h00."
 
   utter_cac_gio_nghi:
   - text: "Có các giờ nghỉ (10 phút) sau đây:\n\n

@@ -290,34 +290,6 @@ stories:
   - intent: bi_ky_luat
   - action: utter_bi_ky_luat
 
-- story: path_tiet_hoc
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: di_hoc_toi_thieu
-  - action: utter_di_hoc_toi_thieu
-  - intent: vang_hoc
-  - action: utter_vang_hoc
-  - intent: thoi_gian_cac_tiet
-  - action: utter_thoi_gian_cac_tiet
-  - intent: thoi_gian_tiet_1
-  - action: utter_thoi_gian_tiet_1
-  - intent: thoi_gian_tiet_2
-  - action: utter_thoi_gian_tiet_2
-  - intent: thoi_gian_tiet_3
-  - action: utter_thoi_gian_tiet_3
-  - intent: thoi_gian_tiet_4
-  - action: utter_thoi_gian_tiet_4
-  - intent: thoi_gian_tiet_5
-  - action: utter_thoi_gian_tiet_5
-  - intent: thoi_gian_tiet_6
-  - action: utter_thoi_gian_tiet_6
-  - intent: thoi_gian_tiet_7
-  - action: utter_thoi_gian_tiet_7
-  - intent: thoi_gian_tiet_8
-  - action: utter_thoi_gian_tiet_8
-  - intent: thoi_gian_tiet_9
-  - action: utter_thoi_gian_tiet_9
 
 - story: path_thoi_gian_hoc
   steps:
@@ -518,13 +490,9 @@ stories:
   - intent: diem_r_muc_dich_su_dung
   - action: utter_diem_r_muc_dich_su_dung
 
-- story: path_doi_diem
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: doi_diem
-  - action: utter_doi_diem
-  - intent: diem
-    entities: 
-        - diemso1: 8.0
-  - action: action_diemchu1
+
+- story: path_xep_loai
+  steps:  
+  - intent: xep_loai
+  - action: form_xep_loai
+  - active_loop: form_xep_loai

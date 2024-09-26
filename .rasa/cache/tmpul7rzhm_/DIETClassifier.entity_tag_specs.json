@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-diemso",
+      "2": "I-diemso",
+      "3": "L-diemso",
+      "4": "U-diemso",
+      "5": "B-diemso1",
+      "6": "I-diemso1",
+      "7": "L-diemso1",
+      "8": "U-diemso1",
+      "9": "B-drl",
+      "10": "I-drl",
+      "11": "L-drl",
+      "12": "U-drl",
+      "13": "B-gpa",
+      "14": "I-gpa",
+      "15": "L-gpa",
+      "16": "U-gpa",
+      "17": "B-tiet",
+      "18": "I-tiet",
+      "19": "L-tiet",
+      "20": "U-tiet",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-diemso": 1,
+      "I-diemso": 2,
+      "L-diemso": 3,
+      "U-diemso": 4,
+      "B-diemso1": 5,
+      "I-diemso1": 6,
+      "L-diemso1": 7,
+      "U-diemso1": 8,
+      "B-drl": 9,
+      "I-drl": 10,
+      "L-drl": 11,
+      "U-drl": 12,
+      "B-gpa": 13,
+      "I-gpa": 14,
+      "L-gpa": 15,
+      "U-gpa": 16,
+      "B-tiet": 17,
+      "I-tiet": 18,
+      "L-tiet": 19,
+      "U-tiet": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

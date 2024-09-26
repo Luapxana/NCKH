@@ -1187,68 +1187,15 @@ nlu:
     - Các tiết học trong ngày kết thúc vào thời gian nào?
     - Tất cả các tiết học trong ngày
     
-- intent: thoi_gian_tiet_1
+- intent: thoi_gian_tung_tiet_hoc
   examples: |
-    - [Tiết 1]{"entity": "tiet", "value": "1"} bắt đầu lúc mấy giờ?
-    - [Tiết 1]{"entity": "tiet", "value": "1"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 1]{"entity": "tiet", "value": "1"}
-    - Thời gian kết thúc [tiết 1]{"entity": "tiet", "value": "1"}
-
-- intent: thoi_gian_tiet_2
-  examples: |
-    - [Tiết 2]{"entity": "tiet", "value": "2"} bắt đầu lúc mấy giờ?
-    - [Tiết 2]{"entity": "tiet", "value": "2"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 2]{"entity": "tiet", "value": "2"}
-    - Thời gian kết thúc [tiết 2]{"entity": "tiet", "value": "2"}
-
-- intent: thoi_gian_tiet_3
-  examples: |
-    - [Tiết 3]{"entity": "tiet", "value": "3"} bắt đầu lúc mấy giờ?
-    - [Tiết 3]{"entity": "tiet", "value": "3"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 3]{"entity": "tiet", "value": "3"}
-    - Thời gian kết thúc [tiết 3]{"entity": "tiet", "value": "3"}
-
-- intent: thoi_gian_tiet_4
-  examples: |
-    - [Tiết 4]{"entity": "tiet", "value": "4"} bắt đầu lúc mấy giờ?
-    - [Tiết 4]{"entity": "tiet", "value": "4"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 4]{"entity": "tiet", "value": "4"}
-    - Thời gian kết thúc [tiết 4]{"entity": "tiet", "value": "4"}
-
-- intent: thoi_gian_tiet_5
-  examples: |
-    - [Tiết 5]{"entity": "tiet", "value": "5"} bắt đầu lúc mấy giờ?
-    - [Tiết 5]{"entity": "tiet", "value": "5"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 5]{"entity": "tiet", "value": "5"}
-    - Thời gian kết thúc {"entity": "tiet", "value": "5"}
-
-- intent: thoi_gian_tiet_6
-  examples: |
-    - [Tiết 6]{"entity": "tiet", "value": "6"} bắt đầu lúc mấy giờ?
-    - [Tiết 6][Tiết 6]{"entity": "tiet", "value": "6"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 6][Tiết 6]{"entity": "tiet", "value": "6"}
-    - Thời gian kết thúc [tiết 6][Tiết 6]{"entity": "tiet", "value": "6"}
-
-- intent: thoi_gian_tiet_7
-  examples: |
-    - [Tiết 7]{"entity": "tiet", "value": "7"} bắt đầu lúc mấy giờ?
-    - [Tiết 7]{"entity": "tiet", "value": "7"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 7]{"entity": "tiet", "value": "7"}
-    - Thời gian kết thúc [tiết 7]{"entity": "tiet", "value": "7"}
-
-- intent: thoi_gian_tiet_8
-  examples: |
-    - [Tiết 8]{"entity": "tiet", "value": "8"} bắt đầu lúc mấy giờ?
-    - [Tiết 8]{"entity": "tiet", "value": "8"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 8]{"entity": "tiet", "value": "8"}
-    - Thời gian kết thúc [tiết 8]{"entity": "tiet", "value": "8"}
-
-- intent: thoi_gian_tiet_9
-  examples: |
-    - [Tiết 9]{"entity": "tiet", "value": "9"} bắt đầu lúc mấy giờ?
-    - [Tiết 9]{"entity": "tiet", "value": "9"} là thời gian nào?
-    - Thời gian bắt đầu [tiết 9]{"entity": "tiet", "value": "9"}
-    - Thời gian kết thúc [tiết 9]{"entity": "tiet", "value": "9"}
+    - Tiết [1](tiet) bắt đầu lúc mấy giờ
+    - Thời gian học tiết [1](tiet)
+    - Thời gian bắt đầu tiết [1](tiet)
+    - Thời gian kết thúc tiết [2](tiet)
+    - Khi nào bắt đầu tiết [1](tiet)
+    - Tiết [3](tiet) học vào lúc mấy giờ
+    - Lịch học tiết [5](tiet)
 
 - intent: cac_gio_nghi
   examples: |
@@ -2107,18 +2054,28 @@ nlu:
     - Học phần được [7.9](diemso)  là được điểm gì
     - Quy đổi điểm chữ từ [6.9](diemso) 
 
-- intent: diemhk
-  examples: |
-    - ĐTBHK [3.59](gpa)  thì được xếp loại gì
-    - Điểm trung bình học kỳ là [3.19](gpa)  thì xếp loại nào
-    - Xếp loại khi được [2.49](gpa) 
-  
-- intent: doi_diem
-  examples: |
-    - Tôi muốn đổi điểm số sang điểm chữ
-    - Đổi điểm chữ
 
-- intent: diem
+- intent: xep_loai
   examples: |
-    - Điểm số của tôi là [8.0](diemso1)
-    - [9.0](diemso1)
+    - Tôi muốn biết xếp loại của mình
+    - Xếp loại học kì
+    - Tôi muốn xem xếp loại dựa trên điểm
+    - Xếp loại của tôi là gì
+    - Kết quả học kì của tôi
+    - Kết quả xếp loại học kì
+    - Xếp loại
+
+- intent: provide_gpa
+  examples: |
+    - Điểm trung bình học kỳ của tôi là [3.6](gpa)
+    - ĐTBHK: [3.2](gpa)
+    - Điểm học kỳ của tôi [2.5](gpa)
+    - Tôi được [2.8](gpa) trong học kỳ này
+    - ĐTB [3.9](gpa)
+
+- intent: provide_drl
+  examples: |
+    - Điểm rèn luyện học kỳ của tôi là [90](drl)
+    - Điểm rèn luyện: [80](drl)
+    - Đrl [79](drl)
+    - Tôi được [80](drl) điểm rèn luyện
