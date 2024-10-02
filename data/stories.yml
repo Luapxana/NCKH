@@ -496,3 +496,29 @@ stories:
   - intent: xep_loai
   - action: form_xep_loai
   - active_loop: form_xep_loai
+  
+- story: interactive_story_1
+  steps:
+  - intent: xep_loai
+  - action: form_xep_loai
+  - active_loop: form_xep_loai
+  - slot_was_set:
+    - requested_slot: gpa
+  - intent: provide_gpa
+    entities:
+    - gpa: '3.2'
+  - slot_was_set:
+    - gpa: '3.2'
+  - action: form_xep_loai
+  - slot_was_set:
+    - requested_slot: drl
+  - intent: provide_drl
+    entities:
+    - drl: '79'
+  - slot_was_set:
+    - drl: '79'
+  - action: form_xep_loai
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_xep_loai
