@@ -496,7 +496,13 @@ stories:
   - intent: xep_loai
   - action: form_xep_loai
   - active_loop: form_xep_loai
-  
+
+- story: path_canh_bao_hoc_vu
+  steps:  
+  - intent: kiem_tra_cbhv
+  - action: form_canh_bao_hoc_vu
+  - active_loop: form_canh_bao_hoc_vu
+
 - story: interactive_story_1
   steps:
   - intent: xep_loai

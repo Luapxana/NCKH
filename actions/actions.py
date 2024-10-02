@@ -9,7 +9,7 @@ from rasa_sdk.executor import CollectingDispatcher
 from typing import Text, Any, Dict, List
 
 
-class ActionDateTime(Action):
+class ActionDateTime(Action): #Action cho biết thời gian
 
     def name(self) -> Text:
         return "action_show_time"
@@ -32,7 +32,7 @@ class ActionDateTime(Action):
 
         return []
 
-class ActionConvertGrade(Action):
+class ActionConvertGrade(Action): #Action quy đổi điểm số sang điểm chữ
     def name(self) -> str:
         return "action_diemchu"
 
@@ -65,7 +65,7 @@ class ActionConvertGrade(Action):
         return []
 
 
-class ActionInquireGrade(FormValidationAction):
+class ActionInquireGrade(Action): #Action để xếp loại học kỳ dựa trên đtbhk và đrl
     def name(self) -> str:
         return "action_xep_loai"
 
@@ -97,7 +97,7 @@ class ActionInquireGrade(FormValidationAction):
 
 
 
-class ActionPeriod(Action):
+class ActionPeriod(Action): #Action để trả lời thời gian các tiết học (1-9)
     def name(self) -> str:
         return "action_tiet_hoc"
 
@@ -136,6 +136,36 @@ class ActionPeriod(Action):
             end_time =  "17:00"
         dispatcher.utter_message(text=f"Thời gian tiết {tiet} là từ {start_time} đến {end_time}.")
         return []
+
+class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
+    def name(self) -> str:
+        return "action_canh_bao_hoc_vu"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict) -> list:
+    
+        year = int(tracker.get_slot('year'))
+        gpa = float(tracker.get_slot('gpa'))
+        credit = int(tracker.get_slot('credit'))
+        pass_credit = int(tracker.get_slot('pass_credit'))
+        debt = int(tracker.get_slot('debt'))
+
+        if year == 1:
+            theshhold = 1.2
+        else: 
+            threshold = 1.8
+        pass_percentage = pass_credit/credit
+        
+        if gpa < theshhold:
+            dispatcher.utter_message("Bạn bị cảnh báo học vụ do điểm trung bình học kỳ của bạn quá thấp!")
+        elif pass_percentage < 0.5:
+            dispatcher.utter_message(text = r"Bạn bị cảnh báo học vụ do số tín chỉ đạt yêu cầu không đủ 50% số tín chỉ bạn đã đăng ký")
+        elif debt > 24:
+            dispatcher.utter_message("Bạn bị cảnh báo học vụ do đã nợ quá 24 tín chỉ (tính từ đầu khóa học của bạn)")
+        else:
+            dispatcher.utter_message("Bạn không bị cảnh báo học vụ trong học kỳ này! Hãy cố gắng phát huy nhé!")
+        return[]
 # This is a simple example for a custom action which utters "Hello World!"
 
 # from typing import Any, Text, Dict, List

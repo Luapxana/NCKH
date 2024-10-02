@@ -2079,3 +2079,39 @@ nlu:
     - Điểm rèn luyện: [80](drl)
     - Đrl [79](drl)
     - Tôi được [80](drl) điểm rèn luyện
+
+- intent: kiem_tra_cbhv
+  examples: |
+    - Tôi muốn biết mình có bị cảnh báo học vụ hay không
+    - Tôi muốn kiểm tra tình trạng cảnh báo học vụ của mình
+    - Tôi có bị cảnh báo học vụ không
+    - Kiểm tra CBHV
+
+- intent: provide_year
+  examples: |
+    - Tôi đang là sinh viên [năm ba](year:3)
+    - Tôi đang học [năm thứ hai](year:2)
+    - Tôi là sinh viên [năm 1](year:1)
+    - Tôi là sinh viên [năm nhất](year:1)
+    - Tôi đang học [năm 2] (year:2)
+    - Tôi đang là sinh viên [năm cuối](year:4)
+    - Tôi đang học [năm cuối](year:4)
+
+- intent: provide_credit
+  examples: |
+    - Tôi đăng ký [18](credit) tín chỉ
+    - Học kỳ này tôi có [20](credit) tín chỉ
+    - Tôi có [25](credit)
+
+- intent: provide_pass
+  examples: |
+    - Tôi đã qua môn được [15](pass_credit) tín chỉ
+    - Tôi qua [18](pass_credit) chỉ
+
+- intent: provide_debt
+  examples: |
+    - Từ đầu khóa tôi nợ [25](debt) tín chỉ
+    - Tôi nợ môn [20](debt) chỉ
+    - Tôi bị nợ [18](debt) chỉ
+    - Tôi [không](debt:0) nợ tín chỉ nào
+    - Tôi [chưa](debt:0) có tín chỉ nợ

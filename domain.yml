@@ -17,6 +17,11 @@ intents:
   - xep_loai
   - provide_gpa
   - provide_drl
+  - kiem_tra_cbhv
+  - provide_year
+  - provide_credit
+  - provide_pass
+  - provide_debt
 #chương 1
   - khai_niem_qchv
   - doi_tuong_ap_dung_qchv
@@ -280,14 +285,18 @@ entities:
   - diemso
   - gpa
   - drl
+  - year
+  - credit
+  - pass_credit
+  - debt
 actions:
-  - whoami
   - action_thanks
   - action_sorry
   - action_show_time
   - action_diemchu
   - action_xep_loai
   - action_tiet_hoc
+  - action_canh_bao_hoc_vu
 slots:
   diemso:
     type: float
@@ -320,6 +329,38 @@ slots:
       - type: from_entity
         entity: drl
         intent: provide_drl
+  
+  year:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: year
+        intent: provide_year
+
+  credit:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: credit
+        intent: provide_credit
+
+  pass_credit:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: pass_credit
+        intent: provide_pass
+
+  debt:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: debt
+        intent: provide_debt
 
 forms: 
   form_xep_loai:
@@ -327,6 +368,13 @@ forms:
       - gpa
       - drl
 
+  form_canh_bao_hoc_vu:
+    required_slots:
+      - year
+      - gpa
+      - credit
+      - pass_credit
+      - debt
 responses:
 
   utter_ask_gpa:
@@ -334,6 +382,18 @@ responses:
 
   utter_ask_drl:
   - text: Xin vui lòng cung cấp điểm rèn luyện của bạn (0-100).
+
+  utter_ask_year:
+  - text: Bạn đang là sinh viên năm mấy?
+
+  utter_ask_credit:
+  - text: Trong học kỳ này bạn đã đăng ký bao nhiêu tín chỉ?
+
+  utter_ask_pass_credit:
+  - text: Vậy trong số những tín chỉ đã đăng ký, bạn đã đạt yêu cầu (qua môn) được bao nhiêu tín chỉ?
+
+  utter_ask_debt:
+  - text: Câu hỏi cuối cùng, từ đầu khóa học đến nay bạn đang nợ bao nhiêu tín chỉ?
 
   utter_greet:
   - text: "Xin chào"

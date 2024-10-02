@@ -1294,12 +1294,22 @@ rules:
       - tiet: 1
   - action: action_tiet_hoc
 
-- rule: Submit form
+- rule: Form xếp loại
   condition:
   - active_loop: form_xep_loai
   steps:
-  - action: xep_loai
+  - action: form_xep_loai
   - active_loop: null
   - slot_was_set:
     - requested_slot: null
   - action: action_xep_loai
+
+- rule: Form cảnh báo học vụ
+  condition:
+  - active_loop: form_canh_bao_hoc_vu
+  steps:
+  - action: form_canh_bao_hoc_vu
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_canh_bao_hoc_vu
