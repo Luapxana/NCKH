@@ -252,8 +252,6 @@ stories:
       - action: utter_han_chot_xin_hoc_lai_sau_tam_nghi
       - intent: xu_ly_nghi_khong_phep
       - action: utter_xu_ly_nghi_khong_phep
-      - intent: nghi_qua_han
-      - action: utter_nghi_qua_han
       - intent: tam_nghi_nvqs
       - action: utter_tam_nghi_nvqs
       - intent: tam_nghi_benh

@@ -622,11 +622,6 @@ rules:
       - intent: buoc_thoi_hoc
       - action: utter_buoc_thoi_hoc
 
-  - rule: Nghi_qua_han
-    steps:
-      - intent: nghi_qua_han
-      - action: utter_nghi_qua_han
-
   - rule: Hoc_qua_han
     steps:
       - intent: hoc_qua_han
@@ -646,11 +641,6 @@ rules:
     steps:
       - intent: di_hoc_toi_thieu
       - action: utter_di_hoc_toi_thieu
-
-  - rule: Vang_hoc
-    steps:
-      - intent: vang_hoc
-      - action: utter_vang_hoc
 
   - rule: Thoi_gian_cac_tiet
     steps:
@@ -1152,11 +1142,6 @@ rules:
     steps:
       - intent: xu_ly_ra_khoi_phong_thi
       - action: utter_xu_ly_ra_khoi_phong_thi
-
-  - rule: xu_ly_vat_dung_khong_duoc_phep
-    steps:
-      - intent: xu_ly_vat_dung_khong_duoc_phep
-      - action: utter_xu_ly_vat_dung_khong_duoc_phep
 
   - rule: xu_ly_su_dung_giay_nhap_bai_lam
     steps:

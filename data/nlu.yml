@@ -111,11 +111,10 @@ nlu:
   - intent: trach_nhiem_sinh_vien
     examples: |
       - Trách nhiệm của sinh viên khi theo học tại trường?
-      - Sinh viên trường phải làm gì?
-      - Sinh viên phải thế nào
+      - Những nội quy và quy định mà sinh viên Trường ĐHCT cần chấp hành là gì
       - Sinh viên có những trách nhiệm nào khi học?
-      - Sinh viên phải làm gì?
-      - Sinh viên có trách nhiệm gì?
+      - Sinh viên Trường ĐHCT cần tuân thủ yêu cầu gì về trang phục và tác phong khi vào Trường?
+      - Sinh viên Trường ĐHCT không được phép làm gì
       - Trách nhiệm của sinh viên?
 
   - intent: chuong_trinh_dao_tao
@@ -405,7 +404,7 @@ nlu:
 
   - intent: thoi_gian_1_tiet_hoc
     examples: |
-      - 1 tiết học có bao nhiêu phút?
+      - một tiết học có bao nhiêu phút?
       - Tiết học kéo dài bao lâu?
       - thời lượng một tiết học
 
@@ -623,13 +622,9 @@ nlu:
       - Làm thế nào để tạo kế hoạch học tập?
       - Quy trình xây dựng kế hoạch học tập là gì?
       - Cách thức để xây dựng kế hoạch học tập được thực hiện như thế nào?
-      - KHHT làm như thế nào?
-      - Cách tạo KHHT?
       - Xây dựng kế hoạch học tập
       - Xây dựng KHHT
-      - Làm kế hoạch học tập như thế nào
       - Cách thức xây dựng khht
-      - Cách làm khht
 
   - intent: dau_khoa_co_gi
     examples: |
@@ -641,13 +636,12 @@ nlu:
 
   - intent: trach_nhiem_sv_khi_hoc
     examples: |
-      - Trong quá trình học, sinh viên có trách nhiệm gì?
-      - Sinh viên có trách nhiệm gì trong quá trình học tập?
+      - Sinh viên cần phải làm gì trước khi học kỳ mới bắt đầu?
       - Nhiệm vụ nào được giao cho sinh viên trong quá trình học?
       - Nhiệm vụ của sinh viên trong quá trình học
       - Sinh viên phải làm gì khi học
       - Nghĩa vụ của sinh viên khi vào học
-      - Tôi có trách nhiệm gì khi học tại trường
+      - Sinh viên có trách nhiệm nào trong việc đăng ký học phần và xây dựng kế hoạch học tập?
 
   - intent: noi_dkhp
     examples: |
@@ -1015,6 +1009,11 @@ nlu:
 
   - intent: xin_hoc_lai_sau_tam_nghi
     examples: |
+      - Nghỉ tạm thời quá thời hạn thì bị gì?
+      - Nghỉ tạm thời quá thời hạn có ảnh hưởng gì không?
+      - Sẽ thế nào nếu nghỉ tạm thời quá thời hạn?
+      - Hình thức xử lý nghỉ học quá thời hạn
+      - Sinh viên bị xử lý như thế nào nếu không đi học lại sau khi hết thời gian nghỉ
       - Hết thời gian nghỉ học tạm thời thì làm gì?
       - Thủ tục sau khi hết thời gian nghỉ học?
       - Khi kỳ nghỉ học tạm thời kết thúc, phải làm gì?
@@ -1041,15 +1040,12 @@ nlu:
       - Khi nào thì bị cảnh báo học vụ?
       - Khi nào sẽ nhận được cảnh báo về tình trạng học vụ không đạt yêu cầu?
       - Dưới điều kiện nào sẽ bị thông báo về tình trạng học vụ không đủ?
-      - Ai bị cảnh báo học vụ
       - Làm gì thì có thể bị cảnh báo học vụ
       - Các vi phạm dẫn đến cảnh báo học vụ
-      - Bị cảnh báo học vụ khi nào?
       - Điều kiện cảnh báo học vụ
       - Cảnh báo học vụ là gì? 
       - Thế nào là cảnh báo học vụ?
       - Khái niệm cảnh báo học vụ?
-      - Cảnh báo học vụ
 
   - intent: xu_ly_nghi_khong_phep
     examples: |
@@ -1115,14 +1111,6 @@ nlu:
       - Các vi phạm có thể dẫn đến thôi học
       - Sinh viên nào bị buộc thôi học
 
-  - intent: nghi_qua_han
-    examples: |
-      - Nghỉ tạm thời quá thời hạn thì bị gì?
-      - Nghỉ tạm thời quá thời hạn có ảnh hưởng gì không?
-      - Sẽ thế nào nếu nghỉ tạm thời quá thời hạn?
-      - Hình thức xử lý nghỉ học quá thời hạn
-      - Sinh viên bị xử lý như thế nào nếu không đi học lại sau khi hết thời gian nghỉ
-
   - intent: hoc_qua_han
     examples: |
       - Học quá hạn thì có bị buộc thôi học không?
@@ -1153,15 +1141,6 @@ nlu:
       - Học phần bắt buộc học bao nhiêu tiết
       - Có phải tham gia tất cả các tiết học không
       - Quy định về số tiết tối thiểu học phần
-
-  - intent: vang_hoc
-    examples: |
-      - Vắng học thì sẽ bị gì?
-      - Vắng nhiều hơn thời gian quy định có sao không?
-      - Sẽ thế nào nếu vắng học quá nhiều?
-      - Sinh viên không học đủ số tiết bị xử lý gì?
-      - Học không đủ số tiết thì bị gì
-      - Không đi học đủ bị xử lý như thế nào?
 
   - intent: thoi_gian_cac_tiet
     examples: |
@@ -1889,14 +1868,6 @@ nlu:
       - Sinh viên sẽ đối mặt với biện pháp xử lý gì nếu họ rời khỏi phòng thi trong quá trình làm bài?
       - Quy định về việc ra khỏi phòng thi trong thời gian làm bài áp đặt hình phạt gì đối với sinh viên vi phạm?
 
-  - intent: xu_ly_vat_dung_khong_duoc_phep
-    examples: |
-      - Theo quy định, điều gì sẽ xảy ra nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
-      - Sinh viên vi phạm quy định về sử dụng vật dụng không được phép trong phòng thi sẽ bị xử lý như thế nào?
-      - Theo quy định, hậu quả gì sẽ xảy ra nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi?
-      - Sinh viên sẽ phải đối mặt với biện pháp xử lý gì nếu họ sử dụng vật dụng không được phép trong lúc thi, theo quy định?
-      - Quy định về việc sử dụng vật dụng không được phép trong phòng thi áp đặt hình phạt gì đối với sinh viên vi phạm?
-
   - intent: xu_ly_su_dung_giay_nhap_bai_lam
     examples: |
       - Hình phạt nào sẽ được áp dụng nếu sinh viên được phát hiện sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi?
@@ -1924,7 +1895,6 @@ nlu:
   - intent: dieu_kien_xep_loai_xuat_sac
     examples: |
       - Điều kiện nào là cần thiết để sinh viên được xếp loại xuất sắc?
-      - Tốt nghiệp loại xuất sắc cần những điều kiện nào?
       - Để được xếp loại xuất sắc, sinh viên cần đáp ứng điều kiện nào?
       - Những yếu tố nào là cần thiết để sinh viên được đánh giá là xuất sắc?
       - Để đạt xếp loại cao nhất, sinh viên cần thỏa mãn những điều kiện gì?
@@ -2001,7 +1971,7 @@ nlu:
       - Kết quả học kì của tôi
       - Kết quả xếp loại học kì
       - Xếp loại
-      
+
   - intent: provide_gpa
     examples: |
       - Điểm trung bình học kỳ của tôi là [3.6](gpa)
@@ -2043,7 +2013,6 @@ nlu:
       - Tôi đang học [năm thứ ba](year:3)
       - Tôi là sinh viên [năm cuối cùng](year:4)
 
-
   - intent: provide_credit
     examples: |
       - Tôi đăng ký [18](credit) tín chỉ
@@ -2062,4 +2031,3 @@ nlu:
       - Tôi bị nợ [18](debt) chỉ
       - Tôi [không](debt:0) nợ tín chỉ nào
       - Tôi [chưa](debt:0) có tín chỉ nợ
-

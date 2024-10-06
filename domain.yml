@@ -149,7 +149,6 @@ intents:
   - xin_hoc_lai_sau_thoi_hoc
   - bi_ky_luat
   - di_hoc_toi_thieu
-  - vang_hoc
   - thoi_gian_cac_tiet
   - thoi_gian_tung_tiet_hoc
   - cac_gio_nghi
@@ -254,7 +253,6 @@ intents:
   - xu_ly_su_dung_giay_nhap_cua_nguoi_khac
   - xu_ly_vi_pham_lich_kiem_tra_thi
   - xu_ly_ra_khoi_phong_thi
-  - xu_ly_vat_dung_khong_duoc_phep
   - xu_ly_su_dung_giay_nhap_bai_lam
   - sinh_vien_khen_thuong_tot_nghiep_som
   - sinh_vien_khen_thuong_loai_gioi_nam_hoc
@@ -416,8 +414,8 @@ responses:
 
   utter_trach_nhiem_sinh_vien:
   - text: "Sinh viên Trường ĐHCT phải chấp hành nội quy, quy định của Trường, của Khoa/Viện/Bộ môn trực thuộc Trường, của lớp và của các đơn vị khác trong Trường.\n\n
-    Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.\n\n
-    Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định. Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ồn, gây mất trật tự; không tụ tập uống rượu bia.\n\n"
+      Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.\n\n
+      Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định. Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ồn, gây mất trật tự; không tụ tập uống rượu bia.\n\n"
 
   utter_chuong_trinh_dao_tao:
   - text: "Chương trình đào tạo của mỗi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp."
@@ -714,7 +712,7 @@ responses:
   - text: "Rút học phần sẽ không nhận lại học phí."
 # 2.21 - 2.40
   utter_xu_ly_vang_hoc:
-  - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
+  - text: "Không đi học đủ số buổi hoặc không dự thi sẽ bị điểm F của học phần đó."
   
   utter_xu_ly_vang_thi:
   - text: "Không đi học hoặc không dự thi sẽ bị điểm F của học phần đó."
@@ -787,7 +785,7 @@ responses:
   - text: "Khi hết thời gian tạm nghỉ học, phải làm hồ sơ xin học lại và nộp chậm nhất là 2 tuần trước khi HK mới bắt đầu."
 
   utter_han_chot_xin_hoc_lai_sau_tam_nghi:
-  - text: "Hạn chót nộp hồ sơ xin học lại là 2 tuần trước khi HK mới bắt đầu."
+  - text: "Hạn chót nộp hồ sơ xin học lại là 2 tuần trước khi HK mới bắt đầu. Nếu nghỉ tạm thời quá thời hạn sẽ bị buộc thôi học."
 
   utter_truong_hop_canh_bao_hoc_vu:
   - text: "Cảnh báo học vụ là hình thức cảnh báo để sinh viên nhận thức tình trạng học tập và cải thiện. Cảnh báo học vụ trong các trường hợp sau:\n\n
@@ -832,9 +830,6 @@ responses:
     \t7. Thời gian học tập vượt quá thời hạn theo quy định\n\n
     \t8. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ."
   
-  utter_nghi_qua_han:
-  - text: "Nếu nghỉ tạm thời quá thời hạn sẽ bị buộc thôi học."
-  
   
   utter_hoc_qua_han:
   - text: "Học tập quá hạn thì sinh viên sẽ bị buộc thôi học."
@@ -850,8 +845,6 @@ responses:
   utter_di_hoc_toi_thieu:
   - text: "Sinh viên phải học đủ 100% số tiết đối với các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC; 80% số tiết đối với các học phần lý thuyết."
   
-  utter_vang_hoc:
-  - text: "Vắng nhiều hơn thời gian quy định sẽ bị cấm thi và điểm F."
 #2.61.1 - 2.83
   utter_thoi_gian_cac_tiet:
   - text: " Thời gian bắt đầu và kết thúc các tiết học: \n\n
@@ -1202,9 +1195,6 @@ responses:
 
   utter_xu_ly_ra_khoi_phong_thi:
   - text: "Nếu sinh viên ra khỏi phòng thi trong thời gian làm bài, họ có thể bị cảnh cáo hoặc đình chỉ thi, tùy thuộc vào mức độ vi phạm."
-
-  utter_xu_ly_vat_dung_khong_duoc_phep:
-  - text: "Nếu sinh viên vi phạm quy định về việc sử dụng vật dụng không được phép trong phòng thi, họ có thể bị đình chỉ thi."
 
   utter_xu_ly_su_dung_giay_nhap_bai_lam:
   - text: "Nếu sinh viên được phát hiện sử dụng giấy nháp hoặc bài làm của người khác trong quá trình thi, họ có thể bị đình chỉ thi và nhận điểm 0 cho lần thi/kiểm tra đó."
