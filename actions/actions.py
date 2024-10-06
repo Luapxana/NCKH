@@ -6,6 +6,7 @@
 import datetime as dt
 from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
 from typing import Text, Any, Dict, List
 
 
@@ -152,12 +153,12 @@ class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
         debt = int(tracker.get_slot('debt'))
 
         if year == 1:
-            theshhold = 1.2
+            threshold = 1.2
         else: 
             threshold = 1.8
         pass_percentage = pass_credit/credit
         
-        if gpa < theshhold:
+        if gpa < threshold:
             dispatcher.utter_message("Bạn bị cảnh báo học vụ do điểm trung bình học kỳ của bạn quá thấp!")
         elif pass_percentage < 0.5:
             dispatcher.utter_message(text = r"Bạn bị cảnh báo học vụ do số tín chỉ đạt yêu cầu không đủ 50% số tín chỉ bạn đã đăng ký")
@@ -165,7 +166,11 @@ class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
             dispatcher.utter_message("Bạn bị cảnh báo học vụ do đã nợ quá 24 tín chỉ (tính từ đầu khóa học của bạn)")
         else:
             dispatcher.utter_message("Bạn không bị cảnh báo học vụ trong học kỳ này! Hãy cố gắng phát huy nhé!")
-        return[]
+        return[ SlotSet("year", None),
+                SlotSet("gpa", None),
+                SlotSet("credit", None),
+                SlotSet("pass_credit", None),
+                SlotSet("debt", None)]
 # This is a simple example for a custom action which utters "Hello World!"
 
 # from typing import Any, Text, Dict, List
