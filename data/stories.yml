@@ -516,3 +516,8 @@ stories:
           - requested_slot: null
       - active_loop: null
       - action: action_xep_loai
+
+  - story: fall back
+    steps:
+      - intent: nlu_fallback
+      - action: utter_fallback

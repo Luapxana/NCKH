@@ -1,11 +1,4 @@
 {
-  "credit": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
   "tiet": {
     "precision": 1.0,
     "recall": 1.0,
@@ -13,11 +6,18 @@
     "support": 7,
     "confused_with": {}
   },
-  "pass_credit": {
+  "drl": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2,
+    "support": 5,
+    "confused_with": {}
+  },
+  "year": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
     "confused_with": {}
   },
   "diemso": {
@@ -34,18 +34,11 @@
     "support": 5,
     "confused_with": {}
   },
-  "year": {
+  "pass_credit": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 26,
-    "confused_with": {}
-  },
-  "drl": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
+    "support": 2,
     "confused_with": {}
   },
   "gpa": {
@@ -53,6 +46,13 @@
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
+    "confused_with": {}
+  },
+  "credit": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
     "confused_with": {}
   },
   "micro avg": {

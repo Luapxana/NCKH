@@ -1,0 +1,10 @@
+version: "3.1"
+stories:
+- story: thi_cu (D:\NCKH\tests\test_stories.yml)
+  steps:
+  - intent: xu_ly_vang_thi
+  - action: utter_xu_ly_vang_thi
+  - intent: xu_ly_vang_thi
+  - action: utter_xu_ly_vang_thi
+  - intent: cai_thien_F  # predicted: nlu_fallback: Cách cải thiện điểm F
+  - action: utter_cai_thien_F

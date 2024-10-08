@@ -42,6 +42,10 @@ nlu:
       - of course
       - that sounds good
       - correct
+      - ừ
+      - vâng
+      - dạ
+      - đúng rồi
 
   - intent: deny
     examples: |
@@ -52,6 +56,8 @@ nlu:
       - don't like that
       - no way
       - not really
+      - không phải
+      - không
 
   - intent: thanks
     examples: |
@@ -274,8 +280,6 @@ nlu:
       - thời gian đào tạo
       - thời gian đào tạo tối đa
       - thời gian chương trình đào tạo
-
-  #xóa cau_1.17 cau_1.18 cau_1.19 (câu hỏi quá giống nhau nên câu 17 và 19 chỉ trả lời được 1 ví dụ, câu 19 còn nhầm thành câu 17, chỉ trả lời đúng câu 18 => những câu này sẽ được trả lời bởi câu 16)
 
   - intent: nguoi_duoc_hoc_tap_vo_han
     examples: |

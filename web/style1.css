@@ -154,4 +154,11 @@ body {
     border-radius: 20px;
     width: 250px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    color:#333;
+  }
+
+  .member-img {
+    width: 100%;
+    border-radius: 5px;
   }

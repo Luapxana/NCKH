@@ -1,0 +1,12 @@
+version: "3.1"
+stories:
+- story: dang_ky_hoc_phan (D:\NCKH\tests\test_stories.yml)
+  steps:
+  - intent: khai_niem_hoc_phan
+  - action: utter_khai_niem_hoc_phan
+  - intent: cach_dkhp
+  - action: utter_cach_dkhp
+  - intent: thoi_gian_dkhp
+  - action: utter_thoi_gian_dkhp  # predicted: action_unlikely_intent
+  - intent: thoi_gian_xem_tkb
+  - action: utter_thoi_gian_xem_tkb

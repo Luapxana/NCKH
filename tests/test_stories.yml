@@ -2,90 +2,103 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+  - story: tan_sinh_vien
+    steps:
+      - user: |
+          chào
+        intent: greet
+      - action: utter_greet
+      - user: |
+          trách nhiệm của sinh viên là gì
+        intent: trach_nhiem_sinh_vien
+      - action: utter_trach_nhiem_sinh_vien
 
-- story: happy path 2
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+  - story: xay_dung_khht
+    steps:
+      - user: |
+          kế hoạch học tập là gì
+        intent: khai_niem_ke_hoach_day_va_hoc
+      - action: utter_khai_niem_ke_hoach_day_va_hoc
+      - user: |
+          sinh viên dùng khht để làm gì
+        intent: chuc_nang_cua_khht
+      - action: utter_chuc_nang_cua_khht
 
-- story: sad path 1
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
+  - story: khht
+    steps:
+      - user: |
+          Sinh viên dùng kế hoạch học tập để làm gì
+        intent: chuc_nang_cua_khht
+      - action: utter_chuc_nang_cua_khht
+      - user: |
+          Có thể thay đổi KHHT không
+        intent: thay_doi_khht
+      - action: utter_thay_doi_khht
 
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
+  - story: dang_ky_hoc_phan
+    steps:
+      - user: |
+          học phần là gì
+        intent: khai_niem_hoc_phan
+      - action: utter_khai_niem_hoc_phan
+      - user: |
+          cách đăng ký học phần
+        intent: cach_dkhp
+      - action: utter_cach_dkhp
+      - user: |
+          Khi nào cần đkhp
+        intent: thoi_gian_dkhp
+      - action: utter_thoi_gian_dkhp
+      - user: |
+          tôi có thể xem thời khóa biểu các học phần khi nào
+        intent: thoi_gian_xem_tkb
+      - action: utter_thoi_gian_xem_tkb
 
-- story: sad path 3
-  steps:
-  - user: |
-      hi
-    intent: greet
-  - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
+  - story: thi_cu
+    steps:
+      - user: |
+          Không đi thi thì bị xử lý như thế nào
+        intent: xu_ly_vang_thi
+      - action: utter_xu_ly_vang_thi
+      - user: |
+          xử lý vắng thi bằng cách nào
+        intent: xu_ly_vang_thi
+      - action: utter_xu_ly_vang_thi
+      - user: |
+          Cách cải thiện điểm F
+        intent: cai_thien_F
+      - action: utter_cai_thien_F
 
-- story: say goodbye
-  steps:
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+  - story: hoc_lai
+    steps:
+      - user: |
+          Cách đăng ký học lại
+        intent: cach_dk_hoc_lai
+      - action: utter_cach_dk_hoc_lai
+      - user: |
+          Đăng ký học lại thì còn giữ điểm F không
+        intent: diem_hoc_lai
+      - action: utter_diem_hoc_lai
 
-- story: bot challenge
-  steps:
-  - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+  - story: tot_nghiep
+    steps:
+      - user: |
+          Có bao nhiêu cách để tốt nghiệp
+        intent: cac_hinh_thuc_tot_nghiep
+      - action: utter_cac_hinh_thuc_tot_nghiep
+      - user: |
+          Tốt nghiệp cần những điều kiện gì
+        intent: dieu_kien_tot_nghiep
+      - action: utter_dieu_kien_tot_nghiep
+      - user: |
+          Thời điểm xét tốt nghiệp
+        intent: thoi_gian_xet_tot_nghiep
+      - action: utter_thoi_gian_xet_tot_nghiep
+      - user: |
+          Nơi đăng ký xét tốt nghiệp
+        intent: noi_xin_xet_tot_nghiep
+      - action: utter_noi_xin_xet_tot_nghiep
+      - user: |
+          Quy trình xét tốt nghiệp
+        intent: quy_trinh_xet_tot_nghiep
+      - action: utter_quy_trinh_xet_tot_nghiep

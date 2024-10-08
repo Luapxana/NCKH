@@ -1,34 +1,42 @@
 [
   {
-    "text": "Cần đạt bao nhiêu điểm để được điểm B+ hay 3.5 trên hệ 4?",
-    "intent": "diem_b_plus",
+    "text": "Điểm F là điểm gì",
+    "intent": "tich_luy_F",
     "intent_prediction": {
-      "name": "diem_b",
-      "confidence": 0.20741353929042816
+      "name": "cai_thien_F",
+      "confidence": 0.2997439205646515
     }
   },
   {
-    "text": "Để đạt điểm B+ cần bao nhiêu điểm?",
-    "intent": "diem_b_plus",
+    "text": "Cần đạt bao nhiêu điểm để được điểm B+ hay 3.0 trên hệ 4?",
+    "intent": "diem_b",
     "intent_prediction": {
-      "name": "diem_b",
-      "confidence": 0.37156909704208374
+      "name": "diem_b_plus",
+      "confidence": 0.3181253671646118
     }
   },
   {
-    "text": "Khung điểm cho mức điểm B+?",
-    "intent": "diem_b_plus",
+    "text": "Để đạt điểm B cần bao nhiêu điểm?",
+    "intent": "diem_b",
     "intent_prediction": {
-      "name": "diem_b",
-      "confidence": 0.387395441532135
+      "name": "diem_b_plus",
+      "confidence": 0.3983668088912964
     }
   },
   {
-    "text": "Bao nhiêu điểm thì được B+?",
-    "intent": "diem_b_plus",
+    "text": "Khung điểm cho mức điểm B?",
+    "intent": "diem_b",
     "intent_prediction": {
-      "name": "diem_b",
-      "confidence": 0.4159451425075531
+      "name": "diem_b_plus",
+      "confidence": 0.41250842809677124
+    }
+  },
+  {
+    "text": "Bao nhiêu điểm thì được B?",
+    "intent": "diem_b",
+    "intent_prediction": {
+      "name": "diem_b_plus",
+      "confidence": 0.41846007108688354
     }
   },
   {
@@ -36,7 +44,7 @@
     "intent": "diem_c_plus",
     "intent_prediction": {
       "name": "diem_c",
-      "confidence": 0.24688494205474854
+      "confidence": 0.294307142496109
     }
   },
   {
@@ -44,7 +52,7 @@
     "intent": "diem_c_plus",
     "intent_prediction": {
       "name": "diem_c",
-      "confidence": 0.3771303594112396
+      "confidence": 0.37598472833633423
     }
   },
   {
@@ -52,15 +60,15 @@
     "intent": "diem_c_plus",
     "intent_prediction": {
       "name": "diem_c",
-      "confidence": 0.38826820254325867
+      "confidence": 0.364808052778244
     }
   },
   {
-    "text": "Bao nhiêu điểm thì được C+?",
-    "intent": "diem_c_plus",
+    "text": "Bao nhiêu điểm thì được C?",
+    "intent": "diem_c",
     "intent_prediction": {
-      "name": "diem_c",
-      "confidence": 0.3959992527961731
+      "name": "diem_c_plus",
+      "confidence": 0.36763426661491394
     }
   },
   {
@@ -68,7 +76,7 @@
     "intent": "diem_d_plus",
     "intent_prediction": {
       "name": "diem_d",
-      "confidence": 0.34553655982017517
+      "confidence": 0.3124919831752777
     }
   },
   {
@@ -76,7 +84,7 @@
     "intent": "diem_d_plus",
     "intent_prediction": {
       "name": "diem_d",
-      "confidence": 0.4112258553504944
+      "confidence": 0.3929285407066345
     }
   },
   {
@@ -84,15 +92,15 @@
     "intent": "diem_d_plus",
     "intent_prediction": {
       "name": "diem_d",
-      "confidence": 0.4195413589477539
+      "confidence": 0.3913842737674713
     }
   },
   {
-    "text": "Tôi bị cảnh báo học vụ",
-    "intent": "kiem_tra_cbhv",
+    "text": "Học phần được 7.9  là được điểm gì",
+    "intent": "diemchu",
     "intent_prediction": {
-      "name": "truong_hop_canh_bao_hoc_vu",
-      "confidence": 0.494952529668808
+      "name": "provide_gpa",
+      "confidence": 0.4427698254585266
     }
   }
 ]
