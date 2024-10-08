@@ -521,3 +521,4 @@ stories:
     steps:
       - intent: nlu_fallback
       - action: utter_fallback
+      - active_loop: null

@@ -136,7 +136,8 @@ class ActionPeriod(Action): #Action để trả lời thời gian các tiết h�
             start_time = "16:10"
             end_time =  "17:00"
         dispatcher.utter_message(text=f"Thời gian tiết {tiet} là từ {start_time} đến {end_time}.")
-        return []
+        return [ SlotSet("gpa", None),
+                SlotSet("drl", None)]
 
 class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
     def name(self) -> str:
