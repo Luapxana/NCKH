@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Điểm F là điểm gì",
+    "intent": "tich_luy_F",
+    "intent_prediction": {
+      "name": "cai_thien_F",
+      "confidence": 0.2997439205646515
+    }
+  }
+]

@@ -1,0 +1,506 @@
+version: "3.1"
+
+nlu:
+  - intent: cach_tinh_hoc_phi
+    examples: |
+      - Học phí được tính như thế nào?
+      - Làm thế nào để tính tiền học phí?
+      - Cách tính học phí là gì?
+      - Quy trình tính toán học phí được thực hiện như thế nào?
+
+  - intent: nguoi_quy_dinh_muc_hoc_phi
+    examples: |
+      - Mức học phí do ai quyết định?
+      - Ai quy định học phí?
+      - Ai là người quyết định về mức học phí?
+      - Mức của học phí được quyết định bởi ai?
+
+  - intent: dieu_kien_mien_giam_hoc_phi
+    examples: |
+      - Làm thế nào để nào được miễn giảm học phí và hỗ trợ chi phí học tập?
+      - Muốn được miễn, giảm học phí phải làm gì?
+      - Có cơ hội nào để được miễn giảm học phí và hỗ trợ chi phí học tập không?
+      - Làm thế nào để đủ điều kiện để được miễn giảm học phí và nhận hỗ trợ chi phí học tập?
+      - Điều kiện để được miễn giảm học phí và nhận hỗ trợ chi phí học tập?
+
+  - intent: ho_so_mien_giam_hoc_phi
+    examples: |
+      - Hồ sơ hướng dẫn thực hiện miễn giảm học phí và hỗ trợ chi phí học tập xem ở đâu?
+      - Xem cách thức xin miễn giảm học phí ở đâu?
+      - Thông tin về hồ sơ hướng dẫn thực hiện miễn giảm học phí và hỗ trợ chi phí học tập có thể được tìm thấy ở đâu?
+      - Nơi nào cung cấp hướng dẫn chi tiết về việc làm hồ sơ để được miễn giảm học phí và hỗ trợ chi phí học tập?
+      - hồ sơ miễn giảm học phí
+
+  - intent: anh_huong_khong_dong_hoc_phi
+    examples: |
+      - Sinh viên không đóng học phí có bị ảnh hưởng gì không?
+      - Không đóng học phí thì bị ảnh hưởng gì?
+      - Những hậu quả nào có thể xảy ra nếu sinh viên không đóng học phí?
+      - Sinh viên không đóng học phí có thể gặp phải những vấn đề gì?
+      - không đóng học phí có sao không
+      - không đóng học phí thì bị gì
+      - sinh viên không đóng học phí
+      - không đóng học phí
+
+  - intent: bao_hiem_y_te
+    examples: |
+      - Sinh viên có cần đóng bảo hiểm y tế không?
+      - Sinh viên có cần đóng BHYT không?
+      - Bảo hiểm y tế có bắt buộc không?
+      - BHYT có bắt buộc không?
+      - Sinh viên có cần phải mua bảo hiểm y tế không?
+      - Việc mua bảo hiểm y tế có bắt buộc đối với sinh viên không?
+
+  - intent: bao_hiem_tai_nan
+    examples: |
+      - Sinh viên có cần đóng bảo hiểm tai nạn không?
+      - BHTN có bắt buộc không?
+      - Bảo hiểm tai nạn có bắt buộc không
+      - Bảo hiểm tai nạn có bắt buộc đối với sinh viên không?
+      - Sinh viên cần phải đóng bảo hiểm tai nạn không?
+      - sinh viên có cần đóng bhtn không
+
+  - intent: vay_tin_dung_cho_sinh_vien
+    examples: |
+      - Sinh viên có thể xin vay tín dụng không?
+      - Tôi có thể xin vay tín dụng không?
+      - Có cơ hội nào cho sinh viên vay tiền không?
+      - tôi muốn vay tín dụng
+
+  - intent: dieu_kien_chuyen_co_so_dao_tao
+    examples: |
+      - Sinh viên được xem xét chuyển cơ sở đào tạo khi nào?
+      - Điều kiện được xin chuyển cơ sở đào tạo?
+      - Điều kiện chuyển trường?
+
+  - intent: dieu_kien_chuyen_co_so_dao_tao_k47
+    examples: |
+      - Sinh viên từ khóa 47 trở đi được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi nào?
+      - Điều kiện xin chuyển cơ sở đào tạo đối với sinh viên khóa 47?
+      - Điều kiện nào áp dụng cho sinh viên khóa 47 muốn xin chuyển cơ sở đào tạo?
+      - Những yêu cầu cụ thể nào được đặt ra cho sinh viên khóa 47 muốn chuyển cơ sở đào tạo?
+
+  - intent: dieu_kien_chuyen_he_dao_tao
+    examples: |
+      - Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa khi nào?
+      - Điều kiện chuyển sang vừa học vừa làm là gì?
+      - Điều kiện để chuyển sang học vừa làm vừa học là gì?
+      - Những tiêu chí nào cần được đáp ứng để chuyển sang hình thức học vừa làm vừa học?
+      - tôi muốn chuyển sang đào tạo từ xa
+      - điều kiện chuyển sang đào tạo từ xa
+      - tôi muốn chuyển sang đào tạo từ xa
+
+  - intent: hoc_hoc_phan_truong_khac
+    examples: |
+      - Sinh viên có thể đăng ký học một số học phần tại cơ sở đào tạo khác không?
+      - Có thể học học phần ở trường khác không?
+      - Sinh viên có thể học học phần ở một trường khác không?
+      - Có được phép tham gia học học phần tại các trường khác không?
+
+  - intent: tin_chi_toi_da_hoc_truong_khac
+    examples: |
+      - Số tín chỉ tối đa mà sinh viên có thể tích lũy tại cơ sở đào tạo khác là bao nhiêu?
+      - Số tín chỉ tối đa mà sinh viên có thể tích lũy tại cơ sở đào tạo khác là bao nhiêu?
+      - Sinh viên có thể học tối đa bao nhiêu tín chỉ ở một cơ sở khác?
+      - Giới hạn về số lượng tín chỉ sinh viên có thể học tại một cơ sở khác là bao nhiêu?
+      - số tc tối đa sinh viên có thể tích lũy ở trường khác
+      - giới hạn số tín chỉ mà sinh viên có thể tích lũy ở trường khác
+      - tôi có thể học tối đa bao nhiêu tín chỉ ở trường khác
+
+  - intent: sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
+    examples: |
+      - Sinh viên chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi có được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
+      - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trong trường hợp chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi không?
+      - Sinh viên tham gia trao đổi có được xem xét để công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
+      - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trao đổi không
+
+  - intent: xay_dung_khht
+    examples: |
+      - Kế hoạch học tập xây dựng như thế nào?
+      - Làm thế nào để tạo kế hoạch học tập?
+      - Quy trình xây dựng kế hoạch học tập là gì?
+      - Cách thức để xây dựng kế hoạch học tập được thực hiện như thế nào?
+      - Xây dựng kế hoạch học tập
+      - Xây dựng KHHT
+      - Cách thức xây dựng khht
+
+  - intent: dau_khoa_co_gi
+    examples: |
+      - Đầu khóa sinh viên được cung cấp những gì?
+      - Sinh viên được trường cung cấp gì vào đầu khóa học?
+      - Đầu khóa, sinh viên được cung cấp những thông tin gì?
+      - Những gì sinh viên nhận được khi bắt đầu khóa học?
+      - Trường cho gì vào đầu khóa
+
+  - intent: trach_nhiem_sv_khi_hoc
+    examples: |
+      - Sinh viên cần phải làm gì trước khi học kỳ mới bắt đầu?
+      - Nhiệm vụ nào được giao cho sinh viên trong quá trình học?
+      - Nhiệm vụ của sinh viên trong quá trình học
+      - Sinh viên phải làm gì khi học
+      - Nghĩa vụ của sinh viên khi vào học
+      - Sinh viên có trách nhiệm nào trong việc đăng ký học phần và xây dựng kế hoạch học tập?
+
+  - intent: noi_dkhp
+    examples: |
+      - ĐKHP ở đâu?
+      - Đăng ký học phần ở đâu?
+      - Tôi có thể đăng ký học phần tại đâu?
+      - Sinh viên đăng ký học phần ở đâu?
+      - Quy trình đăng ký học phần được thực hiện ở đâu?
+      - Nơi đăng ký học phần
+      - Nơi đkhp
+
+  - intent: noi_xem_khht
+    examples: |
+      - Xem kế hoạch học tập ở đâu? 
+      - Tôi có thể xem khht ở đâu?
+      - Tôi có thể điều chỉnh kế hoạch học tập ở đâu?
+      - Điều chỉnh kế hoạch học tập ở đâu?
+      - Nơi xem KHHT
+      - Nơi điều chỉnh KHHT
+      - Xem KHHT ở đâu?
+
+  - intent: tai_sao_phai_lam_khht
+    examples: |
+      - Tại sao phải xây dựng kế hoạch học tập?
+      - kế hoạch học tập để làm gì?
+      - Tôi không xây dựng kế hoạch học tập được không?
+      - Tại sao phải lập KHHT?
+      - KHHT để làm gì?
+      - Có phải xây dựng KHHT không?
+      - Có bắt buộc xây dựng kế hoạch học tập không?
+
+  - intent: co_so_dkhp
+    examples: |
+      - Đăng ký học phần mỗi học kỳ dựa vào đâu?
+      - Dựa vào đâu để đăng ký học phần mỗi học kì?
+      - Đăng ký học phần mỗi học kỳ dựa vào nguồn thông tin nào?
+      - Thường thì quy trình đăng ký học phần mỗi học kỳ được căn cứ vào đâu?
+      - Cơ sở để đăng ký học phần
+
+  - intent: so_tin_chi_toi_da
+    examples: |
+      - Số tín chỉ tối đa có thể đăng ký trong một học kỳ là bao nhiêu?
+      - Sinh viên có thể đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ?
+      - Số tín chỉ tối đa mà một sinh viên có thể đăng ký trong một học kỳ là bao nhiêu?
+      - Quy định về số tín chỉ tối đa có thể đăng ký trong một học kỳ là gì?
+      - Số TC tối đa mỗi học kỳ
+      - Số chỉ tối đa được đăng ký mỗi học kỳ
+      - Số chỉ được phép đăng ký mỗi học kỳ
+
+  - intent: dkhp_hoc_ky_dau
+    examples: |
+      - Học kỳ đầu tiên có cần tự đăng ký học phần không?
+      - Sinh viên có phải đăng ký học phần học kỳ đầu tiên không?
+      - Trong học kỳ đầu tiên, sinh viên có cần tự đăng ký học phần không?
+      - Trong học kỳ đầu tiên, quy trình đăng ký học phần được thực hiện như thế nào?
+      - Sinh viên mới có phải tự đăng ký học phần không
+      - Tân sinh viên phải tự đăng ký học phần cho học kỳ đầu tiên không?
+      - Có phải tự đăng ký học phần cho học kỳ đầu tiên không?
+
+  - intent: in_ket_qua_dkhp
+    examples: |
+      - Khi nào được in kết quả đăng ký học phần?
+      - Kết quả đăng ký học phần có thể in khi nào?
+      - Khi nào kết quả đăng ký học phần được công bố hoặc in ra?
+      - Thông tin về kết quả đăng ký học phần thường được cung cấp vào thời điểm nào?
+      - Thời gian được phép in kết quả ĐKHP
+      - Thời gian cho phép in kết quả học phần
+      - Thời gian xin in kết quả ĐKHP
+
+  - intent: cach_dkhp
+    examples: |
+      - Đăng ký học phần như thế nào?
+      - Làm thế nào để đăng ký học phần?
+      - Cách để đăng ký học phần?
+      - Cách ĐKHP
+      - Các bước đăng ký học phần
+      - Tôi muốn đăng ký học phần
+      - Tôi muốn biết đăng ký học phần như thế nào
+      - Làm sao để đkhp
+      - Tôi muốn đkhp
+
+  - intent: thoi_gian_dkhp
+    examples: |
+      - Thời gian đăng ký học phần
+      - Thời gian đkhp
+      - Khi nào thì được đăng ký học phần
+      - Khi nào cần đăng ký học phần
+      - Khi nào cần đkhp
+      - Khoảng thời gian cho phép đăng ký học phần
+      - Sinh viên đăng ký học phần khi nào
+
+  - intent: thoi_gian_xem_tkb
+    examples: |
+      - Khi nào được xem thời khóa biểu các học phần?
+      - Tôi có thể xem thời khóa biểu các học phần khi nào?
+      - Sinh viên có thể xem thời khóa biểu của các học phần khi nào?
+      - Thông tin về thời khóa biểu của các học phần thường được cung cấp vào thời điểm nào?
+      - Thời gian xem TKB các học phần
+      - Khi nào công bố TKB các học phần?
+
+  - intent: xoa_hoc_phan
+    examples: |
+      - Có thể xóa học phần đã đăng ký không?
+      - Tôi có thể xóa học phần đã đăng ký không?
+      - Học phần đã đăng ký rồi có xóa được không?
+      - Có thể xóa học phần không
+      - Xóa học phần được không
+
+  - intent: thoi_han_dkhp
+    examples: |
+      - Có thể đăng ký thêm học phần sau khi học hay không?
+      - Tôi muốn đăng ký thêm học phần sau khi học có được không?
+      - Sau khi học có thể đăng ký thêm học phần không?
+      - Có thể đăng ký thêm học phần khi học không?
+      - Thời hạn đăng ký học phần
+      - Có thể đăng ký lại học phần đã xóa không?
+
+  - intent: thoi_han_doi_lop_hp
+    examples: |
+      - Có được đổi lớp khác khi đang học không? 
+      - Tôi có thể đổi lớp khác khi đang học không?
+      - Sinh viên có thể chuyển sang lớp học khác trong khi đang học không?
+      - Có quy định nào cho phép sinh viên đổi lớp học khi đã bắt đầu học không?
+      - Trong học kỳ có được xin đổi nhóm học phần không
+      - Thời hạn xin đổi nhóm học phần
+      - Hạn chót để sinh viên có thể đổi nhóm học phần là khi nào?
+      - Đổi lớp học phần trong học kỳ được không
+
+  - intent: thoi_han_doi_kqdkhp
+    examples: |
+      - Có thể thay đổi kết quả đăng ký học phần đến khi nào?
+      - Tôi có thể thay đổi kết quả đăng ký học phần đến khi nào?
+      - Kết quả đăng ký học phần có thể thay đổi đến khi nào?
+      - Thời hạn thay đổi kết quả ĐKHP
+      - Được phép thay đổi kết quả đăng ký học phần đên khi nào?
+      - Thời hạn thay đổi kết quả đăng ký học phần
+
+  - intent: cach_rut_hp
+    examples: |
+      - Rút học phần như thế nào?
+      - Làm thế nào để rút học phần?
+      - Tôi phải làm gì để rút học phần.
+      - Cách rút học phần đang học
+      - Cách rút hp
+
+  - intent: diem_rut_hp
+    examples: |
+      - Rút học phần thì có điểm học phần không?
+      - Tôi rút học phần rồi thì có điểm không?
+      - Khi rút học phần, liệu có ghi điểm cho học phần đó không?
+      - Việc rút học phần có ảnh hưởng đến điểm số của học phần đó không?
+      - Điểm học phần sau khi rút
+
+  - intent: hoc_phi_rut_hp
+    examples: |
+      - Rút học phần có được trả học phí không?
+      - Tôi có thể nhận lại học phí sau khi rút học phần không?
+      - Khi rút học phần, có được hoàn trả học phí không?
+      - Quy định về việc hoàn trả học phí khi rút học phần là như thế nào?
+      - Có được hoàn học phí của học phần đã rút?
+      - Rút học phần có được hoàn tiền học phí không?
+
+  - intent: xu_ly_vang_hoc
+    examples: |
+      - Không đi học thì sẽ như thế nào?
+      - Tôi không đi học thì có bị sao không?
+      - Không đi học có ảnh hưởng gì không?
+      - Hình thức xử lý nghỉ học
+      - Nghỉ học thì ảnh hưởng gì
+      - Không học đủ số tiết thì bị xử lý như thế nào?
+
+  - intent: xu_ly_vang_thi
+    examples: |
+      - Không đi thi thì như thế nào?
+      - Tôi có thể không đi thi không?
+      - Tôi không đi thi có ảnh hưởng gì không?
+      - Không đi thi thì bị xử lý như thế nào
+      - Hình thức xử lý vắng thi
+      - Vắng thi thì tính điểm như thế nào
+
+  - intent: thoi_han_rut_hp
+    examples: |
+      - Khi nào thì không được rút học phần nữa?
+      - Tôi có thể rút học phần đến khi nào?
+      - Có những trường hợp nào khiến sinh viên không được phép rút học phần nữa?
+      - Quy định nào đặt ra rằng sinh viên không thể rút học phần nữa?
+      - Thời hạn rút học phần
+      - Khi nào thì hết hạn rút học phần
+      - Khi nào không được rút học phần
+
+  - intent: co_nen_rut_hp
+    examples: |
+      - Khi nào thì nên rút học phần?
+      - Tôi nên rút học phần khi nào?
+      - Khi nào thì nên xem xét việc rút học phần?
+      - Quyết định nào thường gợi ý rằng sinh viên nên xem xét việc rút học phần?
+      - Trường hợp nào nên rút học phần
+      - Có thể tự ý rút học phần không
+      - Khối lượng học lớn có được rút học phần không
+      - Điểm học phần không tốt có thể rút học phần không
+      - Việc học nhiều học phần bị ảnh hưởng có thể rút học phần không
+      - Học quá tải có thể rút học phần không
+      - Học quá tải thì nên làm gì
+      - Làm gì khi lỡ đăng ký quá nhiều học phần
+      - Đăng ký quá nhiều môn thì nên làm gì
+      - Cách giảm khối lượng học phần trong học kỳ
+      - Học không nổi nhiều môn thì làm gì
+
+  - intent: thoi_gian_xoa_lop_hp
+    examples: |
+      - Khi nào thì trường cho biết lớp học phần bị xóa?
+      - Trường thông báo lớp học phần bị xóa khi nào?
+      - Trường thông báo về việc lớp học phần bị xóa khi nào?
+      - Thông tin về việc lớp học phần bị xóa thường được cung cấp trong trường hợp nào?
+      - Thời gian thông báo xóa lớp học phần
+      - Thời gian thông báo xóa nhóm là khi nào
+
+  - intent: dang_ky_lop_bi_xoa
+    examples: |
+      - Nếu lỡ đăng ký lớp bị xóa thì sao?
+      - Tôi phải làm gì nếu lớp học phần tôi đăng ký bị xóa?
+      - Nếu một sinh viên đã đăng ký lớp học phần nhưng sau đó lớp đó bị xóa, thì sinh viên sẽ phải làm gì?     
+      - Sinh viên có phải thực hiện các biện pháp cụ thể khi lớp học phần bị xóa sau khi họ đã đăng ký không?
+      - Khi nằm trong lớp học phần bị xóa thì làm gì
+      - Trường xóa lớp học phần có mình thì làm gì
+
+  - intent: lop_hp_bi_xoa
+    examples: |
+      - Những lớp học phần nào bị xóa?
+      - Những lớp học phần bị xóa là những những lớp nào?
+      - Lớp học phần nào có thể bị xóa?
+      - Có những trường hợp nào khiến cho một lớp học phần bị xóa?
+      - Trường hợp xóa lớp học phần
+      - Khi nào lớp học phần bị xóa
+      - Khi nào thì xóa lớp học phần
+
+  - intent: xin_mo_them_lop
+    examples: |
+      - Nếu học phần muốn đăng ký hết chỗ thì làm gì?
+      - Tôi phải làm gì nếu học phần tôi muốn đăng ký hết chỗ?
+      - Nếu sinh viên muốn đăng ký học phần nhưng chỗ đã hết, họ nên làm gì?
+      - Trong trường hợp học phần đã đầy chỗ, sinh viên có những phương án nào để giải quyết?
+      - Không còn lớp để đăng ký thì làm gì
+      - Xử lý khi không còn lớp để học
+      - Khi không còn lớp để học có phải dời sang học kỳ sau?
+
+  - intent: cach_xin_mo_them_lop
+    examples: |
+      - Xin mở thêm lớp học phần như thế nào? 
+      - Làm thế nào để xin mở thêm lớp học phần?
+      - Tôi có thể xin mở thêm lớp học phần không?
+      - Cách xin mở lớp học phần
+      - Các bước xin mở lớp học phần
+      - Xin mở lớp học phần ở đâu
+      - Xin mở lớp học phần như thế nào
+      - Cách xin trường mở lớp
+
+  - intent: truong_hop_mo_them_lop
+    examples: |
+      - Khi nào thì Trường mở thêm lớp học phần?
+      - Trường mở thêm lớp học phần khi nào?
+      - Trường thường mở thêm lớp học phần khi nào?
+      - Thông tin về việc Trường mở thêm lớp học phần thường được cung cấp trong trường hợp nào?
+      - Trường hợp mở thêm lớp học phần
+      - Xin mở lớp có chắc chắn có lớp mới không
+
+  - intent: tich_luy_F
+    examples: |
+      - Học phần bị điểm F thì được tích lũy là bao nhiêu?
+      - Học phần điểm F có tính tích lũy không?
+      - Quy đổi tích lũy điểm F
+      - Tích lũy của điểm F
+      - Điểm F là điểm gì
+
+  - intent: cai_thien_F
+    examples: |
+      - Làm gì khi bị điểm F?
+      - Bị điểm F thì phải làm gì?
+      - Cách cải thiện điểm F?
+      - Điểm F thì làm gì
+
+  - intent: doi_hp_F
+    examples: |
+      - Có thể học học phần khác để thay thế học phần bị điểm F không?
+      - Học học phần khác để thay thế học phần bị điểm F có được không?
+      - Các trường hợp học thay thế học phần điểm F
+      - Có thể đổi học phần tự chọn nếu bị điểm F không
+      - Bị điểm F có đổi môn khác được không
+
+  - intent: cach_dk_hoc_lai
+    examples: |
+      - Đăng ký học lại như thế nào? 
+      - Cách đăng ký học lại?
+      - Tôi phải làm gì nếu muốn đăng ký học lại?
+      - Làm thế nào để đăng ký học lại?
+      - Các bước đăng ký học lại
+      - Nơi đăng ký học lại
+      - Đăng ký học lại ở đâu
+
+  - intent: diem_hoc_lai
+    examples: |
+      - Đăng ký học lại thì còn giữ điểm F không?
+      - Nếu học lại thì điểm F có mất không?
+      - Điểm F có tồn tại sau khi học lại không?
+      - Quy định cải thiện điểm học phần bị điểm F
+      - Học cải thiện có cải thiện điểm F không
+
+  - intent: tinh_diem_hp_tu_chon
+    examples: |
+      - Nếu học nhiều học phần tự chọn cùng một nhóm thì có lấy hết điểm không? 
+      - Nếu học nhiều học phần tự chọn cùng nhóm thì tính điểm như thế nào?
+      - Cách tính tích lũy học phần tự chọn
+      - Học nhiều môn tự chọn có được tích lũy nhiều hơn không
+      - Có được tính điểm tất cả môn tự chọn không
+
+  - intent: hoc_cai_thien
+    examples: |
+      - Điểm học phần không như ý thì có thể học lại không?
+      - Tôi có thể cải thiện học phần đã học không?
+      - Nếu điểm số của một học phần không như ý, sinh viên có thể học lại không?
+      - Quy định về việc học lại một học phần nào đó khi điểm số không đạt yêu cầu là gì?
+      - Có thể cải thiện học phần không
+      - Có nên học cải thiện
+
+  - intent: truong_hop_tam_nghi
+    examples: |
+      - Trường hợp nào được xin tạm nghỉ?
+      - Sinh viên có thể xin tạm nghỉ khi nào?
+      - Tôi có thể xin tạm nghỉ không?
+      - Hãy nêu các trường hợp có thể xin tạm nghỉ
+      - Ai được xin tạm nghỉ
+      - Có thể xin tạm nghỉ khi nào
+
+  - intent: tam_nghi_nvqs
+    examples: |
+      - Đi nghĩa vụ có được xin tạm nghỉ không?
+      - Tôi có thể xin tạm nghỉ khi đi nghĩa vụ không?
+      - Có được phép xin tạm nghỉ khi đang đi nghĩa vụ không?
+      - Quy định về việc xin tạm nghỉ trong quá trình thực hiện nghĩa vụ làm quân sự là gì?
+      - Nghĩa vụ quân sự có được xin nghỉ tạm thời không
+
+  - intent: tam_nghi_benh
+    examples: |
+      - Bị bệnh nặng có được xin tạm nghỉ không?
+      - Có thể xin tạm nghỉ nếu bị bệnh nặng không?
+      - Nếu bị bệnh nặng, có được phép xin tạm nghỉ không?
+      - Quy định về việc xin tạm nghỉ do bệnh nặng là như thế nào?
+      - Khi bị bệnh có được xin tạm nghỉ dài hạn không
+
+  - intent: tam_nghi_tai_nan
+    examples: |
+      - Bị tai nạn có được xin tạm nghỉ không?
+      - Có thể xin tạm nghỉ nếu bị tai nạn không?
+      - Nếu bị tai nạn, có được phép xin tạm nghỉ không?
+      - Quy định về việc xin tạm nghỉ do tai nạn là như thế nào?
+      - Bị tai nạn có được xin nghỉ dài hạn không
+
+  - intent: cach_xin_tam_nghi
+    examples: |
+      - Xin tạm nghỉ học như thế nào?
+      - Muốn xin tạm nghỉ học phải làm gì?
+      - Làm thế nào để xin tạm dừng việc học?
+      - Có cách nào để nghỉ học một thời gian không?
+      - Các bước xin tạm nghỉ
