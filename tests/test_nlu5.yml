@@ -77,9 +77,9 @@ nlu:
 
   - intent: doi_diem
     examples: |
-      - Cần đạt bao nhiêu điểm để được [điểm A](diemchu:A) hay 4.0 trên hệ 4?
-      - Để đạt [điểm A](diemchu:A) cần bao nhiêu điểm?
-      - Khung điểm cho mức [điểm A](diemchu:A)?
+      - Cần đạt bao nhiêu điểm để được điểm [A](diemchu:A) hay 4.0 trên hệ 4?
+      - Để đạt điểm [A](diemchu:A) cần bao nhiêu điểm?
+      - Khung điểm cho mức điểm [A](diemchu:A)?
       - Bao nhiêu điểm thì được [A](diemchu:A)?
       - Cần đạt bao nhiêu điểm để được điểm [B+](diemchu:B_plus) hay 3.5 trên hệ 4?
       - Để đạt điểm [B+](diemchu:B_plus) cần bao nhiêu điểm?
