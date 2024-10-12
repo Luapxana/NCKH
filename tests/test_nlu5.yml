@@ -1,0 +1,294 @@
+version: "3.1"
+
+nlu:
+
+  - intent: quy_dinh_phuong_phap_danh_gia
+    examples: |
+      - Ai là người quyết định về phương pháp đánh giá, hình thức đánh giá và trọng số điểm thành phần của học phần?
+      - Điểm học phần do ai quy định?
+      - Bên nào có thẩm quyền lựa chọn cách thức kiểm tra đánh giá, hình thức tổ chức đánh giá và tỷ trọng điểm của các hạng mục đối với một học phần cụ thể?
+      - Nhân vật nào đóng vai trò quyết định phương thức đo lường năng lực, hình thái tiến hành đánh giá và tầm quan trọng của các cột điểm cấu thành trong một môn học?
+      - Đối tượng ra quyết định cuối cùng về phương pháp kiểm tra năng lực, cách thức tổ chức đánh giá và hệ số nhân cho các phần điểm thành phần trong khuôn khổ một khóa học là ai?
+
+  - intent: diem_danh_gia_nho
+    examples: |
+      - Khi nào có thể áp dụng chỉ một điểm đánh giá cho các học phần có khối lượng nhỏ hơn 02 TC?
+      - Có trường hợp chỉ có 1 điểm thành phần không?
+      - Có thể có 1 điểm thành phần cho 1 học phần không?
+
+  - intent: trong_so_diem_thi
+    examples: |
+      - Điểm thi kết thúc học phần phải có trọng số ít nhất bao nhiêu phần trăm?
+      - Điểm thi cuối kỳ thường chiếm bao nhiêu tổng điểm tín chỉ?
+      - Tỷ trọng điểm tối thiểu nào được quy định cho kỳ thi cuối khóa trong việc tính điểm tổng kết của một môn học?
+      - Theo quy chế đánh giá, mức trọng lượng điểm tối thiểu cần đạt bao nhiêu phần trăm đối với bài kiểm tra kết thúc môn học?
+      - Có yêu cầu nào về tỷ lệ phần trăm điểm tối thiểu mà kỳ thi cuối cùng của học phần phải chiếm không?
+
+  - intent: dieu_kien_danh_gia_truc_tuyen
+    examples: |
+      - Để áp dụng hình thức bảo vệ và đánh giá trực tuyến, cần đáp ứng những điều kiện gì?
+      - Điều kiện để được bảo vệ, đánh giá trực tuyến?
+      - Yêu cầu cụ thể nào cần được đáp ứng để có thể triển khai phương thức bảo vệ và kiểm tra đánh giá qua nền tảng trực tuyến?
+      - Điều kiện tiên quyết nào là bắt buộc để việc tổ chức bảo vệ và đánh giá theo hình thức trực tuyến có thể được thực hiện?
+      - Những yếu tố nào là cần thiết để quá trình bảo vệ và đánh giá có thể diễn ra trên môi trường mạng một cách hiệu quả?
+
+  - intent: giang_vien_giai_dap
+    examples: |
+      - Ai chịu trách nhiệm giải đáp thắc mắc của sinh viên về kết quả học tập của học phần?
+      - Khi có thắc mắc về kết quả học tập sinh viên cần liên hệ ai?
+      - Ai giải quyết các vấn đề liên quan đến điểm học phần?
+      - Bên nào có nhiệm vụ tháo gỡ những băn khoăn, thắc mắc mà sinh viên có liên quan đến kết quả học tập trong một môn học cụ thể?
+      - Đối tượng nào phải đảm nhận trách nhiệm giải đáp những vấn đề, nghi vấn của sinh viên về thành tích, điểm số họ đạt được trong quá trình học tập một học phần?
+      - Vai trò của ai trong việc làm sáng tỏ những điều chưa rõ ràng, thỏa đáng cho sinh viên liên quan đến kết quả đã đạt được trong một khóa học?
+
+  - intent: dang_ky_bang_diem
+    examples: |
+      - Trong quá trình học tập, sinh viên có thể đăng ký cấp bảng điểm HK khi nào?
+      - Có được xin cấp bảng điểm học kỳ không?
+      - Thời điểm nào trong quá trình đào tạo mà sinh viên được phép nộp đơn yêu cầu cấp bản ghi nhận kết quả học tập của một học kỳ?
+      - Giai đoạn cụ thể nào thuộc khóa đào tạo là thời gian phù hợp để sinh viên tiến hành thủ tục đăng ký nhận bảng điểm tổng hợp học kỳ?
+      - Sinh viên có thể thực hiện việc đăng ký cấp phát bảng kê kết quả học tập trong một học kỳ vào lúc nào trong quá trình theo học?
+
+  - intent: diem_thuc_hanh
+    examples: |
+      - Các điểm thành phần trong học phần thực hành được tính như thế nào để đưa ra điểm cuối cùng?
+      - Điểm học phần thực hành tính như thế nào?
+      - Phương thức tính toán điểm số cho các học phần mang tính chất thực hành, thực nghiệm được thực hiện theo cách nào?
+      - Quy trình đánh giá và lấy điểm cuối cùng đối với những môn học yêu cầu phần thực tập, thực nghiệm diễn ra như thế nào?
+      - Tiêu chí và công thức nào được sử dụng để xác định điểm tổng kết cho các học phần có nội dung thực hành, thí nghiệm?
+
+  - intent: xep_loai_gioi
+    examples: |
+      - Để được xếp loại giỏi, SV cần đạt điều kiện gì?
+      - Điều kiện để xếp loại giỏi?
+      - Sinh viên loại giỏi đạt những tiêu chí nào?
+      - Điều kiện nào là cần thiết để sinh viên được xếp loại giỏi?
+      - Xếp loại giỏi cần những điều kiện gì?
+
+  - intent: danh_gia_truc_tuyen_tuong_xung
+    examples: |
+      - Hình thức đánh giá trực tuyến được áp dụng với trọng số cao hơn trong trường hợp nào?
+      - Khi nào thì hình thức đánh giá trực tuyến có tỉ lệ điểm cao hơn?
+
+  - intent: giang_vien_thong_bao_ket_qua
+    examples: |
+      - Trách nhiệm chính của giảng viên trong việc thông báo kết quả học tập của học phần là gì?
+      - Giảng viên có trách nhiệm gì khi thông báo kết quả học phần?
+
+  - intent: doi_diem
+    examples: |
+      - Cần đạt bao nhiêu điểm để được [điểm A](diemchu:A) hay 4.0 trên hệ 4?
+      - Để đạt [điểm A](diemchu:A) cần bao nhiêu điểm?
+      - Khung điểm cho mức [điểm A](diemchu:A)?
+      - Bao nhiêu điểm thì được [A](diemchu:A)?
+      - Cần đạt bao nhiêu điểm để được điểm [B+](diemchu:B_plus) hay 3.5 trên hệ 4?
+      - Để đạt điểm [B+](diemchu:B_plus) cần bao nhiêu điểm?
+      - Khung điểm cho mức điểm [B+](diemchu:B_plus)?
+      - Bao nhiêu điểm thì được [B+](diemchu:B_plus)?
+      - Cần đạt bao nhiêu điểm để được điểm [B](diemchu:B) hay 3.0 trên hệ 4?
+      - Để đạt điểm [B](diemchu:B) cần bao nhiêu điểm?
+      - Khung điểm cho mức điểm [B](diemchu:B)?
+      - Bao nhiêu điểm thì được [B](diemchu:B)?
+      - Cần đạt bao nhiêu điểm để được điểm [C+](diemchu:C_plus) hay 2.5 trên hệ 4?
+      - Để đạt điểm [C+](diemchu:C_plus) cần bao nhiêu điểm?
+      - Khung điểm cho mức điểm [C+](diemchu:C_plus)?
+      - Bao nhiêu điểm thì được [C+](diemchu:C_plus)?
+      - Cần đạt bao nhiêu điểm để được điểm [C](diemchu:C) hay 2.0 trên hệ 4?
+      - Để đạt điểm [C](diemchu:C) cần bao nhiêu điểm?
+      - Khung điểm cho mức điểm [C](diemchu:C)?
+      - Bao nhiêu điểm thì được [C](diemchu:C)?
+      - Cần đạt bao nhiêu điểm để được điểm [D+](diemchu:D_plus) hay 1.5 trên hệ 4?
+      - điểm [D+](diemchu:D_plus) là bao nhiêu điểm trên thang 10?
+      - Bao nhiêu điểm là mức [D+](diemchu:D_plus)?
+      - Cần đạt bao nhiêu điểm để được [D](diemchu:D) hay 1.0 trên hệ 4?
+      - [D](diemchu:D) là bao nhiêu điểm trên thang 10?
+      - Bao nhiêu điểm là mức [D](diemchu:D)?
+      - Bao nhiêu điểm thì sẽ bị điểm [F](diemchu:F) hay rớt môn?
+      - điểm [F](diemchu:F) là bao nhiêu điểm trên thang 10?
+      - Bao nhiêu điểm thì bị [F](diemchu:F)?
+
+  - intent: diem_m
+    examples: |
+      - Điểm M được tính vào tổng số tín chỉ tích lũy của sinh viên không?
+      - Điểm M được tích lũy bao nhiêu điểm?
+
+  - intent: xin_diem_m
+    examples: |
+      - Để nhận điểm M, sinh viên cần thực hiện thủ tục gì?
+      - Xin điểm M như thế nào?
+
+  - intent: diem_i
+    examples: |
+      - Điểm I được tính vào điểm trung bình chung học kỳ không?
+      - Điểm I được đổi sang điểm thang 4 là bao nhiêu?
+      - Điểm I là bao nhiêu điểm trung bình?
+
+  - intent: sua_diem_i
+    examples: |
+      - Trong trường hợp sinh viên nhận điểm I, họ cần làm gì để bổ sung điểm?
+      - Làm gì sau khi đã được điểm I?
+      - Cách sửa điểm I?
+
+  - intent: thoi_han_bo_sung_diem
+    examples: |
+      - Thời hạn bổ sung điểm cho học phần được quy định là bao lâu?
+      - Hạn chót bổ sung điểm cho học phần điểm I?
+      - Khoảng thời gian cho phép sinh viên được hoàn thiện, nâng cao điểm số cho một học phần là bao nhiêu theo quy định?
+      - Quy chế hiện hành đưa ra khung thời gian cụ thể nào để sinh viên có thể bổ sung, cập nhật điểm cho một môn học đã học?
+      - Hạn chót để sinh viên được phép hoàn tất các công việc nhằm nâng cao điểm số cho một học phần là bao lâu theo quy định hiện tại?
+
+  - intent: diem_w
+    examples: |
+      - Điểm W có tính vào điểm trung bình chung học kỳ không?
+      - Điểm W được đổi sang điểm thang 4 là bao nhiêu?
+      - Điểm W là bao nhiêu điểm trung bình?
+      - Điểm W trung bình là bao nhiêu?
+      - Điểm W tích lũy bao nhiêu?
+
+  - intent: xin_rut_hoc_phan
+    examples: |
+      - Khi nào sinh viên được phép rút học phần và nhận điểm W?
+      - Điều kiện để xin rút học phần và nhận điểm W?
+      - Trong trường hợp nào thì sinh viên có quyền huỷ đăng ký một môn học và được ghi nhận điểm tạm rút (W)?
+      - Điều kiện cụ thể nào cho phép một sinh viên được quyền từ bỏ một học phần đã đăng ký và chỉ nhận điểm tạm dừng (W) thay vì điểm số?
+      - Hoàn cảnh hay bối cảnh ra sao để sinh viên có thể chủ động rút khỏi một lớp học mà không bị tính điểm, chỉ được đánh dấu W?
+
+  - intent: diem_r_muc_dich_su_dung
+    examples: |
+      - Điểm R (tương đương điểm M) được sử dụng cho mục đích gì?
+      - Điểm R là điểm gì?
+      - Điểm số R (tức là điểm M) được đưa ra nhằm mục đích nào trong hệ thống đánh giá?
+      - Việc áp dụng điểm R (hay gọi là điểm M) nhằm đáp ứng yêu cầu nào trong quy trình tính toán và ghi nhận kết quả học tập?
+      - Có ý nghĩa ra sao khi hệ thống điểm số có sự xuất hiện của điểm R (tương đương với điểm M) trong bản ghi nhận kết quả của sinh viên?
+
+  - intent: ai_quyet_dinh_diem_m
+    examples: |
+      - Ai là người quyết định việc nhận điểm M cho sinh viên?
+      - Điểm M do ai quyết định?
+      - Bên nào có thẩm quyền quyết định việc cấp điểm M cho sinh viên trong quá trình đào tạo?
+      - Đối tượng nào được giao trọng trách ra quyết định về việc sinh viên được nhận điểm M hay không?
+      - Nhân vật nào đóng vai trò quyết định xem liệu sinh viên có đủ điều kiện để được hưởng điểm M hay không?
+
+  - intent: qua_thoi_han_bo_sung_diem1
+    examples: |
+      - Nếu quá thời hạn bổ sung điểm của học phần, sinh viên không hoàn thành sẽ bị điểm gì?
+      - Nếu quá thời hạn bổ sung điểm thì học phần đó tính như thế nào?
+      - Trong trường hợp sinh viên không hoàn tất việc bổ sung điểm cho một học phần trước thời hạn quy định, thì kết quả học tập của học phần đó sẽ được xác định ra sao?
+      - Làm thế nào để tính toán và xử lý kết quả của một môn học mà sinh viên đã không kịp bổ sung điểm trước hạn chót quy định?
+      - Hậu quả gì sẽ xảy ra đối với kết quả học tập của một học phần nếu sinh viên để quá thời hạn được phép bổ sung điểm?
+
+  - intent: dieu_kien_nhan_diem_i
+    examples: |
+      - Các lý do nào có thể được chấp nhận để nhận điểm I?
+      - Điều kiện nào có thể nhận điểm I?
+      - Trường hợp nào được coi là lý do chính đáng để sinh viên được nhận điểm I (Incomplete - Chưa hoàn tất)?
+      - Những hoàn cảnh hoặc tình huống cụ thể nào mà nếu xảy ra thì sinh viên có thể đạt được điều kiện để được ghi nhận điểm I?
+      - Yếu tố hay nguyên nhân nào nếu có xảy ra sẽ giúp sinh viên được hưởng quyền nhận điểm I thay vì điểm số cụ thể?
+
+  - intent: thoi_han_bo_sung_diem2
+    examples: |
+      - Thời hạn bổ sung điểm của học phần được tính từ khi nào?
+      - Từ lúc nào thì tính thời hạn bổ sung điểm?
+      - Thời điểm nào được xem là mốc tính thời gian cho phép sinh viên bổ sung điểm cho một học phần?
+      - Điểm khởi đầu để tính khoảng thời gian dành cho việc bổ sung điểm của một môn học là từ lúc nào?
+      - Thời hạn bổ sung điểm số cho một học phần cụ thể bắt đầu được tính kể từ thời khắc mốc nào?
+
+  - intent: diem_m_tac_dong_trung_binh_tich_luy
+    examples: |
+      - Điểm M có ảnh hưởng đến điểm trung bình chung tích lũy không?
+      - Điểm trung bình tích lũy có giảm khi có điểm M không?
+      - Việc sinh viên nhận điểm M có tác động như thế nào đến kết quả điểm trung bình tích lũy của họ?
+      - Liệu rằng điểm số M có được tính vào hay có ảnh hưởng gì đến con số thể hiện điểm trung bình tích lũy của sinh viên hay không?
+      - Khi sinh viên được cấp điểm M thì có hay không việc điểm số đó được tính vào và làm thay đổi mức điểm trung bình tích lũy?
+
+  - intent: duyet_don_bo_sung_diem
+    examples: |
+      - Ai là người duyệt đơn bổ sung điểm của sinh viên?
+      - Đơn bổ sung điểm do ai duyệt?
+      - Đối tượng nào đảm nhận việc xem xét và phê duyệt các đơn đề nghị bổ sung điểm do sinh viên nộp lên?
+      - Bên nào có trách nhiệm thẩm định và quyết định chấp thuận hay từ chối đơn yêu cầu bổ sung điểm của sinh viên?
+      - Nhân vật có thẩm quyền cuối cùng trong việc đánh giá tính hợp lệ và ra quyết định về các đơn xin bổ sung điểm nộp bởi sinh viên là ai?
+
+  - intent: diem_i_truong_hop_su_dung
+    examples: |
+      - Điểm I được sử dụng trong trường hợp nào?
+      - Các trường hợp nào có thể được điểm I?
+
+  - intent: diem_tich_luy_tu_xep_loai
+    examples: |
+      - Học phần chỉ được tính tích lũy khi đạt từ điểm nào trở lên?
+      - Điểm học phần là bao nhiêu thì được tích lũy?
+
+  - intent: diem_m_tinh_trung_binh_hoc_ky
+    examples: |
+      - Điểm M có tính vào điểm trung bình chung của học kỳ không?
+      - Điểm M có tính trung bình không?
+
+  - intent: xin_diem_I
+    examples: |
+      - Sinh viên cần làm gì nếu muốn nhận điểm I cho một học phần?
+      - Cách xin nhận điểm I?
+
+  - intent: thong_bao_lich_thi
+    examples: |
+      - Sinh viên được thông báo về lịch thi kết thúc học phần như thế nào?
+      - Làm thế nào để biết lịch thi cuối kỳ?
+      - Làm thế nào để sinh viên nhận được thông báo về lịch thi kết thúc học phần?
+      - Phương pháp nào được sử dụng để thông báo về lịch thi kết thúc học phần cho sinh viên?
+      - Cách nào được áp dụng để thông báo lịch thi kết thúc học phần cho sinh viên?
+
+  - intent: thoi_gian_to_chuc_thi
+    examples: |
+      - Làm thế nào để biết thời gian tổ chức thi kết thúc học phần?
+      - Thời gian tổ chức thi cuối kỳ là khi nào?
+      - Cách nào để tìm hiểu thời gian tổ chức thi kết thúc học phần?
+      - Làm sao để biết thời gian cụ thể của các kỳ thi kết thúc học phần?
+      - Phương pháp nào được sử dụng để thông báo thời gian tổ chức thi kết thúc học phần?
+
+  - intent: quyet_dinh_lich_thi_sinh_vien_nhieu
+    examples: |
+      - Ai quyết định lịch thi cho các học phần có nhiều sinh viên?
+      - Lịch thi cuối kỳ do ai chọn?
+      - Ai là người quyết định lịch thi cho các học phần có số lượng sinh viên đông đảo?
+      - Trong trường hợp các học phần có số lượng sinh viên đông đảo, ai đảm nhận việc quyết định lịch thi?
+      - Ai chịu trách nhiệm trong việc đề xuất và quyết định lịch thi cho các học phần có số lượng sinh viên đông đảo?
+
+  - intent: phe_duyet_vang_thi_diem_I
+    examples: |
+      - Sinh viên được phép vắng thi trong trường hợp nào?
+      - Trường hợp nào được phép vắng thi?
+      - Sinh viên có thể được phép vắng thi trong những trường hợp nào?
+      - Dưới những điều kiện nào, sinh viên được cho phép vắng mặt trong kỳ thi?
+      - Có những tình huống cụ thể nào khiến cho sinh viên được miễn tham dự thi?
+
+  - intent: diem_hoc_phan_vang_thi
+    examples: |
+      - Điểm học phần của sinh viên vắng thi được tính là bao nhiêu?
+      - Sinh viên vắng thi sẽ được ghi nhận điểm học phần như thế nào?
+      - Điểm học phần của sinh viên không tham dự thi sẽ được xác định như thế nào?
+
+  - intent: quy_trinh_tinh_diem_trung_binh_hoc_ky
+    examples: |
+      - Quy trình tính điểm trung bình chung của học kỳ là gì?
+      - Làm thế nào để tính điểm trung bình chung của một học kỳ?
+      - Cách tính điểm trung bình chung học kỳ được thực hiện như thế nào?
+
+  - intent: diem_trung_binh_hoc_ky
+    examples: |
+      - Điểm trung bình chung học kỳ có ảnh hưởng đến kết quả học tập của sinh viên như thế nào?
+      - Điểm trung bình học kỳ có ý nghĩa gì?
+      - Điểm trung bình chung học kỳ dùng để làm gì?
+
+  - intent: diem_F_tinh_trung_binh
+    examples: |
+      - Điểm F có được tính vào điểm trung bình không?
+      - Liệu điểm F có ảnh hưởng đến điểm trung bình không?
+      - Có tính điểm F vào điểm trung bình chung không?
+
+  - intent: diem_dieu_kien_tinh_trung_binh
+    examples: |
+      - Điểm trung bình chung học kỳ có tính điểm các học phần điều kiện không?
+      - Các học phần điều kiện có được tính điểm trung bình không?
+      - Có tính điểm các học phần điều kiện vào điểm trung bình chung của học kỳ không?
+      - Điểm các học phần điều kiện có được tính vào điểm trung bình chung học kỳ không?
+      - Liệu điểm của các học phần điều kiện có ảnh hưởng đến điểm trung bình chung của học kỳ không?

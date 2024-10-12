@@ -95,11 +95,6 @@ rules:
       - intent: noi_xem_ctdt
       - action: utter_noi_xem_ctdt
 
-  - rule: Noi_xem_ban_mo_ta_ctdt
-    steps:
-      - intent: noi_xem_ban_mo_ta_ctdt
-      - action: utter_noi_xem_ban_mo_ta_ctdt
-
   - rule: Noi_xem_chuong_trinh_day_hoc
     steps:
       - intent: noi_xem_chuong_trinh_day_hoc

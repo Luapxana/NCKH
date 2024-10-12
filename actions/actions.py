@@ -167,7 +167,7 @@ class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
         if gpa < threshold:
             dispatcher.utter_message("Bạn bị cảnh báo học vụ do điểm trung bình học kỳ của bạn quá thấp!")
         elif pass_percentage < 0.5:
-            dispatcher.utter_message(text = r"Bạn bị cảnh báo học vụ do số tín chỉ đạt yêu cầu không đủ 50% số tín chỉ bạn đã đăng ký")
+            dispatcher.utter_message("Bạn bị cảnh báo học vụ do số tín chỉ đạt yêu cầu không đủ 50% số tín chỉ bạn đã đăng ký")
         elif debt > 24:
             dispatcher.utter_message("Bạn bị cảnh báo học vụ do đã nợ quá 24 tín chỉ (tính từ đầu khóa học của bạn)")
         else:
@@ -242,18 +242,18 @@ class DoiDiemSo(Action):
             tracker: Tracker,
             domain: dict) -> list:
         
-        diemchu = tracer.get_slot('diemchu');
+        diemchu = tracker.get_slot('diemchu');
         if diemchu == 'A':
             diem = '9.0 - 10'
-        elif diemchu == 'B+':
+        elif diemchu == 'B_plus':
             diem = '8.0 - 8.9'
         elif diemchu == 'B':
             diem = '7.0 - 7.9'
-        elif diemchu == 'C+':
+        elif diemchu == 'C_plus':
             diem = '6.5 - 6.9'
         elif diemchu == 'C':
             diem = '5.5 - 6.4'
-        elif diemchu == 'D+':
+        elif diemchu == 'D_plus':
             diem = '5.0 - 5.4'
         elif diemchu == 'D':
             diem = '4.0 - 4.9'

@@ -1,0 +1,8 @@
+{
+  "rule_only_slots": [
+    "diemchu",
+    "tiet",
+    "diemso"
+  ],
+  "rule_only_loops": []
+}

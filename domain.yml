@@ -38,7 +38,6 @@ intents:
   - noi_xem_noi_dung_day_hoc_truc_tuyen
   - khoi_luong_ctdt_toi_da_hoc_truc_tuyen
   - noi_xem_ctdt
-  - noi_xem_ban_mo_ta_ctdt
   - noi_xem_chuong_trinh_day_hoc
   - nguoi_duyet_khht_toan_khoa
   - chuc_nang_cua_khht
@@ -347,7 +346,7 @@ slots:
 
   diemchu:
     type: text
-    influenct_conversation: true
+    influence_conversation: true
     mappings:
       - type: from_entity
         entity: diemchu
@@ -424,7 +423,8 @@ responses:
   - text: "Chương trình đào tạo của mỗi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp."
   
   utter_khai_niem_ban_mo_ta_ctdt:
-  - text: "Bản mô tả chương trình đào tạo và chương trình dạy học được xây dựng căn cứ vào CTĐT, gồm các nội dung: thông tin chung về CTĐT; thông tin về đối sánh giữa CTĐT với các chương trình tương tự trong và ngoài nước; thông tin về kết quả đánh giá hoặc kiểm định chất lượng CTĐT; mục tiêu đào tạo của CTĐT; chuẩn đầu ra của CTĐT; tiêu chí tuyển sinh; cấu trúc chương trình dạy học, khung CTĐT; kế hoạch dạy học; tóm tắt các học phần; phương pháp giảng dạy và học tập; phương pháp đánh giá."
+  - text: "Bản mô tả chương trình đào tạo và chương trình dạy học được xây dựng căn cứ vào CTĐT, gồm các nội dung: thông tin chung về CTĐT; thông tin về đối sánh giữa CTĐT với các chương trình tương tự trong và ngoài nước; thông tin về kết quả đánh giá hoặc kiểm định chất lượng CTĐT; mục tiêu đào tạo của CTĐT; chuẩn đầu ra của CTĐT; tiêu chí tuyển sinh; cấu trúc chương trình dạy học, khung CTĐT; kế hoạch dạy học; tóm tắt các học phần; phương pháp giảng dạy và học tập; phương pháp đánh giá. 
+      Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
   utter_khai_niem_khung_ctdt:
   - text: "Khung chương trình đào tạo là CTĐT với các học phần được bố trí theo khối kiến thức."
@@ -447,9 +447,6 @@ responses:
   utter_noi_xem_ctdt:
   - text: "Chương trình đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
-  utter_noi_xem_ban_mo_ta_ctdt:
-  - text: "Bản mô tả đào tạo được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
-
   utter_noi_xem_chuong_trinh_day_hoc:
   - text: "Chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết. [Trường Đại học Cần Thơ](https://www.ctu.edu.vn/)"
 
@@ -464,9 +461,9 @@ responses:
 
   utter_thoi_gian_toi_da_ctdt:
   - text: "Kế hoạch học tập chuẩn toàn khóa có thời gian thiết kế cho một chương trình đào tạo tùy theo ngành học. Thời gian học tập tối đa cho phép sinh viên hoàn thành CTĐT được xác định như sau:\n\n
-    - Thời gian thiết kế của CTĐT là 4 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 8 năm.\n\n
-    - Thời gian thiết kế của CTĐT là 4,5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 9 năm.\n\n
-    - Thời gian thiết kế của CTĐT là 5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 10 năm.\n\n"
+      - Thời gian thiết kế của CTĐT là 4 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 8 năm.\n\n
+      - Thời gian thiết kế của CTĐT là 4,5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 9 năm.\n\n
+      - Thời gian thiết kế của CTĐT là 5 năm thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT là 10 năm.\n\n"
 
 
   utter_nguoi_duoc_hoc_tap_vo_han:
@@ -474,11 +471,11 @@ responses:
 #1.21 - 1.40 
   utter_quy_dinh_cong_nhan_kqht_o_noi_khac:
   - text: "Những sinh viên học liên thông và những sinh viên có kết quả học tập đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một CTĐT khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT theo học theo Quy định xét miễn và công nhận điểm học phần trong CTĐT trình độ đại học hệ chính quy của Trường. \n\n
-    Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
+      Đối với sinh viên từ Khoa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khóa giảm tương ứng với khối lượng tín chỉ được miễn trừ, cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 HK chính."
 
   utter_so_hoc_ki_moi_nam:
   - text: "Mỗi năm được tổ chức thành 3 học kỳ: HK I, HK II là các học kỳ chính, HK III là học kỳ phụ.\n\n
-  Kể từ học kỳ 2 năm học 2024-2025, một năm học được tổ chức thành 3 học kỳ chính được gọi là Học kỳ 1, Học kỳ 2 và Học kỳ 3."
+      Kể từ học kỳ 2 năm học 2024-2025, một năm học được tổ chức thành 3 học kỳ chính được gọi là Học kỳ 1, Học kỳ 2 và Học kỳ 3."
 
   utter_cach_to_chuc_hoc_ky:
   - text: "Bạn vui lòng chọn học kì nhé"
@@ -549,15 +546,15 @@ responses:
 
   utter_dieu_kien_xet_hoc_bong:
   - text: "Những điều kiện để sinh viên được xét học bổng:\n\n
-    - Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n\n
-    - HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;\n\n
-    - Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n\n"
+      - Có số tín chỉ đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n\n
+      - HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D;\n\n
+      - Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n\n"
 #1.41 - 1.61
   utter_tieu_chuan_tung_muc_hoc_bong:
   - text: "Điều kiện của các mức học bổng:\n\n
-  - Xuất sắc: Có ĐTBCHK và ĐRL đạt loại xuất sắc.\n\n
-  - Giỏi: Có ĐTBCHK đạt từ loại giỏi và ĐRL đạt từ loại tốt trở lên.\n\n
-  - Khá: Có ĐTBCHK và ĐRL đạt từ lại khá trở lên."
+      - Xuất sắc: Có ĐTBCHK và ĐRL đạt loại xuất sắc.\n\n
+      - Giỏi: Có ĐTBCHK đạt từ loại giỏi và ĐRL đạt từ loại tốt trở lên.\n\n
+      - Khá: Có ĐTBCHK và ĐRL đạt từ lại khá trở lên."
 
   utter_dieu_kien_hoc_bong_xuat_sac:
   - text: "Có ĐTBCHK và ĐRL đạt loại xuất sắc."
@@ -612,23 +609,23 @@ responses:
 
   utter_dieu_kien_chuyen_co_so_dao_tao:
   - text: "Sinh viên từ khóa 46 về trước được xem xét chuyển cơ sở đào tạo khi có đủ các điều kiện sau:\n\n
-  - Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập.\n\n
-  - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.\n\n
-  - Nơi chuyển đến có đủ các điều kiện đảm bảo chất lượng, chưa  vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
-  - Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.\n\n
-  \n
-  Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
-  - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
-  - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
-  - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
-  - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
+      - Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập.\n\n
+      - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.\n\n
+      - Nơi chuyển đến có đủ các điều kiện đảm bảo chất lượng, chưa  vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
+      - Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.\n\n
+      \n
+      Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
+      - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
+      - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
+      - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
+      - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
 
   utter_dieu_kien_chuyen_co_so_dao_tao_k47:
   - text: "Sinh viên từ khóa 47 trở về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:\n\n
-  - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
-  - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
-  - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
-  - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
+      - Không đang là sinh viên trình độ năm nhất hoặc cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định.\n\n
+      - Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.\n\n
+      - Chương trình, ngành đào tạo đáp ứng đủ các điều kiện đảm bảo chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.\n\n
+      - Được sự đồng ý của trưởng khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng."
 
   utter_dieu_kien_chuyen_he_dao_tao:
   - text: "Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa của Trường nếu còn đủ thời gian học tập theo quy định đối với hình thức chuyển đến và được sự đồng ý của Hiệu trưởng."
@@ -666,7 +663,7 @@ responses:
 
   utter_so_tin_chi_toi_da:
   - text: "Số tín chỉ tối đa sinh viên có thể đăng ký là 25 đối với học kỳ chính và 8 đối với học kỳ phụ\n\n
-  Kể từ học kỳ 2 năm học 2024-2025, số tín chỉ tối đa mà sinh viên có thể đăng ký là 20 tín chỉ đối với mỗi học kỳ"
+      Kể từ học kỳ 2 năm học 2024-2025, số tín chỉ tối đa mà sinh viên có thể đăng ký là 20 tín chỉ đối với mỗi học kỳ"
 
 
   utter_dkhp_hoc_ky_dau:
@@ -792,11 +789,11 @@ responses:
 
   utter_truong_hop_canh_bao_hoc_vu:
   - text: "Cảnh báo học vụ là hình thức cảnh báo để sinh viên nhận thức tình trạng học tập và cải thiện. Cảnh báo học vụ trong các trường hợp sau:\n\n
-    \t1. Có ĐTBCHK đạt dưới 0.8 đối với học kỳ đầu của khóa học hoặc dưới 1.0 đối với các học kỳ tiếp theo\n\n
-    \t2. Không đăng ký học trong HK chính mà không được sự cho phép của Hiệu trưởng\n\n
-    \t3. Từ Khóa 47 trở về sau, ngoài áp dụng 2 điểm trên còn có các trường hợp sau:\n\n
-    \t\t3.1. Tổng số tín chỉ không đạt trong học kỳ vượt quá 50% khối lượng đã đăng ký học trong HK, hoặc tổng số tín chỉ nợ đọng từ đầu khóa học vượt quá 24 TC.\n\n
-    \t\t3.2. ĐTBTL đạt dưới 1.2 đối với SV năm nhất, 1.8 đối với SV các năm tiếp theo."
+      \t1. Có ĐTBCHK đạt dưới 0.8 đối với học kỳ đầu của khóa học hoặc dưới 1.0 đối với các học kỳ tiếp theo\n\n
+      \t2. Không đăng ký học trong HK chính mà không được sự cho phép của Hiệu trưởng\n\n
+      \t3. Từ Khóa 47 trở về sau, ngoài áp dụng 2 điểm trên còn có các trường hợp sau:\n\n
+      \t\t3.1. Tổng số tín chỉ không đạt trong học kỳ vượt quá 50% khối lượng đã đăng ký học trong HK, hoặc tổng số tín chỉ nợ đọng từ đầu khóa học vượt quá 24 TC.\n\n
+      \t\t3.2. ĐTBTL đạt dưới 1.2 đối với SV năm nhất, 1.8 đối với SV các năm tiếp theo."
 
   utter_xu_ly_nghi_khong_phep:
   - text: "Trường hợp không đăng ký trong HK chính, có thể bị cảnh báo học vụ, buộc thôi học."
@@ -816,22 +813,22 @@ responses:
 
   utter_dinh_chi_1_hk:
   - text: "Đình chỉ học tập 1 HK trong các trường hợp sau:\n\n
-  \t1. Bị kỷ luật mức đình chỉ học tập 1 HK\n\n
-  \t2. Có ĐRL yếu, kém trong 2 học kỳ liên tiếp."
+      \t1. Bị kỷ luật mức đình chỉ học tập 1 HK\n\n
+      \t2. Có ĐRL yếu, kém trong 2 học kỳ liên tiếp."
 
   utter_dinh_chi_1_nam:
   - text: "Đình chỉ học tập 1 năm trong trường hợp bị kỷ luật ở mức đình chỉ học tập."
   
   utter_buoc_thoi_hoc:
   - text: "Buộc thôi học trong các trường hợp sau: \n\n
-    \t1. Bị kỷ luật ở mức buộc thôi học\n\n
-    \t2. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
-    \t3. Nghỉ học tạm thời quá thời hạn cho phép\n\n
-    \t4. Không đăng ký học trong 2 HK chính liên tiếp mà không được sự cho phép của Hiệu trưởng\n\n
-    \t5. Không đóng học phí 2 HK liên tiếp\n\n
-    \t6. Có ĐRL yếu, kém 2 HK liên tiếp lần thứ hai\n\n
-    \t7. Thời gian học tập vượt quá thời hạn theo quy định\n\n
-    \t8. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ."
+      \t1. Bị kỷ luật ở mức buộc thôi học\n\n
+      \t2. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
+      \t3. Nghỉ học tạm thời quá thời hạn cho phép\n\n
+      \t4. Không đăng ký học trong 2 HK chính liên tiếp mà không được sự cho phép của Hiệu trưởng\n\n
+      \t5. Không đóng học phí 2 HK liên tiếp\n\n
+      \t6. Có ĐRL yếu, kém 2 HK liên tiếp lần thứ hai\n\n
+      \t7. Thời gian học tập vượt quá thời hạn theo quy định\n\n
+      \t8. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ."
   
   
   utter_hoc_qua_han:
@@ -839,8 +836,8 @@ responses:
   
   utter_xin_hoc_lai_sau_thoi_hoc:
   - text: "Trong các trường hợp sau có thể xin xét chuyển sang học các chương trình giáo dục thường xuyên tương ứng (nếu có):\n\n
-    \t1. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
-    \t2. Thời gian học tập vượt quá thời hạn theo quy định."
+      \t1. Đã bị cảnh báo học tập và HK chính kế tiếp có ĐTBCHK dưới 1.0. Những trường hợp đặc biệt do Hiệu trưởng quyết định\n\n
+      \t2. Thời gian học tập vượt quá thời hạn theo quy định."
   
   utter_bi_ky_luat:
   - text: "CVHT thông báo về gia đình nếu SV bị cảnh báo học tập và bị xử lý kỷ luật, Trường gửi quyết định về địa phương và gia đình nếu SV bị đình chỉ hoặc buộc thôi học."
@@ -864,9 +861,9 @@ responses:
 
   utter_cac_gio_nghi:
   - text: "Có các giờ nghỉ (10 phút) sau đây:\n\n
-    \tGiữa tiết 2 - 3\n\n
-    \tGiữa tiết 3 - 4\n\n
-    \tGiữa tiết 7 - 8."
+      \tGiữa tiết 2 - 3\n\n
+      \tGiữa tiết 3 - 4\n\n
+      \tGiữa tiết 7 - 8."
   
   utter_thoi_gian_hoc_sang:
   - text: "Thời gian học buổi sáng là từ 7h00 đến 11h30."
@@ -943,9 +940,9 @@ responses:
   
   utter_dieu_kien_tot_nghiep:
   - text: "SV phải có đủ các điều kiện sau đây mới được xét tốt nghiệp:\n\n
-    \tTích lũy đủ các học phần và số tín chỉ quy định trong CTĐT; ĐTBCTL của các học phần đạt từ 2.0 trở lên (theo thang điểm 4); đạt chuẩn đầu ra của chương trình đào tạo (kể cả ngoại ngữ và công nghệ thông tin)\n\n
-    \tHoàn thành các học phần điều kiện, ĐTB chung của các học phần GDQP&AN từ 5.0 trở lên (theo thang điểm 10)\n\n
-    \tTại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự, không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập."
+      \tTích lũy đủ các học phần và số tín chỉ quy định trong CTĐT; ĐTBCTL của các học phần đạt từ 2.0 trở lên (theo thang điểm 4); đạt chuẩn đầu ra của chương trình đào tạo (kể cả ngoại ngữ và công nghệ thông tin)\n\n
+      \tHoàn thành các học phần điều kiện, ĐTB chung của các học phần GDQP&AN từ 5.0 trở lên (theo thang điểm 10)\n\n
+      \tTại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự, không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập."
 
   utter_thoi_gian_le_tot_nghiep:
   - text: "Trường xét tốt nghiệp vào tháng 1, 6 và tháng 8 hằng năm, SV được nhận bằng tốt nghiệp 30 ngày từ ngày có quyết định tốt nghiệp."
@@ -976,10 +973,10 @@ responses:
 
   utter_hang_tot_nghiep:
   - text: "Các hạng tốt nghiệp được xác định căn cứ vào ĐTBCTL như sau:\n\n
-    \tLoại xuất sắc: từ 3.6 đến 4.0\n\n
-    \tLoại giỏi: từ 3.2 đến 3.59\n\n
-    \tLoại khá: từ 2.50 đến 3.19\n\n
-    \tLoại trung bình: từ 2.00 đến 2.49"
+      \tLoại xuất sắc: từ 3.6 đến 4.0\n\n
+      \tLoại giỏi: từ 3.2 đến 3.59\n\n
+      \tLoại khá: từ 2.50 đến 3.19\n\n
+      \tLoại trung bình: từ 2.00 đến 2.49"
 
   utter_tot_nghiep_xuat_sac:
   - text: "Để đạt tốt nghiệp loại xuất sắc, sinh viên phải có điểm trung bình chung tích lũy từ 3.6 đến 4.0 và không nằm trong các trường hợp giảm mức tốt nghiệp."
@@ -995,8 +992,8 @@ responses:
 
   utter_ha_tot_nghiep:
   - text: "Các hạng xuất sắc và giỏi sẽ bị hạ một mức tốt nghiệp trong các trường hợp sau:\n\n
-    \tCó khối lượng học phần bị điểm F quá 5% tổng số TC quy định của CTĐT (không tính học phần đã cải thiện)\n\n
-    \tBị kỷ luật ở mức cảnh cáo cấp Trường trong thời gian học."
+      \tCó khối lượng học phần bị điểm F quá 5% tổng số TC quy định của CTĐT (không tính học phần đã cải thiện)\n\n
+      \tBị kỷ luật ở mức cảnh cáo cấp Trường trong thời gian học."
 
   utter_xin_ra_truong:
   - text: "Sinh viên liên hệ Khoa/Trường quản lý ngành sau khi nhận quyết định tốt nghiệp"
