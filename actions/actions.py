@@ -89,12 +89,15 @@ class ActionInquireGrade(Action): #Action để xếp loại học kỳ dựa tr
             classification = 'Trung bình'
         elif gpa >= 1 and drl >= 50:
             classification = 'Yếu'
-        else:
+        elif 0 <= gpa < 1 and drl < 50:
             classification = 'Kém'
+        else: 
+            dispatcher.utter_message("Có vẻ thông tin bạn vừa nhập vào không hợp lệ, hãy thử lại nhé")
         dispatcher.utter_message(text=f"Điểm trung bình học kỳ {gpa} và điểm rèn luyện {drl} được xếp loại {classification}.")
         if classification == 'Yếu' or classification == 'Kém':
             dispatcher.utter_message("Kết quả này có thể ảnh hưởng đến kết quả tốt nghiệp của bạn (Yêu cầu tốt nghiệp điểm TBTL phải từ 2.0 trở lên)")
-        return []
+        return [SlotSet("gpa", None),
+                SlotSet("drl", None)]
 
 
 
@@ -132,12 +135,14 @@ class ActionPeriod(Action): #Action để trả lời thời gian các tiết h�
         elif tiet == 8: 
             start_time = "15:20"
             end_time =  "16:10"
-        else: 
+        elif tiet == 9: 
             start_time = "16:10"
             end_time =  "17:00"
+        else:
+            dispatcher.utter_message("Có vẻ thông tin bạn nhập vào không chính xác, hãy thử lại nhé")
+            return[]
         dispatcher.utter_message(text=f"Thời gian tiết {tiet} là từ {start_time} đến {end_time}.")
-        return [ SlotSet("gpa", None),
-                SlotSet("drl", None)]
+        return []
 
 class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
     def name(self) -> str:
@@ -172,6 +177,62 @@ class ActionWarning(Action): #Action để kiểm tra cảnh báo học vụ
                 SlotSet("credit", None),
                 SlotSet("pass_credit", None),
                 SlotSet("debt", None)]
+
+class ValidateForm(FormValidationAction):
+    def name(self) -> str:
+        return "validate_xep_loai_form"
+    
+    async def validate_gpa(self, slot_value: float, dispatcher, tracker, domain):
+        try:
+            gpa = float(slot_value)
+            if 0.0 <= gpa <= 4.0:
+                return {"gpa": gpa}
+            else:
+                dispatcher.utter_message(text="Điểm trung bình phải nằm trong khoảng từ 0.0 đến 4.0.")
+                return {"gpa": None}
+        except ValueError:
+            dispatcher.utter_message(text="Điểm trung bình không hợp lệ. Vui lòng nhập số.")
+            return {"gpa": None} 
+
+    async def validate_drl(self, slot_value: float, dispatcher, tracker, domain):
+        try:
+            drl = float(slot_value)
+            if 0.0 <= gpa <= 4.0:
+                return {"drl": drl}
+            else:
+                dispatcher.utter_message(text="Điểm rèn luyện phải nằm trong khoảng từ 0 đến 100.")
+                return {"drl": None}  
+        except ValueError:
+            dispatcher.utter_message(text="Điểm trung bình không hợp lệ. Vui lòng nhập số.")
+            return {"drl": None}  
+
+    async def validate_year(self, slot_value: int, dispatcher, tracker, domain):
+        if slot_value in [1, 2, 3, 4, 5]:
+            return {"year": slot_value}
+        else:
+            dispatcher.utter_message(text="Năm học phải từ 1 đến 5.")
+            return {"year": None} 
+
+    async def validate_credit(self, slot_value: int, dispatcher, tracker, domain):
+        if 0 <= slot_value <= 25:
+            return {"credit": slot_value}
+        else:
+            dispatcher.utter_message(text="Số tín chỉ đăng ký phải từ 0 đến 25.")
+            return {"credit": None}
+    
+    async def validate_pass_credit(self, slot_value: int, dispatcher, tracker, domain):
+        if 0 <= slot_value <= 25:
+            return {"pass_credit": slot_value}
+        else:
+            dispatcher.utter_message(text="Số tín chỉ phải từ 0 đến 25 và không quá số tín chỉ đăng ký")
+            return {"pass_credit": None}
+
+    async def validate_debt(self, slot_value: int, dispatcher, tracker, domain):
+        if 0 <= slot_value <= 150:
+            return {"debt": slot_value}
+        else:
+            dispatcher.utter_message(text="Số tín chỉ không hợp lệ.")
+            return {"debt": None}
 # This is a simple example for a custom action which utters "Hello World!"
 
 # from typing import Any, Text, Dict, List
