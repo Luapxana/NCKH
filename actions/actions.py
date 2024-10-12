@@ -53,8 +53,8 @@ class ActionConvertGrade(Action): #Action quy đổi điểm số sang điểm c
             grade_letter = 'B'
         elif grade >= 6.5:
             grade_letter = 'C+'
-        elif grade >= 6.0:
-            grade_letter = 'C+'
+        elif grade >= 5.5:
+            grade_letter = 'C'
         elif grade >= 5.0:
             grade_letter = 'D+'
         elif grade >= 4.0:
@@ -233,23 +233,34 @@ class ValidateForm(FormValidationAction):
         else:
             dispatcher.utter_message(text="Số tín chỉ không hợp lệ.")
             return {"debt": None}
-# This is a simple example for a custom action which utters "Hello World!"
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
+class DoiDiemSo(Action):
+    def name(self) -> str:
+        return "action_doi_diem"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: dict) -> list:
+        
+        diemchu = tracer.get_slot('diemchu');
+        if diemchu == 'A':
+            diem = '9.0 - 10'
+        elif diemchu == 'B+':
+            diem = '8.0 - 8.9'
+        elif diemchu == 'B':
+            diem = '7.0 - 7.9'
+        elif diemchu == 'C+':
+            diem = '6.5 - 6.9'
+        elif diemchu == 'C':
+            diem = '5.5 - 6.4'
+        elif diemchu == 'D+':
+            diem = '5.0 - 5.4'
+        elif diemchu == 'D':
+            diem = '4.0 - 4.9'
+        elif diemchu == 'F':
+            diem = '< 4.0'
+        else:
+            dispatcher.utter_message("Thông tin bạn nhập vào không hợp lệ, hãy thử lại nhé")
+            return[]
+        dispatcher.utter_message(text = f"Để đạt được mức điểm {diemchu} thì bạn cần đạt điểm từ {diem}")
+        return []

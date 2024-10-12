@@ -878,46 +878,6 @@ rules:
       - intent: giang_vien_thong_bao_ket_qua
       - action: utter_giang_vien_thong_bao_ket_qua
 
-  - rule: diem_a
-    steps:
-      - intent: diem_a
-      - action: utter_diem_a
-
-  - rule: diem_b_plus
-    steps:
-      - intent: diem_b_plus
-      - action: utter_diem_b_plus
-
-  - rule: diem_b
-    steps:
-      - intent: diem_b
-      - action: utter_diem_b
-
-  - rule: diem_c_plus
-    steps:
-      - intent: diem_c_plus
-      - action: utter_diem_c_plus
-
-  - rule: diem_c
-    steps:
-      - intent: diem_c
-      - action: utter_diem_c
-
-  - rule: diem_d_plus
-    steps:
-      - intent: diem_d_plus
-      - action: utter_diem_d_plus
-
-  - rule: diem_d
-    steps:
-      - intent: diem_d
-      - action: utter_diem_d
-
-  - rule: diem_f
-    steps:
-      - intent: diem_f
-      - action: utter_diem_f
-
   - rule: diem_m
     steps:
       - intent: diem_m
@@ -1241,3 +1201,10 @@ rules:
       - slot_was_set:
           - requested_slot: null
       - action: action_canh_bao_hoc_vu
+
+  - rule: Đổi chữ thành số
+    steps:
+      - intent: doi_diem
+        entities:
+          - diemchu: A
+      - action: action_doi_diem

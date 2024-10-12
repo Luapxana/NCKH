@@ -22,6 +22,7 @@ intents:
   - provide_credit
   - provide_pass
   - provide_debt
+  - doi_diem
 #chương 1
   - khai_niem_qchv
   - doi_tuong_ap_dung_qchv
@@ -201,14 +202,6 @@ intents:
   - xep_loai_gioi
   - danh_gia_truc_tuyen_tuong_xung
   - giang_vien_thong_bao_ket_qua
-  - diem_a
-  - diem_b_plus
-  - diem_b
-  - diem_c_plus
-  - diem_c
-  - diem_d_plus
-  - diem_d
-  - diem_f
   - diem_m
   - xin_diem_m
   - diem_i
@@ -277,6 +270,7 @@ entities:
   - credit
   - pass_credit
   - debt
+  - diemchu
 actions:
   - action_thanks
   - action_sorry
@@ -285,6 +279,7 @@ actions:
   - action_xep_loai
   - action_tiet_hoc
   - action_canh_bao_hoc_vu
+  - action_doi_diem
 slots:
   diemso:
     type: float
@@ -350,6 +345,14 @@ slots:
         entity: debt
         intent: provide_debt
 
+  diemchu:
+    type: text
+    influenct_conversation: true
+    mappings:
+      - type: from_entity
+        entity: diemchu
+        intent: doi_diem
+        
 forms: 
   form_xep_loai:
     required_slots:
@@ -1039,30 +1042,6 @@ responses:
 
   utter_giang_vien_thong_bao_ket_qua:
   - text: "Giảng viên có trách nhiệm giải đáp thắc mắc của sinh viên và nhập điểm vào hệ thống quản lý trực tuyến."
-
-  utter_diem_a:
-  - text: "Mức điểm cần cho điểm A là 9.0 - 10."
-
-  utter_diem_b_plus:
-  - text: "Mức điểm cần cho điểm B+ là 8.0 - 8.9."
-
-  utter_diem_b:
-  - text: "Mức điểm cần cho điểm B là 7.0 - 7.9."
-
-  utter_diem_c_plus:
-  - text: "Mức điểm cần cho điểm C+ là 6.5 - 6.9."
-
-  utter_diem_c:
-  - text: "Mức điểm cần cho điểm C là 5.5 - 6.4."
-
-  utter_diem_d_plus:
-  - text: "Mức điểm cần cho điểm D+ là 5.0 - 5.4"
-
-  utter_diem_d:
-  - text: "Mức điểm cho điểm D là 4.0 - 4.9"
-
-  utter_diem_f:
-  - text: "Mức điểm của điểm F là từ 0 đến nhỏ hơn 4 (3.9"
 
   utter_diem_m:
   - text: "Không, điểm M không được tính vào tổng số tín chỉ tích lũy của sinh viên."

@@ -1498,58 +1498,37 @@ nlu:
       - Trách nhiệm chính của giảng viên trong việc thông báo kết quả học tập của học phần là gì?
       - Giảng viên có trách nhiệm gì khi thông báo kết quả học phần?
 
-  - intent: diem_a
+  - intent: doi_diem
     examples: |
-      - Cần đạt bao nhiêu điểm để được điểm A hay 4.0 trên hệ 4?
-      - Để đạt điểm A cần bao nhiêu điểm?
-      - Khung điểm cho mức điểm A?
-      - Bao nhiêu điểm thì được A?
-
-  - intent: diem_b_plus
-    examples: |
-      - Cần đạt bao nhiêu điểm để được điểm B+ hay 3.5 trên hệ 4?
-      - Để đạt điểm B+ cần bao nhiêu điểm?
-      - Khung điểm cho mức điểm B+?
-      - Bao nhiêu điểm thì được B+?
-
-  - intent: diem_b
-    examples: |
-      - Cần đạt bao nhiêu điểm để được điểm B+ hay 3.0 trên hệ 4?
-      - Để đạt điểm B cần bao nhiêu điểm?
-      - Khung điểm cho mức điểm B?
-      - Bao nhiêu điểm thì được B?
-
-  - intent: diem_c_plus
-    examples: |
-      - Cần đạt bao nhiêu điểm để được điểm C+ hay 2.5 trên hệ 4?
-      - Để đạt điểm C+ cần bao nhiêu điểm?
-      - Khung điểm cho mức điểm C+?
-      - Bao nhiêu điểm thì được C+?
-
-  - intent: diem_c
-    examples: |
-      - Cần đạt bao nhiêu điểm để được điểm C hay 2.0 trên hệ 4?
-      - Để đạt điểm C cần bao nhiêu điểm?
-      - Khung điểm cho mức điểm C?
-      - Bao nhiêu điểm thì được C?
-
-  - intent: diem_d_plus
-    examples: |
-      - Cần đạt bao nhiêu điểm để được điểm D+ hay 1.5 trên hệ 4?
-      - Điểm D+ là bao nhiêu điểm trên thang 10?
-      - Bao nhiêu điểm là mức D+?
-
-  - intent: diem_d
-    examples: |
-      - Cần đạt bao nhiêu điểm để được điểm D hay 1.0 trên hệ 4?
-      - Điểm D là bao nhiêu điểm trên thang 10?
-      - Bao nhiêu điểm là mức D?
-
-  - intent: diem_f
-    examples: |
-      - Bao nhiêu điểm thì sẽ đạt điểm F hay 0 trên hệ 4?
-      - Điểm F là bao nhiêu điểm trên thang 10?
-      - Bao nhiêu điểm thì bị điểm F?
+      - Cần đạt bao nhiêu điểm để được [điểm A](diemchu:A) hay 4.0 trên hệ 4?
+      - Để đạt [điểm A](diemchu:A) cần bao nhiêu điểm?
+      - Khung điểm cho mức [điểm A](diemchu:A)?
+      - Bao nhiêu điểm thì được [A](diemchu:A)?
+      - Cần đạt bao nhiêu điểm để được [điểm B+](diemchu:B+) hay 3.5 trên hệ 4?
+      - Để đạt [điểm B+](diemchu:B+) cần bao nhiêu điểm?
+      - Khung điểm cho mức [điểm B+](diemchu:B+)?
+      - Bao nhiêu điểm thì được [B+](diemchu:B+)?
+      - Cần đạt bao nhiêu điểm để được [điểm B](diemchu:B) hay 3.0 trên hệ 4?
+      - Để đạt [điểm B](diemchu:B) cần bao nhiêu điểm?
+      - Khung điểm cho mức [điểm B](diemchu:B)?
+      - Bao nhiêu điểm thì được [B](diemchu:B)?
+      - Cần đạt bao nhiêu điểm để được [điểm C+](diemchu:C+) hay 2.5 trên hệ 4?
+      - Để đạt [điểm C+](diemchu:C+) cần bao nhiêu điểm?
+      - Khung điểm cho mức [điểm C+](diemchu:C+)?
+      - Bao nhiêu điểm thì được [C+](diemchu:C+)?
+      - Cần đạt bao nhiêu điểm để được [điểm C](diemchu:C) hay 2.0 trên hệ 4?
+      - Để đạt [điểm C](diemchu:C) cần bao nhiêu điểm?
+      - Khung điểm cho mức [điểm C](diemchu:C)?
+      - Bao nhiêu điểm thì được [C](diemchu:C)?
+      - Cần đạt bao nhiêu điểm để được [điểm D+](diemchu:D+) hay 1.5 trên hệ 4?
+      - [điểm D+](diemchu:D+) là bao nhiêu điểm trên thang 10?
+      - Bao nhiêu điểm là mức [D+](diemchu:D+)?
+      - Cần đạt bao nhiêu điểm để được [D](diemchu:D) hay 1.0 trên hệ 4?
+      - [D](diemchu:D) là bao nhiêu điểm trên thang 10?
+      - Bao nhiêu điểm là mức [D](diemchu:D)?
+      - Bao nhiêu điểm thì sẽ bị [điểm F](diemchu:F) hay rớt môn?
+      - [điểm F](diemchu:F là bao nhiêu điểm trên thang 10?
+      - Bao nhiêu điểm thì bị [F](diemchu:F?
 
   - intent: diem_m
     examples: |
