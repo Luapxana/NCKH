@@ -392,11 +392,6 @@ rules:
       - intent: thoi_han_doi_kqdkhp
       - action: utter_thoi_han_doi_kqdkhp
 
-  - rule: Co_so_dkhp
-    steps:
-      - intent: co_so_dkhp
-      - action: utter_co_so_dkhp
-
   - rule: So_tin_chi_toi_da
     steps:
       - intent: so_tin_chi_toi_da

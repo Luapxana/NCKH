@@ -169,8 +169,7 @@ nlu:
       - Kế hoạch dạy và học được hiểu như thế nào?
       - Kế hoạch dạy và học có nghĩa là gì?
       - Kế hoạch dạy và học được định nghĩa ra sao?
-      - Kế hoạch học tập là gì
-      - Kế hoạch học tập
+      - Kế hoạch học tập toàn khóa là gì
 
   - intent: noi_xem_tom_tat_hoc_phan
     examples: |
@@ -247,6 +246,9 @@ nlu:
       - Sinh viên dùng kế hoạch học tập để làm gì?
       - Sinh viên dùng KHHT để làm gì?
       - Dựa vào đâu để đăng ký học phần?
+      - Đăng ký học phần mỗi học kỳ dựa vào nguồn thông tin nào?
+      - Thường thì quy trình đăng ký học phần mỗi học kỳ được căn cứ vào đâu?
+      - Cơ sở để đăng ký học phần
 
   - intent: thay_doi_khht
     examples: |
@@ -617,8 +619,7 @@ nlu:
       - Làm thế nào để tạo kế hoạch học tập?
       - Quy trình xây dựng kế hoạch học tập là gì?
       - Cách thức để xây dựng kế hoạch học tập được thực hiện như thế nào?
-      - Xây dựng kế hoạch học tập
-      - Xây dựng KHHT
+      - Xây dựng kế hoạch học tập như thế nào
       - Cách thức xây dựng khht
 
   - intent: dau_khoa_co_gi
@@ -665,16 +666,7 @@ nlu:
       - Tôi không xây dựng kế hoạch học tập được không?
       - Tại sao phải lập KHHT?
       - KHHT để làm gì?
-      - Có phải xây dựng KHHT không?
       - Có bắt buộc xây dựng kế hoạch học tập không?
-
-  - intent: co_so_dkhp
-    examples: |
-      - Đăng ký học phần mỗi học kỳ dựa vào đâu?
-      - Dựa vào đâu để đăng ký học phần mỗi học kì?
-      - Đăng ký học phần mỗi học kỳ dựa vào nguồn thông tin nào?
-      - Thường thì quy trình đăng ký học phần mỗi học kỳ được căn cứ vào đâu?
-      - Cơ sở để đăng ký học phần
 
   - intent: so_tin_chi_toi_da
     examples: |
@@ -1970,7 +1962,6 @@ nlu:
       - Tôi có bị cảnh báo học vụ không
       - Kiểm tra CBHV
       - Kiểm tra cảnh báo học vụ
-      - Tôi bị cảnh báo học vụ
 
   - intent: provide_year
     examples: |

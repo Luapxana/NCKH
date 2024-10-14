@@ -145,8 +145,6 @@ stories:
       - action: utter_noi_dkhp
       - intent: tai_sao_phai_lam_khht
       - action: utter_tai_sao_phai_lam_khht
-      - intent: co_so_dkhp
-      - action: utter_co_so_dkhp
       - intent: so_tin_chi_toi_da
       - action: utter_so_tin_chi_toi_da
       - intent: dkhp_hoc_ky_dau

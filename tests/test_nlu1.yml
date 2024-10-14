@@ -169,8 +169,7 @@ nlu:
       - Kế hoạch dạy và học được hiểu như thế nào?
       - Kế hoạch dạy và học có nghĩa là gì?
       - Kế hoạch dạy và học được định nghĩa ra sao?
-      - Kế hoạch học tập là gì
-      - Kế hoạch học tập
+      - Kế hoạch học tập toàn khóa là gì
 
   - intent: noi_xem_tom_tat_hoc_phan
     examples: |

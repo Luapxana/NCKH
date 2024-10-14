@@ -93,7 +93,6 @@ nlu:
 
   - intent: cach_dong_hoc_phi
     examples: |
-      - Học phí đóng như thế nào?
       - Học phí đóng theo năm hay học kỳ?
       - Quy trình đóng học phí là gì?
       - Cách thức thanh toán học phí được tổ chức như thế nào?
@@ -268,16 +267,7 @@ nlu:
       - Tôi không xây dựng kế hoạch học tập được không?
       - Tại sao phải lập KHHT?
       - KHHT để làm gì?
-      - Có phải xây dựng KHHT không?
       - Có bắt buộc xây dựng kế hoạch học tập không?
-
-  - intent: co_so_dkhp
-    examples: |
-      - Đăng ký học phần mỗi học kỳ dựa vào đâu?
-      - Dựa vào đâu để đăng ký học phần mỗi học kì?
-      - Đăng ký học phần mỗi học kỳ dựa vào nguồn thông tin nào?
-      - Thường thì quy trình đăng ký học phần mỗi học kỳ được căn cứ vào đâu?
-      - Cơ sở để đăng ký học phần
 
   - intent: so_tin_chi_toi_da
     examples: |

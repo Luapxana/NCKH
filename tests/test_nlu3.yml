@@ -210,7 +210,6 @@ nlu:
     examples: |
       - Làm gì khi bị điểm F?
       - Bị điểm F thì phải làm gì?
-      - Cách cải thiện điểm F?
       - Điểm F thì làm gì
 
   - intent: doi_hp_F
@@ -295,7 +294,6 @@ nlu:
       - Muốn xin tạm nghỉ học phải làm gì?
       - Làm thế nào để xin tạm dừng việc học?
       - Có cách nào để nghỉ học một thời gian không?
-      - Các bước xin tạm nghỉ
 
   - intent: xin_hoc_lai_sau_tam_nghi
     examples: |

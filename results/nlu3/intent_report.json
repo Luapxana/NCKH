@@ -1,23 +1,9 @@
 {
-  "thoi_gian_xem_tkb": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "xoa_hoc_phan": {
+  "tich_luy_F": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 5,
-    "confused_with": {}
-  },
-  "hoc_phi_rut_hp": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
     "confused_with": {}
   },
   "hoc_cai_thien": {
@@ -27,7 +13,49 @@
     "support": 6,
     "confused_with": {}
   },
-  "tam_nghi_benh": {
+  "truong_hop_canh_bao_hoc_vu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "drl_yeu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "thoi_gian_xoa_lop_hp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "diem_rut_hp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "cach_xin_mo_them_lop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "han_chot_xin_hoc_lai_sau_tam_nghi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "cach_rut_hp": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -41,32 +69,18 @@
     "support": 7,
     "confused_with": {}
   },
-  "muc_do_dinh_chi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "tam_nghi_nvqs": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "tam_nghi_tai_nan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "thoi_han_dkhp": {
+  "thoi_han_doi_kqdkhp": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
+    "confused_with": {}
+  },
+  "thoi_gian_dkhp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
     "confused_with": {}
   },
   "doi_hp_F": {
@@ -76,46 +90,25 @@
     "support": 5,
     "confused_with": {}
   },
-  "xin_hoc_lai_sau_tam_nghi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "drl_yeu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "thoi_han_doi_kqdkhp": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "tich_luy_F": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "co_nen_rut_hp": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 15,
-    "confused_with": {}
-  },
-  "cai_thien_F": {
+  "cach_xin_tam_nghi": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 4,
+    "confused_with": {}
+  },
+  "xu_ly_nghi_khong_phep": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "thoi_han_dkhp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
     "confused_with": {}
   },
   "truong_hop_dinh_chi": {
@@ -132,74 +125,39 @@
     "support": 6,
     "confused_with": {}
   },
-  "cach_xin_tam_nghi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "dinh_chi_1_hk": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "thoi_gian_dkhp": {
+  "xin_mo_them_lop": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 7,
     "confused_with": {}
   },
-  "xu_ly_vang_thi": {
+  "hoc_phi_rut_hp": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
     "confused_with": {}
   },
-  "tinh_diem_hp_tu_chon": {
+  "xoa_hoc_phan": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 5,
     "confused_with": {}
   },
-  "diem_hoc_lai": {
+  "xu_ly_vang_hoc": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
+    "support": 6,
     "confused_with": {}
   },
-  "cach_dkhp": {
+  "thoi_gian_xem_tkb": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "diem_rut_hp": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "dinh_chi_1_nam": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "cach_rut_hp": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
+    "support": 6,
     "confused_with": {}
   },
   "lop_hp_bi_xoa": {
@@ -209,49 +167,49 @@
     "support": 7,
     "confused_with": {}
   },
-  "xin_mo_them_lop": {
+  "co_nen_rut_hp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "cach_dk_hoc_lai": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 7,
     "confused_with": {}
   },
-  "han_chot_xin_hoc_lai_sau_tam_nghi": {
+  "xin_hoc_lai_sau_tam_nghi": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
+    "support": 13,
     "confused_with": {}
   },
-  "cach_xin_mo_them_lop": {
+  "cach_dkhp": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
+    "support": 9,
     "confused_with": {}
   },
-  "truong_hop_canh_bao_hoc_vu": {
+  "muc_do_dinh_chi": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 10,
+    "support": 7,
     "confused_with": {}
   },
-  "xu_ly_nghi_khong_phep": {
+  "tam_nghi_nvqs": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 8,
+    "support": 5,
     "confused_with": {}
   },
-  "truong_hop_tam_nghi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "xu_ly_vang_hoc": {
+  "truong_hop_mo_them_lop": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -265,25 +223,67 @@
     "support": 8,
     "confused_with": {}
   },
-  "truong_hop_mo_them_lop": {
+  "dinh_chi_1_hk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "xu_ly_vang_thi": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
     "confused_with": {}
   },
-  "thoi_gian_xoa_lop_hp": {
+  "cai_thien_F": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "dinh_chi_1_nam": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "truong_hop_tam_nghi": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
     "confused_with": {}
   },
-  "cach_dk_hoc_lai": {
+  "tinh_diem_hp_tu_chon": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 7,
+    "support": 5,
+    "confused_with": {}
+  },
+  "tam_nghi_tai_nan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "diem_hoc_lai": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "tam_nghi_benh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
     "confused_with": {}
   },
   "accuracy": 1.0,
@@ -291,18 +291,18 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 269
+    "support": 267
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 269
+    "support": 267
   },
   "micro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 269
+    "support": 267
   }
 }

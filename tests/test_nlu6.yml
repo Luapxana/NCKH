@@ -261,10 +261,8 @@ nlu:
     examples: |
       - Tôi muốn biết mình có bị cảnh báo học vụ hay không
       - Tôi muốn kiểm tra tình trạng cảnh báo học vụ của mình
-      - Tôi có bị cảnh báo học vụ không
       - Kiểm tra CBHV
       - Kiểm tra cảnh báo học vụ
-      - Tôi bị cảnh báo học vụ
 
   - intent: provide_year
     examples: |

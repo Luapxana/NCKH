@@ -1,5 +1,12 @@
 {
-  "diemso": {
+  "gpa": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "credit": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -11,13 +18,6 @@
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 26,
-    "confused_with": {}
-  },
-  "pass_credit": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
     "confused_with": {}
   },
   "debt": {
@@ -34,18 +34,18 @@
     "support": 5,
     "confused_with": {}
   },
-  "credit": {
+  "diemso": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 3,
     "confused_with": {}
   },
-  "gpa": {
+  "pass_credit": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 2,
     "confused_with": {}
   },
   "micro avg": {
