@@ -1,0 +1,146 @@
+version: "3.1"
+
+nlu:
+
+  - intent: chuong_trinh_dao_tao
+    examples: |
+      - ctdt
+      - chương trình đào tạo
+      - chương trình đào tạo là gì
+      - xây dựng ctdt
+
+  - intent: khai_niem_ke_hoach_day_va_hoc
+    examples: |
+      - Kế hoạch dạy học
+      - Khái niệm kế hoạch dạy học là gì?
+      - Kế hoạch học tập toàn khóa
+
+  - intent: noi_xem_chuong_trinh_day_hoc
+    examples: |
+      - chương trình dạy học đăng ở đâu
+      - Tôi muốn xem chương trình dạy học
+      - xem chương trình dạy học
+      - chương trình dậy học
+
+  - intent: khai_niem_hoc_phan
+    examples: |
+      - Học phần
+      - HP là gì?
+      - Khái niệm học phần?
+      - Học phần được hiểu là
+
+  - intent: khai_niem_lop_hoc_phan
+    examples: |
+      - Lớp học phần
+      - Khái niệm lớp học phần?
+      - lớp học phần là lớp như thế nào
+      - định nghĩa của lớp học phần
+
+  - intent: dieu_kien_xet_hoc_bong
+    examples: |
+      - Điều kiện của học bổng?
+      - Những yêu cầu khi xét học bổng
+      - Những điều kiện để được xét cấp học bổng
+
+  - intent: tieu_chuan_tung_muc_hoc_bong
+    examples: |
+      - Tiêu chuẩn cho các mức học bổng
+      - Điều kiện của từng mức học bổng
+      - điều kiện nhận học bổng
+      - tiêu chuẩn của học bổng
+
+  - intent: cach_dong_hoc_phi
+    examples: |
+      - Học phí đóng làm sao
+      - khi nào đóng học phí
+      - Cách đóng học phí
+
+  - intent: cach_tinh_hoc_phi
+    examples: |
+      - Học phí được tính thế nào?
+      - Cách tính tiền học phí
+      - Tính tiền học phí như thế nào
+
+  - intent: noi_dkhp
+    examples: |
+      - ĐKHP ở đâu vậy
+      - Nơi đăng ký học phần
+      - Phải đăng ký học phần ở đâu
+
+  - intent: cach_dkhp
+    examples: |
+      - đăng ký học phần
+      - Cách đăng ký học phần như thế nào
+      - Làm sao để đkhp
+
+  - intent: thoi_gian_dkhp
+    examples: |
+      - Khi nào có thể đăng ký học phần
+      - Thời gian đăng ký học phần là khi nào
+      - lúc nào đkhp
+
+  - intent: thoi_han_dkhp
+    examples: |
+      - Thời hạn đăng ký học phần
+      - Thời hạn đkhp
+      - Thời hạn đăng ký học phần đến khi nào
+
+  - intent: xu_ly_vang_hoc
+    examples: |
+      - Không đi học thì bị gì
+      - Không đi học
+      - Xử lý vắng học như thế nào
+
+  - intent: xu_ly_vang_thi
+    examples: |
+      - Không đi thi thì bị gì
+      - Tôi không đi thi
+      - Xử lý vắng thi như thế nào
+
+  - intent: tich_luy_F
+    examples: |
+      - Điểm F có tích lũy không
+      - Tích lũy điểm F
+      - đổi điểm F
+
+  - intent: cai_thien_F
+    examples: |
+      - Cải thiện điểm F
+      - phải làm gì khi bị F
+      - Tôi bị điểm F
+
+
+  - intent: truong_hop_canh_bao_hoc_vu
+    examples: |
+      - Cảnh báo học vụ là gì
+      - Các trường hợp bị cảnh báo học vụ
+      - khi nào sinh viên bị cảnh báo học vụ
+
+  - intent: diem_m
+    examples: |
+      - Tích lũy của điểm M là bao nhiêu
+      - điểm M có tích lũy hay không
+
+  - intent: xin_diem_m
+    examples: |
+      - Xin điểm M
+      - Cách xin điểm M
+      - Tôi muốn xin điểm M
+
+  - intent: thong_bao_lich_thi
+    examples: |
+      - Sinh viên được thông báo lịch thi như thế nào
+      - làm thế nào để biết lịch thi
+      - sinh viên biết lịch thi bằng cách nào
+
+  - intent: thoi_gian_to_chuc_thi
+    examples: |
+      - Thời gian tổ chức thi là khi nào
+      - cách biết thời gian tổ chức thi
+      - Thòi gian thi kết thúc học phần
+
+  - intent: kiem_tra_cbhv
+    examples: |
+      - Tôi có bị cảnh báo học vụ không vậy
+      - Kiểm tra cảnh báo học vụ cho tôi
+      - cho tôi biết tôi có bị cảnh báo học vụ không

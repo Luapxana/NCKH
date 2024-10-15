@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Tôi đã học được 15 tín chỉ",
+    "intent": "provide_pass",
+    "intent_prediction": {
+      "name": "provide_credit",
+      "confidence": 0.3018392026424408
+    }
+  },
+  {
+    "text": "Tôi tích lũy 18 chỉ",
+    "intent": "provide_pass",
+    "intent_prediction": {
+      "name": "so_tiet_moi_tin_chi",
+      "confidence": 0.32480496168136597
+    }
+  }
+]

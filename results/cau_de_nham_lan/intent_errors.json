@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Điều kiện của học bổng?",
+    "intent": "dieu_kien_xet_hoc_bong",
+    "intent_prediction": {
+      "name": "tieu_chuan_tung_muc_hoc_bong",
+      "confidence": 0.28972941637039185
+    }
+  },
+  {
+    "text": "Học phí đóng làm sao",
+    "intent": "cach_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.5783862471580505
+    }
+  },
+  {
+    "text": "Cách đóng học phí",
+    "intent": "cach_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.5136635303497314
+    }
+  },
+  {
+    "text": "Thời hạn đkhp",
+    "intent": "thoi_han_dkhp",
+    "intent_prediction": {
+      "name": "thoi_gian_dkhp",
+      "confidence": 0.31656378507614136
+    }
+  },
+  {
+    "text": "Xử lý vắng học như thế nào",
+    "intent": "xu_ly_vang_hoc",
+    "intent_prediction": {
+      "name": "xu_ly_vang_thi",
+      "confidence": 0.4562528431415558
+    }
+  },
+  {
+    "text": "Cải thiện điểm F",
+    "intent": "cai_thien_F",
+    "intent_prediction": {
+      "name": "diem_hoc_lai",
+      "confidence": 0.55992591381073
+    }
+  },
+  {
+    "text": "Tôi bị điểm F",
+    "intent": "cai_thien_F",
+    "intent_prediction": {
+      "name": "tich_luy_F",
+      "confidence": 0.09010956436395645
+    }
+  },
+  {
+    "text": "điểm M có tích lũy hay không",
+    "intent": "diem_m",
+    "intent_prediction": {
+      "name": "diem_m_tac_dong_trung_binh_tich_luy",
+      "confidence": 0.41442006826400757
+    }
+  },
+  {
+    "text": "Sinh viên được thông báo lịch thi như thế nào",
+    "intent": "thong_bao_lich_thi",
+    "intent_prediction": {
+      "name": "thong_bao_lich_thi_truoc",
+      "confidence": 0.34218817949295044
+    }
+  },
+  {
+    "text": "Tôi có bị cảnh báo học vụ không vậy",
+    "intent": "kiem_tra_cbhv",
+    "intent_prediction": {
+      "name": "truong_hop_canh_bao_hoc_vu",
+      "confidence": 0.5983970165252686
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Tôi đã học được 15 tín chỉ",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "value": "15",
+        "entity": "pass_credit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.8181779384613037,
+        "value": "15",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tôi tích lũy 18 chỉ",
+    "entities": [
+      {
+        "start": 13,
+        "end": 15,
+        "value": "18",
+        "entity": "pass_credit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "credit",
+        "start": 13,
+        "end": 15,
+        "confidence_entity": 0.8122201561927795,
+        "value": "18",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

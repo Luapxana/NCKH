@@ -1,0 +1,90 @@
+[
+  {
+    "text": "học online thì học tối đa được bao nhiêu",
+    "intent": "khoi_luong_ctdt_toi_da_hoc_truc_tuyen",
+    "intent_prediction": {
+      "name": "hoc_truc_tuyen",
+      "confidence": 0.32393673062324524
+    }
+  },
+  {
+    "text": "Chương trình học trực tuyến có thể xem được ở đâu",
+    "intent": "noi_xem_noi_dung_day_hoc_truc_tuyen",
+    "intent_prediction": {
+      "name": "hoc_truc_tuyen",
+      "confidence": 0.27475976943969727
+    }
+  },
+  {
+    "text": "ai có thể học bao lâu cũng được",
+    "intent": "nguoi_duoc_hoc_tap_vo_han",
+    "intent_prediction": {
+      "name": "khai_niem_hoc_bong_khuyen_khich",
+      "confidence": 0.04365256056189537
+    }
+  },
+  {
+    "text": "Làm cách nào để xây dựng nên chương trình đào tạo",
+    "intent": "cach_xay_dung_khoi_luong_ctdt",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.36691349744796753
+    }
+  },
+  {
+    "text": "Những điều kiện để chuyển cơ sở đào tạo với K47",
+    "intent": "dieu_kien_chuyen_co_so_dao_tao_k47",
+    "intent_prediction": {
+      "name": "dieu_kien_chuyen_co_so_dao_tao",
+      "confidence": 0.4125884175300598
+    }
+  },
+  {
+    "text": "Khi nào sinh viên k47 được xem xét chuyển cơ sở đào tạo",
+    "intent": "dieu_kien_chuyen_co_so_dao_tao_k47",
+    "intent_prediction": {
+      "name": "dieu_kien_chuyen_co_so_dao_tao",
+      "confidence": 0.5199586153030396
+    }
+  },
+  {
+    "text": "học kỳ đâu tiên sinh viên có phải đăng ký học phần không",
+    "intent": "dkhp_hoc_ky_dau",
+    "intent_prediction": {
+      "name": "chuc_nang_cua_khht",
+      "confidence": 0.34788981080055237
+    }
+  },
+  {
+    "text": "Nếu môn tự chọn của tôi bị F thì đăng ký môn khác được không",
+    "intent": "doi_hp_F",
+    "intent_prediction": {
+      "name": "khai_niem_hoc_phan_tu_chon",
+      "confidence": 0.19765673577785492
+    }
+  },
+  {
+    "text": "trọng số điểm thi cuối kì là bao nhiêu",
+    "intent": "trong_so_diem_thi",
+    "intent_prediction": {
+      "name": "xu_ly_vang_thi",
+      "confidence": 0.21710263192653656
+    }
+  },
+  {
+    "text": "Điều kiện nào là bắt buộc khi tổ chức kiểm tra trực tuyến",
+    "intent": "dieu_kien_danh_gia_truc_tuyen",
+    "intent_prediction": {
+      "name": "xu_ly_vi_pham_tham_gia_thi",
+      "confidence": 0.26716774702072144
+    }
+  },
+  {
+    "text": "Những hình thức xử lý khi sinh viên vi phạm quy chế thi",
+    "intent": "xu_ly_vi_pham_tham_gia_thi",
+    "intent_prediction": {
+      "name": "xu_ly_vi_pham_lich_kiem_tra_thi",
+      "confidence": 0.49451977014541626
+    }
+  }
+]

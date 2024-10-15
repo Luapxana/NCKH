@@ -1,0 +1,76 @@
+version: "3.1"
+#test set chứa các intent có entity
+nlu:
+
+  - intent: thoi_gian_tung_tiet_hoc
+    examples: |
+      - Tiết [5](tiet) bắt đầu lúc mấy giờ
+      - Thời gian học tiết [3](tiet)
+      - Thời gian bắt đầu tiết [1](tiet)
+      - Thời gian kết thúc tiết [4](tiet)
+      - Tiết [1](tiet) bắt đầu khi nào
+
+  - intent: doi_diem
+    examples: |
+      - Muốn đạt điểm [A](diemchu:A) thì cần phải bao nhiêu điểm
+      - Khung điểm của điểm [B](diemchu:B) là bao nhiêu
+      - Bao nhiêu điểm thì được điểm [C](diemchu:C)
+      - Điểm [B+](diemchu:B_plus) tương ứng bao nhiêu điểm
+
+  - intent: diemchu
+    examples: |
+      - Điểm chữ của [8.9](diemso) điểm là bao nhiêu
+      - Học phần được [7.9](diemso) thì được điểm gì
+      - Quy đổi điểm [6.9](diemso) thành điểm chữ
+
+
+  - intent: provide_gpa
+    examples: |
+      - Điểm trung bình của tôi là [3.0](gpa)
+      - tbhk: [3.2](gpa)
+      - Điểm học kỳ của tôi [2.5](gpa)
+      - Tôi được [2.8](gpa)
+      - ĐTB [3.9](gpa)
+      - Điểm trung bình [2.0](gpa)
+
+  - intent: provide_drl
+    examples: |
+      - Điểm rèn luyện của tôi là [90](drl)
+      - Điểm rèn luyện: [80](drl)
+      - Đrl [79](drl)
+      - Tôi được [80](drl) điểm rèn luyện
+      - Điểm rèn luyện [90](drl)
+
+  - intent: provide_year
+    examples: |
+      - Tôi đang là sinh viên [năm ba](year:3)
+      - Tôi đang học [năm thứ hai](year:2)
+      - Tôi là sinh viên [năm 1](year:1)
+      - Tôi là sinh viên [năm nhất](year:1)
+      - Tôi đang học [năm 2] (year:2)
+      - Tôi đang là sinh viên [năm cuối](year:4)
+      - Tôi đang học [năm cuối](year:4)
+      - Tôi đang là sinh viên [năm hai](year:2)
+      - Tôi là sinh viên [năm đầu tiên](year:1)
+      - Tôi [năm nhất](year:1)
+      - Tôi đang học [năm thứ ba](year:3)
+      - Tôi là sinh viên [năm cuối cùng](year:4)
+
+  - intent: provide_credit
+    examples: |
+      - Tôi đăng ký [18](credit) tín chỉ học kì này
+      - Học kỳ này tôi học [20](credit) tín chỉ
+      - Tôi có [25](credit)
+
+  - intent: provide_pass
+    examples: |
+      - Tôi đã học được [15](pass_credit) tín chỉ
+      - Tôi tích lũy [18](pass_credit) chỉ
+
+  - intent: provide_debt
+    examples: |
+      - Từ đầu khóa tới giờ tôi nợ [25](debt) tín chỉ rồi
+      - Tôi nợ môn gần [20](debt) chỉ
+      - Tôi bị nợ [18](debt) chỉ
+      - Tôi [không](debt:0) nợ tín chỉ nào
+      - Tôi [chưa](debt:0) có tín chỉ nợ
