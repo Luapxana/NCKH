@@ -1,0 +1,112 @@
+version: "3.1"
+#test set chứa các intent phổ biến với mẫu sai chính tả
+nlu:
+
+  - intent: chuong_trinh_dao_tao
+    examples: |
+      - chương tình dào tọa là gì
+      - ctdt là gì
+      - khai niem ctdt là gì
+      - chương trình đào tạo là j
+
+  - intent: khai_niem_ke_hoach_day_va_hoc
+    examples: |
+      - khht toàn khóa là gì
+      - ké haochj dạy học
+      - kahsi niệm kê hoạch dạy và học
+
+  - intent: chuc_nang_cua_khht
+    examples: |
+      - khht dùng để làm j
+      - chức năng của kê haochj học tập
+      - đâu là cơ sở đẻ dăng ký học phần
+      - kế hoạch hoc tâp dùng để làm j
+
+  - intent: so_hoc_ki_moi_nam
+    examples: |
+      - Mỗi năm được tổ chức thành bao nhiêu học kỳ?
+      - Mỗi năm học có bao nhiêu học kỳ?
+      - Mỗi năm học bao gồm bao nhiêu học kỳ?
+      - Trong một năm học, có bao nhiêu học kỳ thường được tổ chức?
+
+  - intent: so_hoc_ki_moi_nam
+    examples: |
+      - Mõi nămm được tổ chức thành bao nhieu học kì?
+      - Mỗi nam học có bao nhieu học kì?
+      - Mỗi năm hok bao gồm bao nhieeuu học kì?
+      - Trong 1 năm học, có bao nhieeu hok kì thường đuợc tổ chúc?
+
+  - intent: thoi_gian_1_tiet_hoc
+    examples: |
+      - môt tiêt học có bao nhieu phút?
+      - Tiêt học kéo dài bao lau?
+      - thơi luợng 1 tiêt học
+      - thoi gian một tiêt học
+
+  - intent: khai_niem_hoc_bong_khuyen_khich
+    examples: |
+      - Học bỗng khuyên khich là gì?
+      - Học bỗng khuyến khích học tập đuợc xet cấp như thế nào?
+      - Quy trình cấp hok bỗng khuyên khich?
+      - Dựa vao đâu đễ cấp hok bỗng khuyến khich?
+
+  - intent: dieu_kien_xet_hoc_bong
+    examples: |
+      - Điều kiên để được xét học bổng?
+      - Điều kiện cần thiết để đc xem xét cho học bổng là gì?
+      - Những tiêu chí nào đc áp dụng khi xét duyệt hồ sơ học bổng?
+      - Sinh viên muốn được xét cấp học bổng phải thỏa mản những điều kiện nào?
+      - tôi muốn được xét học bổng thì phải đạt yêu câu gì
+
+  - intent: cach_dong_hoc_phi
+    examples: |
+      - Học phí đóng ntn
+      - Học phí đống theo năm hay học kì 
+      - Quy trình đóng hoc phí là gì  
+      - Cách thức thanh toan học phí được tổ chức ntn  
+      - Bao lâu đóng học phí 1 lần?  
+      - Bao lâu mới thanh toan học phí 1 lân? 
+      - Đóng học phí khi
+
+  - intent: bao_hiem_y_te
+    examples: |
+      - Sinh vien co can dong bao hiem y te khong?
+      - Sinh viên có cần dong BHYT không?
+      - Bảo hiểm y te co bat buộc không?
+      - BHYT co bat buộc khong?
+      - Sinh viên có cần phải mua bao hiểm y tế không?
+      - Việc mua bảo hiểm y tế co bat buộc doi voi sinh viên khong?
+
+  - intent: so_tin_chi_toi_da
+    examples: |
+      - Số tin chỉ tối đa có thể đăng ký trong 1 học kì la bao nhieu
+      - Sinh viên có thể đăng ký tối đa bao nhieu tín chỉ trong một học kì
+      - Số tín chỉ tối đa mà một sinh viên có thể đăng ký trong một học kì là bao nhiêu
+      - Quy định về số tín chỉ tối đa có thể đăng ký trong 1 học kì la gì
+      - Số TC tối đa mỗi học kì
+      - Số chỉ tối đa được đăng ký mỗi học kì la gì
+      - Số chỉ được phép đăng ký mỗi học kì
+
+  - intent: cach_dkhp
+    examples: |
+      - Đăng ký học phẩn như thế nào
+      - Làm thế nào để đnag ký học phần?
+      - Cách để đăng ký học phẩn?
+      - Tôi muốn biết đăng ký học phẩn ntn?
+      - Tôi muốn đkhp
+
+  - intent: dinh_chi_1_hk
+    examples: |
+      - Khi nào bị đình chỉ 1 học kì
+      - Bị đình chỉ chỉ 1 môn học khi nào
+      - Trường hợp bị đình chỉ 1 học kỳ là gi
+      - Các vi phạm có thể dẫn đến đình chỉ 1 hoc kỳ
+      - Sinh viên nào bị đình chỉ một hoc k
+
+  - intent: thoi_gian_cac_tiet
+    examples: |
+      - Thời gian bắt đầu và kết thúc các tiết hộc
+      - Thông tin thời gian các tiết học là gi
+      - Các tiết học trong ngày bắt đầu khi nào nè
+      - Các tiết học trong ngày kết thúc vào thơi gian nào
+      - Tất cả các tiết học trong ngày là gì

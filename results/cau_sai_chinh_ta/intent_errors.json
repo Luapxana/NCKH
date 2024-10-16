@@ -1,0 +1,114 @@
+[
+  {
+    "text": "chức năng của kê haochj học tập",
+    "intent": "chuc_nang_cua_khht",
+    "intent_prediction": {
+      "name": "nguoi_duoc_hoc_tap_vo_han",
+      "confidence": 0.11175279319286346
+    }
+  },
+  {
+    "text": "Mỗi nam học có bao nhieu học kì?",
+    "intent": "so_hoc_ki_moi_nam",
+    "intent_prediction": {
+      "name": "xep_loai",
+      "confidence": 0.1240643635392189
+    }
+  },
+  {
+    "text": "Trong 1 năm học, có bao nhieeu hok kì thường đuợc tổ chúc?",
+    "intent": "so_hoc_ki_moi_nam",
+    "intent_prediction": {
+      "name": "provide_year",
+      "confidence": 0.23495611548423767
+    }
+  },
+  {
+    "text": "Tiêt học kéo dài bao lau?",
+    "intent": "thoi_gian_1_tiet_hoc",
+    "intent_prediction": {
+      "name": "ngay_hoc_trong_tuan",
+      "confidence": 0.10194043070077896
+    }
+  },
+  {
+    "text": "thơi luợng 1 tiêt học",
+    "intent": "thoi_gian_1_tiet_hoc",
+    "intent_prediction": {
+      "name": "provide_credit",
+      "confidence": 0.12200746685266495
+    }
+  },
+  {
+    "text": "thoi gian một tiêt học",
+    "intent": "thoi_gian_1_tiet_hoc",
+    "intent_prediction": {
+      "name": "thoi_gian_tung_tiet_hoc",
+      "confidence": 0.049211688339710236
+    }
+  },
+  {
+    "text": "Học bỗng khuyên khich là gì?",
+    "intent": "khai_niem_hoc_bong_khuyen_khich",
+    "intent_prediction": {
+      "name": "khai_niem_lop_chuyen_nganh",
+      "confidence": 0.10548241436481476
+    }
+  },
+  {
+    "text": "Quy trình cấp hok bỗng khuyên khich?",
+    "intent": "khai_niem_hoc_bong_khuyen_khich",
+    "intent_prediction": {
+      "name": "thanks",
+      "confidence": 0.08704758435487747
+    }
+  },
+  {
+    "text": "Dựa vao đâu đễ cấp hok bỗng khuyến khich?",
+    "intent": "khai_niem_hoc_bong_khuyen_khich",
+    "intent_prediction": {
+      "name": "tin_chi_toi_da_hoc_truong_khac",
+      "confidence": 0.11971428990364075
+    }
+  },
+  {
+    "text": "Sinh vien co can dong bao hiem y te khong?",
+    "intent": "bao_hiem_y_te",
+    "intent_prediction": {
+      "name": "give_time",
+      "confidence": 0.11343459039926529
+    }
+  },
+  {
+    "text": "Số tin chỉ tối đa có thể đăng ký trong 1 học kì la bao nhieu",
+    "intent": "so_tin_chi_toi_da",
+    "intent_prediction": {
+      "name": "hoc_phan_danh_gia_yeu_to",
+      "confidence": 0.0766194760799408
+    }
+  },
+  {
+    "text": "Số TC tối đa mỗi học kì",
+    "intent": "so_tin_chi_toi_da",
+    "intent_prediction": {
+      "name": "thoi_gian_hoc_sang",
+      "confidence": 0.06077281013131142
+    }
+  },
+  {
+    "text": "Khi nào bị đình chỉ 1 học kì",
+    "intent": "dinh_chi_1_hk",
+    "intent_prediction": {
+      "name": "truong_hop_dinh_chi",
+      "confidence": 0.3634873628616333
+    }
+  },
+  {
+    "text": "Sinh viên nào bị đình chỉ một hoc k",
+    "intent": "dinh_chi_1_hk",
+    "intent_prediction": {
+      "name": "truong_hop_dinh_chi",
+      "confidence": 0.4493923783302307
+    }
+  }
+]

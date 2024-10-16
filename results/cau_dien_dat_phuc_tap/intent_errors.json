@@ -8,6 +8,22 @@
     }
   },
   {
+    "text": "Điều kiện về khối lượng học khi học trực tuyến",
+    "intent": "khoi_luong_ctdt_toi_da_hoc_truc_tuyen",
+    "intent_prediction": {
+      "name": "dieu_kien_tot_nghiep",
+      "confidence": 0.10847518593072891
+    }
+  },
+  {
+    "text": "Số lượng tín chỉ tối đa có thể học online là bao nhiêu",
+    "intent": "khoi_luong_ctdt_toi_da_hoc_truc_tuyen",
+    "intent_prediction": {
+      "name": "tin_chi_toi_da_hoc_truong_khac",
+      "confidence": 0.13451921939849854
+    }
+  },
+  {
     "text": "Chương trình học trực tuyến có thể xem được ở đâu",
     "intent": "noi_xem_noi_dung_day_hoc_truc_tuyen",
     "intent_prediction": {
@@ -16,11 +32,35 @@
     }
   },
   {
+    "text": "Kế hoạch học tập có thể điều chỉnh lại không",
+    "intent": "thay_doi_khht",
+    "intent_prediction": {
+      "name": "noi_xem_khht",
+      "confidence": 0.30227038264274597
+    }
+  },
+  {
+    "text": "Có cách nào để chỉnh sửa khht của tôi không",
+    "intent": "thay_doi_khht",
+    "intent_prediction": {
+      "name": "noi_xem_khht",
+      "confidence": 0.3467012047767639
+    }
+  },
+  {
     "text": "ai có thể học bao lâu cũng được",
     "intent": "nguoi_duoc_hoc_tap_vo_han",
     "intent_prediction": {
       "name": "khai_niem_hoc_bong_khuyen_khich",
       "confidence": 0.04365256056189537
+    }
+  },
+  {
+    "text": "Những điều kiện cần thiết để công nhận kết quả học tập ở nơi khác là gì",
+    "intent": "quy_dinh_cong_nhan_kqht_o_noi_khac",
+    "intent_prediction": {
+      "name": "xay_dung_khht",
+      "confidence": 0.06419890373945236
     }
   },
   {
@@ -48,11 +88,75 @@
     }
   },
   {
+    "text": "Điều kiện nào để sinh viên K47 trở về sau chuyển cơ sở đào tạo",
+    "intent": "dieu_kien_chuyen_co_so_dao_tao_k47",
+    "intent_prediction": {
+      "name": "dieu_kien_chuyen_co_so_dao_tao",
+      "confidence": 0.25015097856521606
+    }
+  },
+  {
+    "text": "Học phần ở trường khác có được tính vào chương trình đào tạo không?",
+    "intent": "hoc_hoc_phan_truong_khac",
+    "intent_prediction": {
+      "name": "quy_dinh_cong_nhan_kqht_o_noi_khac",
+      "confidence": 0.06515882164239883
+    }
+  },
+  {
+    "text": "Sinh viên chuyển trường có thể sử dụng tín chỉ đã học ở trường cũ không",
+    "intent": "sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht",
+    "intent_prediction": {
+      "name": "tin_chi_toi_da_hoc_truong_khac",
+      "confidence": 0.2216394990682602
+    }
+  },
+  {
     "text": "học kỳ đâu tiên sinh viên có phải đăng ký học phần không",
     "intent": "dkhp_hoc_ky_dau",
     "intent_prediction": {
       "name": "chuc_nang_cua_khht",
       "confidence": 0.34788981080055237
+    }
+  },
+  {
+    "text": "Sinh viên năm nhất có cần đăng ký học phần không?",
+    "intent": "dkhp_hoc_ky_dau",
+    "intent_prediction": {
+      "name": "provide_year",
+      "confidence": 0.15167443454265594
+    }
+  },
+  {
+    "text": "Nếu lớp học phần bị hủy, tôi phải làm gì",
+    "intent": "dang_ky_lop_bi_xoa",
+    "intent_prediction": {
+      "name": "khai_niem_lop_hoc_phan",
+      "confidence": 0.18184608221054077
+    }
+  },
+  {
+    "text": "Tôi cần làm gì nếu lớp học phần đã đăng ký không còn?",
+    "intent": "dang_ky_lop_bi_xoa",
+    "intent_prediction": {
+      "name": "xin_mo_them_lop",
+      "confidence": 0.746455729007721
+    }
+  },
+  {
+    "text": "Tôi có thể yêu cầu mở thêm lớp học phần không",
+    "intent": "xin_mo_them_lop",
+    "intent_prediction": {
+      "name": "cach_xin_mo_them_lop",
+      "confidence": 0.5082536339759827
+    }
+  },
+  {
+    "text": "Nếu lớp học phần đã đầy, tôi có thể xin mở thêm lớp không",
+    "intent": "xin_mo_them_lop",
+    "intent_prediction": {
+      "name": "cach_xin_mo_them_lop",
+      "confidence": 0.6000142693519592
     }
   },
   {
@@ -64,11 +168,59 @@
     }
   },
   {
+    "text": "Tôi có thể đăng ký học phần khác để thay thế cho điểm F không",
+    "intent": "doi_hp_F",
+    "intent_prediction": {
+      "name": "thoi_han_doi_kqdkhp",
+      "confidence": 0.18786202371120453
+    }
+  },
+  {
+    "text": "Điểm của các học phần tự chọn được tính như thế nào",
+    "intent": "tinh_diem_hp_tu_chon",
+    "intent_prediction": {
+      "name": "khai_niem_hoc_phan_tu_chon",
+      "confidence": 0.2662776708602905
+    }
+  },
+  {
+    "text": "Sinh viên bị thôi học có được phép đăng ký lại không",
+    "intent": "xin_hoc_lai_sau_thoi_hoc",
+    "intent_prediction": {
+      "name": "hoc_cai_thien",
+      "confidence": 0.21539880335330963
+    }
+  },
+  {
+    "text": "Nếu tôi đã học một học phần ở ngành 1, có cần học lại ở ngành 2 không",
+    "intent": "nganh_2_trung_hp",
+    "intent_prediction": {
+      "name": "nganh_2_bi_loai",
+      "confidence": 0.6499693989753723
+    }
+  },
+  {
+    "text": "Khi học ngành 2, tôi có phải học lại những học phần đã học không",
+    "intent": "nganh_2_trung_hp",
+    "intent_prediction": {
+      "name": "nganh_2_bi_loai",
+      "confidence": 0.47587767243385315
+    }
+  },
+  {
     "text": "trọng số điểm thi cuối kì là bao nhiêu",
     "intent": "trong_so_diem_thi",
     "intent_prediction": {
       "name": "xu_ly_vang_thi",
       "confidence": 0.21710263192653656
+    }
+  },
+  {
+    "text": "Điểm thi có ảnh hưởng như thế nào đến điểm tổng",
+    "intent": "trong_so_diem_thi",
+    "intent_prediction": {
+      "name": "diem_m_tac_dong_trung_binh_tich_luy",
+      "confidence": 0.27539077401161194
     }
   },
   {
@@ -80,11 +232,43 @@
     }
   },
   {
+    "text": "Khi nào thì kiểm tra trực tuyến được phép diễn ra?",
+    "intent": "dieu_kien_danh_gia_truc_tuyen",
+    "intent_prediction": {
+      "name": "xu_ly_vi_pham_tham_gia_thi",
+      "confidence": 0.14938512444496155
+    }
+  },
+  {
     "text": "Những hình thức xử lý khi sinh viên vi phạm quy chế thi",
     "intent": "xu_ly_vi_pham_tham_gia_thi",
     "intent_prediction": {
       "name": "xu_ly_vi_pham_lich_kiem_tra_thi",
       "confidence": 0.49451977014541626
+    }
+  },
+  {
+    "text": "Vi phạm quy chế thi có thể bị ảnh hưởng đến điểm thi không",
+    "intent": "xu_ly_vi_pham_tham_gia_thi",
+    "intent_prediction": {
+      "name": "xu_ly_vi_pham_lich_kiem_tra_thi",
+      "confidence": 0.2015063762664795
+    }
+  },
+  {
+    "text": "Những biện pháp kỷ luật nào áp dụng cho sinh viên vi phạm quy chế thi",
+    "intent": "xu_ly_vi_pham_tham_gia_thi",
+    "intent_prediction": {
+      "name": "vi_pham_trao_doi_giay_nhap",
+      "confidence": 0.1684761345386505
+    }
+  },
+  {
+    "text": "Nếu sinh viên gian lận trong thi thì sẽ bị xử lý như thế nào",
+    "intent": "xu_ly_vi_pham_tham_gia_thi",
+    "intent_prediction": {
+      "name": "xu_ly_vang_thi",
+      "confidence": 0.11838673055171967
     }
   }
 ]

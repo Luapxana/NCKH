@@ -6,145 +6,213 @@ nlu:
     examples: |
       - học online thì học tối đa được bao nhiêu
       - Khối lượng CTĐT tối đa được học khi học trực tuyến
+      - Điều kiện về khối lượng học khi học trực tuyến
+      - Số lượng tín chỉ tối đa có thể học online là bao nhiêu
+      - Học trực tuyến thì có giới hạn khối lượng học không
 
   - intent: noi_xem_noi_dung_day_hoc_truc_tuyen
     examples: |
       - Tôi có thể xem nội dung dạy học online ở đâu
       - Chương trình học trực tuyến có thể xem được ở đâu
       - Nội dung dạy học trực tuyến công bố ở đâu
+      - Thông tin về nội dung dạy học trực tuyến được đăng ở đâu
+      - Có thể tìm thấy nội dung học trực tuyến ở đâu
 
   - intent: nguoi_duyet_khht_toan_khoa
     examples: |
       - ai là người duyệt khht toàn khóa
       - Người duyệt khht toàn khóa là ai
+      - Ai sẽ xem xét và duyệt khht toàn khóa
+      - Người nào phụ trách việc duyệt khht toàn khóa
+      - Quy trình duyệt khht toàn khóa do ai thực hiện
 
 
   - intent: thay_doi_khht
     examples: |
       - Tôi có thể đổi kế hoạch học tập của mình không
       - kế hoạch học tập thay đổi được không
+      - Kế hoạch học tập có thể điều chỉnh lại không
+      - Có cách nào để chỉnh sửa khht của tôi không
+      - Tôi muốn thay đổi kế hoạch học tập có được không
 
   - intent: nguoi_duoc_hoc_tap_vo_han
     examples: |
       - ai có thể học bao lâu cũng được
       - những người nào có thể học tập vô thời hạn
+      - Tôi có đủ tiêu chuẩn để học tập không giới hạn không
+      - Những đối tượng nào được học tập mà không bị giới hạn thời gian
+      - Những ai có thể tham gia học tập không giới hạn thời gian
 
   - intent: quy_dinh_cong_nhan_kqht_o_noi_khac
     examples: |
       - Tôi có thể giữ kết quả học tập của tôi ở cơ sở đào tạo khác không
       - tôi có được công nhận kết quả học tập từ cơ sở đào tạo khác không
       - Khi nào được công nhận kết quả học tập từ trình độ đào tạo khác
+      - Có quy định gì về việc công nhận kết quả học tập từ nơi khác không
+      - Những điều kiện cần thiết để công nhận kết quả học tập ở nơi khác là gì
+
 
   - intent: cach_xay_dung_khoi_luong_ctdt
     examples: |
       - Làm cách nào để xây dựng nên chương trình đào tạo
       - dựa vào đâu để xây dựng nên khối lượng chương trình đào tạo
       - Xây dựng khối lượng chương trình đào tạo bằng cách nào
+      - Quy trình để xây dựng khối lượng chương trình đào tạo là gì
 
   - intent: nguoi_duoc_huong_tro_cap_xa_hoi
     examples: |
       - Ai được hưởng trợ cấp
       - Những người nào được hưởng trợ cấp xã hội
+      - Những trường hợp nào được hưởng trợ cấp xã hội
+      - Có tiêu chí gì để được hưởng trợ cấp xã hội không
+      - Tôi có thể đủ điều kiện nhận trợ cấp xã hội không
 
   - intent: dieu_kien_mien_giam_hoc_phi
     examples: |
       - Tôi có thể đảm bảo điều kiện miễn giảm học phí không
       - điều kiện miễn giảm học phí là gì
       - Khi nào được miễn giảm học phí
+      - Những trường hợp nào được xét miễn giảm học phí
+      - Ai đủ điều kiện để được miễn giảm học phí
 
   - intent: ho_so_mien_giam_hoc_phi
     examples: |
       - Làm hồ sơ miễn giảm học phí như thế nào
       - có thể xem hồ sơ miễn giảm học phí ở đâu
+      - Tôi cần chuẩn bị giấy tờ gì để làm hồ sơ miễn giảm học phí
+      - Hồ sơ miễn giảm học phí bao gồm những gì
+      - Có quy định gì về hồ sơ xin miễn giảm học phí không
 
   - intent: anh_huong_khong_dong_hoc_phi
     examples: |
       - Hậu quả khi không đóng học phí
       - không đóng hoc phí có bị gì không
       - Sinh viên bị ảnh hưởng như thế nào nếu không đóng học phí
+      - Nếu không đóng học phí thì có bị cấm thi không
+      - Sinh viên có thể bị xử lý như thế nào nếu không đóng học phí
 
   - intent: dieu_kien_chuyen_co_so_dao_tao_k47
     examples: |
       - Những điều kiện để chuyển cơ sở đào tạo với K47
       - Khi nào sinh viên k47 được xem xét chuyển cơ sở đào tạo
+      - Có quy định gì về việc chuyển cơ sở đào tạo cho sinh viên K47 trở về sau không
+      - Điều kiện nào để sinh viên K47 trở về sau chuyển cơ sở đào tạo
 
   - intent: hoc_hoc_phan_truong_khac
     examples: |
       - Sinh viên có thể đăng ký học một số học phần tại cơ sở đào tạo khác không?
       - Có thể học học phần ở trường khác không?
       - Tôi muốn học học phần của trường khác có được không
+      - Học phần ở trường khác có được tính vào chương trình đào tạo không?
 
   - intent: tin_chi_toi_da_hoc_truong_khac
     examples: |
       - Lượng tín chỉ tối đa mà sinh viên có thể tích lũy khi học ở trường khác
       - Giới hạn lượng tín chỉ có thể học ở trường khách
+      - Nếu học ở trường khác, có giới hạn nào về tín chỉ không
+      - Sinh viên có thể tích lũy bao nhiêu tín chỉ khi học tại trường khác
+      - Tôi có thể đăng ký bao nhiêu tín chỉ khi học ở trường khác?
 
   - intent: sinh_vien_chuyen_csdt_co_duoc_cong_nhan_kqht
     examples: |
       - Sinh viên chuyển cơ sở đào tạo có được xem xét công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy không?
       - tôi có được công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy trong trường hợp chuyển cơ sở đào tạo, chuyển chương trình, ngành đào tạo hoặc chuyển hình thức học; sinh viên trao đổi không?
       - Có thể công nhận kết quả học tập hoặc chuyển đổi tín chỉ đã tích lũy cho sinh viên trao đổi không
-
+      - Sinh viên chuyển trường có thể sử dụng tín chỉ đã học ở trường cũ không
+      - Kết quả học tập của sinh viên chuyển cơ sở có được chấp nhận không
 
   - intent: dkhp_hoc_ky_dau
     examples: |
       - học kỳ đâu tiên sinh viên có phải đăng ký học phần không
       - Tân sinh viên có phải đăng kí học phần không
+      - Học kỳ đầu tiên có cần thực hiện đăng ký học phần không?
+      - Sinh viên năm nhất có cần đăng ký học phần không?
 
 
   - intent: dang_ky_lop_bi_xoa
     examples: |
       - Nếu lớp học phần tôi đăng ký bị xóa thì làm sao
       - Đăng ký học phần phải lớp bị xóa thì như thế nào
+      - Nếu lớp học phần bị hủy, tôi phải làm gì
+      - Tôi cần làm gì nếu lớp học phần đã đăng ký không còn?
+      - Nếu lớp học phần bị bỏ, tôi có được đăng ký lớp khác không
 
   - intent: xin_mo_them_lop
     examples: |
       - Lớp học phần tôi muón đăng ký hết chỗ thì làm sao
       - Sinh viên phải làm gì nếu lớp học phần muốn đăng ký đã đầy chỗ
+      - Tôi có thể yêu cầu mở thêm lớp học phần không
+      - Nếu lớp học phần đã đầy, tôi có thể xin mở thêm lớp không
+      - Làm thế nào để đăng ký vào lớp học phần đã hết chỗ
 
   - intent: doi_hp_F
     examples: |
       - Tôi có thể học học phần khác để thay thế học phần bị điểm F không
       - Nếu môn tự chọn của tôi bị F thì đăng ký môn khác được không
+      - Học phần tôi bị F có thể được thay thế bằng môn học khác không
+      - Tôi có thể đăng ký học phần khác để thay thế cho điểm F không
+      - Nếu tôi muốn thay thế học phần bị điểm F, tôi cần làm gì?
 
   - intent: tinh_diem_hp_tu_chon
     examples: |
       - Nếu tôi học nhiều học phần tự chọn thì có lấy hết điểm không
       - Các học phần tự chọn tích lũy như thế nào
+      - Các học phần tự chọn có tích lũy vào điểm tổng không
+      - Điểm của các học phần tự chọn được tính như thế nào
+      - Học nhiều học phần tự chọn thì điểm có được cộng hết không
 
   - intent: xin_hoc_lai_sau_tam_nghi
     examples: |
       - Tôi có thể học lại sau thời gian tạm nghỉ không
       - đăng ký học lại sau tạm nghỉ như thế nào
+      - Sau thời gian tạm nghỉ, tôi có thể học lại không
+      - Làm thế nào để xin học lại sau khi nghỉ học một thời gian
+      - Điều kiện để học lại sau thời gian tạm nghỉ là gì
 
 
   - intent: xu_ly_nghi_khong_phep
     examples: |
       - Nghỉ thời gian dài mà không xin phép thì bị xử lý như thế nào
       - Hậu quả khi tạm nghỉ không xin phép
+      - Không xin phép mà nghỉ học lâu thì sẽ bị gì
 
   - intent: xin_hoc_lai_sau_thoi_hoc
     examples: |
       - Bị cho thôi học có học lại được không
       - Sinh viên có thể học lại sau khi bị cho thôi học không
+      - Quy trình xin học lại sau khi thôi học là gì
+      - Nếu bị thôi học, tôi có thể xin học lại không
+      - Sinh viên bị thôi học có được phép đăng ký lại không
 
   - intent: nganh_2_trung_hp
     examples: |
       - có cần phải học lại các học phần trùng khi học ngành 2 không
       - Học ngành 2 thì có cần học lại các học phần trùng không
+      - Nếu tôi đã học một học phần ở ngành 1, có cần học lại ở ngành 2 không
+      - Các học phần trùng lặp khi học ngành 2 có cần phải học lại không
+      - Khi học ngành 2, tôi có phải học lại những học phần đã học không
 
   - intent: trong_so_diem_thi
     examples: |
       - trọng số điểm thi cuối kì là bao nhiêu
       - thường điểm thi kết thúc học phần chiếm bao nhiêu phần trăm số điểm
+      - Điểm thi cuối kỳ có trọng số là bao nhiêu
+      - Thông thường, điểm thi chiếm bao nhiêu trong tổng số điểm
+      - Điểm thi có ảnh hưởng như thế nào đến điểm tổng
 
   - intent: dieu_kien_danh_gia_truc_tuyen
     examples: |
       - Điều kiện nào là bắt buộc khi tổ chức kiểm tra trực tuyến
       - Áp dụng hình thức kiểm tra trực tuyến cần phải đáp ứng những yêu cầu gì
+      - Để kiểm tra trực tuyến, cần phải có những điều kiện gì?
+      - Khi nào thì kiểm tra trực tuyến được phép diễn ra?
+       - Những điều kiện cần có để tổ chức thi trực tuyến là gì?
 
   - intent: xu_ly_vi_pham_tham_gia_thi
     examples: |
       - Những hình thức xử lý khi sinh viên vi phạm quy chế thi
       - Sinh viên không tuân thủ quy định về thi và kiểm tra thì bị gì
+      - Vi phạm quy chế thi có thể bị ảnh hưởng đến điểm thi không
+      - Những biện pháp kỷ luật nào áp dụng cho sinh viên vi phạm quy chế thi
+      - Nếu sinh viên gian lận trong thi thì sẽ bị xử lý như thế nào
 

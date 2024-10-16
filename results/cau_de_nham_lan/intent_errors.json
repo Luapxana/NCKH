@@ -8,6 +8,14 @@
     }
   },
   {
+    "text": "Ai đủ điều kiện nhận học bổng",
+    "intent": "dieu_kien_xet_hoc_bong",
+    "intent_prediction": {
+      "name": "nguoi_quy_dinh_muc_hoc_bong",
+      "confidence": 0.19777043163776398
+    }
+  },
+  {
     "text": "Học phí đóng làm sao",
     "intent": "cach_dong_hoc_phi",
     "intent_prediction": {
@@ -24,6 +32,62 @@
     }
   },
   {
+    "text": "Các bước để đóng học phí",
+    "intent": "cach_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.469504714012146
+    }
+  },
+  {
+    "text": "Học phí có thể thanh toán bằng cách nào",
+    "intent": "cach_dong_hoc_phi",
+    "intent_prediction": {
+      "name": "anh_huong_khong_dong_hoc_phi",
+      "confidence": 0.5083976984024048
+    }
+  },
+  {
+    "text": "Các yếu tố ảnh hưởng đến học phí",
+    "intent": "cach_tinh_hoc_phi",
+    "intent_prediction": {
+      "name": "diem_F_tinh_trung_binh",
+      "confidence": 0.07474380731582642
+    }
+  },
+  {
+    "text": "Đăng ký học phần tại đâu",
+    "intent": "cach_dkhp",
+    "intent_prediction": {
+      "name": "noi_dkhp",
+      "confidence": 0.6063290238380432
+    }
+  },
+  {
+    "text": "Tôi có thể ĐKHP ở đâu",
+    "intent": "cach_dkhp",
+    "intent_prediction": {
+      "name": "noi_dkhp",
+      "confidence": 0.611754834651947
+    }
+  },
+  {
+    "text": "Thời gian đăng ký học phần năm nay",
+    "intent": "thoi_gian_dkhp",
+    "intent_prediction": {
+      "name": "dieu_kien_khen_thuong_cuoi_nam",
+      "confidence": 0.12260942161083221
+    }
+  },
+  {
+    "text": "Lịch đăng ký học phần",
+    "intent": "thoi_gian_dkhp",
+    "intent_prediction": {
+      "name": "cach_dkhp",
+      "confidence": 0.24979956448078156
+    }
+  },
+  {
     "text": "Thời hạn đkhp",
     "intent": "thoi_han_dkhp",
     "intent_prediction": {
@@ -32,11 +96,43 @@
     }
   },
   {
+    "text": "Hạn cuối để đăng ký học phần",
+    "intent": "thoi_han_dkhp",
+    "intent_prediction": {
+      "name": "cach_dkhp",
+      "confidence": 0.28686708211898804
+    }
+  },
+  {
+    "text": "Khi nào là thời hạn ĐKHP",
+    "intent": "thoi_han_dkhp",
+    "intent_prediction": {
+      "name": "thoi_gian_dkhp",
+      "confidence": 0.3366503417491913
+    }
+  },
+  {
     "text": "Xử lý vắng học như thế nào",
     "intent": "xu_ly_vang_hoc",
     "intent_prediction": {
       "name": "xu_ly_vang_thi",
       "confidence": 0.4562528431415558
+    }
+  },
+  {
+    "text": "Vắng học sẽ bị xử lý ra sao",
+    "intent": "xu_ly_vang_hoc",
+    "intent_prediction": {
+      "name": "xu_ly_vang_thi",
+      "confidence": 0.3224640190601349
+    }
+  },
+  {
+    "text": "Hệ thống xử lý điểm F như thế nào",
+    "intent": "tich_luy_F",
+    "intent_prediction": {
+      "name": "diem_r_muc_dich_su_dung",
+      "confidence": 0.17830932140350342
     }
   },
   {
@@ -56,11 +152,43 @@
     }
   },
   {
+    "text": "Điểm F có thể cải thiện được không",
+    "intent": "cai_thien_F",
+    "intent_prediction": {
+      "name": "diem_hoc_lai",
+      "confidence": 0.5603638887405396
+    }
+  },
+  {
+    "text": "Có cách nào để nâng điểm F không",
+    "intent": "cai_thien_F",
+    "intent_prediction": {
+      "name": "thoi_han_bo_sung_diem",
+      "confidence": 0.1292693018913269
+    }
+  },
+  {
     "text": "điểm M có tích lũy hay không",
     "intent": "diem_m",
     "intent_prediction": {
       "name": "diem_m_tac_dong_trung_binh_tich_luy",
       "confidence": 0.41442006826400757
+    }
+  },
+  {
+    "text": "Các quy định về điểm M",
+    "intent": "diem_m",
+    "intent_prediction": {
+      "name": "ai_quyet_dinh_diem_m",
+      "confidence": 0.07232209295034409
+    }
+  },
+  {
+    "text": "Tích lũy điểm M như thế nào",
+    "intent": "diem_m",
+    "intent_prediction": {
+      "name": "diem_m_tac_dong_trung_binh_tich_luy",
+      "confidence": 0.3049129247665405
     }
   },
   {
@@ -72,11 +200,43 @@
     }
   },
   {
+    "text": "Ai sẽ thông báo lịch thi cho sinh viên",
+    "intent": "thong_bao_lich_thi",
+    "intent_prediction": {
+      "name": "thong_bao_lich_thi_truoc",
+      "confidence": 0.20826563239097595
+    }
+  },
+  {
+    "text": "Sinh viên có thể xem lịch thi ở đâu",
+    "intent": "thong_bao_lich_thi",
+    "intent_prediction": {
+      "name": "quyet_dinh_lich_thi_sinh_vien_nhieu",
+      "confidence": 0.2633889317512512
+    }
+  },
+  {
+    "text": "Lịch tổ chức thi được công bố lúc nào",
+    "intent": "thoi_gian_to_chuc_thi",
+    "intent_prediction": {
+      "name": "thong_bao_lich_thi",
+      "confidence": 0.2123439908027649
+    }
+  },
+  {
     "text": "Tôi có bị cảnh báo học vụ không vậy",
     "intent": "kiem_tra_cbhv",
     "intent_prediction": {
       "name": "truong_hop_canh_bao_hoc_vu",
       "confidence": 0.5983970165252686
+    }
+  },
+  {
+    "text": "Có cách nào để xem tình trạng cảnh báo học vụ không",
+    "intent": "kiem_tra_cbhv",
+    "intent_prediction": {
+      "name": "truong_hop_canh_bao_hoc_vu",
+      "confidence": 0.623457133769989
     }
   }
 ]
