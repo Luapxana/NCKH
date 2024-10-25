@@ -110,7 +110,7 @@ class ActionPeriod(Action): #Action để trả lời thời gian các tiết h�
             domain: dict) -> list:
 
         tiet = tracker.get_slot('tiet')
-        tiet = float(tiet)
+        tiet = int(tiet)
         if tiet == 1:
             start_time = "07:00"
             end_time =  "07:50"
